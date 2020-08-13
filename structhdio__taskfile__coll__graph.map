@@ -1,0 +1,5 @@
+<map id="hdio_taskfile" name="hdio_taskfile">
+<area shape="rect" id="node2" href="$structtaskfile__regs.html" title="taskfile_regs" alt="" coords="5,109,111,136"/>
+<area shape="rect" id="node3" href="$structtaskfile__flags.html" title="taskfile_flags" alt="" coords="135,109,243,136"/>
+<area shape="rect" id="node4" href="$structreg__flags.html" title="reg_flags" alt="" coords="148,5,229,32"/>
+</map>

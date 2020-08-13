@@ -1,0 +1,6 @@
+<map id="timeval_subtract" name="timeval_subtract">
+<area shape="rect" id="node2" href="$trace__replay_8c.html#a32d626626eee0bc4ade146973f6abb1c" title="finalize" alt="" coords="185,31,255,57"/>
+<area shape="rect" id="node3" href="$trace__replay_8c.html#a2451f983507a409c5993437ea434ba31" title="destroy" alt="" coords="303,31,373,57"/>
+<area shape="rect" id="node4" href="$trace__replay_8c.html#a83e1379f5adf4452f72fcc0be266a7b5" title="sig_handler" alt="" coords="421,5,519,32"/>
+<area shape="rect" id="node5" href="$hdparm_8h.html#aaa8f905c73abc53e716f24043be9e8bf" title="main" alt="" coords="567,31,621,57"/>
+</map>

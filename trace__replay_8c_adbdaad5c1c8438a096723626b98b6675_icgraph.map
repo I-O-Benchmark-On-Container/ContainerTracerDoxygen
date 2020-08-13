@@ -1,0 +1,6 @@
+<map id="try_trace_reset" name="try_trace_reset">
+<area shape="rect" id="node2" href="$trace__replay_8c.html#a721daa920241b8e04d097e9950f858d9" title="trace_io_get" alt="" coords="173,5,276,32"/>
+<area shape="rect" id="node4" href="$trace__replay_8c.html#acf928dd6a7d5db451c8dbccf9c711575" title="sub_worker" alt="" coords="465,31,563,57"/>
+<area shape="rect" id="node3" href="$trace__replay_8c.html#a4d7824c3cafbb7bda3da73e52f8b34e1" title="make_jobs" alt="" coords="324,5,417,32"/>
+<area shape="rect" id="node5" href="$hdparm_8h.html#aaa8f905c73abc53e716f24043be9e8bf" title="main" alt="" coords="611,31,665,57"/>
+</map>

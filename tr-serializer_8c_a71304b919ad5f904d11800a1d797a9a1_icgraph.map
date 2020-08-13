@@ -1,0 +1,5 @@
+<map id="tr_realtime_log_serializer" name="tr_realtime_log_serializer">
+<area shape="rect" id="node2" href="$tr-driver_8h.html#a533a6ac0f88c75327a6901515385d867" title="json으로 구조체에 있는 내용을 변환합니다. " alt="" coords="241,5,403,32"/>
+<area shape="rect" id="node3" href="$tr-driver_8h.html#a1e33bdba9627ba5528ab8ab1116f8085" title="trace&#45;replay가 실행 중일 때의 정보를 반환합니다. " alt="" coords="451,5,568,32"/>
+<area shape="rect" id="node4" href="$tr-driver_8h.html#a90e0e8ba02ba8f2d3e537edbc3c9abab" title="전역 옵션을 설정한 후에 각각의 프로세스 별로 할당할 옵션을 설정하도록 합니다. " alt="" coords="616,5,676,32"/>
+</map>

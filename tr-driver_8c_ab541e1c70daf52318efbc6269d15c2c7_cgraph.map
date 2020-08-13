@@ -1,0 +1,4 @@
+<map id="__tr_free" name="__tr_free">
+<area shape="rect" id="node2" href="$tr-shm_8c.html#afba449ced385945907c37ebb15f660c4" title="Shared Memory의 할당된 내용을 해제하도록 합니다. " alt="" coords="132,5,232,32"/>
+<area shape="rect" id="node3" href="$tr-mq_8c.html#a887329682aa74618a8e5e151ae55bab1" title="Message Queue의 할당된 내용을 해제하도록 합니다. " alt="" coords="135,56,229,83"/>
+</map>

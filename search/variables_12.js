@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['scheduler',['scheduler',['../structtr__info.html#a029a0cb8f69406fa1409ed9110753265',1,'tr_info']]],
+  ['sectors',['sectors',['../structlocal__hd__big__geometry.html#a219a8b334c99125580480d038c69f3d2',1,'local_hd_big_geometry::sectors()'],['../structhd__geometry.html#a989abe1cafcce5ebaf504dd0fe0b3929',1,'hd_geometry::sectors()']]],
+  ['semid',['semid',['../structtr__info.html#a842cd70e76ec07b49cfc446255b87531',1,'tr_info']]],
+  ['setting',['setting',['../structrunner__config.html#af730692a1e40da88eba0cb38792278bb',1,'runner_config']]],
+  ['shmid',['shmid',['../structtr__info.html#a43d1599e43265aceb210c303ca810707',1,'tr_info']]],
+  ['start',['start',['../structlocal__hd__big__geometry.html#ad8258143fe4d1fd04769b63bb78e4aa8',1,'local_hd_big_geometry::start()'],['../structhd__geometry.html#a3ec27a2064c3674365867d17e2f58d35',1,'hd_geometry::start()']]],
+  ['start_5fpage',['start_page',['../structtrace__info__t.html#aa8572d3b2dc3f19e8b538202cd74d4f9',1,'trace_info_t::start_page()'],['../structtrace.html#a432ac1404bbf570772d0c91e9595b6cf',1,'trace::start_page()']]],
+  ['start_5fpartition',['start_partition',['../structtrace__info__t.html#a50a96f2a14af551838564096a092a95c',1,'trace_info_t::start_partition()'],['../structtrace.html#a941b41c39044d5a79f410b4be03d682a',1,'trace::start_partition()']]],
+  ['stat_5flock',['stat_lock',['../structio__stat__t.html#ad2bd5f215c7d85ab5ac3c08b03f9f226',1,'io_stat_t']]],
+  ['stats',['stats',['../structtr__total__json__object.html#a4f2a352ae26211d23ac77fdeea9d7c5e',1,'tr_total_json_object::stats()'],['../structtrace__result.html#a730052492da44ee0e50a685a4c2e7b17',1,'trace_result::stats()'],['../structaggr__result.html#a0c71ad7ed6ac1ba29a942d4fb2804fc8',1,'aggr_result::stats()']]],
+  ['status',['status',['../structata__tf.html#a2f59dc1513d87ba8144019ee124a58ca',1,'ata_tf']]],
+  ['stop_5ftime',['stop_time',['../structio__job.html#a7392cb7b2ac72daefd27c5ac9e17d022',1,'io_job']]],
+  ['synth_5fmixed',['synth_mixed',['../structtrace__info__t.html#a0d63c3d7dcc2d6e3af6c03740ab2a591',1,'trace_info_t']]],
+  ['synth_5frand',['synth_rand',['../structtrace__info__t.html#aa2f478c2cc212980de3ded83583bdf26',1,'trace_info_t']]],
+  ['synth_5fread',['synth_read',['../structtrace__info__t.html#ada2ce284beff341f304c9b0ae8f95383',1,'trace_info_t']]],
+  ['synth_5fwrite',['synth_write',['../structtrace__info__t.html#aab9f6af34551244bd2378d2253a68a14',1,'trace_info_t']]],
+  ['synthetic',['synthetic',['../structtr__total__json__object.html#a5ff96358ef5f13fc1912f9a86ad0ea25',1,'tr_total_json_object::synthetic()'],['../structtrace__info__t.html#af5c35b280c55ab11464b45e1930550c9',1,'trace_info_t::synthetic()'],['../structtrace__result.html#a7dd36737939e1f8e2485246f7c6e67da',1,'trace_result::synthetic()']]]
+];

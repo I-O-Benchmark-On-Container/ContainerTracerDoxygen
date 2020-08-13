@@ -1,0 +1,5 @@
+<map id="__tr_mq_init" name="__tr_mq_init">
+<area shape="rect" id="node2" href="$tr-driver_8h.html#ae58ca965390727368c08b85f0f65ef9e" title="Message Queue와 관련된 설정에 대해서 초기화를 진행하도록 합니다. " alt="" coords="156,5,244,32"/>
+<area shape="rect" id="node3" href="$tr-driver_8h.html#a89c0c6704f2a30e49bc0b1886df21c6d" title="trace&#45;replay를 실행시키도록 합니다. " alt="" coords="292,5,373,32"/>
+<area shape="rect" id="node4" href="$tr-driver_8h.html#a90e0e8ba02ba8f2d3e537edbc3c9abab" title="전역 옵션을 설정한 후에 각각의 프로세스 별로 할당할 옵션을 설정하도록 합니다. " alt="" coords="421,5,481,32"/>
+</map>

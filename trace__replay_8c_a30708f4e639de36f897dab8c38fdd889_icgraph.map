@@ -1,0 +1,6 @@
+<map id="time_since_ms" name="time_since_ms">
+<area shape="rect" id="node2" href="$trace__replay_8c.html#a4d7824c3cafbb7bda3da73e52f8b34e1" title="make_jobs" alt="" coords="174,5,267,32"/>
+<area shape="rect" id="node5" href="$trace__replay_8c.html#a3ee25583fd21f2767819cc7e0e65f123" title="wait_arrive" alt="" coords="173,56,268,83"/>
+<area shape="rect" id="node3" href="$trace__replay_8c.html#acf928dd6a7d5db451c8dbccf9c711575" title="sub_worker" alt="" coords="316,31,413,57"/>
+<area shape="rect" id="node4" href="$hdparm_8h.html#aaa8f905c73abc53e716f24043be9e8bf" title="main" alt="" coords="461,31,516,57"/>
+</map>

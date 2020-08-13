@@ -1,0 +1,7 @@
+<map id="tr_info_serializer" name="tr_info_serializer">
+<area shape="rect" id="node2" href="$tr-driver_8h.html#a533a6ac0f88c75327a6901515385d867" title="json으로 구조체에 있는 내용을 변환합니다. " alt="" coords="184,5,345,32"/>
+<area shape="rect" id="node5" href="$tr-driver_8h.html#a9feb038e6e56179ab656441c9d225be8" title="json으로 구조체에 있는 내용을 변환합니다. " alt="" coords="197,56,333,83"/>
+<area shape="rect" id="node3" href="$tr-driver_8h.html#a1e33bdba9627ba5528ab8ab1116f8085" title="trace&#45;replay가 실행 중일 때의 정보를 반환합니다. " alt="" coords="393,5,511,32"/>
+<area shape="rect" id="node4" href="$tr-driver_8h.html#a90e0e8ba02ba8f2d3e537edbc3c9abab" title="전역 옵션을 설정한 후에 각각의 프로세스 별로 할당할 옵션을 설정하도록 합니다. " alt="" coords="559,31,619,57"/>
+<area shape="rect" id="node6" href="$tr-driver_8h.html#a5edcddbe52edcb96de7180f7910edc5b" title="trace&#45;replay가 동작 완료한 후의 정보를 반환합니다. " alt="" coords="403,56,501,83"/>
+</map>

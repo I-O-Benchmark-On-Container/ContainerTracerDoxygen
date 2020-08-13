@@ -1,0 +1,5 @@
+<map id="tr_free" name="tr_free">
+<area shape="rect" id="node2" href="$tr-driver_8c.html#ab541e1c70daf52318efbc6269d15c2c7" title="실질적으로 trace&#45;replay 관련 구조체의 동적 할당된 내용을 해제하는 부분에 해당합니다. " alt="" coords="119,31,197,57"/>
+<area shape="rect" id="node3" href="$tr-shm_8c.html#afba449ced385945907c37ebb15f660c4" title="Shared Memory의 할당된 내용을 해제하도록 합니다. " alt="" coords="245,5,345,32"/>
+<area shape="rect" id="node4" href="$tr-mq_8c.html#a887329682aa74618a8e5e151ae55bab1" title="Message Queue의 할당된 내용을 해제하도록 합니다. " alt="" coords="249,56,342,83"/>
+</map>

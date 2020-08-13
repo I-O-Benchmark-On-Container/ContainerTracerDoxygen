@@ -1,0 +1,5 @@
+<map id="update_iostat" name="update_iostat">
+<area shape="rect" id="node2" href="$trace__replay_8c.html#aa35a4d79b05de9eb4796ba58a4f9b79c" title="wait_completion" alt="" coords="164,5,295,32"/>
+<area shape="rect" id="node3" href="$trace__replay_8c.html#acf928dd6a7d5db451c8dbccf9c711575" title="sub_worker" alt="" coords="343,5,440,32"/>
+<area shape="rect" id="node4" href="$hdparm_8h.html#aaa8f905c73abc53e716f24043be9e8bf" title="main" alt="" coords="488,5,543,32"/>
+</map>

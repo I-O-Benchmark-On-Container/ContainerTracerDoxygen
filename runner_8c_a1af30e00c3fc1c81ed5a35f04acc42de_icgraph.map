@@ -1,0 +1,6 @@
+<map id="runner_get_result_string" name="runner_get_result_string">
+<area shape="rect" id="node2" href="$runner_8h.html#a8f1b25564fbd3ae171438679d247c96d" title="임의의 드라이버에 대한 실시간 수행 출력 결과를 반환합니다. " alt="" coords="245,5,395,47"/>
+<area shape="rect" id="node5" href="$runner_8h.html#a653e848a7e610f01a5e718a314945dd1" title="임의의 드라이버에 대한 전체 수행 출력 결과를 반환합니다. " alt="" coords="233,71,407,98"/>
+<area shape="rect" id="node3" href="$runner-test_8c.html#a708a4c1a4d0c4acc4c447310dd4db27f" title="test" alt="" coords="455,42,501,69"/>
+<area shape="rect" id="node4" href="$runner-test_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="main" alt="" coords="549,42,604,69"/>
+</map>

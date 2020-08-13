@@ -1,0 +1,12 @@
+<map id="include/generic.h" name="include/generic.h">
+<area shape="rect" id="node2" href="$tr-driver_8c.html" title="trace&#45;replay를 동작시키는 driver 구현부에 해당합니다. " alt="" coords="312,155,475,196"/>
+<area shape="rect" id="node3" href="$generic_8c.html" title="runtime에 driver를 특정할 수 있도록 만들어주는 generic 헤더의 구현부에 해당합니다. " alt="" coords="499,162,626,189"/>
+<area shape="rect" id="node4" href="$runner_8c.html" title="runner.h에서 선언된 내용들에 대한 정의가 들어갑니다. " alt="" coords="5,162,125,189"/>
+<area shape="rect" id="node5" href="$runner-test_8c.html" title="runner/test/runner\l&#45;test.c" alt="" coords="149,155,288,196"/>
+<area shape="rect" id="node6" href="$tr-driver_8h.html" title="trace&#45;replay를 동작시키는 driver의 선언부에 해당합니다. " alt="" coords="643,80,821,107"/>
+<area shape="rect" id="node11" href="$runner_8h.html" title="runner에 대한 선언적 내용이 들어가게 됩니다. " alt="" coords="158,80,285,107"/>
+<area shape="rect" id="node7" href="$tr-info_8c.html" title="info 구조체를 초기화하는 역할을 합니다. " alt="" coords="651,155,813,196"/>
+<area shape="rect" id="node8" href="$tr-mq_8c.html" title="Message Queue를 생성 및 사용하는 방식이 구현되어 있습니다. " alt="" coords="837,155,1000,196"/>
+<area shape="rect" id="node9" href="$tr-serializer_8c.html" title="임의의 구조체를 json화 시키는 방식이 구현된 소스입니다. " alt="" coords="1024,155,1187,196"/>
+<area shape="rect" id="node10" href="$tr-shm_8c.html" title="Shared Memory를 생성 및 사용하는 방식이 구현되어 있습니다. " alt="" coords="1211,155,1373,196"/>
+</map>

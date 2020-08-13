@@ -1,0 +1,22 @@
+var searchData=
+[
+  ['scheduler',['SCHEDULER',['../runner-test_8c.html#a1b3f65587b48bff0583fb85181991b01',1,'runner-test.c']]],
+  ['sector_5fsize',['SECTOR_SIZE',['../trace__replay_8h.html#aa35bad1e92008da628f27b2f6bb270aa',1,'trace_replay.h']]],
+  ['sem_5fkey_5fpathname',['SEM_KEY_PATHNAME',['../trace__replay_8h.html#afedece3022c9ec2447b971af0cebf390',1,'trace_replay.h']]],
+  ['sg_5fata_5f16',['SG_ATA_16',['../sgio_8c.html#af76bae5a59f54763aa595e134158085f',1,'sgio.c']]],
+  ['sg_5fata_5f16_5flen',['SG_ATA_16_LEN',['../sgio_8c.html#ac556ef7d60f02debfe058167554abb2f',1,'sgio.c']]],
+  ['sg_5fata_5flba48',['SG_ATA_LBA48',['../sgio_8c.html#a0e2422e961398a9800f7709804adef8e',1,'sgio.c']]],
+  ['sg_5fata_5fproto_5fdma',['SG_ATA_PROTO_DMA',['../sgio_8c.html#abe8595fed3275b3354a79ae8c3297db0',1,'sgio.c']]],
+  ['sg_5fata_5fproto_5fnon_5fdata',['SG_ATA_PROTO_NON_DATA',['../sgio_8c.html#acc7c486662c1fbae6774084dc75548a2',1,'sgio.c']]],
+  ['sg_5fata_5fproto_5fpio_5fin',['SG_ATA_PROTO_PIO_IN',['../sgio_8c.html#aea3a58f4a7d4573bcdd669d2c489941a',1,'sgio.c']]],
+  ['sg_5fata_5fproto_5fpio_5fout',['SG_ATA_PROTO_PIO_OUT',['../sgio_8c.html#a6d6ed6a943791dffb7acb6864dc41c22',1,'sgio.c']]],
+  ['sg_5fata_5fproto_5fudma_5fin',['SG_ATA_PROTO_UDMA_IN',['../sgio_8c.html#a334660dc5843a7f0bd47bca8508fa3c0',1,'sgio.c']]],
+  ['sg_5fata_5fproto_5fudma_5fout',['SG_ATA_PROTO_UDMA_OUT',['../sgio_8c.html#adff11de23de204caa9a7cc1859a3dd96',1,'sgio.c']]],
+  ['sg_5fcheck_5fcondition',['SG_CHECK_CONDITION',['../sgio_8c.html#a47cc42859b74a787278ed61bbb12415e',1,'sgio.c']]],
+  ['sg_5fdriver_5fsense',['SG_DRIVER_SENSE',['../sgio_8c.html#af3df62d6a318d50e486b96271b978e31',1,'sgio.c']]],
+  ['sg_5fread',['SG_READ',['../sgio_8c.html#a12823b0c95cced5127ddf0acd2d90bc4',1,'sgio.c']]],
+  ['sg_5fwrite',['SG_WRITE',['../sgio_8c.html#ade09d8aadf49808d0c71287f05941d5c',1,'sgio.c']]],
+  ['shm_5fkey_5fpathname',['SHM_KEY_PATHNAME',['../trace__replay_8h.html#a24d27dec5ceda9cba45d3e679346b309',1,'trace_replay.h']]],
+  ['spp',['SPP',['../trace__replay_8h.html#af14bfb7ae5f074f4a49574a829b86f05',1,'trace_replay.h']]],
+  ['str_5fsize',['STR_SIZE',['../trace__replay_8h.html#a38a196d020f78f178a33927d741a03f2',1,'trace_replay.h']]]
+];

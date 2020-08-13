@@ -1,0 +1,5 @@
+<map id="tr_valid_scheduler_test" name="tr_valid_scheduler_test">
+<area shape="rect" id="node2" href="$tr-info_8c.html#a31760321dca36e16e1e8f231084c0f5f" title="각각의 프로세스의 동작 옵션을 설정을 해주도록 합니다. " alt="" coords="227,5,333,32"/>
+<area shape="rect" id="node3" href="$tr-driver_8h.html#acfd0ebbb0a1e7ba8823365333dc2a2ee" title="각 프로세스에 들어가는 info 객체를 __생성__하고 구축하여 반환합니다. " alt="" coords="381,31,473,57"/>
+<area shape="rect" id="node4" href="$tr-driver_8h.html#a90e0e8ba02ba8f2d3e537edbc3c9abab" title="전역 옵션을 설정한 후에 각각의 프로세스 별로 할당할 옵션을 설정하도록 합니다. " alt="" coords="521,31,581,57"/>
+</map>

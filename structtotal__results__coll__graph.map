@@ -1,0 +1,9 @@
+<map id="total_results" name="total_results">
+<area shape="rect" id="node2" href="$structconfig.html" title="config" alt="" coords="11,184,73,211"/>
+<area shape="rect" id="node3" href="$structtrace.html" title="trace" alt="" coords="5,95,60,121"/>
+<area shape="rect" id="node4" href="$structresult.html" title="result" alt="" coords="105,184,163,211"/>
+<area shape="rect" id="node5" href="$structtrace__result.html" title="trace_result" alt="" coords="85,95,183,121"/>
+<area shape="rect" id="node6" href="$structsynthetic.html" title="synthetic" alt="" coords="50,5,133,32"/>
+<area shape="rect" id="node7" href="$structtrace__stat.html" title="trace_stat" alt="" coords="184,5,271,32"/>
+<area shape="rect" id="node8" href="$structaggr__result.html" title="aggr_result" alt="" coords="208,95,303,121"/>
+</map>
