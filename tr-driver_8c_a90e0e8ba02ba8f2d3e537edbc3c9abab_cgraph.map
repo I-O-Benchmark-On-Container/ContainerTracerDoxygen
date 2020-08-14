@@ -36,7 +36,7 @@
 <area shape="rect" id="node35" href="$tr-shm_8c.html#afba449ced385945907c37ebb15f660c4" title="Shared Memory의 할당된 내용을 해제하도록 합니다. " alt="" coords="532,613,632,640"/>
 <area shape="rect" id="node36" href="$tr-mq_8c.html#a887329682aa74618a8e5e151ae55bab1" title="Message Queue의 할당된 내용을 해제하도록 합니다. " alt="" coords="535,664,629,691"/>
 <area shape="rect" id="node38" href="$tr-info_8c.html#a9638561ce29f3cde86f54e09daa82e35" title="정수 형태의 info&#45;&gt;(member)에 json에서 값을 읽어서 값을 주도록 합니다. " alt="" coords="503,715,661,741"/>
-<area shape="rect" id="node39" href="$tr-info_8c.html#a6336d6418319dcfca28973530b9304e5" title="문자열 형태의 info&#45;&gt;(member)에 json에서 값을 읽어서 값을 주도록 합니다. " alt="" coords="503,765,661,792"/>
+<area shape="rect" id="node39" href="$tr-info_8c.html#af46af26d3ed99f18c48a7b191d469fee" title="문자열 형태의 info&#45;&gt;(member)에 json에서 값을 읽어서 값을 주도록 합니다. " alt="" coords="503,765,661,792"/>
 <area shape="rect" id="node41" href="$tr-driver_8c.html#a3444cfb7f56f88f8f16c2877632f03de" title="현재 입력되는 scheduler가 driver가 지원하는 지를 확인하도록 합니다. " alt="" coords="495,867,669,893"/>
 <area shape="rect" id="node42" href="$tr-info_8c.html#a31760321dca36e16e1e8f231084c0f5f" title="각각의 프로세스의 동작 옵션을 설정을 해주도록 합니다. " alt="" coords="306,816,413,843"/>
 <area shape="rect" id="node40" href="$generic_8h.html#a5469117f34e2c2ef5e1597c3ac16a0ea" title="json의 문자열 값을 받는 경우에는 &quot; 값이 있을 수 있습니다. 따라서, 그 값을 전부 없애주는 데 사용합니다..." alt="" coords="740,765,891,792"/>

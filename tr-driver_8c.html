@@ -80,6 +80,7 @@ $(function() {
 <code>#include &lt;assert.h&gt;</code><br />
 <code>#include &lt;unistd.h&gt;</code><br />
 <code>#include &lt;signal.h&gt;</code><br />
+<code>#include &lt;sys/stat.h&gt;</code><br />
 <code>#include &lt;sys/types.h&gt;</code><br />
 <code>#include &lt;sys/wait.h&gt;</code><br />
 <code>#include &lt;sys/syscall.h&gt;</code><br />
@@ -96,13 +97,13 @@ Include dependency graph for tr-driver.c:</div>
 <div class="dyncontent">
 <div class="center"><img src="tr-driver_8c__incl.png" border="0" usemap="#runner_2driver_2tr-driver_2tr-driver_8c" alt=""/></div>
 <map name="runner_2driver_2tr-driver_2tr-driver_8c" id="runner_2driver_2tr-driver_2tr-driver_8c">
-<area shape="rect" id="node13" href="generic_8h.html" title="driver의 매핑 정보 및 runner를 총괄하는 헤더입니다. 관련 정의 내용은 runner/generic.c에 존재합니다. " alt="" coords="446,169,529,196"/>
-<area shape="rect" id="node16" href="log_8h.html" title="log.h" alt="" coords="460,244,515,271"/>
-<area shape="rect" id="node19" href="runner_8h.html" title="runner에 대한 선언적 내용이 들어가게 됩니다. " alt="" coords="826,95,901,121"/>
-<area shape="rect" id="node21" href="tr-driver_8h.html" title="trace&#45;replay를 동작시키는 driver의 선언부에 해당합니다. " alt="" coords="553,95,680,121"/>
-<area shape="rect" id="node22" href="trace__replay_8h.html" title="trace_replay.h" alt="" coords="257,169,371,196"/>
-<area shape="rect" id="node25" href="sync_8h.html" title="파이프를 활용한 동기화 도구입니다. " alt="" coords="43,169,107,196"/>
-<area shape="rect" id="node24" href="flist_8h.html" title="flist.h" alt="" coords="275,244,334,271"/>
+<area shape="rect" id="node14" href="generic_8h.html" title="driver의 매핑 정보 및 runner를 총괄하는 헤더입니다. 관련 정의 내용은 runner/generic.c에 존재합니다. " alt="" coords="583,169,666,196"/>
+<area shape="rect" id="node17" href="log_8h.html" title="log.h" alt="" coords="464,244,519,271"/>
+<area shape="rect" id="node20" href="runner_8h.html" title="runner에 대한 선언적 내용이 들어가게 됩니다. " alt="" coords="885,95,959,121"/>
+<area shape="rect" id="node22" href="tr-driver_8h.html" title="trace&#45;replay를 동작시키는 driver의 선언부에 해당합니다. " alt="" coords="683,95,809,121"/>
+<area shape="rect" id="node23" href="trace__replay_8h.html" title="trace_replay.h" alt="" coords="296,169,409,196"/>
+<area shape="rect" id="node26" href="sync_8h.html" title="파이프를 활용한 동기화 도구입니다. " alt="" coords="55,169,119,196"/>
+<area shape="rect" id="node25" href="flist_8h.html" title="flist.h" alt="" coords="183,244,242,271"/>
 </map>
 </div>
 </div><table class="memberdecls">
@@ -468,7 +469,7 @@ Here is the call graph for this function:</div>
 <area shape="rect" id="node35" href="tr-shm_8c.html#afba449ced385945907c37ebb15f660c4" title="Shared Memory의 할당된 내용을 해제하도록 합니다. " alt="" coords="532,613,632,640"/>
 <area shape="rect" id="node36" href="tr-mq_8c.html#a887329682aa74618a8e5e151ae55bab1" title="Message Queue의 할당된 내용을 해제하도록 합니다. " alt="" coords="535,664,629,691"/>
 <area shape="rect" id="node38" href="tr-info_8c.html#a9638561ce29f3cde86f54e09daa82e35" title="정수 형태의 info&#45;&gt;(member)에 json에서 값을 읽어서 값을 주도록 합니다. " alt="" coords="503,715,661,741"/>
-<area shape="rect" id="node39" href="tr-info_8c.html#a6336d6418319dcfca28973530b9304e5" title="문자열 형태의 info&#45;&gt;(member)에 json에서 값을 읽어서 값을 주도록 합니다. " alt="" coords="503,765,661,792"/>
+<area shape="rect" id="node39" href="tr-info_8c.html#af46af26d3ed99f18c48a7b191d469fee" title="문자열 형태의 info&#45;&gt;(member)에 json에서 값을 읽어서 값을 주도록 합니다. " alt="" coords="503,765,661,792"/>
 <area shape="rect" id="node41" href="tr-driver_8c.html#a3444cfb7f56f88f8f16c2877632f03de" title="현재 입력되는 scheduler가 driver가 지원하는 지를 확인하도록 합니다. " alt="" coords="495,867,669,893"/>
 <area shape="rect" id="node42" href="tr-info_8c.html#a31760321dca36e16e1e8f231084c0f5f" title="각각의 프로세스의 동작 옵션을 설정을 해주도록 합니다. " alt="" coords="306,816,413,843"/>
 <area shape="rect" id="node40" href="generic_8h.html#a5469117f34e2c2ef5e1597c3ac16a0ea" title="json의 문자열 값을 받는 경우에는 &quot; 값이 있을 수 있습니다. 따라서, 그 값을 전부 없애주는 데 사용합니다..." alt="" coords="740,765,891,792"/>
@@ -666,9 +667,9 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div><div class="line">        [<a class="code" href="tr-driver_8c.html#a06fc87d81c62e9abb8790b6e5713c55bab6248791674b601eaae8ebd280765ae9">TR_NONE_SCHEDULER</a>] = <span class="stringliteral">&quot;none&quot;</span>,</div><div class="line">        [<a class="code" href="tr-driver_8c.html#a06fc87d81c62e9abb8790b6e5713c55ba71ab75386c3235b1d519b89e7f78d82f">TR_KYBER_SCHEDULER</a>] = <span class="stringliteral">&quot;kyber&quot;</span>,</div><div class="line">        [<a class="code" href="tr-driver_8c.html#a06fc87d81c62e9abb8790b6e5713c55bab1c9cedef26940171a0e6b8ed198c336">TR_BFQ_SCHEDULER</a>] = <span class="stringliteral">&quot;bfq&quot;</span>,</div><div class="line">        NULL,</div><div class="line">}</div><div class="ttc" id="tr-driver_8c_html_a06fc87d81c62e9abb8790b6e5713c55bab1c9cedef26940171a0e6b8ed198c336"><div class="ttname"><a href="tr-driver_8c.html#a06fc87d81c62e9abb8790b6e5713c55bab1c9cedef26940171a0e6b8ed198c336">TR_BFQ_SCHEDULER</a></div><div class="ttdef"><b>Definition:</b> tr-driver.c:31</div></div>
-<div class="ttc" id="tr-driver_8c_html_a06fc87d81c62e9abb8790b6e5713c55bab6248791674b601eaae8ebd280765ae9"><div class="ttname"><a href="tr-driver_8c.html#a06fc87d81c62e9abb8790b6e5713c55bab6248791674b601eaae8ebd280765ae9">TR_NONE_SCHEDULER</a></div><div class="ttdef"><b>Definition:</b> tr-driver.c:29</div></div>
-<div class="ttc" id="tr-driver_8c_html_a06fc87d81c62e9abb8790b6e5713c55ba71ab75386c3235b1d519b89e7f78d82f"><div class="ttname"><a href="tr-driver_8c.html#a06fc87d81c62e9abb8790b6e5713c55ba71ab75386c3235b1d519b89e7f78d82f">TR_KYBER_SCHEDULER</a></div><div class="ttdef"><b>Definition:</b> tr-driver.c:30</div></div>
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div><div class="line">        [<a class="code" href="tr-driver_8c.html#a06fc87d81c62e9abb8790b6e5713c55bab6248791674b601eaae8ebd280765ae9">TR_NONE_SCHEDULER</a>] = <span class="stringliteral">&quot;none&quot;</span>,</div><div class="line">        [<a class="code" href="tr-driver_8c.html#a06fc87d81c62e9abb8790b6e5713c55ba71ab75386c3235b1d519b89e7f78d82f">TR_KYBER_SCHEDULER</a>] = <span class="stringliteral">&quot;kyber&quot;</span>,</div><div class="line">        [<a class="code" href="tr-driver_8c.html#a06fc87d81c62e9abb8790b6e5713c55bab1c9cedef26940171a0e6b8ed198c336">TR_BFQ_SCHEDULER</a>] = <span class="stringliteral">&quot;bfq&quot;</span>,</div><div class="line">        NULL,</div><div class="line">}</div><div class="ttc" id="tr-driver_8c_html_a06fc87d81c62e9abb8790b6e5713c55bab1c9cedef26940171a0e6b8ed198c336"><div class="ttname"><a href="tr-driver_8c.html#a06fc87d81c62e9abb8790b6e5713c55bab1c9cedef26940171a0e6b8ed198c336">TR_BFQ_SCHEDULER</a></div><div class="ttdef"><b>Definition:</b> tr-driver.c:32</div></div>
+<div class="ttc" id="tr-driver_8c_html_a06fc87d81c62e9abb8790b6e5713c55bab6248791674b601eaae8ebd280765ae9"><div class="ttname"><a href="tr-driver_8c.html#a06fc87d81c62e9abb8790b6e5713c55bab6248791674b601eaae8ebd280765ae9">TR_NONE_SCHEDULER</a></div><div class="ttdef"><b>Definition:</b> tr-driver.c:30</div></div>
+<div class="ttc" id="tr-driver_8c_html_a06fc87d81c62e9abb8790b6e5713c55ba71ab75386c3235b1d519b89e7f78d82f"><div class="ttname"><a href="tr-driver_8c.html#a06fc87d81c62e9abb8790b6e5713c55ba71ab75386c3235b1d519b89e7f78d82f">TR_KYBER_SCHEDULER</a></div><div class="ttdef"><b>Definition:</b> tr-driver.c:31</div></div>
 </div><!-- fragment -->
 <p>현재 tr-driver에서 지원하는 I/O 스케줄러가 들어가게 됩니다. </p>
 <dl class="section warning"><dt>Warning</dt><dd>kyber는 SCSI를 지원하지 않음을 유의해주시길 바랍니다. </dd></dl>

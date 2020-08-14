@@ -524,7 +524,7 @@ var searchData=
   ['tr_5finfo_5fint_5fvalue_5fset',['tr_info_int_value_set',['../tr-info_8c.html#a9638561ce29f3cde86f54e09daa82e35',1,'tr-info.c']]],
   ['tr_5finfo_5flist_5ftraverse',['tr_info_list_traverse',['../tr-driver_8h.html#a5fca63abccb7f770eeef5e007d9605bf',1,'tr-driver.h']]],
   ['tr_5finfo_5fserializer',['tr_info_serializer',['../tr-serializer_8c.html#a8190fd0262f1917010d58ff73de5401e',1,'tr-serializer.c']]],
-  ['tr_5finfo_5fstr_5fvalue_5fset',['tr_info_str_value_set',['../tr-info_8c.html#a6336d6418319dcfca28973530b9304e5',1,'tr-info.c']]],
+  ['tr_5finfo_5fstr_5fvalue_5fset',['tr_info_str_value_set',['../tr-info_8c.html#af46af26d3ed99f18c48a7b191d469fee',1,'tr-info.c']]],
   ['tr_5finit',['tr_init',['../tr-driver_8c.html#a90e0e8ba02ba8f2d3e537edbc3c9abab',1,'tr_init(void *object):&#160;tr-driver.c'],['../tr-driver_8h.html#a90e0e8ba02ba8f2d3e537edbc3c9abab',1,'tr_init(void *object):&#160;tr-driver.c']]],
   ['tr_5fipc_5ffree',['TR_IPC_FREE',['../tr-driver_8h.html#a99fb83031ce9923c84392b4e92f956b5ad48aec376f040b604bab56751e7d9f33',1,'tr-driver.h']]],
   ['tr_5fipc_5fnot_5ffree',['TR_IPC_NOT_FREE',['../tr-driver_8h.html#a99fb83031ce9923c84392b4e92f956b5a5c51d2827f69750950fe6dbc8dec09ea',1,'tr-driver.h']]],

@@ -76,6 +76,7 @@ $(function() {
 <div class="textblock"><code>#include &lt;stdlib.h&gt;</code><br />
 <code>#include &lt;search.h&gt;</code><br />
 <code>#include &lt;assert.h&gt;</code><br />
+<code>#include &lt;sys/stat.h&gt;</code><br />
 <code>#include &lt;json.h&gt;</code><br />
 <code>#include &lt;jemalloc/jemalloc.h&gt;</code><br />
 <code>#include &lt;<a class="el" href="tr-driver_8h_source.html">driver/tr-driver.h</a>&gt;</code><br />
@@ -84,11 +85,11 @@ Include dependency graph for tr-info.c:</div>
 <div class="dyncontent">
 <div class="center"><img src="tr-info_8c__incl.png" border="0" usemap="#runner_2driver_2tr-driver_2tr-info_8c" alt=""/></div>
 <map name="runner_2driver_2tr-driver_2tr-info_8c" id="runner_2driver_2tr-driver_2tr-info_8c">
-<area shape="rect" id="node7" href="tr-driver_8h.html" title="trace&#45;replay를 동작시키는 driver의 선언부에 해당합니다. " alt="" coords="249,95,375,121"/>
-<area shape="rect" id="node11" href="generic_8h.html" title="driver의 매핑 정보 및 runner를 총괄하는 헤더입니다. 관련 정의 내용은 runner/generic.c에 존재합니다. " alt="" coords="251,169,333,196"/>
-<area shape="rect" id="node17" href="trace__replay_8h.html" title="trace_replay.h" alt="" coords="651,169,765,196"/>
-<area shape="rect" id="node14" href="log_8h.html" title="log.h" alt="" coords="81,244,135,271"/>
-<area shape="rect" id="node19" href="flist_8h.html" title="flist.h" alt="" coords="664,244,723,271"/>
+<area shape="rect" id="node8" href="tr-driver_8h.html" title="trace&#45;replay를 동작시키는 driver의 선언부에 해당합니다. " alt="" coords="214,95,341,121"/>
+<area shape="rect" id="node12" href="generic_8h.html" title="driver의 매핑 정보 및 runner를 총괄하는 헤더입니다. 관련 정의 내용은 runner/generic.c에 존재합니다. " alt="" coords="241,169,324,196"/>
+<area shape="rect" id="node18" href="trace__replay_8h.html" title="trace_replay.h" alt="" coords="726,169,839,196"/>
+<area shape="rect" id="node15" href="log_8h.html" title="log.h" alt="" coords="81,244,135,271"/>
+<area shape="rect" id="node20" href="flist_8h.html" title="flist.h" alt="" coords="712,244,771,271"/>
 </map>
 </div>
 </div><table class="memberdecls">
@@ -97,9 +98,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a9638561ce29f3cde86f54e09daa82e35"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tr-info_8c.html#a9638561ce29f3cde86f54e09daa82e35">tr_info_int_value_set</a> (struct json_object *setting, const char *<a class="el" href="runner-test_8c.html#a114a26ebd93f4397bf89734c1d991ea0">key</a>, unsigned int *member, int is_print)</td></tr>
 <tr class="memdesc:a9638561ce29f3cde86f54e09daa82e35"><td class="mdescLeft">&#160;</td><td class="mdescRight">정수 형태의 <code>info-&gt;(member)</code>에 json에서 값을 읽어서 값을 주도록 합니다.  <a href="#a9638561ce29f3cde86f54e09daa82e35">More...</a><br /></td></tr>
 <tr class="separator:a9638561ce29f3cde86f54e09daa82e35"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6336d6418319dcfca28973530b9304e5"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tr-info_8c.html#a6336d6418319dcfca28973530b9304e5">tr_info_str_value_set</a> (struct json_object *setting, const char *<a class="el" href="runner-test_8c.html#a114a26ebd93f4397bf89734c1d991ea0">key</a>, char *member, int is_print)</td></tr>
-<tr class="memdesc:a6336d6418319dcfca28973530b9304e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">문자열 형태의 <code>info-&gt;(member)</code>에 json에서 값을 읽어서 값을 주도록 합니다.  <a href="#a6336d6418319dcfca28973530b9304e5">More...</a><br /></td></tr>
-<tr class="separator:a6336d6418319dcfca28973530b9304e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af46af26d3ed99f18c48a7b191d469fee"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tr-info_8c.html#af46af26d3ed99f18c48a7b191d469fee">tr_info_str_value_set</a> (struct json_object *setting, const char *<a class="el" href="runner-test_8c.html#a114a26ebd93f4397bf89734c1d991ea0">key</a>, char *member, size_t size, int is_print)</td></tr>
+<tr class="memdesc:af46af26d3ed99f18c48a7b191d469fee"><td class="mdescLeft">&#160;</td><td class="mdescRight">문자열 형태의 <code>info-&gt;(member)</code>에 json에서 값을 읽어서 값을 주도록 합니다.  <a href="#af46af26d3ed99f18c48a7b191d469fee">More...</a><br /></td></tr>
+<tr class="separator:af46af26d3ed99f18c48a7b191d469fee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30fe574e5a617c55adc78e778d417cc5"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tr-info_8c.html#a30fe574e5a617c55adc78e778d417cc5">tr_is_synth_type</a> (const char *trace_data_path)</td></tr>
 <tr class="memdesc:a30fe574e5a617c55adc78e778d417cc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">현재 trace_data_path 값이 synthetic 형태인지를 확인합니다.  <a href="#a30fe574e5a617c55adc78e778d417cc5">More...</a><br /></td></tr>
 <tr class="separator:a30fe574e5a617c55adc78e778d417cc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -179,7 +180,7 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="tr-info_8c_a31760321dca36e16e1e8f231084c0f5f_cgraph.png" border="0" usemap="#tr-info_8c_a31760321dca36e16e1e8f231084c0f5f_cgraph" alt=""/></div>
 <map name="tr-info_8c_a31760321dca36e16e1e8f231084c0f5f_cgraph" id="tr-info_8c_a31760321dca36e16e1e8f231084c0f5f_cgraph">
 <area shape="rect" id="node2" href="tr-info_8c.html#a9638561ce29f3cde86f54e09daa82e35" title="정수 형태의 info&#45;&gt;(member)에 json에서 값을 읽어서 값을 주도록 합니다. " alt="" coords="167,5,326,32"/>
-<area shape="rect" id="node3" href="tr-info_8c.html#a6336d6418319dcfca28973530b9304e5" title="문자열 형태의 info&#45;&gt;(member)에 json에서 값을 읽어서 값을 주도록 합니다. " alt="" coords="167,56,326,83"/>
+<area shape="rect" id="node3" href="tr-info_8c.html#af46af26d3ed99f18c48a7b191d469fee" title="문자열 형태의 info&#45;&gt;(member)에 json에서 값을 읽어서 값을 주도록 합니다. " alt="" coords="167,56,326,83"/>
 <area shape="rect" id="node5" href="tr-driver_8c.html#a3444cfb7f56f88f8f16c2877632f03de" title="현재 입력되는 scheduler가 driver가 지원하는 지를 확인하도록 합니다. " alt="" coords="160,107,333,133"/>
 <area shape="rect" id="node6" href="tr-info_8c.html#a30fe574e5a617c55adc78e778d417cc5" title="현재 trace_data_path 값이 synthetic 형태인지를 확인합니다. " alt="" coords="182,157,311,184"/>
 <area shape="rect" id="node4" href="generic_8h.html#a5469117f34e2c2ef5e1597c3ac16a0ea" title="json의 문자열 값을 받는 경우에는 &quot; 값이 있을 수 있습니다. 따라서, 그 값을 전부 없애주는 데 사용합니다..." alt="" coords="381,56,532,83"/>
@@ -229,7 +230,7 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="tr-info_8c_acfd0ebbb0a1e7ba8823365333dc2a2ee_cgraph.png" border="0" usemap="#tr-info_8c_acfd0ebbb0a1e7ba8823365333dc2a2ee_cgraph" alt=""/></div>
 <map name="tr-info_8c_acfd0ebbb0a1e7ba8823365333dc2a2ee_cgraph" id="tr-info_8c_acfd0ebbb0a1e7ba8823365333dc2a2ee_cgraph">
 <area shape="rect" id="node2" href="tr-info_8c.html#a9638561ce29f3cde86f54e09daa82e35" title="정수 형태의 info&#45;&gt;(member)에 json에서 값을 읽어서 값을 주도록 합니다. " alt="" coords="307,5,466,32"/>
-<area shape="rect" id="node3" href="tr-info_8c.html#a6336d6418319dcfca28973530b9304e5" title="문자열 형태의 info&#45;&gt;(member)에 json에서 값을 읽어서 값을 주도록 합니다. " alt="" coords="307,56,466,83"/>
+<area shape="rect" id="node3" href="tr-info_8c.html#af46af26d3ed99f18c48a7b191d469fee" title="문자열 형태의 info&#45;&gt;(member)에 json에서 값을 읽어서 값을 주도록 합니다. " alt="" coords="307,56,466,83"/>
 <area shape="rect" id="node5" href="tr-driver_8c.html#a3444cfb7f56f88f8f16c2877632f03de" title="현재 입력되는 scheduler가 driver가 지원하는 지를 확인하도록 합니다. " alt="" coords="300,157,473,184"/>
 <area shape="rect" id="node6" href="tr-info_8c.html#a31760321dca36e16e1e8f231084c0f5f" title="각각의 프로세스의 동작 옵션을 설정을 해주도록 합니다. " alt="" coords="145,107,252,133"/>
 <area shape="rect" id="node4" href="generic_8h.html#a5469117f34e2c2ef5e1597c3ac16a0ea" title="json의 문자열 값을 받는 경우에는 &quot; 값이 있을 수 있습니다. 따라서, 그 값을 전부 없애주는 데 사용합니다..." alt="" coords="521,56,672,83"/>
@@ -299,8 +300,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a6336d6418319dcfca28973530b9304e5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6336d6418319dcfca28973530b9304e5">&#9670;&nbsp;</a></span>tr_info_str_value_set()</h2>
+<a id="af46af26d3ed99f18c48a7b191d469fee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af46af26d3ed99f18c48a7b191d469fee">&#9670;&nbsp;</a></span>tr_info_str_value_set()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -329,6 +330,12 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>is_print</em>&#160;</td>
         </tr>
@@ -351,16 +358,18 @@ Here is the call graph for this function:</div>
     <tr><td class="paramname">setting</td><td>탐색을 할 특정 위치를 지칭합니다. </td></tr>
     <tr><td class="paramname">key</td><td>json에서 가져오고자 하는 데이터의 key 또는 field에 해당합니다. </td></tr>
     <tr><td class="paramname">member</td><td>실제 값이 삽입되는 위치에 해당합니다. </td></tr>
+    <tr><td class="paramname">size</td><td>메모리의 크기를 나타냅니다. </td></tr>
     <tr><td class="paramname">is_print</td><td>에러를 사용자에게 출력을 할 지 말지를 선택합니다.</td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>성공적으로 입력이 되었다면 0이 반환되고, 그렇지 않은 경우에는 -EINVAL이 반환됩니다. </dd></dl>
+<dl class="section warning"><dt>Warning</dt><dd>size의 값은 반드시 member의 크기보다 작거나 같아야 합니다. </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="tr-info_8c_a6336d6418319dcfca28973530b9304e5_cgraph.png" border="0" usemap="#tr-info_8c_a6336d6418319dcfca28973530b9304e5_cgraph" alt=""/></div>
-<map name="tr-info_8c_a6336d6418319dcfca28973530b9304e5_cgraph" id="tr-info_8c_a6336d6418319dcfca28973530b9304e5_cgraph">
+<div class="center"><img src="tr-info_8c_af46af26d3ed99f18c48a7b191d469fee_cgraph.png" border="0" usemap="#tr-info_8c_af46af26d3ed99f18c48a7b191d469fee_cgraph" alt=""/></div>
+<map name="tr-info_8c_af46af26d3ed99f18c48a7b191d469fee_cgraph" id="tr-info_8c_af46af26d3ed99f18c48a7b191d469fee_cgraph">
 <area shape="rect" id="node2" href="generic_8h.html#a5469117f34e2c2ef5e1597c3ac16a0ea" title="json의 문자열 값을 받는 경우에는 &quot; 값이 있을 수 있습니다. 따라서, 그 값을 전부 없애주는 데 사용합니다..." alt="" coords="212,5,363,32"/>
 </map>
 </div>
