@@ -5,15 +5,15 @@
 <area shape="rect" id="node33" href="$tr-driver_8c.html#ab505821403f626b211a899fb05e6387a" title="trace&#45;replay 관련 동적 할당 정보를 해제합니다. " alt="" coords="139,613,205,640"/>
 <area shape="rect" id="node34" href="$tr-driver_8c.html#ab541e1c70daf52318efbc6269d15c2c7" title="실질적으로 trace&#45;replay 관련 구조체의 동적 할당된 내용을 해제하는 부분에 해당합니다. " alt="" coords="320,613,399,640"/>
 <area shape="rect" id="node37" href="$tr-info_8c.html#acfd0ebbb0a1e7ba8823365333dc2a2ee" title="각 프로세스에 들어가는 info 객체를 __생성__하고 구축하여 반환합니다. " alt="" coords="126,765,218,792"/>
-<area shape="rect" id="node3" href="$sync_8h.html#a8560cc496af93dbcd9a958cd9a0ae3db" title="파이프를 만들어주는 과정으로 부모가 자식을 부르기 전에 이를 반드시 호출해야 합니다. " alt="" coords="313,309,405,336"/>
+<area shape="rect" id="node3" href="$sync_8h.html#a270e909d7660277107b16ab0d7bcd547" title="파이프를 만들어주는 과정으로 부모가 자식을 부르기 전에 이를 반드시 호출해야 합니다. " alt="" coords="313,309,405,336"/>
 <area shape="rect" id="node4" href="$tr-driver_8c.html#acdb88ca94bb709b877202b31ca8cd049" title="자식이 생성되자마자 부모가 자식을 죽이는 명령을 보낸 경우에 각종 자식이 가진 자원을 정리합니다..." alt="" coords="304,5,415,32"/>
 <area shape="rect" id="node6" href="$tr-driver_8c.html#a04f8d23a9999a567eb9602a2c17e884b" title="자식 프로세스에 trace&#45;replay를 올려서 동작시키는 함수입니다. " alt="" coords="313,56,406,83"/>
 <area shape="rect" id="node8" href="$tr-driver_8c.html#afbc68ea1bbf9dd34b32bfe11b91fc2ab" title="control group에 자식 프로세스가 작동할 수 있도록 설정합니다. " alt="" coords="284,107,435,133"/>
 <area shape="rect" id="node9" href="$tr-shm_8c.html#aeabf9bfa126222af391db186d289db44" title="Shared Memory와 관련된 설정에 대해서 초기화를 진행하도록 합니다. " alt="" coords="312,157,407,184"/>
 <area shape="rect" id="node12" href="$tr-mq_8c.html#ae58ca965390727368c08b85f0f65ef9e" title="Message Queue와 관련된 설정에 대해서 초기화를 진행하도록 합니다. " alt="" coords="315,208,403,235"/>
-<area shape="rect" id="node14" href="$sync_8h.html#a9c29235a6ea7ef34a7ca71aac44548d4" title="부모가 자식을 호출하는 역할을 합니다. " alt="" coords="310,259,409,285"/>
+<area shape="rect" id="node14" href="$sync_8h.html#a0a9b16ae0f39583f0d1376c4f3a5f4f5" title="부모가 자식을 호출하는 역할을 합니다. " alt="" coords="310,259,409,285"/>
 <area shape="rect" id="node5" href="$runner_8c.html#a1e7af22661c6f245d852fb1c76d0adea" title="global_runner가 가진 멤버 중 동적할당이 되어 있는 데이터를 반환합니다. " alt="" coords="511,5,653,32"/>
-<area shape="rect" id="node7" href="$sync_8h.html#a3865bc4de21109ce0589f05451dcbb56" title="부모에게 완료되었다는 메시지를 수신합니다. " alt="" coords="525,56,639,83"/>
+<area shape="rect" id="node7" href="$sync_8h.html#a734bdafd21577451dd2bbce8c7871aa5" title="부모에게 완료되었다는 메시지를 수신합니다. " alt="" coords="525,56,639,83"/>
 <area shape="rect" id="node10" href="$tr-shm_8c.html#af14bffffa6087c3c3ec21f78f6680d1c" title="세마포어만을 초기화하는 함수입니다. " alt="" coords="527,157,637,184"/>
 <area shape="rect" id="node11" href="$tr-shm_8c.html#af6139d06f530f523285806d3a32e5e9f" title="Shared Memory만을 초기화하는 함수입니다. " alt="" coords="527,107,637,133"/>
 <area shape="rect" id="node13" href="$tr-mq_8c.html#a9305a8aefb9d327f3d82659f4e9d75ae" title="Message Queue를 초기화하는 함수입니다. " alt="" coords="531,208,633,235"/>

@@ -1,10 +1,10 @@
 var searchData=
 [
-  ['teardown',['tearDown',['../runner-test_8c.html#a9909011e5fea0c018842eec4d93d0662',1,'tearDown(void):&#160;runner-test.c'],['../trace-replay-test_8c.html#a9909011e5fea0c018842eec4d93d0662',1,'tearDown(void):&#160;trace-replay-test.c'],['../unity_8h.html#a9909011e5fea0c018842eec4d93d0662',1,'tearDown(void):&#160;runner-test.c']]],
-  ['tell_5fchild',['TELL_CHILD',['../sync_8h.html#a9c29235a6ea7ef34a7ca71aac44548d4',1,'sync.h']]],
-  ['tell_5fparent',['TELL_PARENT',['../sync_8h.html#a2bfea6cfe12d7c97fdb8f28b7590d193',1,'sync.h']]],
-  ['tell_5fwait',['TELL_WAIT',['../sync_8h.html#a8560cc496af93dbcd9a958cd9a0ae3db',1,'sync.h']]],
-  ['test',['test',['../runner-test_8c.html#a708a4c1a4d0c4acc4c447310dd4db27f',1,'test(void):&#160;runner-test.c'],['../trace-replay-test_8c.html#a708a4c1a4d0c4acc4c447310dd4db27f',1,'test(void):&#160;trace-replay-test.c']]],
+  ['teardown',['tearDown',['../sample-test_8c.html#a9909011e5fea0c018842eec4d93d0662',1,'tearDown(void):&#160;sample-test.c'],['../tr-driver-test_8c.html#a9909011e5fea0c018842eec4d93d0662',1,'tearDown(void):&#160;tr-driver-test.c'],['../trace-replay-test_8c.html#a9909011e5fea0c018842eec4d93d0662',1,'tearDown(void):&#160;trace-replay-test.c'],['../unity_8h.html#a9909011e5fea0c018842eec4d93d0662',1,'tearDown(void):&#160;sample-test.c']]],
+  ['tell_5fchild',['TELL_CHILD',['../sync_8h.html#a0a9b16ae0f39583f0d1376c4f3a5f4f5',1,'sync.h']]],
+  ['tell_5fparent',['TELL_PARENT',['../sync_8h.html#a443ad26c663a2792eb1c88bf728aa57e',1,'sync.h']]],
+  ['tell_5fwait',['TELL_WAIT',['../sync_8h.html#a270e909d7660277107b16ab0d7bcd547',1,'sync.h']]],
+  ['test',['test',['../sample-test_8c.html#a708a4c1a4d0c4acc4c447310dd4db27f',1,'test(void):&#160;sample-test.c'],['../tr-driver-test_8c.html#a708a4c1a4d0c4acc4c447310dd4db27f',1,'test(void):&#160;tr-driver-test.c'],['../trace-replay-test_8c.html#a708a4c1a4d0c4acc4c447310dd4db27f',1,'test(void):&#160;trace-replay-test.c']]],
   ['tf_5finit',['tf_init',['../sgio_8c.html#ab565bd4c1444084f1d01fb8d8d6fa29f',1,'tf_init(struct ata_tf *tf, __u8 ata_op, __u64 lba, unsigned int nsect):&#160;sgio.c'],['../hdparm_8h.html#ab565bd4c1444084f1d01fb8d8d6fa29f',1,'tf_init(struct ata_tf *tf, __u8 ata_op, __u64 lba, unsigned int nsect):&#160;sgio.c']]],
   ['tf_5fto_5flba',['tf_to_lba',['../sgio_8c.html#a9fac2b08a35521076b78c39765f716eb',1,'tf_to_lba(struct ata_tf *tf):&#160;sgio.c'],['../hdparm_8h.html#a9fac2b08a35521076b78c39765f716eb',1,'tf_to_lba(struct ata_tf *tf):&#160;sgio.c']]],
   ['time_5fcache',['time_cache',['../hdparm_8h.html#aa53cf6a6e2c20f4876deba8d9da67c9c',1,'hdparm.h']]],

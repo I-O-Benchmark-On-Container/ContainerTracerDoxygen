@@ -1,13 +1,13 @@
 <map id="tr_runner" name="tr_runner">
-<area shape="rect" id="node2" href="$sync_8h.html#a8560cc496af93dbcd9a958cd9a0ae3db" title="파이프를 만들어주는 과정으로 부모가 자식을 부르기 전에 이를 반드시 호출해야 합니다. " alt="" coords="164,5,256,32"/>
+<area shape="rect" id="node2" href="$sync_8h.html#a270e909d7660277107b16ab0d7bcd547" title="파이프를 만들어주는 과정으로 부모가 자식을 부르기 전에 이를 반드시 호출해야 합니다. " alt="" coords="164,5,256,32"/>
 <area shape="rect" id="node3" href="$tr-driver_8c.html#acdb88ca94bb709b877202b31ca8cd049" title="자식이 생성되자마자 부모가 자식을 죽이는 명령을 보낸 경우에 각종 자식이 가진 자원을 정리합니다..." alt="" coords="155,56,265,83"/>
 <area shape="rect" id="node5" href="$tr-driver_8c.html#a04f8d23a9999a567eb9602a2c17e884b" title="자식 프로세스에 trace&#45;replay를 올려서 동작시키는 함수입니다. " alt="" coords="163,107,257,133"/>
 <area shape="rect" id="node7" href="$tr-driver_8c.html#afbc68ea1bbf9dd34b32bfe11b91fc2ab" title="control group에 자식 프로세스가 작동할 수 있도록 설정합니다. " alt="" coords="135,157,285,184"/>
 <area shape="rect" id="node8" href="$tr-shm_8c.html#aeabf9bfa126222af391db186d289db44" title="Shared Memory와 관련된 설정에 대해서 초기화를 진행하도록 합니다. " alt="" coords="163,208,257,235"/>
 <area shape="rect" id="node11" href="$tr-mq_8c.html#ae58ca965390727368c08b85f0f65ef9e" title="Message Queue와 관련된 설정에 대해서 초기화를 진행하도록 합니다. " alt="" coords="166,259,254,285"/>
-<area shape="rect" id="node13" href="$sync_8h.html#a9c29235a6ea7ef34a7ca71aac44548d4" title="부모가 자식을 호출하는 역할을 합니다. " alt="" coords="161,309,259,336"/>
+<area shape="rect" id="node13" href="$sync_8h.html#a0a9b16ae0f39583f0d1376c4f3a5f4f5" title="부모가 자식을 호출하는 역할을 합니다. " alt="" coords="161,309,259,336"/>
 <area shape="rect" id="node4" href="$runner_8c.html#a1e7af22661c6f245d852fb1c76d0adea" title="global_runner가 가진 멤버 중 동적할당이 되어 있는 데이터를 반환합니다. " alt="" coords="333,56,476,83"/>
-<area shape="rect" id="node6" href="$sync_8h.html#a3865bc4de21109ce0589f05451dcbb56" title="부모에게 완료되었다는 메시지를 수신합니다. " alt="" coords="348,107,461,133"/>
+<area shape="rect" id="node6" href="$sync_8h.html#a734bdafd21577451dd2bbce8c7871aa5" title="부모에게 완료되었다는 메시지를 수신합니다. " alt="" coords="348,107,461,133"/>
 <area shape="rect" id="node9" href="$tr-shm_8c.html#af14bffffa6087c3c3ec21f78f6680d1c" title="세마포어만을 초기화하는 함수입니다. " alt="" coords="350,157,459,184"/>
 <area shape="rect" id="node10" href="$tr-shm_8c.html#af6139d06f530f523285806d3a32e5e9f" title="Shared Memory만을 초기화하는 함수입니다. " alt="" coords="350,208,459,235"/>
 <area shape="rect" id="node12" href="$tr-mq_8c.html#a9305a8aefb9d327f3d82659f4e9d75ae" title="Message Queue를 초기화하는 함수입니다. " alt="" coords="353,259,456,285"/>

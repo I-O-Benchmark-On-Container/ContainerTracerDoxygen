@@ -1,7 +1,7 @@
 var searchData=
 [
   ['seek_5fto_5fzero',['seek_to_zero',['../hdparm_8h.html#a1a08274b800f3a3405830bf9c006c592',1,'hdparm.h']]],
-  ['setup',['setUp',['../runner-test_8c.html#a95c834d6178047ce9e1bce7cbfea2836',1,'setUp(void):&#160;runner-test.c'],['../trace-replay-test_8c.html#a95c834d6178047ce9e1bce7cbfea2836',1,'setUp(void):&#160;trace-replay-test.c'],['../unity_8h.html#a95c834d6178047ce9e1bce7cbfea2836',1,'setUp(void):&#160;runner-test.c']]],
+  ['setup',['setUp',['../sample-test_8c.html#a95c834d6178047ce9e1bce7cbfea2836',1,'setUp(void):&#160;sample-test.c'],['../tr-driver-test_8c.html#a95c834d6178047ce9e1bce7cbfea2836',1,'setUp(void):&#160;tr-driver-test.c'],['../trace-replay-test_8c.html#a95c834d6178047ce9e1bce7cbfea2836',1,'setUp(void):&#160;trace-replay-test.c'],['../unity_8h.html#a95c834d6178047ce9e1bce7cbfea2836',1,'setUp(void):&#160;sample-test.c']]],
   ['sg16',['sg16',['../sgio_8c.html#a76080c33d7caa93c50908a400d6a2256',1,'sg16(int fd, int rw, struct ata_tf *tf, void *data, unsigned int data_bytes, unsigned int timeout_secs):&#160;sgio.c'],['../hdparm_8h.html#a76080c33d7caa93c50908a400d6a2256',1,'sg16(int fd, int rw, struct ata_tf *tf, void *data, unsigned int data_bytes, unsigned int timeout_secs):&#160;sgio.c']]],
   ['sgenrand',['sgenrand',['../trace__replay_8c.html#a7562e84310393a10fd640917ddecf2e6',1,'trace_replay.c']]],
   ['sig_5fhandler',['sig_handler',['../trace__replay_8c.html#a83e1379f5adf4452f72fcc0be266a7b5',1,'trace_replay.c']]],

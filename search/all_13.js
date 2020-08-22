@@ -1,13 +1,14 @@
 var searchData=
 [
-  ['scheduler',['scheduler',['../structtr__info.html#a029a0cb8f69406fa1409ed9110753265',1,'tr_info::scheduler()'],['../runner-test_8c.html#a1b3f65587b48bff0583fb85181991b01',1,'SCHEDULER():&#160;runner-test.c']]],
+  ['sample_2dtest_2ec',['sample-test.c',['../sample-test_8c.html',1,'']]],
+  ['scheduler',['scheduler',['../structtr__info.html#a029a0cb8f69406fa1409ed9110753265',1,'tr_info::scheduler()'],['../tr-driver-test_8c.html#a1b3f65587b48bff0583fb85181991b01',1,'SCHEDULER():&#160;tr-driver-test.c']]],
   ['sector_5fsize',['SECTOR_SIZE',['../trace__replay_8h.html#aa35bad1e92008da628f27b2f6bb270aa',1,'trace_replay.h']]],
   ['sectors',['sectors',['../structlocal__hd__big__geometry.html#a219a8b334c99125580480d038c69f3d2',1,'local_hd_big_geometry::sectors()'],['../structhd__geometry.html#a989abe1cafcce5ebaf504dd0fe0b3929',1,'hd_geometry::sectors()']]],
   ['seek_5fto_5fzero',['seek_to_zero',['../hdparm_8h.html#a1a08274b800f3a3405830bf9c006c592',1,'hdparm.h']]],
   ['sem_5fkey_5fpathname',['SEM_KEY_PATHNAME',['../trace__replay_8h.html#afedece3022c9ec2447b971af0cebf390',1,'trace_replay.h']]],
   ['semid',['semid',['../structtr__info.html#a842cd70e76ec07b49cfc446255b87531',1,'tr_info']]],
   ['setting',['setting',['../structrunner__config.html#af730692a1e40da88eba0cb38792278bb',1,'runner_config']]],
-  ['setup',['setUp',['../runner-test_8c.html#a95c834d6178047ce9e1bce7cbfea2836',1,'setUp(void):&#160;runner-test.c'],['../trace-replay-test_8c.html#a95c834d6178047ce9e1bce7cbfea2836',1,'setUp(void):&#160;trace-replay-test.c'],['../unity_8h.html#a95c834d6178047ce9e1bce7cbfea2836',1,'setUp(void):&#160;runner-test.c']]],
+  ['setup',['setUp',['../sample-test_8c.html#a95c834d6178047ce9e1bce7cbfea2836',1,'setUp(void):&#160;sample-test.c'],['../tr-driver-test_8c.html#a95c834d6178047ce9e1bce7cbfea2836',1,'setUp(void):&#160;tr-driver-test.c'],['../trace-replay-test_8c.html#a95c834d6178047ce9e1bce7cbfea2836',1,'setUp(void):&#160;trace-replay-test.c'],['../unity_8h.html#a95c834d6178047ce9e1bce7cbfea2836',1,'setUp(void):&#160;sample-test.c']]],
   ['sg16',['sg16',['../sgio_8c.html#a76080c33d7caa93c50908a400d6a2256',1,'sg16(int fd, int rw, struct ata_tf *tf, void *data, unsigned int data_bytes, unsigned int timeout_secs):&#160;sgio.c'],['../hdparm_8h.html#a76080c33d7caa93c50908a400d6a2256',1,'sg16(int fd, int rw, struct ata_tf *tf, void *data, unsigned int data_bytes, unsigned int timeout_secs):&#160;sgio.c']]],
   ['sg_5fata_5f16',['SG_ATA_16',['../sgio_8c.html#af76bae5a59f54763aa595e134158085f',1,'sgio.c']]],
   ['sg_5fata_5f16_5flen',['SG_ATA_16_LEN',['../sgio_8c.html#ac556ef7d60f02debfe058167554abb2f',1,'sgio.c']]],
