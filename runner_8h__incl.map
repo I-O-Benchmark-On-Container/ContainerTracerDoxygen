@@ -1,4 +1,4 @@
 <map id="include/runner.h" name="include/runner.h">
 <area shape="rect" id="node5" href="$generic_8h.html" title="driver의 매핑 정보 및 runner를 총괄하는 헤더입니다. 관련 정의 내용은 runner/generic.c에 존재합니다. " alt="" coords="212,80,295,107"/>
-<area shape="rect" id="node9" href="$log_8h.html" title="log.h" alt="" coords="314,155,369,181"/>
+<area shape="rect" id="node9" href="$log_8h.html" title="로그 출력 양식에 해당합니다. " alt="" coords="314,155,369,181"/>
 </map>

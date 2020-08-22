@@ -2,5 +2,5 @@
 <area shape="rect" id="node2" href="$tr-driver_8c.html" title="trace&#45;replay를 동작시키는 driver 구현부에 해당합니다. " alt="" coords="5,80,168,121"/>
 <area shape="rect" id="node3" href="$tr-serializer_8c.html" title="임의의 구조체를 json화 시키는 방식이 구현된 소스입니다. " alt="" coords="192,80,355,121"/>
 <area shape="rect" id="node4" href="$runner_8c.html" title="runner.h에서 선언된 내용들에 대한 정의가 들어갑니다. " alt="" coords="379,87,499,114"/>
-<area shape="rect" id="node5" href="$tr-driver-test_8c.html" title="runner/test/tr&#45;driver\l&#45;test.c" alt="" coords="523,80,672,121"/>
+<area shape="rect" id="node5" href="$tr-driver-test_8c.html" title="tr&#45;driver의 올바른 동작 여부를 확인하는 테스터입니다. " alt="" coords="523,80,672,121"/>
 </map>

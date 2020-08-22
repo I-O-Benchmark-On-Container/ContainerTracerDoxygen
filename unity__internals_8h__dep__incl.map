@@ -1,7 +1,7 @@
 <map id="include/unity_internals.h" name="include/unity_internals.h">
 <area shape="rect" id="node2" href="$unity_8h.html" title="include/unity.h" alt="" coords="283,80,399,107"/>
 <area shape="rect" id="node3" href="$sample-test_8c.html" title="runner/test/sample\l&#45;test.c" alt="" coords="5,155,151,196"/>
-<area shape="rect" id="node4" href="$tr-driver-test_8c.html" title="runner/test/tr&#45;driver\l&#45;test.c" alt="" coords="175,155,325,196"/>
+<area shape="rect" id="node4" href="$tr-driver-test_8c.html" title="tr&#45;driver의 올바른 동작 여부를 확인하는 테스터입니다. " alt="" coords="175,155,325,196"/>
 <area shape="rect" id="node5" href="$trace-replay-test_8c.html" title="trace&#45;replay/test/trace\l&#45;replay&#45;test.c" alt="" coords="349,155,516,196"/>
 <area shape="rect" id="node6" href="$unity_8c.html" title="unity/unity.c" alt="" coords="541,162,642,189"/>
 </map>

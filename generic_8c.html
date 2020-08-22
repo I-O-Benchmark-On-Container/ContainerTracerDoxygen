@@ -82,7 +82,7 @@ Include dependency graph for generic.c:</div>
 <map name="runner_2generic_8c" id="runner_2generic_8c">
 <area shape="rect" id="node2" href="generic_8h.html" title="driver의 매핑 정보 및 runner를 총괄하는 헤더입니다. 관련 정의 내용은 runner/generic.c에 존재합니다. " alt="" coords="244,155,327,181"/>
 <area shape="rect" id="node12" href="tr-driver_8h.html" title="trace&#45;replay를 동작시키는 driver의 선언부에 해당합니다. " alt="" coords="323,80,450,107"/>
-<area shape="rect" id="node8" href="log_8h.html" title="log.h" alt="" coords="141,229,195,256"/>
+<area shape="rect" id="node8" href="log_8h.html" title="로그 출력 양식에 해당합니다. " alt="" coords="141,229,195,256"/>
 <area shape="rect" id="node14" href="trace__replay_8h.html" title="trace_replay.h" alt="" coords="605,155,718,181"/>
 <area shape="rect" id="node16" href="flist_8h.html" title="flist.h" alt="" coords="677,229,736,256"/>
 </map>
@@ -106,6 +106,10 @@ Variables</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>runtime에 driver를 특정할 수 있도록 만들어주는 generic 헤더의 구현부에 해당합니다. </p>
+<dl class="section copyright"><dt>Copyright</dt><dd>"Container Tracer" which executes the container performance mesurements Copyright (C) 2020 BlaCkinkGJ</dd></dl>
+<p>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.</p>
+<p>This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.</p>
+<p>You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.</p>
 <dl class="section author"><dt>Author</dt><dd>BlaCkinkGJ (<a href="#" onclick="location.href='mai'+'lto:'+'ss5'+'ki'+'jun'+'@g'+'mai'+'l.'+'com'; return false;">ss5ki<span style="display: none;">.nosp@m.</span>jun@<span style="display: none;">.nosp@m.</span>gmail<span style="display: none;">.nosp@m.</span>.com</a>) </dd></dl>
 <dl class="section version"><dt>Version</dt><dd>0.1 </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>2020-08-05 </dd></dl>
@@ -216,8 +220,8 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div><div class="line">        [<a class="code" href="generic_8h.html#a61dadd085c1777f559549e05962b2c9ea4dfb252de24e41ea37f87abad3e67dc5">TRACE_REPLAY_DRIVER</a>] = <a class="code" href="tr-driver_8c.html#a90e0e8ba02ba8f2d3e537edbc3c9abab">tr_init</a></div><div class="line">}</div><div class="ttc" id="generic_8h_html_a61dadd085c1777f559549e05962b2c9ea4dfb252de24e41ea37f87abad3e67dc5"><div class="ttname"><a href="generic_8h.html#a61dadd085c1777f559549e05962b2c9ea4dfb252de24e41ea37f87abad3e67dc5">TRACE_REPLAY_DRIVER</a></div><div class="ttdef"><b>Definition:</b> generic.h:22</div></div>
-<div class="ttc" id="tr-driver_8c_html_a90e0e8ba02ba8f2d3e537edbc3c9abab"><div class="ttname"><a href="tr-driver_8c.html#a90e0e8ba02ba8f2d3e537edbc3c9abab">tr_init</a></div><div class="ttdeci">int tr_init(void *object)</div><div class="ttdoc">전역 옵션을 설정한 후에 각각의 프로세스 별로 할당할 옵션을 설정하도록 합니다. </div><div class="ttdef"><b>Definition:</b> tr-driver.c:145</div></div>
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div><div class="line">        [<a class="code" href="generic_8h.html#a61dadd085c1777f559549e05962b2c9ea4dfb252de24e41ea37f87abad3e67dc5">TRACE_REPLAY_DRIVER</a>] = <a class="code" href="tr-driver_8c.html#a90e0e8ba02ba8f2d3e537edbc3c9abab">tr_init</a></div><div class="line">}</div><div class="ttc" id="generic_8h_html_a61dadd085c1777f559549e05962b2c9ea4dfb252de24e41ea37f87abad3e67dc5"><div class="ttname"><a href="generic_8h.html#a61dadd085c1777f559549e05962b2c9ea4dfb252de24e41ea37f87abad3e67dc5">TRACE_REPLAY_DRIVER</a></div><div class="ttdef"><b>Definition:</b> generic.h:39</div></div>
+<div class="ttc" id="tr-driver_8c_html_a90e0e8ba02ba8f2d3e537edbc3c9abab"><div class="ttname"><a href="tr-driver_8c.html#a90e0e8ba02ba8f2d3e537edbc3c9abab">tr_init</a></div><div class="ttdeci">int tr_init(void *object)</div><div class="ttdoc">전역 옵션을 설정한 후에 각각의 프로세스 별로 할당할 옵션을 설정하도록 합니다. </div><div class="ttdef"><b>Definition:</b> tr-driver.c:162</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -232,7 +236,7 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= { [<a class="code" href="generic_8h.html#a61dadd085c1777f559549e05962b2c9ea4dfb252de24e41ea37f87abad3e67dc5">TRACE_REPLAY_DRIVER</a>] = <span class="stringliteral">&quot;trace-replay&quot;</span>,</div><div class="line">                                  NULL }</div><div class="ttc" id="generic_8h_html_a61dadd085c1777f559549e05962b2c9ea4dfb252de24e41ea37f87abad3e67dc5"><div class="ttname"><a href="generic_8h.html#a61dadd085c1777f559549e05962b2c9ea4dfb252de24e41ea37f87abad3e67dc5">TRACE_REPLAY_DRIVER</a></div><div class="ttdef"><b>Definition:</b> generic.h:22</div></div>
+<b>Initial value:</b><div class="fragment"><div class="line">= { [<a class="code" href="generic_8h.html#a61dadd085c1777f559549e05962b2c9ea4dfb252de24e41ea37f87abad3e67dc5">TRACE_REPLAY_DRIVER</a>] = <span class="stringliteral">&quot;trace-replay&quot;</span>,</div><div class="line">                                  NULL }</div><div class="ttc" id="generic_8h_html_a61dadd085c1777f559549e05962b2c9ea4dfb252de24e41ea37f87abad3e67dc5"><div class="ttname"><a href="generic_8h.html#a61dadd085c1777f559549e05962b2c9ea4dfb252de24e41ea37f87abad3e67dc5">TRACE_REPLAY_DRIVER</a></div><div class="ttdef"><b>Definition:</b> generic.h:39</div></div>
 </div><!-- fragment -->
 </div>
 </div>

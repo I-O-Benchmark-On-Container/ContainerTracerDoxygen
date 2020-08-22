@@ -98,7 +98,7 @@ Include dependency graph for tr-driver.c:</div>
 <div class="center"><img src="tr-driver_8c__incl.png" border="0" usemap="#runner_2driver_2tr-driver_2tr-driver_8c" alt=""/></div>
 <map name="runner_2driver_2tr-driver_2tr-driver_8c" id="runner_2driver_2tr-driver_2tr-driver_8c">
 <area shape="rect" id="node14" href="generic_8h.html" title="driver의 매핑 정보 및 runner를 총괄하는 헤더입니다. 관련 정의 내용은 runner/generic.c에 존재합니다. " alt="" coords="583,169,666,196"/>
-<area shape="rect" id="node17" href="log_8h.html" title="log.h" alt="" coords="464,244,519,271"/>
+<area shape="rect" id="node17" href="log_8h.html" title="로그 출력 양식에 해당합니다. " alt="" coords="464,244,519,271"/>
 <area shape="rect" id="node20" href="runner_8h.html" title="runner에 대한 선언적 내용이 들어가게 됩니다. " alt="" coords="885,95,959,121"/>
 <area shape="rect" id="node22" href="tr-driver_8h.html" title="trace&#45;replay를 동작시키는 driver의 선언부에 해당합니다. " alt="" coords="683,95,809,121"/>
 <area shape="rect" id="node23" href="trace__replay_8h.html" title="trace_replay.h" alt="" coords="296,169,409,196"/>
@@ -158,6 +158,10 @@ Variables</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>trace-replay를 동작시키는 driver 구현부에 해당합니다. </p>
+<dl class="section copyright"><dt>Copyright</dt><dd>"Container Tracer" which executes the container performance mesurements Copyright (C) 2020 BlaCkinkGJ</dd></dl>
+<p>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.</p>
+<p>This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.</p>
+<p>You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.</p>
 <dl class="section author"><dt>Author</dt><dd>BlaCkinkGJ (<a href="#" onclick="location.href='mai'+'lto:'+'ss5'+'ki'+'jun'+'@g'+'mai'+'l.'+'com'; return false;">ss5ki<span style="display: none;">.nosp@m.</span>jun@<span style="display: none;">.nosp@m.</span>gmail<span style="display: none;">.nosp@m.</span>.com</a>) </dd></dl>
 <dl class="section version"><dt>Version</dt><dd>0.1 </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>2020-08-05 </dd></dl>
@@ -667,9 +671,9 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div><div class="line">        [<a class="code" href="tr-driver_8c.html#a06fc87d81c62e9abb8790b6e5713c55bab6248791674b601eaae8ebd280765ae9">TR_NONE_SCHEDULER</a>] = <span class="stringliteral">&quot;none&quot;</span>,</div><div class="line">        [<a class="code" href="tr-driver_8c.html#a06fc87d81c62e9abb8790b6e5713c55ba71ab75386c3235b1d519b89e7f78d82f">TR_KYBER_SCHEDULER</a>] = <span class="stringliteral">&quot;kyber&quot;</span>,</div><div class="line">        [<a class="code" href="tr-driver_8c.html#a06fc87d81c62e9abb8790b6e5713c55bab1c9cedef26940171a0e6b8ed198c336">TR_BFQ_SCHEDULER</a>] = <span class="stringliteral">&quot;bfq&quot;</span>,</div><div class="line">        NULL,</div><div class="line">}</div><div class="ttc" id="tr-driver_8c_html_a06fc87d81c62e9abb8790b6e5713c55bab1c9cedef26940171a0e6b8ed198c336"><div class="ttname"><a href="tr-driver_8c.html#a06fc87d81c62e9abb8790b6e5713c55bab1c9cedef26940171a0e6b8ed198c336">TR_BFQ_SCHEDULER</a></div><div class="ttdef"><b>Definition:</b> tr-driver.c:32</div></div>
-<div class="ttc" id="tr-driver_8c_html_a06fc87d81c62e9abb8790b6e5713c55bab6248791674b601eaae8ebd280765ae9"><div class="ttname"><a href="tr-driver_8c.html#a06fc87d81c62e9abb8790b6e5713c55bab6248791674b601eaae8ebd280765ae9">TR_NONE_SCHEDULER</a></div><div class="ttdef"><b>Definition:</b> tr-driver.c:30</div></div>
-<div class="ttc" id="tr-driver_8c_html_a06fc87d81c62e9abb8790b6e5713c55ba71ab75386c3235b1d519b89e7f78d82f"><div class="ttname"><a href="tr-driver_8c.html#a06fc87d81c62e9abb8790b6e5713c55ba71ab75386c3235b1d519b89e7f78d82f">TR_KYBER_SCHEDULER</a></div><div class="ttdef"><b>Definition:</b> tr-driver.c:31</div></div>
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div><div class="line">        [<a class="code" href="tr-driver_8c.html#a06fc87d81c62e9abb8790b6e5713c55bab6248791674b601eaae8ebd280765ae9">TR_NONE_SCHEDULER</a>] = <span class="stringliteral">&quot;none&quot;</span>,</div><div class="line">        [<a class="code" href="tr-driver_8c.html#a06fc87d81c62e9abb8790b6e5713c55ba71ab75386c3235b1d519b89e7f78d82f">TR_KYBER_SCHEDULER</a>] = <span class="stringliteral">&quot;kyber&quot;</span>,</div><div class="line">        [<a class="code" href="tr-driver_8c.html#a06fc87d81c62e9abb8790b6e5713c55bab1c9cedef26940171a0e6b8ed198c336">TR_BFQ_SCHEDULER</a>] = <span class="stringliteral">&quot;bfq&quot;</span>,</div><div class="line">        NULL,</div><div class="line">}</div><div class="ttc" id="tr-driver_8c_html_a06fc87d81c62e9abb8790b6e5713c55bab1c9cedef26940171a0e6b8ed198c336"><div class="ttname"><a href="tr-driver_8c.html#a06fc87d81c62e9abb8790b6e5713c55bab1c9cedef26940171a0e6b8ed198c336">TR_BFQ_SCHEDULER</a></div><div class="ttdef"><b>Definition:</b> tr-driver.c:49</div></div>
+<div class="ttc" id="tr-driver_8c_html_a06fc87d81c62e9abb8790b6e5713c55bab6248791674b601eaae8ebd280765ae9"><div class="ttname"><a href="tr-driver_8c.html#a06fc87d81c62e9abb8790b6e5713c55bab6248791674b601eaae8ebd280765ae9">TR_NONE_SCHEDULER</a></div><div class="ttdef"><b>Definition:</b> tr-driver.c:47</div></div>
+<div class="ttc" id="tr-driver_8c_html_a06fc87d81c62e9abb8790b6e5713c55ba71ab75386c3235b1d519b89e7f78d82f"><div class="ttname"><a href="tr-driver_8c.html#a06fc87d81c62e9abb8790b6e5713c55ba71ab75386c3235b1d519b89e7f78d82f">TR_KYBER_SCHEDULER</a></div><div class="ttdef"><b>Definition:</b> tr-driver.c:48</div></div>
 </div><!-- fragment -->
 <p>현재 tr-driver에서 지원하는 I/O 스케줄러가 들어가게 됩니다. </p>
 <dl class="section warning"><dt>Warning</dt><dd>kyber는 SCSI를 지원하지 않음을 유의해주시길 바랍니다. </dd></dl>
