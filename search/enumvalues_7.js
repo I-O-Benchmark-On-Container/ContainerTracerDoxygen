@@ -1,20 +1,11 @@
 var searchData=
 [
-  ['taskfile_5fcmd_5freq_5fin',['TASKFILE_CMD_REQ_IN',['../hdparm_8h.html#abed82baf7f470b522273a3e37c24c600a746f5c26d2c4e3d36b709ed4c36e8b48',1,'hdparm.h']]],
-  ['taskfile_5fcmd_5freq_5fnodata',['TASKFILE_CMD_REQ_NODATA',['../hdparm_8h.html#abed82baf7f470b522273a3e37c24c600a88aae8231a2dc1f7ad784f2c1a27a832',1,'hdparm.h']]],
-  ['taskfile_5fcmd_5freq_5fout',['TASKFILE_CMD_REQ_OUT',['../hdparm_8h.html#abed82baf7f470b522273a3e37c24c600afd273dd96dcaad4691d20934c0404cf4',1,'hdparm.h']]],
-  ['taskfile_5fxfer_5fmethod_5fnone',['TASKFILE_XFER_METHOD_NONE',['../hdparm_8h.html#abed82baf7f470b522273a3e37c24c600aa087182cd2ec93364f3850b754b78d23',1,'hdparm.h']]],
-  ['taskfile_5fxfer_5fmethod_5fpio_5fin',['TASKFILE_XFER_METHOD_PIO_IN',['../hdparm_8h.html#abed82baf7f470b522273a3e37c24c600ac77b06e697b7ad349267b54e0b2b0639',1,'hdparm.h']]],
-  ['taskfile_5fxfer_5fmethod_5fpio_5fout',['TASKFILE_XFER_METHOD_PIO_OUT',['../hdparm_8h.html#abed82baf7f470b522273a3e37c24c600ab7dfa03a19ef40537cb08cf3e6894339',1,'hdparm.h']]],
-  ['timeout',['TIMEOUT',['../trace__replay_8h.html#abc2aef723ba6a64b31d05487922b6712aad9dee005a3d0f9137b2ac1e0869f89b',1,'trace_replay.h']]],
-  ['tr_5fbfq_5fscheduler',['TR_BFQ_SCHEDULER',['../tr-driver_8c.html#a06fc87d81c62e9abb8790b6e5713c55bab1c9cedef26940171a0e6b8ed198c336',1,'tr-driver.c']]],
-  ['tr_5ferror_5fprint',['TR_ERROR_PRINT',['../tr-driver_8h.html#adc29c2ff13d900c2f185ee95427fb06ca3a936c7312be6a9492189d2be0c7534b',1,'tr-driver.h']]],
-  ['tr_5fipc_5ffree',['TR_IPC_FREE',['../tr-driver_8h.html#a99fb83031ce9923c84392b4e92f956b5ad48aec376f040b604bab56751e7d9f33',1,'tr-driver.h']]],
-  ['tr_5fipc_5fnot_5ffree',['TR_IPC_NOT_FREE',['../tr-driver_8h.html#a99fb83031ce9923c84392b4e92f956b5a5c51d2827f69750950fe6dbc8dec09ea',1,'tr-driver.h']]],
-  ['tr_5fkyber_5fscheduler',['TR_KYBER_SCHEDULER',['../tr-driver_8c.html#a06fc87d81c62e9abb8790b6e5713c55ba71ab75386c3235b1d519b89e7f78d82f',1,'tr-driver.c']]],
-  ['tr_5fnone_5fscheduler',['TR_NONE_SCHEDULER',['../tr-driver_8c.html#a06fc87d81c62e9abb8790b6e5713c55bab6248791674b601eaae8ebd280765ae9',1,'tr-driver.c']]],
-  ['tr_5fnot_5fsynth',['TR_NOT_SYNTH',['../tr-driver_8h.html#abc6126af1d45847bc59afa0aa3216b04ad68434fb676bdd189b0b1c42bc2daddd',1,'tr-driver.h']]],
-  ['tr_5fprint_5fnone',['TR_PRINT_NONE',['../tr-driver_8h.html#adc29c2ff13d900c2f185ee95427fb06ca0f67081c7def5a0933a2723e98d68a39',1,'tr-driver.h']]],
-  ['tr_5fsynth',['TR_SYNTH',['../tr-driver_8h.html#abc6126af1d45847bc59afa0aa3216b04ae033ee0583d43d9a835869b82434648a',1,'tr-driver.h']]],
-  ['trace_5freplay_5fdriver',['TRACE_REPLAY_DRIVER',['../generic_8h.html#a61dadd085c1777f559549e05962b2c9ea4dfb252de24e41ea37f87abad3e67dc5',1,'generic.h']]]
+  ['sg_5fcdb2_5fcheck_5fcond',['SG_CDB2_CHECK_COND',['../sgio_8c.html#a99fb83031ce9923c84392b4e92f956b5a2a0f9e542a2e0d83fcb386de4828bfdf',1,'sgio.c']]],
+  ['sg_5fcdb2_5ftdir_5ffrom_5fdev',['SG_CDB2_TDIR_FROM_DEV',['../sgio_8c.html#a99fb83031ce9923c84392b4e92f956b5a49f39a51c7d069c32d06a9dca84e2ecc',1,'sgio.c']]],
+  ['sg_5fcdb2_5ftdir_5fto_5fdev',['SG_CDB2_TDIR_TO_DEV',['../sgio_8c.html#a99fb83031ce9923c84392b4e92f956b5aa58533aaaa3b7a979cac3e6c12baec4b',1,'sgio.c']]],
+  ['sg_5fcdb2_5ftlen_5fbytes',['SG_CDB2_TLEN_BYTES',['../sgio_8c.html#a99fb83031ce9923c84392b4e92f956b5a20ff896eaab97fee5dbda219360d8fca',1,'sgio.c']]],
+  ['sg_5fcdb2_5ftlen_5ffeat',['SG_CDB2_TLEN_FEAT',['../sgio_8c.html#a99fb83031ce9923c84392b4e92f956b5aeb5bf4c12e5bb359f5bb75e0769a7fb9',1,'sgio.c']]],
+  ['sg_5fcdb2_5ftlen_5fnodata',['SG_CDB2_TLEN_NODATA',['../sgio_8c.html#a99fb83031ce9923c84392b4e92f956b5aee2a5a9cede603cfe0a57012df3016cc',1,'sgio.c']]],
+  ['sg_5fcdb2_5ftlen_5fnsect',['SG_CDB2_TLEN_NSECT',['../sgio_8c.html#a99fb83031ce9923c84392b4e92f956b5acb77765945c3ff92ba324d53c5fd4c65',1,'sgio.c']]],
+  ['sg_5fcdb2_5ftlen_5fsectors',['SG_CDB2_TLEN_SECTORS',['../sgio_8c.html#a99fb83031ce9923c84392b4e92f956b5aad259f1e7fe81fe9fa0ea1eecf62aab7',1,'sgio.c']]]
 ];

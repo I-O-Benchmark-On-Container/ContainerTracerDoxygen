@@ -1,5 +1,5 @@
 <map id="sig_handler" name="sig_handler">
-<area shape="rect" id="node2" href="$trace__replay_8c.html#a2451f983507a409c5993437ea434ba31" title="destroy" alt="" coords="203,56,273,83"/>
+<area shape="rect" id="node2" href="$trace__replay_8c.html#aeb462e006594a0e063467c2b5785f9e1" title="destroy" alt="" coords="203,56,273,83"/>
 <area shape="rect" id="node16" href="$trace__replay_8c.html#a141c36033ca1795608384cef9295bd80" title="allocate_aligned_buffer" alt="" coords="151,107,325,133"/>
 <area shape="rect" id="node3" href="$trace__replay_8c.html#a5412dea785e0f90791432433cb368f60" title="trace_set_eof" alt="" coords="373,5,484,32"/>
 <area shape="rect" id="node4" href="$disk__io_8c.html#ab3699cac2cb8e13c94fc36427987098f" title="disk_close" alt="" coords="383,56,474,83"/>
@@ -13,5 +13,5 @@
 <area shape="rect" id="node11" href="$sgio_8c.html#a910057c9de2d3e1d0b8152c9faf4b4a0" title="bad_sense" alt="" coords="992,119,1083,145"/>
 <area shape="rect" id="node13" href="$trace__replay_8c.html#a1dec6ba085ce91733e9c4c7e6088a598" title="timeval_subtract" alt="" coords="537,93,669,120"/>
 <area shape="rect" id="node14" href="$trace__replay_8c.html#a6dd47c8db93a93e6140315667f6b3654" title="time_since" alt="" coords="733,169,826,196"/>
-<area shape="rect" id="node15" href="$trace__replay_8c.html#a4979269a7c5de9a1f55f8c17229ff9b5" title="print_result" alt="" coords="555,195,651,221"/>
+<area shape="rect" id="node15" href="$trace__replay_8c.html#ac93d59e72fa058e1377d23771aa64322" title="print_result" alt="" coords="555,195,651,221"/>
 </map>

@@ -1,7 +1,7 @@
 var searchData=
 [
   ['unity',['Unity',['../unity__internals_8h.html#aad738f665f16eb2336b8bc33f432d0da',1,'Unity():&#160;unity.c'],['../unity_8c.html#aad738f665f16eb2336b8bc33f432d0da',1,'Unity():&#160;unity.c']]],
-  ['unityquickcompare',['UnityQuickCompare',['../unity_8c.html#a43b3ab1435207e4521ad373a974970bd',1,'unity.c']]],
+  ['unityquickcompare',['UnityQuickCompare',['../unity_8c.html#a0ebf2c88eead5f912d221963ec4b10ce',1,'unity.c']]],
   ['unitystrbreaker',['UnityStrBreaker',['../unity_8c.html#a999d8a3a84517a40029f28ebe969de13',1,'unity.c']]],
   ['unitystrbyte',['UnityStrByte',['../unity_8c.html#afeb3e70cb4e5953c3ac0fcdda9e568c0',1,'unity.c']]],
   ['unitystrdelta',['UnityStrDelta',['../unity_8c.html#ac96000a569c44907971476c81f56a8a9',1,'unity.c']]],
@@ -37,5 +37,5 @@ var searchData=
   ['unitystrresultstests',['UnityStrResultsTests',['../unity_8c.html#aeb348070c81eedc44fb84a2f1641bdca',1,'unity.c']]],
   ['unitystrspacer',['UnityStrSpacer',['../unity_8c.html#ab7560b92ebfd664732f2c63f097ef18c',1,'unity.c']]],
   ['unitystrwas',['UnityStrWas',['../unity_8c.html#a096476ac6f7b4cba31bdec9868166908',1,'unity.c']]],
-  ['utilization',['utilization',['../structtr__info.html#aa35098ca45476c7781e70b62d36558b0',1,'tr_info::utilization()'],['../structtrace__info__t.html#afc9cdec451cdf45e9c47e8ea777be832',1,'trace_info_t::utilization()'],['../structsynthetic.html#a0ee5dde0ab08ca64a371e98c0b63ee0f',1,'synthetic::utilization()']]]
+  ['utilization',['utilization',['../structdocker__info.html#a7c5f98f43312a3a448873747fe8f288d',1,'docker_info::utilization()'],['../structtr__info.html#aa35098ca45476c7781e70b62d36558b0',1,'tr_info::utilization()'],['../structtrace__info__t.html#afc9cdec451cdf45e9c47e8ea777be832',1,'trace_info_t::utilization()'],['../structsynthetic.html#a0ee5dde0ab08ca64a371e98c0b63ee0f',1,'synthetic::utilization()']]]
 ];

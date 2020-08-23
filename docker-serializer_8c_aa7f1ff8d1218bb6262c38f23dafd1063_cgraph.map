@@ -1,0 +1,6 @@
+<map id="docker_total_result_serializer" name="docker_total_result_serializer">
+<area shape="rect" id="node2" href="$docker-serializer_8c.html#a01005ce8bca2c2d93d9ff4d81642234e" title="total_results 구조체 per_trace 멤버의 내용을 json_object로 만들어주도록 합니다. " alt="" coords="218,5,389,47"/>
+<area shape="rect" id="node5" href="$docker-serializer_8c.html#ab6218e1a2346447d6b9404f99f7536a4" title="total_results 구조체의 aggr_results 내용을 json_object로 만들어주도록 합니다. " alt="" coords="200,71,407,98"/>
+<area shape="rect" id="node3" href="$docker-serializer_8c.html#a8c5b2742d51400f171dceb3d3b6d397d" title="synthetic 구조체의 내용을 json_object로 만들어주도록 합니다. " alt="" coords="455,13,655,39"/>
+<area shape="rect" id="node4" href="$docker-serializer_8c.html#a5f0e5f887d5cebf221dca37c1cc09bb6" title="trace_stat 구조체의 내용을 json_object로 만들어주도록 합니다. " alt="" coords="469,67,641,94"/>
+</map>

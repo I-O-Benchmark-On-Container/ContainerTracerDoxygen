@@ -1,0 +1,4 @@
+<map id="__docker_free" name="__docker_free">
+<area shape="rect" id="node2" href="$docker-shm_8c.html#ade612a62cc26c30f18fc56630eeb168c" title="Shared Memory의 할당된 내용을 해제하도록 합니다. " alt="" coords="167,5,301,32"/>
+<area shape="rect" id="node3" href="$docker-mq_8c.html#a73b34b2055ff3f635601800f88f523d8" title="Message Queue의 할당된 내용을 해제하도록 합니다. " alt="" coords="171,56,297,83"/>
+</map>

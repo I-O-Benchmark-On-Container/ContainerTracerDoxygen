@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['local_5fhd_5fbig_5fgeometry',['local_hd_big_geometry',['../structlocal__hd__big__geometry.html',1,'']]]
+  ['io_5fjob',['io_job',['../structio__job.html',1,'']]],
+  ['io_5fstat_5ft',['io_stat_t',['../structio__stat__t.html',1,'']]]
 ];

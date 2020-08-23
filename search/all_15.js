@@ -328,7 +328,7 @@ var searchData=
   ['unityprintnumberhex',['UnityPrintNumberHex',['../unity__internals_8h.html#ab5636c2c3e2d5ff0d89461e2323aa469',1,'UnityPrintNumberHex(const UNITY_UINT number, const char nibbles_to_print):&#160;unity.c'],['../unity_8c.html#ab5636c2c3e2d5ff0d89461e2323aa469',1,'UnityPrintNumberHex(const UNITY_UINT number, const char nibbles_to_print):&#160;unity.c']]],
   ['unityprintnumberunsigned',['UnityPrintNumberUnsigned',['../unity__internals_8h.html#a3ef388786e9a8e769d13af2601b592dc',1,'UnityPrintNumberUnsigned(const UNITY_UINT number):&#160;unity.c'],['../unity_8c.html#a3ef388786e9a8e769d13af2601b592dc',1,'UnityPrintNumberUnsigned(const UNITY_UINT number):&#160;unity.c']]],
   ['unityprintpointlessandbail',['UnityPrintPointlessAndBail',['../unity_8c.html#a3ace6280351b3aa4aa6cfca244ac5193',1,'unity.c']]],
-  ['unityquickcompare',['UnityQuickCompare',['../unity_8c.html#a43b3ab1435207e4521ad373a974970bd',1,'unity.c']]],
+  ['unityquickcompare',['UnityQuickCompare',['../unity_8c.html#a0ebf2c88eead5f912d221963ec4b10ce',1,'unity.c']]],
   ['unitysettestfile',['UnitySetTestFile',['../unity__internals_8h.html#afefd1b90b9854b428fef009e12489282',1,'UnitySetTestFile(const char *filename):&#160;unity.c'],['../unity_8c.html#afefd1b90b9854b428fef009e12489282',1,'UnitySetTestFile(const char *filename):&#160;unity.c']]],
   ['unitystrbreaker',['UnityStrBreaker',['../unity_8c.html#a999d8a3a84517a40029f28ebe969de13',1,'unity.c']]],
   ['unitystrbyte',['UnityStrByte',['../unity_8c.html#afeb3e70cb4e5953c3ac0fcdda9e568c0',1,'unity.c']]],
@@ -373,5 +373,5 @@ var searchData=
   ['usage_5ferror',['usage_error',['../hdparm_8h.html#aa49d4c90c334c7d91edec92e110d53f8',1,'hdparm.h']]],
   ['usage_5fhelp',['usage_help',['../trace__replay_8c.html#af1a5368922439cb186899b545fd1965e',1,'trace_replay.c']]],
   ['use_5fmainworker',['USE_MAINWORKER',['../trace__replay_8h.html#ade97244016884e3193f697a5617a8198',1,'trace_replay.h']]],
-  ['utilization',['utilization',['../structtr__info.html#aa35098ca45476c7781e70b62d36558b0',1,'tr_info::utilization()'],['../structtrace__info__t.html#afc9cdec451cdf45e9c47e8ea777be832',1,'trace_info_t::utilization()'],['../structsynthetic.html#a0ee5dde0ab08ca64a371e98c0b63ee0f',1,'synthetic::utilization()']]]
+  ['utilization',['utilization',['../structdocker__info.html#a7c5f98f43312a3a448873747fe8f288d',1,'docker_info::utilization()'],['../structtr__info.html#aa35098ca45476c7781e70b62d36558b0',1,'tr_info::utilization()'],['../structtrace__info__t.html#afc9cdec451cdf45e9c47e8ea777be832',1,'trace_info_t::utilization()'],['../structsynthetic.html#a0ee5dde0ab08ca64a371e98c0b63ee0f',1,'synthetic::utilization()']]]
 ];

@@ -6,7 +6,7 @@
 <area shape="rect" id="node9" href="$trace__replay_8c.html#a141c36033ca1795608384cef9295bd80" title="allocate_aligned_buffer" alt="" coords="441,556,616,583"/>
 <area shape="rect" id="node10" href="$trace__replay_8c.html#acf928dd6a7d5db451c8dbccf9c711575" title="sub_worker" alt="" coords="113,335,210,361"/>
 <area shape="rect" id="node23" href="$trace__replay_8c.html#a83e1379f5adf4452f72fcc0be266a7b5" title="sig_handler" alt="" coords="113,563,210,589"/>
-<area shape="rect" id="node24" href="$trace__replay_8c.html#a2451f983507a409c5993437ea434ba31" title="destroy" alt="" coords="293,664,363,691"/>
+<area shape="rect" id="node24" href="$trace__replay_8c.html#aeb462e006594a0e063467c2b5785f9e1" title="destroy" alt="" coords="293,664,363,691"/>
 <area shape="rect" id="node37" href="$trace__replay_8c.html#a152c72bb1bcbe338e59d35544c2d3a8e" title="main_worker" alt="" coords="108,613,215,640"/>
 <area shape="rect" id="node5" href="$trace__replay_8c.html#ac2fdbbb974bba515fef04e420f283b48" title="synthetic_mix" alt="" coords="855,125,969,152"/>
 <area shape="rect" id="node6" href="$trace__replay_8c.html#a7562e84310393a10fd640917ddecf2e6" title="sgenrand" alt="" coords="1017,125,1100,152"/>
@@ -34,5 +34,5 @@
 <area shape="rect" id="node32" href="$sgio_8c.html#abf85d2d35aba6ff3471de954f8ad90f9" title="dump_bytes" alt="" coords="1287,765,1389,792"/>
 <area shape="rect" id="node33" href="$sgio_8c.html#a910057c9de2d3e1d0b8152c9faf4b4a0" title="bad_sense" alt="" coords="1148,740,1239,767"/>
 <area shape="rect" id="node35" href="$trace__replay_8c.html#a1dec6ba085ce91733e9c4c7e6088a598" title="timeval_subtract" alt="" coords="669,715,801,741"/>
-<area shape="rect" id="node36" href="$trace__replay_8c.html#a4979269a7c5de9a1f55f8c17229ff9b5" title="print_result" alt="" coords="687,613,783,640"/>
+<area shape="rect" id="node36" href="$trace__replay_8c.html#ac93d59e72fa058e1377d23771aa64322" title="print_result" alt="" coords="687,613,783,640"/>
 </map>

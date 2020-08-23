@@ -18,7 +18,7 @@ var searchData=
   ['io_5fstat_5ft',['io_stat_t',['../structio__stat__t.html',1,'']]],
   ['iocb',['iocb',['../structio__job.html#a2a4b0f4da58ecd107bac9eed36ee2e4a',1,'io_job']]],
   ['iops',['iops',['../structtrace__stat.html#ae11f4ac4f7b294c211e8ff25573e73e5',1,'trace_stat']]],
-  ['iosize',['iosize',['../structtr__info.html#acb61c1e38e7a3a17df8d8f721de94f47',1,'tr_info']]],
+  ['iosize',['iosize',['../structdocker__info.html#add62620ff5c85b415fa13ddd6c5c2a64',1,'docker_info::iosize()'],['../structtr__info.html#acb61c1e38e7a3a17df8d8f721de94f47',1,'tr_info::iosize()']]],
   ['is_5flba48',['is_lba48',['../structata__tf.html#addcd6784e2a8ae5d6196866b03793dba',1,'ata_tf']]],
   ['isinf',['isinf',['../unity__internals_8h.html#a851063e6624621d373e8f4da8973d27b',1,'unity_internals.h']]],
   ['isnan',['isnan',['../unity__internals_8h.html#a57f9c20a91520ba43d7942d03bb7a314',1,'unity_internals.h']]],

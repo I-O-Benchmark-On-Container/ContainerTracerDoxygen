@@ -11,7 +11,7 @@ var searchData=
   ['io_5fstat',['io_stat',['../structthread__info__t.html#a88675ed7c09210d36683f415bf4587c8',1,'thread_info_t']]],
   ['iocb',['iocb',['../structio__job.html#a2a4b0f4da58ecd107bac9eed36ee2e4a',1,'io_job']]],
   ['iops',['iops',['../structtrace__stat.html#ae11f4ac4f7b294c211e8ff25573e73e5',1,'trace_stat']]],
-  ['iosize',['iosize',['../structtr__info.html#acb61c1e38e7a3a17df8d8f721de94f47',1,'tr_info']]],
+  ['iosize',['iosize',['../structdocker__info.html#add62620ff5c85b415fa13ddd6c5c2a64',1,'docker_info::iosize()'],['../structtr__info.html#acb61c1e38e7a3a17df8d8f721de94f47',1,'tr_info::iosize()']]],
   ['is_5flba48',['is_lba48',['../structata__tf.html#addcd6784e2a8ae5d6196866b03793dba',1,'ata_tf']]],
   ['issynthetic',['issynthetic',['../structtrace__result.html#a7b2410130e6537afec583b46a5812d02',1,'trace_result']]]
 ];
