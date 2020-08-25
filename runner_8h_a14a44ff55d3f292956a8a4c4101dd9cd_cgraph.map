@@ -1,6 +1,6 @@
 <map id="runner_init" name="runner_init">
-<area shape="rect" id="node2" href="$generic_8h.html#a5469117f34e2c2ef5e1597c3ac16a0ea" title="json의 문자열 값을 받는 경우에는 &quot; 값이 있을 수 있습니다. 따라서, 그 값을 전부 없애주는 데 사용합니다..." alt="" coords="145,5,296,32"/>
-<area shape="rect" id="node3" href="$generic_8c.html#a3f7c2be1a7f75ab1093b82ee1f464164" title="name에 해당하는 driver에 대해서 초기화를 실시해주도록 합니다. " alt="" coords="149,56,292,83"/>
-<area shape="rect" id="node5" href="$runner_8c.html#a1e7af22661c6f245d852fb1c76d0adea" title="global_runner가 가진 멤버 중 동적할당이 되어 있는 데이터를 반환합니다. " alt="" coords="149,107,292,133"/>
-<area shape="rect" id="node4" href="$generic_8c.html#abbe9539d5de3ad11f3ad3bc088b27d10" title="임의의 이름에 적합한 driver의 index를 반환해주도록 합니다. " alt="" coords="344,49,487,90"/>
+<area shape="rect" id="node2" href="$generic_8h.html#a5469117f34e2c2ef5e1597c3ac16a0ea" title="Remove the word &lt;ch&gt; in string. " alt="" coords="145,5,296,32"/>
+<area shape="rect" id="node3" href="$generic_8c.html#a3f7c2be1a7f75ab1093b82ee1f464164" title="This is a generic initialization function that performs initialization of driver corresponding to the..." alt="" coords="149,56,292,83"/>
+<area shape="rect" id="node5" href="$runner_8c.html#a1e7af22661c6f245d852fb1c76d0adea" title="Deallocate the global_runner&#39;s contents. " alt="" coords="149,107,292,133"/>
+<area shape="rect" id="node4" href="$generic_8c.html#abbe9539d5de3ad11f3ad3bc088b27d10" title="Get the index of the name based on an associated table. " alt="" coords="344,49,487,90"/>
 </map>

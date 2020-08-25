@@ -1,11 +1,11 @@
 <map id="docker_total_serializer" name="docker_total_serializer">
-<area shape="rect" id="node2" href="$docker-serializer_8c.html#a918c0bd6357448f29c9840981bca534d" title="docker_info 구조체의 내용을 json_object로 만들어주도록 합니다. " alt="" coords="224,5,389,32"/>
-<area shape="rect" id="node3" href="$docker-serializer_8c.html#a6498e99e07fad20ddc2d9d44f9b5ea7b" title="total_results 구조체 내용을 json_object로 만들어주도록 합니다. " alt="" coords="229,57,384,98"/>
-<area shape="rect" id="node4" href="$docker-serializer_8c.html#a74edd389f0149510f3ead2ab42c8030b" title="total_results 구조체 config 멤버의 내용을 json_object로 만들어주도록 합니다. " alt="" coords="437,23,587,65"/>
-<area shape="rect" id="node6" href="$docker-serializer_8c.html#aa7f1ff8d1218bb6262c38f23dafd1063" title="total_results 구조체 내용 중 per_trace랑 aggr_results를 json_object로 만들어주도록 합니다..." alt="" coords="439,89,585,130"/>
-<area shape="rect" id="node5" href="$docker-serializer_8c.html#aa96092b79f670518ce65ae741a384a5a" title="trace 구조체의 내용을 json_object로 만들어주도록 합니다. " alt="" coords="667,23,809,65"/>
-<area shape="rect" id="node7" href="$docker-serializer_8c.html#a01005ce8bca2c2d93d9ff4d81642234e" title="total_results 구조체 per_trace 멤버의 내용을 json_object로 만들어주도록 합니다. " alt="" coords="653,89,823,130"/>
-<area shape="rect" id="node10" href="$docker-serializer_8c.html#ab6218e1a2346447d6b9404f99f7536a4" title="total_results 구조체의 aggr_results 내용을 json_object로 만들어주도록 합니다. " alt="" coords="635,155,841,181"/>
-<area shape="rect" id="node8" href="$docker-serializer_8c.html#a8c5b2742d51400f171dceb3d3b6d397d" title="synthetic 구조체의 내용을 json_object로 만들어주도록 합니다. " alt="" coords="889,96,1089,123"/>
-<area shape="rect" id="node9" href="$docker-serializer_8c.html#a5f0e5f887d5cebf221dca37c1cc09bb6" title="trace_stat 구조체의 내용을 json_object로 만들어주도록 합니다. " alt="" coords="903,151,1075,177"/>
+<area shape="rect" id="node2" href="$docker-serializer_8c.html#a918c0bd6357448f29c9840981bca534d" title="To make a docker_info structure to json_object. " alt="" coords="224,5,389,32"/>
+<area shape="rect" id="node3" href="$docker-serializer_8c.html#a6498e99e07fad20ddc2d9d44f9b5ea7b" title="to make a total_results structure&#39;s all member to json_object. " alt="" coords="229,57,384,98"/>
+<area shape="rect" id="node4" href="$docker-serializer_8c.html#a74edd389f0149510f3ead2ab42c8030b" title="To make a total_results structure&#39;s config member to json_object. " alt="" coords="437,23,587,65"/>
+<area shape="rect" id="node6" href="$docker-serializer_8c.html#aa7f1ff8d1218bb6262c38f23dafd1063" title="to make a total_results structure&#39;s per_trace and aggr_result member to json_object. " alt="" coords="439,89,585,130"/>
+<area shape="rect" id="node5" href="$docker-serializer_8c.html#aa96092b79f670518ce65ae741a384a5a" title="To make a trace structure to json_object. " alt="" coords="667,23,809,65"/>
+<area shape="rect" id="node7" href="$docker-serializer_8c.html#a01005ce8bca2c2d93d9ff4d81642234e" title="To make a total_results structure&#39;s per_trace member to json_object. " alt="" coords="653,89,823,130"/>
+<area shape="rect" id="node10" href="$docker-serializer_8c.html#ab6218e1a2346447d6b9404f99f7536a4" title="To make a aggr_result structure&#39;s per_trace member to json_object. " alt="" coords="635,155,841,181"/>
+<area shape="rect" id="node8" href="$docker-serializer_8c.html#a8c5b2742d51400f171dceb3d3b6d397d" title="To make a synthetic structure to json_object. " alt="" coords="889,96,1089,123"/>
+<area shape="rect" id="node9" href="$docker-serializer_8c.html#a5f0e5f887d5cebf221dca37c1cc09bb6" title="To make a trace_stat structure to json_object. " alt="" coords="903,151,1075,177"/>
 </map>

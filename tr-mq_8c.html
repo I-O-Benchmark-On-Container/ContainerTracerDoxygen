@@ -70,7 +70,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>Message Queue를 생성 및 사용하는 방식이 구현되어 있습니다.  
+<p>This has the contents of creating and using Message Queue.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;assert.h&gt;</code><br />
 <code>#include &lt;stdio.h&gt;</code><br />
@@ -89,30 +89,30 @@ Include dependency graph for tr-mq.c:</div>
 <div class="center"><img src="tr-mq_8c__incl.png" border="0" usemap="#runner_2driver_2tr-driver_2tr-mq_8c" alt=""/></div>
 <map name="runner_2driver_2tr-driver_2tr-mq_8c" id="runner_2driver_2tr-driver_2tr-mq_8c">
 <area shape="rect" id="node10" href="trace__replay_8h.html" title="trace_replay.h" alt="" coords="246,169,359,196"/>
-<area shape="rect" id="node13" href="log_8h.html" title="로그 출력 양식에 해당합니다. " alt="" coords="891,244,946,271"/>
-<area shape="rect" id="node16" href="tr-driver_8h.html" title="trace&#45;replay를 동작시키는 driver의 선언부에 해당합니다. " alt="" coords="622,95,749,121"/>
+<area shape="rect" id="node13" href="log_8h.html" title="Format of log printing. " alt="" coords="891,244,946,271"/>
+<area shape="rect" id="node16" href="tr-driver_8h.html" title="driver declaration part of run trace&#45;replay " alt="" coords="622,95,749,121"/>
 <area shape="rect" id="node12" href="flist_8h.html" title="flist.h" alt="" coords="205,244,264,271"/>
-<area shape="rect" id="node19" href="generic_8h.html" title="driver의 매핑 정보 및 runner를 총괄하는 헤더입니다. 관련 정의 내용은 runner/generic.c에 존재합니다. " alt="" coords="621,169,704,196"/>
+<area shape="rect" id="node19" href="generic_8h.html" title="This header maintain the driver&#39;s mapping information. It&#39;s definition in runner/generic.c. " alt="" coords="621,169,704,196"/>
 </map>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a9305a8aefb9d327f3d82659f4e9d75ae"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tr-mq_8c.html#a9305a8aefb9d327f3d82659f4e9d75ae">__tr_mq_init</a> (const pid_t pid)</td></tr>
-<tr class="memdesc:a9305a8aefb9d327f3d82659f4e9d75ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Message Queue를 초기화하는 함수입니다.  <a href="#a9305a8aefb9d327f3d82659f4e9d75ae">More...</a><br /></td></tr>
+<tr class="memdesc:a9305a8aefb9d327f3d82659f4e9d75ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the Message Queue.  <a href="#a9305a8aefb9d327f3d82659f4e9d75ae">More...</a><br /></td></tr>
 <tr class="separator:a9305a8aefb9d327f3d82659f4e9d75ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae58ca965390727368c08b85f0f65ef9e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tr-mq_8c.html#ae58ca965390727368c08b85f0f65ef9e">tr_mq_init</a> (struct <a class="el" href="structtr__info.html">tr_info</a> *info)</td></tr>
-<tr class="memdesc:ae58ca965390727368c08b85f0f65ef9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Message Queue와 관련된 설정에 대해서 초기화를 진행하도록 합니다.  <a href="#ae58ca965390727368c08b85f0f65ef9e">More...</a><br /></td></tr>
+<tr class="memdesc:ae58ca965390727368c08b85f0f65ef9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wrapping function of <code><a class="el" href="tr-mq_8c.html#a9305a8aefb9d327f3d82659f4e9d75ae" title="Initialize the Message Queue. ">__tr_mq_init()</a></code>  <a href="#ae58ca965390727368c08b85f0f65ef9e">More...</a><br /></td></tr>
 <tr class="separator:ae58ca965390727368c08b85f0f65ef9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92cd5e06e8481bd5d9a9ed50caefb641"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tr-mq_8c.html#a92cd5e06e8481bd5d9a9ed50caefb641">tr_mq_get</a> (const struct <a class="el" href="structtr__info.html">tr_info</a> *info, void *buffer)</td></tr>
-<tr class="memdesc:a92cd5e06e8481bd5d9a9ed50caefb641"><td class="mdescLeft">&#160;</td><td class="mdescRight">Message Queue로 부터 데이터를 가져오는 함수입니다.  <a href="#a92cd5e06e8481bd5d9a9ed50caefb641">More...</a><br /></td></tr>
+<tr class="memdesc:a92cd5e06e8481bd5d9a9ed50caefb641"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the data from Message Queue.  <a href="#a92cd5e06e8481bd5d9a9ed50caefb641">More...</a><br /></td></tr>
 <tr class="separator:a92cd5e06e8481bd5d9a9ed50caefb641"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a887329682aa74618a8e5e151ae55bab1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tr-mq_8c.html#a887329682aa74618a8e5e151ae55bab1">tr_mq_free</a> (struct <a class="el" href="structtr__info.html">tr_info</a> *info, int flags)</td></tr>
-<tr class="memdesc:a887329682aa74618a8e5e151ae55bab1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Message Queue의 할당된 내용을 해제하도록 합니다.  <a href="#a887329682aa74618a8e5e151ae55bab1">More...</a><br /></td></tr>
+<tr class="memdesc:a887329682aa74618a8e5e151ae55bab1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deallocate the Message Queue resources.  <a href="#a887329682aa74618a8e5e151ae55bab1">More...</a><br /></td></tr>
 <tr class="separator:a887329682aa74618a8e5e151ae55bab1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Message Queue를 생성 및 사용하는 방식이 구현되어 있습니다. </p>
+<div class="textblock"><p>This has the contents of creating and using Message Queue. </p>
 <dl class="section copyright"><dt>Copyright</dt><dd>"Container Tracer" which executes the container performance mesurements Copyright (C) 2020 BlaCkinkGJ</dd></dl>
 <p>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.</p>
 <p>This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.</p>
@@ -145,14 +145,14 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Message Queue를 초기화하는 함수입니다. </p>
+<p>Initialize the Message Queue. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">pid</td><td>이 메시지 큐를 사용하는 Process의 ID입니다.</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">pid</td><td>Process' ID of using this Message Queue.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>성공적으로 종료된 경우에는 메시지 큐의 ID가 반환되고, 그렇지 않은 경우에는 음수 값이 반환됩니다. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Message ID for success to init, negative value for fail to init. </dd></dl>
 
 </div>
 </div>
@@ -182,11 +182,11 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Message Queue의 할당된 내용을 해제하도록 합니다. </p>
+<p>Deallocate the Message Queue resources. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">info</td><td>할당 해제를 진행할 tr_info에 해당합니다. </td></tr>
-    <tr><td class="paramname">flags</td><td>해제의 정도를 설정하는 flag에 해당합니다. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">info</td><td><code><a class="el" href="structtr__info.html" title="This structure has the major information of the each process. ">tr_info</a></code> structure which wants to deallocate. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">flags</td><td>Set a range of deallocation. </td></tr>
   </table>
   </dd>
 </dl>
@@ -219,15 +219,15 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Message Queue로 부터 데이터를 가져오는 함수입니다. </p>
+<p>Retrieve the data from Message Queue. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">info</td><td>데이터를 가져와야 하는 곳을 가리키는 정보를 가진 구조체의 포인터에 해당합니다. </td></tr>
-    <tr><td class="paramname">buffer</td><td>데이터가 실제 저장되는 버퍼를 가리킵니다.</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">info</td><td><code><a class="el" href="structtr__info.html" title="This structure has the major information of the each process. ">tr_info</a></code> structure which wants to get data. </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">buffer</td><td>Destination of data will be stored</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>정상 종료가 된 경우에는 0, 그렇지 않은 경우에는 음수 값이 반환됩니다. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>0 for success to init, negative value for fail to init. </dd></dl>
 
 </div>
 </div>
@@ -247,20 +247,20 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Message Queue와 관련된 설정에 대해서 초기화를 진행하도록 합니다. </p>
+<p>Wrapping function of <code><a class="el" href="tr-mq_8c.html#a9305a8aefb9d327f3d82659f4e9d75ae" title="Initialize the Message Queue. ">__tr_mq_init()</a></code> </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">info</td><td>초기화를 진행하고자 하는 대상을 가리키는 구조체의 포인터입니다.</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">info</td><td><code><a class="el" href="structtr__info.html" title="This structure has the major information of the each process. ">tr_info</a></code> structure which wants to init.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>정상 종료가 된 경우에는 0이 반환되고, 그렇지 않은 경우에는 음수 값이 반환됩니다. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>0 for success to init, negative value for fail to init. </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="tr-mq_8c_ae58ca965390727368c08b85f0f65ef9e_cgraph.png" border="0" usemap="#tr-mq_8c_ae58ca965390727368c08b85f0f65ef9e_cgraph" alt=""/></div>
 <map name="tr-mq_8c_ae58ca965390727368c08b85f0f65ef9e_cgraph" id="tr-mq_8c_ae58ca965390727368c08b85f0f65ef9e_cgraph">
-<area shape="rect" id="node2" href="tr-mq_8c.html#a9305a8aefb9d327f3d82659f4e9d75ae" title="Message Queue를 초기화하는 함수입니다. " alt="" coords="141,5,244,32"/>
+<area shape="rect" id="node2" href="tr-mq_8c.html#a9305a8aefb9d327f3d82659f4e9d75ae" title="Initialize the Message Queue. " alt="" coords="141,5,244,32"/>
 </map>
 </div>
 

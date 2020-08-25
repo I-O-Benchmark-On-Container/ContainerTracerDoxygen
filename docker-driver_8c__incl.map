@@ -1,9 +1,8 @@
 <map id="runner/driver/docker&#45;driver/docker&#45;driver.c" name="runner/driver/docker&#45;driver/docker&#45;driver.c">
-<area shape="rect" id="node14" href="$generic_8h.html" title="driver의 매핑 정보 및 runner를 총괄하는 헤더입니다. 관련 정의 내용은 runner/generic.c에 존재합니다. " alt="" coords="583,169,666,196"/>
-<area shape="rect" id="node17" href="$log_8h.html" title="로그 출력 양식에 해당합니다. " alt="" coords="464,244,519,271"/>
-<area shape="rect" id="node20" href="$runner_8h.html" title="runner에 대한 선언적 내용이 들어가게 됩니다. " alt="" coords="907,95,982,121"/>
-<area shape="rect" id="node22" href="$docker-driver_8h.html" title="docker와 함께 trace&#45;replay를 동작시키는 driver의 선언부에 해당합니다. " alt="" coords="671,95,832,121"/>
-<area shape="rect" id="node23" href="$trace__replay_8h.html" title="trace_replay.h" alt="" coords="296,169,409,196"/>
-<area shape="rect" id="node26" href="$sync_8h.html" title="파이프를 활용한 동기화 도구입니다. " alt="" coords="55,169,119,196"/>
-<area shape="rect" id="node25" href="$flist_8h.html" title="flist.h" alt="" coords="183,244,242,271"/>
+<area shape="rect" id="node13" href="$generic_8h.html" title="This header maintain the driver&#39;s mapping information. It&#39;s definition in runner/generic.c. " alt="" coords="794,169,877,196"/>
+<area shape="rect" id="node16" href="$log_8h.html" title="Format of log printing. " alt="" coords="556,244,611,271"/>
+<area shape="rect" id="node19" href="$runner_8h.html" title="Declaration information of runnner " alt="" coords="1119,95,1194,121"/>
+<area shape="rect" id="node21" href="$docker-driver_8h.html" title="driver declaration part of run docker with trace&#45;replay " alt="" coords="933,95,1095,121"/>
+<area shape="rect" id="node22" href="$trace__replay_8h.html" title="trace_replay.h" alt="" coords="1267,169,1380,196"/>
+<area shape="rect" id="node24" href="$flist_8h.html" title="flist.h" alt="" coords="1307,244,1366,271"/>
 </map>

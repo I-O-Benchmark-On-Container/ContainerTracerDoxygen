@@ -1,4 +1,4 @@
 <map id="tr_do_exec" name="tr_do_exec">
-<area shape="rect" id="node2" href="$runner_8c.html#a1e7af22661c6f245d852fb1c76d0adea" title="global_runner가 가진 멤버 중 동적할당이 되어 있는 데이터를 반환합니다. " alt="" coords="147,5,289,32"/>
-<area shape="rect" id="node3" href="$sync_8h.html#a734bdafd21577451dd2bbce8c7871aa5" title="부모에게 완료되었다는 메시지를 수신합니다. " alt="" coords="161,56,275,83"/>
+<area shape="rect" id="node2" href="$runner_8c.html#a1e7af22661c6f245d852fb1c76d0adea" title="Deallocate the global_runner&#39;s contents. " alt="" coords="147,5,289,32"/>
+<area shape="rect" id="node3" href="$sync_8h.html#a734bdafd21577451dd2bbce8c7871aa5" title="Receive from parent&#39;s call. " alt="" coords="161,56,275,83"/>
 </map>

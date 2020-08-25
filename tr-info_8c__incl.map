@@ -1,7 +1,7 @@
 <map id="runner/driver/tr&#45;driver/tr&#45;info.c" name="runner/driver/tr&#45;driver/tr&#45;info.c">
-<area shape="rect" id="node8" href="$tr-driver_8h.html" title="trace&#45;replay를 동작시키는 driver의 선언부에 해당합니다. " alt="" coords="214,95,341,121"/>
-<area shape="rect" id="node12" href="$generic_8h.html" title="driver의 매핑 정보 및 runner를 총괄하는 헤더입니다. 관련 정의 내용은 runner/generic.c에 존재합니다. " alt="" coords="241,169,324,196"/>
+<area shape="rect" id="node8" href="$tr-driver_8h.html" title="driver declaration part of run trace&#45;replay " alt="" coords="214,95,341,121"/>
+<area shape="rect" id="node12" href="$generic_8h.html" title="This header maintain the driver&#39;s mapping information. It&#39;s definition in runner/generic.c. " alt="" coords="241,169,324,196"/>
 <area shape="rect" id="node18" href="$trace__replay_8h.html" title="trace_replay.h" alt="" coords="726,169,839,196"/>
-<area shape="rect" id="node15" href="$log_8h.html" title="로그 출력 양식에 해당합니다. " alt="" coords="81,244,135,271"/>
+<area shape="rect" id="node15" href="$log_8h.html" title="Format of log printing. " alt="" coords="81,244,135,271"/>
 <area shape="rect" id="node20" href="$flist_8h.html" title="flist.h" alt="" coords="712,244,771,271"/>
 </map>

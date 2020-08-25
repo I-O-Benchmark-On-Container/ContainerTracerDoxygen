@@ -70,7 +70,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>Shared Memory를 생성 및 사용하는 방식이 구현되어 있습니다.  
+<p>This has the contents of creating and using Shared Memory.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;assert.h&gt;</code><br />
 <code>#include &lt;stdio.h&gt;</code><br />
@@ -90,39 +90,39 @@ Include dependency graph for tr-shm.c:</div>
 <div class="center"><img src="tr-shm_8c__incl.png" border="0" usemap="#runner_2driver_2tr-driver_2tr-shm_8c" alt=""/></div>
 <map name="runner_2driver_2tr-driver_2tr-shm_8c" id="runner_2driver_2tr-driver_2tr-shm_8c">
 <area shape="rect" id="node11" href="trace__replay_8h.html" title="trace_replay.h" alt="" coords="246,169,359,196"/>
-<area shape="rect" id="node14" href="log_8h.html" title="로그 출력 양식에 해당합니다. " alt="" coords="891,244,946,271"/>
-<area shape="rect" id="node17" href="tr-driver_8h.html" title="trace&#45;replay를 동작시키는 driver의 선언부에 해당합니다. " alt="" coords="635,95,762,121"/>
+<area shape="rect" id="node14" href="log_8h.html" title="Format of log printing. " alt="" coords="891,244,946,271"/>
+<area shape="rect" id="node17" href="tr-driver_8h.html" title="driver declaration part of run trace&#45;replay " alt="" coords="635,95,762,121"/>
 <area shape="rect" id="node13" href="flist_8h.html" title="flist.h" alt="" coords="205,244,264,271"/>
-<area shape="rect" id="node20" href="generic_8h.html" title="driver의 매핑 정보 및 runner를 총괄하는 헤더입니다. 관련 정의 내용은 runner/generic.c에 존재합니다. " alt="" coords="619,169,701,196"/>
+<area shape="rect" id="node20" href="generic_8h.html" title="This header maintain the driver&#39;s mapping information. It&#39;s definition in runner/generic.c. " alt="" coords="619,169,701,196"/>
 </map>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:af14bffffa6087c3c3ec21f78f6680d1c"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tr-shm_8c.html#af14bffffa6087c3c3ec21f78f6680d1c">__tr_sem_init</a> (const pid_t pid)</td></tr>
-<tr class="memdesc:af14bffffa6087c3c3ec21f78f6680d1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">세마포어만을 초기화하는 함수입니다.  <a href="#af14bffffa6087c3c3ec21f78f6680d1c">More...</a><br /></td></tr>
+<tr class="memdesc:af14bffffa6087c3c3ec21f78f6680d1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the Semaphore.  <a href="#af14bffffa6087c3c3ec21f78f6680d1c">More...</a><br /></td></tr>
 <tr class="separator:af14bffffa6087c3c3ec21f78f6680d1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af6139d06f530f523285806d3a32e5e9f"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tr-shm_8c.html#af6139d06f530f523285806d3a32e5e9f">__tr_shm_init</a> (const pid_t pid)</td></tr>
-<tr class="memdesc:af6139d06f530f523285806d3a32e5e9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shared Memory만을 초기화하는 함수입니다.  <a href="#af6139d06f530f523285806d3a32e5e9f">More...</a><br /></td></tr>
+<tr class="memdesc:af6139d06f530f523285806d3a32e5e9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the Shared Memory.  <a href="#af6139d06f530f523285806d3a32e5e9f">More...</a><br /></td></tr>
 <tr class="separator:af6139d06f530f523285806d3a32e5e9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a85e03cb5c6fc2a5d952c14a09de8c150"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tr-shm_8c.html#a85e03cb5c6fc2a5d952c14a09de8c150">tr_sem_wait</a> (const struct <a class="el" href="structtr__info.html">tr_info</a> *info)</td></tr>
-<tr class="memdesc:a85e03cb5c6fc2a5d952c14a09de8c150"><td class="mdescLeft">&#160;</td><td class="mdescRight">세마포어 락을 획득합니다.  <a href="#a85e03cb5c6fc2a5d952c14a09de8c150">More...</a><br /></td></tr>
+<tr class="memdesc:a85e03cb5c6fc2a5d952c14a09de8c150"><td class="mdescLeft">&#160;</td><td class="mdescRight">Acquire the semaphore lock.  <a href="#a85e03cb5c6fc2a5d952c14a09de8c150">More...</a><br /></td></tr>
 <tr class="separator:a85e03cb5c6fc2a5d952c14a09de8c150"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ba910149a2a045a85a81a3c26fac940"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tr-shm_8c.html#a0ba910149a2a045a85a81a3c26fac940">tr_sem_post</a> (const struct <a class="el" href="structtr__info.html">tr_info</a> *info)</td></tr>
-<tr class="memdesc:a0ba910149a2a045a85a81a3c26fac940"><td class="mdescLeft">&#160;</td><td class="mdescRight">세마포어 락을 반환합니다.  <a href="#a0ba910149a2a045a85a81a3c26fac940">More...</a><br /></td></tr>
+<tr class="memdesc:a0ba910149a2a045a85a81a3c26fac940"><td class="mdescLeft">&#160;</td><td class="mdescRight">Release the semaphore lock.  <a href="#a0ba910149a2a045a85a81a3c26fac940">More...</a><br /></td></tr>
 <tr class="separator:a0ba910149a2a045a85a81a3c26fac940"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeabf9bfa126222af391db186d289db44"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tr-shm_8c.html#aeabf9bfa126222af391db186d289db44">tr_shm_init</a> (struct <a class="el" href="structtr__info.html">tr_info</a> *info)</td></tr>
-<tr class="memdesc:aeabf9bfa126222af391db186d289db44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shared Memory와 관련된 설정에 대해서 초기화를 진행하도록 합니다.  <a href="#aeabf9bfa126222af391db186d289db44">More...</a><br /></td></tr>
+<tr class="memdesc:aeabf9bfa126222af391db186d289db44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Do the <code><a class="el" href="tr-shm_8c.html#af6139d06f530f523285806d3a32e5e9f" title="Initialize the Shared Memory. ">__tr_shm_init()</a></code> and <code><a class="el" href="tr-shm_8c.html#af14bffffa6087c3c3ec21f78f6680d1c" title="Initialize the Semaphore. ">__tr_sem_init()</a></code>  <a href="#aeabf9bfa126222af391db186d289db44">More...</a><br /></td></tr>
 <tr class="separator:aeabf9bfa126222af391db186d289db44"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee31225f5824722b43e4311722120aa6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tr-shm_8c.html#aee31225f5824722b43e4311722120aa6">tr_shm_get</a> (const struct <a class="el" href="structtr__info.html">tr_info</a> *info, void *buffer)</td></tr>
-<tr class="memdesc:aee31225f5824722b43e4311722120aa6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shared Memory로 부터 데이터를 가져오는 함수입니다.  <a href="#aee31225f5824722b43e4311722120aa6">More...</a><br /></td></tr>
+<tr class="memdesc:aee31225f5824722b43e4311722120aa6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the data from Shared Memory.  <a href="#aee31225f5824722b43e4311722120aa6">More...</a><br /></td></tr>
 <tr class="separator:aee31225f5824722b43e4311722120aa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afba449ced385945907c37ebb15f660c4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tr-shm_8c.html#afba449ced385945907c37ebb15f660c4">tr_shm_free</a> (struct <a class="el" href="structtr__info.html">tr_info</a> *info, int flags)</td></tr>
-<tr class="memdesc:afba449ced385945907c37ebb15f660c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shared Memory의 할당된 내용을 해제하도록 합니다.  <a href="#afba449ced385945907c37ebb15f660c4">More...</a><br /></td></tr>
+<tr class="memdesc:afba449ced385945907c37ebb15f660c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deallocate the Shared Memory resources.  <a href="#afba449ced385945907c37ebb15f660c4">More...</a><br /></td></tr>
 <tr class="separator:afba449ced385945907c37ebb15f660c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Shared Memory를 생성 및 사용하는 방식이 구현되어 있습니다. </p>
+<div class="textblock"><p>This has the contents of creating and using Shared Memory. </p>
 <dl class="section copyright"><dt>Copyright</dt><dd>"Container Tracer" which executes the container performance mesurements Copyright (C) 2020 BlaCkinkGJ</dd></dl>
 <p>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.</p>
 <p>This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.</p>
@@ -155,14 +155,14 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>세마포어만을 초기화하는 함수입니다. </p>
+<p>Initialize the Semaphore. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">pid</td><td>이 세마포어를 사용하는 Process의 ID입니다.</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">pid</td><td>Process' ID of using this Semaphore.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>성공적으로 종료된 경우에는 세마포어의 ID가 반환되고, 그렇지 않은 경우에는 음수 값이 반환됩니다. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>SemaphoreID for success to init, negative value for fail to init. </dd></dl>
 
 </div>
 </div>
@@ -190,14 +190,14 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Shared Memory만을 초기화하는 함수입니다. </p>
+<p>Initialize the Shared Memory. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">pid</td><td>이 Shared Memory를 사용하는 Process ID입니다.</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">pid</td><td>Process' ID of using this Shared Memory.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>성공적으로 종료된 경우에는 Shared Memory의 ID가 반환되고, 그렇지 않은 경우에는 음수 값이 반환됩니다. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Shared MemoryID for success to init, negative value for fail to init. </dd></dl>
 
 </div>
 </div>
@@ -225,10 +225,10 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>세마포어 락을 반환합니다. </p>
+<p>Release the semaphore lock. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">info</td><td>세마포어 반환 대상 정보를 가진 구조체 포인터입니다. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">info</td><td>This is an information pointer that wants to release the semaphore. </td></tr>
   </table>
   </dd>
 </dl>
@@ -259,10 +259,10 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>세마포어 락을 획득합니다. </p>
+<p>Acquire the semaphore lock. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">info</td><td>세마포어 획득 대상 정보를 가진 구조체 포인터입니다. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">info</td><td>This is an information pointer that wants to acquire the semaphore. </td></tr>
   </table>
   </dd>
 </dl>
@@ -295,11 +295,11 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Shared Memory의 할당된 내용을 해제하도록 합니다. </p>
+<p>Deallocate the Shared Memory resources. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">info</td><td>할당 해제를 진행할 tr_info에 해당합니다. </td></tr>
-    <tr><td class="paramname">flags</td><td>해제의 정도를 설정하는 flag에 해당합니다. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">info</td><td><code><a class="el" href="structtr__info.html" title="This structure has the major information of the each process. ">tr_info</a></code> structure which wants to deallocate. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">flags</td><td>Set a range of deallocation. </td></tr>
   </table>
   </dd>
 </dl>
@@ -332,22 +332,22 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Shared Memory로 부터 데이터를 가져오는 함수입니다. </p>
+<p>Retrieve the data from Shared Memory. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">info</td><td>데이터를 가져와야 하는 곳을 가리키는 정보를 가진 구조체의 포인터에 해당합니다. </td></tr>
-    <tr><td class="paramname">buffer</td><td>데이터가 실제 저장되는 버퍼를 가리킵니다.</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">info</td><td><code><a class="el" href="structtr__info.html" title="This structure has the major information of the each process. ">tr_info</a></code> structure which wants to get data. </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">buffer</td><td>Destination of data will be stored</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>정상 종료가 된 경우에는 0, 그렇지 않은 경우에는 음수 값이 반환됩니다. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>0 for success to init, negative value for fail to init. </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="tr-shm_8c_aee31225f5824722b43e4311722120aa6_cgraph.png" border="0" usemap="#tr-shm_8c_aee31225f5824722b43e4311722120aa6_cgraph" alt=""/></div>
 <map name="tr-shm_8c_aee31225f5824722b43e4311722120aa6_cgraph" id="tr-shm_8c_aee31225f5824722b43e4311722120aa6_cgraph">
-<area shape="rect" id="node2" href="tr-shm_8c.html#a85e03cb5c6fc2a5d952c14a09de8c150" title="세마포어 락을 획득합니다. " alt="" coords="148,5,251,32"/>
-<area shape="rect" id="node3" href="tr-shm_8c.html#a0ba910149a2a045a85a81a3c26fac940" title="세마포어 락을 반환합니다. " alt="" coords="148,56,251,83"/>
+<area shape="rect" id="node2" href="tr-shm_8c.html#a85e03cb5c6fc2a5d952c14a09de8c150" title="Acquire the semaphore lock. " alt="" coords="148,5,251,32"/>
+<area shape="rect" id="node3" href="tr-shm_8c.html#a0ba910149a2a045a85a81a3c26fac940" title="Release the semaphore lock. " alt="" coords="148,56,251,83"/>
 </map>
 </div>
 
@@ -369,21 +369,21 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>Shared Memory와 관련된 설정에 대해서 초기화를 진행하도록 합니다. </p>
+<p>Do the <code><a class="el" href="tr-shm_8c.html#af6139d06f530f523285806d3a32e5e9f" title="Initialize the Shared Memory. ">__tr_shm_init()</a></code> and <code><a class="el" href="tr-shm_8c.html#af14bffffa6087c3c3ec21f78f6680d1c" title="Initialize the Semaphore. ">__tr_sem_init()</a></code> </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">info</td><td>초기화를 진행하고자 하는 대상을 가리키는 구조체의 포인터입니다.</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">info</td><td><code><a class="el" href="structtr__info.html" title="This structure has the major information of the each process. ">tr_info</a></code> structure which wants to init.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>정상 종료가 된 경우에는 0이 반환되고, 그렇지 않은 경우에는 음수 값이 반환됩니다. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>0 for success to init, negative value for fail to init. </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="tr-shm_8c_aeabf9bfa126222af391db186d289db44_cgraph.png" border="0" usemap="#tr-shm_8c_aeabf9bfa126222af391db186d289db44_cgraph" alt=""/></div>
 <map name="tr-shm_8c_aeabf9bfa126222af391db186d289db44_cgraph" id="tr-shm_8c_aeabf9bfa126222af391db186d289db44_cgraph">
-<area shape="rect" id="node2" href="tr-shm_8c.html#af14bffffa6087c3c3ec21f78f6680d1c" title="세마포어만을 초기화하는 함수입니다. " alt="" coords="148,5,257,32"/>
-<area shape="rect" id="node3" href="tr-shm_8c.html#af6139d06f530f523285806d3a32e5e9f" title="Shared Memory만을 초기화하는 함수입니다. " alt="" coords="148,56,257,83"/>
+<area shape="rect" id="node2" href="tr-shm_8c.html#af14bffffa6087c3c3ec21f78f6680d1c" title="Initialize the Semaphore. " alt="" coords="148,5,257,32"/>
+<area shape="rect" id="node3" href="tr-shm_8c.html#af6139d06f530f523285806d3a32e5e9f" title="Initialize the Shared Memory. " alt="" coords="148,56,257,83"/>
 </map>
 </div>
 

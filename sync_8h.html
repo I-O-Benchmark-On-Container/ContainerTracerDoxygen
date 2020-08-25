@@ -71,7 +71,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>파이프를 활용한 동기화 도구입니다.  
+<p>Synchronization program based on pipe.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;stdio.h&gt;</code><br />
 <code>#include &lt;unistd.h&gt;</code><br />
@@ -86,8 +86,7 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="sync_8h__dep__incl.png" border="0" usemap="#include_2sync_8hdep" alt=""/></div>
 <map name="include_2sync_8hdep" id="include_2sync_8hdep">
-<area shape="rect" id="node2" href="docker-driver_8c.html" title="trace&#45;replay를 동작시키는 driver 구현부에 해당합니다. " alt="" coords="5,80,171,121"/>
-<area shape="rect" id="node3" href="tr-driver_8c.html" title="trace&#45;replay를 동작시키는 driver 구현부에 해당합니다. " alt="" coords="195,80,357,121"/>
+<area shape="rect" id="node2" href="tr-driver_8c.html" title="Implementation of run the trace&#45;replay benchmark. " alt="" coords="5,80,168,121"/>
 </map>
 </div>
 </div>
@@ -96,19 +95,19 @@ This graph shows which files directly or indirectly include this file:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a270e909d7660277107b16ab0d7bcd547"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sync_8h.html#a270e909d7660277107b16ab0d7bcd547">TELL_WAIT</a> (void)</td></tr>
-<tr class="memdesc:a270e909d7660277107b16ab0d7bcd547"><td class="mdescLeft">&#160;</td><td class="mdescRight">파이프를 만들어주는 과정으로 부모가 자식을 부르기 전에 이를 반드시 호출해야 합니다.  <a href="#a270e909d7660277107b16ab0d7bcd547">More...</a><br /></td></tr>
+<tr class="memdesc:a270e909d7660277107b16ab0d7bcd547"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pipe initialize sequence. You must call before use this source.  <a href="#a270e909d7660277107b16ab0d7bcd547">More...</a><br /></td></tr>
 <tr class="separator:a270e909d7660277107b16ab0d7bcd547"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a443ad26c663a2792eb1c88bf728aa57e"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sync_8h.html#a443ad26c663a2792eb1c88bf728aa57e">TELL_PARENT</a> (void)</td></tr>
-<tr class="memdesc:a443ad26c663a2792eb1c88bf728aa57e"><td class="mdescLeft">&#160;</td><td class="mdescRight">자식이 부모를 호출하는 역할을 합니다.  <a href="#a443ad26c663a2792eb1c88bf728aa57e">More...</a><br /></td></tr>
+<tr class="memdesc:a443ad26c663a2792eb1c88bf728aa57e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The child calls parents.  <a href="#a443ad26c663a2792eb1c88bf728aa57e">More...</a><br /></td></tr>
 <tr class="separator:a443ad26c663a2792eb1c88bf728aa57e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a734bdafd21577451dd2bbce8c7871aa5"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sync_8h.html#a734bdafd21577451dd2bbce8c7871aa5">WAIT_PARENT</a> (void)</td></tr>
-<tr class="memdesc:a734bdafd21577451dd2bbce8c7871aa5"><td class="mdescLeft">&#160;</td><td class="mdescRight">부모에게 완료되었다는 메시지를 수신합니다.  <a href="#a734bdafd21577451dd2bbce8c7871aa5">More...</a><br /></td></tr>
+<tr class="memdesc:a734bdafd21577451dd2bbce8c7871aa5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Receive from parent's call.  <a href="#a734bdafd21577451dd2bbce8c7871aa5">More...</a><br /></td></tr>
 <tr class="separator:a734bdafd21577451dd2bbce8c7871aa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a9b16ae0f39583f0d1376c4f3a5f4f5"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sync_8h.html#a0a9b16ae0f39583f0d1376c4f3a5f4f5">TELL_CHILD</a> (void)</td></tr>
-<tr class="memdesc:a0a9b16ae0f39583f0d1376c4f3a5f4f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">부모가 자식을 호출하는 역할을 합니다.  <a href="#a0a9b16ae0f39583f0d1376c4f3a5f4f5">More...</a><br /></td></tr>
+<tr class="memdesc:a0a9b16ae0f39583f0d1376c4f3a5f4f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">The parent calls children.  <a href="#a0a9b16ae0f39583f0d1376c4f3a5f4f5">More...</a><br /></td></tr>
 <tr class="separator:a0a9b16ae0f39583f0d1376c4f3a5f4f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05ec3d5fb3c26c03ece72188c7072ee0"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sync_8h.html#a05ec3d5fb3c26c03ece72188c7072ee0">WAIT_CHILD</a> (void)</td></tr>
-<tr class="memdesc:a05ec3d5fb3c26c03ece72188c7072ee0"><td class="mdescLeft">&#160;</td><td class="mdescRight">자식에서 완료되었다는 메시지를 수신합니다.  <a href="#a05ec3d5fb3c26c03ece72188c7072ee0">More...</a><br /></td></tr>
+<tr class="memdesc:a05ec3d5fb3c26c03ece72188c7072ee0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Receive from child's call.  <a href="#a05ec3d5fb3c26c03ece72188c7072ee0">More...</a><br /></td></tr>
 <tr class="separator:a05ec3d5fb3c26c03ece72188c7072ee0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
@@ -119,12 +118,12 @@ Variables</h2></td></tr>
 <tr class="separator:a0bf8052918ba3c9d5e949714bdff3cbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>파이프를 활용한 동기화 도구입니다. </p>
+<div class="textblock"><p>Synchronization program based on pipe. </p>
 <dl class="section copyright"><dt>Copyright</dt><dd>"Container Tracer" which executes the container performance mesurements Copyright (C) 2020 BlaCkinkGJ</dd></dl>
 <p>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.</p>
 <p>This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.</p>
 <p>You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.</p>
-<p>파이프 크기는 Linux의 경우에는 약 4KB 입니다. 동기화 방식은 read, write의 Blocking 특성을 활용하여 개발되었습니다. </p><dl class="section author"><dt>Author</dt><dd>BlaCkinkGJ (<a href="#" onclick="location.href='mai'+'lto:'+'ss5'+'ki'+'jun'+'@g'+'mai'+'l.'+'com'; return false;">ss5ki<span style="display: none;">.nosp@m.</span>jun@<span style="display: none;">.nosp@m.</span>gmail<span style="display: none;">.nosp@m.</span>.com</a>) </dd></dl>
+<p>In Linux, the size of pipe is about 4KB. And the synchronization method is implemented by using R/W's blocking specification. </p><dl class="section author"><dt>Author</dt><dd>BlaCkinkGJ (<a href="#" onclick="location.href='mai'+'lto:'+'ss5'+'ki'+'jun'+'@g'+'mai'+'l.'+'com'; return false;">ss5ki<span style="display: none;">.nosp@m.</span>jun@<span style="display: none;">.nosp@m.</span>gmail<span style="display: none;">.nosp@m.</span>.com</a>) </dd></dl>
 <dl class="section version"><dt>Version</dt><dd>0.1 </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>2020-08-09 </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>Rochkind, M. J. (2004). Advanced UNIX programming. Pearson Education. </dd></dl>
@@ -153,9 +152,9 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>부모가 자식을 호출하는 역할을 합니다. </p>
-<dl class="section return"><dt>Returns</dt><dd>성공한 경우에는 0 실패한 경우에는 -EIO를 반환합니다. </dd></dl>
-<dl class="section warning"><dt>Warning</dt><dd>특정 자식이 아닌 임의의 자식을 호출합니다. </dd></dl>
+<p>The parent calls children. </p>
+<dl class="section return"><dt>Returns</dt><dd>0 for success to write, -EIO for fail to write </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>This doesn't wake up a specific child. This wakes randomly selected a child. </dd></dl>
 
 </div>
 </div>
@@ -183,9 +182,9 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>자식이 부모를 호출하는 역할을 합니다. </p>
-<dl class="section return"><dt>Returns</dt><dd>성공한 경우에는 0 실패한 경우에는 -EIO를 반환합니다. </dd></dl>
-<dl class="section warning"><dt>Warning</dt><dd>특정 부모가 아닌 임의의 부모를 호출합니다. </dd></dl>
+<p>The child calls parents. </p>
+<dl class="section return"><dt>Returns</dt><dd>0 for success to write, -EIO for fail to write </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>This doesn't wake up a specific parent. This wakes randomly selected a parent. </dd></dl>
 
 </div>
 </div>
@@ -213,8 +212,8 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>파이프를 만들어주는 과정으로 부모가 자식을 부르기 전에 이를 반드시 호출해야 합니다. </p>
-<dl class="section return"><dt>Returns</dt><dd>성공한 경우에는 0 실패한 경우에는 -EPIPE를 반환합니다. </dd></dl>
+<p>Pipe initialize sequence. You must call before use this source. </p>
+<dl class="section return"><dt>Returns</dt><dd>0 for success to make pipe, -EPIPE for fail to make pipe. </dd></dl>
 
 </div>
 </div>
@@ -242,8 +241,8 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>자식에서 완료되었다는 메시지를 수신합니다. </p>
-<dl class="section return"><dt>Returns</dt><dd>성공한 경우에는 0 실패한 경우에는 -EIO를 반환합니다. </dd></dl>
+<p>Receive from child's call. </p>
+<dl class="section return"><dt>Returns</dt><dd>0 for success to read, -EIO for fail to read. </dd></dl>
 
 </div>
 </div>
@@ -271,8 +270,8 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>부모에게 완료되었다는 메시지를 수신합니다. </p>
-<dl class="section return"><dt>Returns</dt><dd>성공한 경우에는 0 실패한 경우에는 -EIO를 반환합니다. </dd></dl>
+<p>Receive from parent's call. </p>
+<dl class="section return"><dt>Returns</dt><dd>0 for success to read, -EIO for fail to read. </dd></dl>
 
 </div>
 </div>

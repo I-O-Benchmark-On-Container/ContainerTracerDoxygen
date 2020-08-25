@@ -71,7 +71,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>info 구조체를 초기화하는 역할을 합니다.  
+<p>Initialize the info structure.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;stdlib.h&gt;</code><br />
 <code>#include &lt;search.h&gt;</code><br />
@@ -85,10 +85,10 @@ Include dependency graph for tr-info.c:</div>
 <div class="dyncontent">
 <div class="center"><img src="tr-info_8c__incl.png" border="0" usemap="#runner_2driver_2tr-driver_2tr-info_8c" alt=""/></div>
 <map name="runner_2driver_2tr-driver_2tr-info_8c" id="runner_2driver_2tr-driver_2tr-info_8c">
-<area shape="rect" id="node8" href="tr-driver_8h.html" title="trace&#45;replay를 동작시키는 driver의 선언부에 해당합니다. " alt="" coords="214,95,341,121"/>
-<area shape="rect" id="node12" href="generic_8h.html" title="driver의 매핑 정보 및 runner를 총괄하는 헤더입니다. 관련 정의 내용은 runner/generic.c에 존재합니다. " alt="" coords="241,169,324,196"/>
+<area shape="rect" id="node8" href="tr-driver_8h.html" title="driver declaration part of run trace&#45;replay " alt="" coords="214,95,341,121"/>
+<area shape="rect" id="node12" href="generic_8h.html" title="This header maintain the driver&#39;s mapping information. It&#39;s definition in runner/generic.c. " alt="" coords="241,169,324,196"/>
 <area shape="rect" id="node18" href="trace__replay_8h.html" title="trace_replay.h" alt="" coords="726,169,839,196"/>
-<area shape="rect" id="node15" href="log_8h.html" title="로그 출력 양식에 해당합니다. " alt="" coords="81,244,135,271"/>
+<area shape="rect" id="node15" href="log_8h.html" title="Format of log printing. " alt="" coords="81,244,135,271"/>
 <area shape="rect" id="node20" href="flist_8h.html" title="flist.h" alt="" coords="712,244,771,271"/>
 </map>
 </div>
@@ -96,29 +96,29 @@ Include dependency graph for tr-info.c:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a9638561ce29f3cde86f54e09daa82e35"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tr-info_8c.html#a9638561ce29f3cde86f54e09daa82e35">tr_info_int_value_set</a> (struct json_object *setting, const char *<a class="el" href="tr-driver-test_8c.html#a114a26ebd93f4397bf89734c1d991ea0">key</a>, unsigned int *member, int is_print)</td></tr>
-<tr class="memdesc:a9638561ce29f3cde86f54e09daa82e35"><td class="mdescLeft">&#160;</td><td class="mdescRight">정수 형태의 <code>info-&gt;(member)</code>에 json에서 값을 읽어서 값을 주도록 합니다.  <a href="#a9638561ce29f3cde86f54e09daa82e35">More...</a><br /></td></tr>
+<tr class="memdesc:a9638561ce29f3cde86f54e09daa82e35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read the JSON string and convert the value to integer form and set that value to <code>info-&gt;(member)</code>  <a href="#a9638561ce29f3cde86f54e09daa82e35">More...</a><br /></td></tr>
 <tr class="separator:a9638561ce29f3cde86f54e09daa82e35"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af46af26d3ed99f18c48a7b191d469fee"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tr-info_8c.html#af46af26d3ed99f18c48a7b191d469fee">tr_info_str_value_set</a> (struct json_object *setting, const char *<a class="el" href="tr-driver-test_8c.html#a114a26ebd93f4397bf89734c1d991ea0">key</a>, char *member, size_t size, int is_print)</td></tr>
-<tr class="memdesc:af46af26d3ed99f18c48a7b191d469fee"><td class="mdescLeft">&#160;</td><td class="mdescRight">문자열 형태의 <code>info-&gt;(member)</code>에 json에서 값을 읽어서 값을 주도록 합니다.  <a href="#af46af26d3ed99f18c48a7b191d469fee">More...</a><br /></td></tr>
+<tr class="memdesc:af46af26d3ed99f18c48a7b191d469fee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read the JSON string and convert the value to string form and set that value to <code>info-&gt;(member)</code>  <a href="#af46af26d3ed99f18c48a7b191d469fee">More...</a><br /></td></tr>
 <tr class="separator:af46af26d3ed99f18c48a7b191d469fee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30fe574e5a617c55adc78e778d417cc5"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tr-info_8c.html#a30fe574e5a617c55adc78e778d417cc5">tr_is_synth_type</a> (const char *trace_data_path)</td></tr>
-<tr class="memdesc:a30fe574e5a617c55adc78e778d417cc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">현재 trace_data_path 값이 synthetic 형태인지를 확인합니다.  <a href="#a30fe574e5a617c55adc78e778d417cc5">More...</a><br /></td></tr>
+<tr class="memdesc:a30fe574e5a617c55adc78e778d417cc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check the <code>trace_data_path</code> value form is synthetic from.  <a href="#a30fe574e5a617c55adc78e778d417cc5">More...</a><br /></td></tr>
 <tr class="separator:a30fe574e5a617c55adc78e778d417cc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a31760321dca36e16e1e8f231084c0f5f"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tr-info_8c.html#a31760321dca36e16e1e8f231084c0f5f">__tr_info_init</a> (struct json_object *setting, int index, struct <a class="el" href="structtr__info.html">tr_info</a> *info)</td></tr>
-<tr class="memdesc:a31760321dca36e16e1e8f231084c0f5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">각각의 프로세스의 동작 옵션을 설정을 해주도록 합니다.  <a href="#a31760321dca36e16e1e8f231084c0f5f">More...</a><br /></td></tr>
+<tr class="memdesc:a31760321dca36e16e1e8f231084c0f5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the configuration of each process's behavior.  <a href="#a31760321dca36e16e1e8f231084c0f5f">More...</a><br /></td></tr>
 <tr class="separator:a31760321dca36e16e1e8f231084c0f5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acfd0ebbb0a1e7ba8823365333dc2a2ee"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structtr__info.html">tr_info</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tr-info_8c.html#acfd0ebbb0a1e7ba8823365333dc2a2ee">tr_info_init</a> (struct json_object *setting, int index)</td></tr>
-<tr class="memdesc:acfd0ebbb0a1e7ba8823365333dc2a2ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">각 프로세스에 들어가는 info 객체를 __생성__하고 구축하여 반환합니다.  <a href="#acfd0ebbb0a1e7ba8823365333dc2a2ee">More...</a><br /></td></tr>
+<tr class="memdesc:acfd0ebbb0a1e7ba8823365333dc2a2ee"><td class="mdescLeft">&#160;</td><td class="mdescRight"><b>Generate</b> and construct the per processes <code>info</code> object and return it.  <a href="#acfd0ebbb0a1e7ba8823365333dc2a2ee">More...</a><br /></td></tr>
 <tr class="separator:acfd0ebbb0a1e7ba8823365333dc2a2ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:aeee8e7b039a45614b0c44d441fcdf023"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tr-info_8c.html#aeee8e7b039a45614b0c44d441fcdf023">global_synth_type</a> []</td></tr>
-<tr class="memdesc:aeee8e7b039a45614b0c44d441fcdf023"><td class="mdescLeft">&#160;</td><td class="mdescRight">알려진 synthetic 형태에 대한 정의입니다. 이 안에 있는 경우에는 파일로 확인을 하지 않습니다.  <a href="#aeee8e7b039a45614b0c44d441fcdf023">More...</a><br /></td></tr>
+<tr class="memdesc:aeee8e7b039a45614b0c44d441fcdf023"><td class="mdescLeft">&#160;</td><td class="mdescRight">Definition of a well-known synthetic form. This value depends on the <code>trace-replay</code> specification.  <a href="#aeee8e7b039a45614b0c44d441fcdf023">More...</a><br /></td></tr>
 <tr class="separator:aeee8e7b039a45614b0c44d441fcdf023"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>info 구조체를 초기화하는 역할을 합니다. </p>
+<div class="textblock"><p>Initialize the info structure. </p>
 <dl class="section copyright"><dt>Copyright</dt><dd>"Container Tracer" which executes the container performance mesurements Copyright (C) 2020 BlaCkinkGJ</dd></dl>
 <p>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.</p>
 <p>This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.</p>
@@ -167,27 +167,27 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>각각의 프로세스의 동작 옵션을 설정을 해주도록 합니다. </p>
+<p>Set the configuration of each process's behavior. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">setting</td><td>설정 값을 가지고 있는 json 객체의 포인터에 해당합니다. </td></tr>
-    <tr><td class="paramname">index</td><td>json의 task_option의 배열 순번에 대한 정보를 가집니다. </td></tr>
-    <tr><td class="paramname">info</td><td>실제 값이 들어가는 위치에 해당합니다.</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">setting</td><td>JSON object pointer which has the setting value. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">index</td><td><code>task_option</code> array's index. </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">info</td><td>The target structure of the member will be set by the JSON object.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>정상적으로 초기화가 된 경우 0을 그렇지 않은 경우 적절한 오류 번호를 반환합니다. </dd></dl>
-<p>&lt; hsearch를 위해서 사용되는 변수입니다. </p>
+<dl class="section return"><dt>Returns</dt><dd>0 for success to init, error number for fail to init </dd></dl>
+<p>&lt; Variable for <code>hsearch</code>. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="tr-info_8c_a31760321dca36e16e1e8f231084c0f5f_cgraph.png" border="0" usemap="#tr-info_8c_a31760321dca36e16e1e8f231084c0f5f_cgraph" alt=""/></div>
 <map name="tr-info_8c_a31760321dca36e16e1e8f231084c0f5f_cgraph" id="tr-info_8c_a31760321dca36e16e1e8f231084c0f5f_cgraph">
-<area shape="rect" id="node2" href="tr-info_8c.html#a9638561ce29f3cde86f54e09daa82e35" title="정수 형태의 info&#45;&gt;(member)에 json에서 값을 읽어서 값을 주도록 합니다. " alt="" coords="167,5,326,32"/>
-<area shape="rect" id="node3" href="tr-info_8c.html#af46af26d3ed99f18c48a7b191d469fee" title="문자열 형태의 info&#45;&gt;(member)에 json에서 값을 읽어서 값을 주도록 합니다. " alt="" coords="167,56,326,83"/>
-<area shape="rect" id="node5" href="tr-driver_8c.html#a3444cfb7f56f88f8f16c2877632f03de" title="현재 입력되는 scheduler가 driver가 지원하는 지를 확인하도록 합니다. " alt="" coords="160,107,333,133"/>
-<area shape="rect" id="node6" href="tr-info_8c.html#a30fe574e5a617c55adc78e778d417cc5" title="현재 trace_data_path 값이 synthetic 형태인지를 확인합니다. " alt="" coords="182,157,311,184"/>
-<area shape="rect" id="node4" href="generic_8h.html#a5469117f34e2c2ef5e1597c3ac16a0ea" title="json의 문자열 값을 받는 경우에는 &quot; 값이 있을 수 있습니다. 따라서, 그 값을 전부 없애주는 데 사용합니다..." alt="" coords="381,56,532,83"/>
+<area shape="rect" id="node2" href="tr-info_8c.html#a9638561ce29f3cde86f54e09daa82e35" title="Read the JSON string and convert the value to integer form and set that value to info&#45;&gt;(member) ..." alt="" coords="167,5,326,32"/>
+<area shape="rect" id="node3" href="tr-info_8c.html#af46af26d3ed99f18c48a7b191d469fee" title="Read the JSON string and convert the value to string form and set that value to info&#45;&gt;(member) ..." alt="" coords="167,56,326,83"/>
+<area shape="rect" id="node5" href="tr-driver_8c.html#a3444cfb7f56f88f8f16c2877632f03de" title="Check the current inputted scheduler text can be supported by the driver. " alt="" coords="160,107,333,133"/>
+<area shape="rect" id="node6" href="tr-info_8c.html#a30fe574e5a617c55adc78e778d417cc5" title="Check the trace_data_path value form is synthetic from. " alt="" coords="182,157,311,184"/>
+<area shape="rect" id="node4" href="generic_8h.html#a5469117f34e2c2ef5e1597c3ac16a0ea" title="Remove the word &lt;ch&gt; in string. " alt="" coords="381,56,532,83"/>
 </map>
 </div>
 
@@ -219,26 +219,26 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>각 프로세스에 들어가는 info 객체를 __생성__하고 구축하여 반환합니다. </p>
+<p><b>Generate</b> and construct the per processes <code>info</code> object and return it. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">setting</td><td>설정 값을 가지고 있는 json 객체의 포인터에 해당합니다. </td></tr>
-    <tr><td class="paramname">index</td><td>json의 task_option의 배열 순번에 대한 정보를 가집니다.</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">setting</td><td>JSON object pointer which has the setting value. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">index</td><td><code>task_option</code> array's index.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>정상적으로 초기화가 된 경우 0을 그렇지 않은 경우 적절한 오류 번호를 반환합니다. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>0 for success to init, error number for fail to init </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="tr-info_8c_acfd0ebbb0a1e7ba8823365333dc2a2ee_cgraph.png" border="0" usemap="#tr-info_8c_acfd0ebbb0a1e7ba8823365333dc2a2ee_cgraph" alt=""/></div>
 <map name="tr-info_8c_acfd0ebbb0a1e7ba8823365333dc2a2ee_cgraph" id="tr-info_8c_acfd0ebbb0a1e7ba8823365333dc2a2ee_cgraph">
-<area shape="rect" id="node2" href="tr-info_8c.html#a9638561ce29f3cde86f54e09daa82e35" title="정수 형태의 info&#45;&gt;(member)에 json에서 값을 읽어서 값을 주도록 합니다. " alt="" coords="307,5,466,32"/>
-<area shape="rect" id="node3" href="tr-info_8c.html#af46af26d3ed99f18c48a7b191d469fee" title="문자열 형태의 info&#45;&gt;(member)에 json에서 값을 읽어서 값을 주도록 합니다. " alt="" coords="307,56,466,83"/>
-<area shape="rect" id="node5" href="tr-driver_8c.html#a3444cfb7f56f88f8f16c2877632f03de" title="현재 입력되는 scheduler가 driver가 지원하는 지를 확인하도록 합니다. " alt="" coords="300,157,473,184"/>
-<area shape="rect" id="node6" href="tr-info_8c.html#a31760321dca36e16e1e8f231084c0f5f" title="각각의 프로세스의 동작 옵션을 설정을 해주도록 합니다. " alt="" coords="145,107,252,133"/>
-<area shape="rect" id="node4" href="generic_8h.html#a5469117f34e2c2ef5e1597c3ac16a0ea" title="json의 문자열 값을 받는 경우에는 &quot; 값이 있을 수 있습니다. 따라서, 그 값을 전부 없애주는 데 사용합니다..." alt="" coords="521,56,672,83"/>
-<area shape="rect" id="node7" href="tr-info_8c.html#a30fe574e5a617c55adc78e778d417cc5" title="현재 trace_data_path 값이 synthetic 형태인지를 확인합니다. " alt="" coords="322,107,451,133"/>
+<area shape="rect" id="node2" href="tr-info_8c.html#a9638561ce29f3cde86f54e09daa82e35" title="Read the JSON string and convert the value to integer form and set that value to info&#45;&gt;(member) ..." alt="" coords="307,5,466,32"/>
+<area shape="rect" id="node3" href="tr-info_8c.html#af46af26d3ed99f18c48a7b191d469fee" title="Read the JSON string and convert the value to string form and set that value to info&#45;&gt;(member) ..." alt="" coords="307,56,466,83"/>
+<area shape="rect" id="node5" href="tr-driver_8c.html#a3444cfb7f56f88f8f16c2877632f03de" title="Check the current inputted scheduler text can be supported by the driver. " alt="" coords="300,157,473,184"/>
+<area shape="rect" id="node6" href="tr-info_8c.html#a31760321dca36e16e1e8f231084c0f5f" title="Set the configuration of each process&#39;s behavior. " alt="" coords="145,107,252,133"/>
+<area shape="rect" id="node4" href="generic_8h.html#a5469117f34e2c2ef5e1597c3ac16a0ea" title="Remove the word &lt;ch&gt; in string. " alt="" coords="521,56,672,83"/>
+<area shape="rect" id="node7" href="tr-info_8c.html#a30fe574e5a617c55adc78e778d417cc5" title="Check the trace_data_path value form is synthetic from. " alt="" coords="322,107,451,133"/>
 </map>
 </div>
 
@@ -290,17 +290,18 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>정수 형태의 <code>info-&gt;(member)</code>에 json에서 값을 읽어서 값을 주도록 합니다. </p>
+<p>Read the JSON string and convert the value to integer form and set that value to <code>info-&gt;(member)</code> </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">setting</td><td>탐색을 할 특정 위치를 지칭합니다. </td></tr>
-    <tr><td class="paramname">key</td><td>json에서 가져오고자 하는 데이터의 key 또는 field에 해당합니다. </td></tr>
-    <tr><td class="paramname">member</td><td>실제 값이 삽입되는 위치에 해당합니다. </td></tr>
-    <tr><td class="paramname">is_print</td><td>에러를 사용자에게 출력을 할 지 말지를 선택합니다.</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">setting</td><td>The traverse start location of JSON object. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">key</td><td>JSON object's key which points to the value I want to find. </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">member</td><td><code>info</code> structure member address. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">is_print</td><td>The flag that determines to print the error.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>성공적으로 입력이 되었다면 0이 반환되고, 그렇지 않은 경우에는 -EINVAL이 반환됩니다. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>0 for success to input, -EINVAL for fail to input. </dd></dl>
+<dl class="section warning"><dt>Warning</dt><dd>member must be an integer type. </dd></dl>
 
 </div>
 </div>
@@ -356,25 +357,25 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>문자열 형태의 <code>info-&gt;(member)</code>에 json에서 값을 읽어서 값을 주도록 합니다. </p>
+<p>Read the JSON string and convert the value to string form and set that value to <code>info-&gt;(member)</code> </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">setting</td><td>탐색을 할 특정 위치를 지칭합니다. </td></tr>
-    <tr><td class="paramname">key</td><td>json에서 가져오고자 하는 데이터의 key 또는 field에 해당합니다. </td></tr>
-    <tr><td class="paramname">member</td><td>실제 값이 삽입되는 위치에 해당합니다. </td></tr>
-    <tr><td class="paramname">size</td><td>메모리의 크기를 나타냅니다. </td></tr>
-    <tr><td class="paramname">is_print</td><td>에러를 사용자에게 출력을 할 지 말지를 선택합니다.</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">setting</td><td>The traverse start location of JSON object. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">key</td><td>JSON object's key which points to the value I want to find. </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">member</td><td><code>info</code> structure member address. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">size</td><td>This value must under <code>member</code> memory size </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">is_print</td><td>The flag that determines to print the error.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>성공적으로 입력이 되었다면 0이 반환되고, 그렇지 않은 경우에는 -EINVAL이 반환됩니다. </dd></dl>
-<dl class="section warning"><dt>Warning</dt><dd>size의 값은 반드시 member의 크기보다 작거나 같아야 합니다. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>0 for success to input, -EINVAL for fail to input. </dd></dl>
+<dl class="section warning"><dt>Warning</dt><dd>member must be an string type. </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="tr-info_8c_af46af26d3ed99f18c48a7b191d469fee_cgraph.png" border="0" usemap="#tr-info_8c_af46af26d3ed99f18c48a7b191d469fee_cgraph" alt=""/></div>
 <map name="tr-info_8c_af46af26d3ed99f18c48a7b191d469fee_cgraph" id="tr-info_8c_af46af26d3ed99f18c48a7b191d469fee_cgraph">
-<area shape="rect" id="node2" href="generic_8h.html#a5469117f34e2c2ef5e1597c3ac16a0ea" title="json의 문자열 값을 받는 경우에는 &quot; 값이 있을 수 있습니다. 따라서, 그 값을 전부 없애주는 데 사용합니다..." alt="" coords="212,5,363,32"/>
+<area shape="rect" id="node2" href="generic_8h.html#a5469117f34e2c2ef5e1597c3ac16a0ea" title="Remove the word &lt;ch&gt; in string. " alt="" coords="212,5,363,32"/>
 </map>
 </div>
 
@@ -404,14 +405,14 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>현재 trace_data_path 값이 synthetic 형태인지를 확인합니다. </p>
+<p>Check the <code>trace_data_path</code> value form is synthetic from. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">trace_data_path</td><td>synthetic 여부를 확인하고자 하는 문자열입니다.</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">trace_data_path</td><td>The value which I want to know either synthetic or not.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>만약에 synthetic이면 TR_SYNTH를 아니면 TR_NOT_SYNTH를 반환합니다. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>DOCKER_SYNTH for <code>trace_data_path</code> is synthetic, DOCKER_NOT_SYNTH for <code>trace_data_path</code> isn't synthetic </dd></dl>
 
 </div>
 </div>
@@ -436,7 +437,7 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= { <span class="stringliteral">&quot;rand_read&quot;</span>,  <span class="stringliteral">&quot;rand_write&quot;</span>,</div><div class="line">                                           <span class="stringliteral">&quot;rand_mixed&quot;</span>, <span class="stringliteral">&quot;seq_read&quot;</span>,</div><div class="line">                                           <span class="stringliteral">&quot;seq_write&quot;</span>,  <span class="stringliteral">&quot;seq_mixed&quot;</span>,</div><div class="line">                                           NULL }</div></div><!-- fragment -->
-<p>알려진 synthetic 형태에 대한 정의입니다. 이 안에 있는 경우에는 파일로 확인을 하지 않습니다. </p>
+<p>Definition of a well-known synthetic form. This value depends on the <code>trace-replay</code> specification. </p>
 
 </div>
 </div>

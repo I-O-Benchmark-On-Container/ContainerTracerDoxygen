@@ -1,6 +1,6 @@
 <map id="tr_total_result_serializer" name="tr_total_result_serializer">
-<area shape="rect" id="node2" href="$tr-serializer_8c.html#a308b1f0104ca925941e1816299d782ce" title="total_results 구조체 per_trace 멤버의 내용을 json_object로 만들어주도록 합니다. " alt="" coords="251,5,388,47"/>
-<area shape="rect" id="node5" href="$tr-serializer_8c.html#a7bd1cb3e891117e581a9ac380a5b1be8" title="total_results 구조체의 aggr_results 내용을 json_object로 만들어주도록 합니다. " alt="" coords="233,71,405,98"/>
-<area shape="rect" id="node3" href="$tr-serializer_8c.html#a061203842d5b22a359ae07b54c1f0ebf" title="synthetic 구조체의 내용을 json_object로 만들어주도록 합니다. " alt="" coords="453,13,620,39"/>
-<area shape="rect" id="node4" href="$tr-serializer_8c.html#a4bfc2c3f12bb0e875db56d33fa8b1935" title="trace_stat 구조체의 내용을 json_object로 만들어주도록 합니다. " alt="" coords="467,67,606,94"/>
+<area shape="rect" id="node2" href="$tr-serializer_8c.html#a308b1f0104ca925941e1816299d782ce" title="To make a total_results structure&#39;s per_trace member to json_object. " alt="" coords="251,5,388,47"/>
+<area shape="rect" id="node5" href="$tr-serializer_8c.html#a7bd1cb3e891117e581a9ac380a5b1be8" title="To make a aggr_result structure&#39;s per_trace member to json_object. " alt="" coords="233,71,405,98"/>
+<area shape="rect" id="node3" href="$tr-serializer_8c.html#a061203842d5b22a359ae07b54c1f0ebf" title="To make a synthetic structure to json_object. " alt="" coords="453,13,620,39"/>
+<area shape="rect" id="node4" href="$tr-serializer_8c.html#a4bfc2c3f12bb0e875db56d33fa8b1935" title="To make a trace_stat structure to json_object. " alt="" coords="467,67,606,94"/>
 </map>

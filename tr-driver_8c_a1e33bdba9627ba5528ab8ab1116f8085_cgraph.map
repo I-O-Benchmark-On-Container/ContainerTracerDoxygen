@@ -1,6 +1,6 @@
 <map id="tr_get_interval" name="tr_get_interval">
-<area shape="rect" id="node2" href="$tr-mq_8c.html#a92cd5e06e8481bd5d9a9ed50caefb641" title="Message Queue로 부터 데이터를 가져오는 함수입니다. " alt="" coords="207,5,295,32"/>
-<area shape="rect" id="node3" href="$tr-serializer_8c.html#a533a6ac0f88c75327a6901515385d867" title="json으로 구조체에 있는 내용을 변환합니다. " alt="" coords="171,56,332,83"/>
-<area shape="rect" id="node4" href="$tr-serializer_8c.html#a8190fd0262f1917010d58ff73de5401e" title="tr_info 구조체의 내용을 json_object로 만들어주도록 합니다. " alt="" coords="409,31,539,57"/>
-<area shape="rect" id="node5" href="$tr-serializer_8c.html#a71304b919ad5f904d11800a1d797a9a1" title="realtime_log 구조체의 내용을 json_object로 만들어주도록 합니다. " alt="" coords="380,81,568,108"/>
+<area shape="rect" id="node2" href="$tr-mq_8c.html#a92cd5e06e8481bd5d9a9ed50caefb641" title="Retrieve the data from Message Queue. " alt="" coords="207,5,295,32"/>
+<area shape="rect" id="node3" href="$tr-serializer_8c.html#a533a6ac0f88c75327a6901515385d867" title="Converts realtime_log to JSON string. " alt="" coords="171,56,332,83"/>
+<area shape="rect" id="node4" href="$tr-serializer_8c.html#a8190fd0262f1917010d58ff73de5401e" title="To make a tr_info structure to json_object. " alt="" coords="409,31,539,57"/>
+<area shape="rect" id="node5" href="$tr-serializer_8c.html#a71304b919ad5f904d11800a1d797a9a1" title="To make a realtime_log structure to json_object. " alt="" coords="380,81,568,108"/>
 </map>

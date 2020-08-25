@@ -1,4 +1,4 @@
 <map id="tr_shm_init" name="tr_shm_init">
-<area shape="rect" id="node2" href="$tr-shm_8c.html#af14bffffa6087c3c3ec21f78f6680d1c" title="세마포어만을 초기화하는 함수입니다. " alt="" coords="148,5,257,32"/>
-<area shape="rect" id="node3" href="$tr-shm_8c.html#af6139d06f530f523285806d3a32e5e9f" title="Shared Memory만을 초기화하는 함수입니다. " alt="" coords="148,56,257,83"/>
+<area shape="rect" id="node2" href="$tr-shm_8c.html#af14bffffa6087c3c3ec21f78f6680d1c" title="Initialize the Semaphore. " alt="" coords="148,5,257,32"/>
+<area shape="rect" id="node3" href="$tr-shm_8c.html#af6139d06f530f523285806d3a32e5e9f" title="Initialize the Shared Memory. " alt="" coords="148,56,257,83"/>
 </map>

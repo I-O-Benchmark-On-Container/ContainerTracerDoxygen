@@ -1,4 +1,4 @@
 <map id="runner_get_total_result" name="runner_get_total_result">
-<area shape="rect" id="node2" href="$runner_8c.html#a1af30e00c3fc1c81ed5a35f04acc42de" title="수행 결과를 담는 buffer를 만드는 함수입니다. " alt="" coords="227,5,407,32"/>
-<area shape="rect" id="node3" href="$runner_8c.html#aad5e4b05cd67f6e081cc70bd0f792615" title="runner_get_result_string에서 할당 받은 buffer를 해제합니다. " alt="" coords="227,56,407,83"/>
+<area shape="rect" id="node2" href="$runner_8c.html#a1af30e00c3fc1c81ed5a35f04acc42de" title="Generate the buffer which contains the result. " alt="" coords="227,5,407,32"/>
+<area shape="rect" id="node3" href="$runner_8c.html#aad5e4b05cd67f6e081cc70bd0f792615" title="Deallocate the buffer which is allocated by runner_get_result_string() function. " alt="" coords="227,56,407,83"/>
 </map>

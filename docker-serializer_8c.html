@@ -70,7 +70,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>임의의 구조체를 json화 시키는 방식이 구현된 소스입니다.  
+<p>To make structure to JSON format.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;stdlib.h&gt;</code><br />
 <code>#include &lt;assert.h&gt;</code><br />
@@ -83,11 +83,11 @@ Include dependency graph for docker-serializer.c:</div>
 <div class="dyncontent">
 <div class="center"><img src="docker-serializer_8c__incl.png" border="0" usemap="#runner_2driver_2docker-driver_2docker-serializer_8c" alt=""/></div>
 <map name="runner_2driver_2docker-driver_2docker-serializer_8c" id="runner_2driver_2docker-driver_2docker-serializer_8c">
-<area shape="rect" id="node6" href="docker-driver_8h.html" title="docker와 함께 trace&#45;replay를 동작시키는 driver의 선언부에 해당합니다. " alt="" coords="313,95,474,121"/>
-<area shape="rect" id="node19" href="runner_8h.html" title="runner에 대한 선언적 내용이 들어가게 됩니다. " alt="" coords="214,95,288,121"/>
-<area shape="rect" id="node10" href="generic_8h.html" title="driver의 매핑 정보 및 runner를 총괄하는 헤더입니다. 관련 정의 내용은 runner/generic.c에 존재합니다. " alt="" coords="288,169,371,196"/>
+<area shape="rect" id="node6" href="docker-driver_8h.html" title="driver declaration part of run docker with trace&#45;replay " alt="" coords="313,95,474,121"/>
+<area shape="rect" id="node19" href="runner_8h.html" title="Declaration information of runnner " alt="" coords="214,95,288,121"/>
+<area shape="rect" id="node10" href="generic_8h.html" title="This header maintain the driver&#39;s mapping information. It&#39;s definition in runner/generic.c. " alt="" coords="288,169,371,196"/>
 <area shape="rect" id="node16" href="trace__replay_8h.html" title="trace_replay.h" alt="" coords="705,169,818,196"/>
-<area shape="rect" id="node13" href="log_8h.html" title="로그 출력 양식에 해당합니다. " alt="" coords="574,244,629,271"/>
+<area shape="rect" id="node13" href="log_8h.html" title="Format of log printing. " alt="" coords="574,244,629,271"/>
 <area shape="rect" id="node18" href="flist_8h.html" title="flist.h" alt="" coords="491,244,550,271"/>
 </map>
 </div>
@@ -95,44 +95,44 @@ Include dependency graph for docker-serializer.c:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a918c0bd6357448f29c9840981bca534d"><td class="memItemLeft" align="right" valign="top">static struct json_object *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="docker-serializer_8c.html#a918c0bd6357448f29c9840981bca534d">docker_info_serializer</a> (const struct <a class="el" href="structdocker__info.html">docker_info</a> *info)</td></tr>
-<tr class="memdesc:a918c0bd6357448f29c9840981bca534d"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="structdocker__info.html" title="실제 각각의 프로세스에 대한 정보가 들어가는 구조체에 해당합니다. ">docker_info</a> 구조체의 내용을 json_object로 만들어주도록 합니다.  <a href="#a918c0bd6357448f29c9840981bca534d">More...</a><br /></td></tr>
+<tr class="memdesc:a918c0bd6357448f29c9840981bca534d"><td class="mdescLeft">&#160;</td><td class="mdescRight">To make a <code><a class="el" href="structdocker__info.html" title="This structure has the major information of the each process. ">docker_info</a></code> structure to <code>json_object</code>.  <a href="#a918c0bd6357448f29c9840981bca534d">More...</a><br /></td></tr>
 <tr class="separator:a918c0bd6357448f29c9840981bca534d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace519b466cbe3a464dc5a9931b226b20"><td class="memItemLeft" align="right" valign="top">static struct json_object *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="docker-serializer_8c.html#ace519b466cbe3a464dc5a9931b226b20">docker_realtime_log_serializer</a> (const struct <a class="el" href="structrealtime__log.html">realtime_log</a> *log)</td></tr>
-<tr class="memdesc:ace519b466cbe3a464dc5a9931b226b20"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="structrealtime__log.html">realtime_log</a> 구조체의 내용을 json_object로 만들어주도록 합니다.  <a href="#ace519b466cbe3a464dc5a9931b226b20">More...</a><br /></td></tr>
+<tr class="memdesc:ace519b466cbe3a464dc5a9931b226b20"><td class="mdescLeft">&#160;</td><td class="mdescRight">To make a <code><a class="el" href="structrealtime__log.html">realtime_log</a></code> structure to <code>json_object</code>.  <a href="#ace519b466cbe3a464dc5a9931b226b20">More...</a><br /></td></tr>
 <tr class="separator:ace519b466cbe3a464dc5a9931b226b20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa96092b79f670518ce65ae741a384a5a"><td class="memItemLeft" align="right" valign="top">static struct json_object *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="docker-serializer_8c.html#aa96092b79f670518ce65ae741a384a5a">docker_total_trace_serializer</a> (const struct <a class="el" href="structtrace.html">trace</a> *<a class="el" href="trace__replay_8c.html#aa20f674ba9190908a988cceda06e223e">traces</a>)</td></tr>
-<tr class="memdesc:aa96092b79f670518ce65ae741a384a5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">trace 구조체의 내용을 json_object로 만들어주도록 합니다.  <a href="#aa96092b79f670518ce65ae741a384a5a">More...</a><br /></td></tr>
+<tr class="memdesc:aa96092b79f670518ce65ae741a384a5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">To make a <code>trace</code> structure to <code>json_object</code>.  <a href="#aa96092b79f670518ce65ae741a384a5a">More...</a><br /></td></tr>
 <tr class="separator:aa96092b79f670518ce65ae741a384a5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74edd389f0149510f3ead2ab42c8030b"><td class="memItemLeft" align="right" valign="top">static struct json_object *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="docker-serializer_8c.html#a74edd389f0149510f3ead2ab42c8030b">docker_total_config_serializer</a> (const struct <a class="el" href="structtotal__results.html">total_results</a> *total, struct <a class="el" href="structdocker__total__json__object.html">docker_total_json_object</a> *<a class="el" href="tr-driver-test_8c.html#a96752f2b7690069330136a4fdd956e6c">jobject</a>)</td></tr>
-<tr class="memdesc:a74edd389f0149510f3ead2ab42c8030b"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="structtotal__results.html">total_results</a> 구조체 config 멤버의 내용을 json_object로 만들어주도록 합니다.  <a href="#a74edd389f0149510f3ead2ab42c8030b">More...</a><br /></td></tr>
+<tr class="memdesc:a74edd389f0149510f3ead2ab42c8030b"><td class="mdescLeft">&#160;</td><td class="mdescRight">To make a <code><a class="el" href="structtotal__results.html">total_results</a></code> structure's <code>config</code> member to <code>json_object</code>.  <a href="#a74edd389f0149510f3ead2ab42c8030b">More...</a><br /></td></tr>
 <tr class="separator:a74edd389f0149510f3ead2ab42c8030b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c5b2742d51400f171dceb3d3b6d397d"><td class="memItemLeft" align="right" valign="top">static struct json_object *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="docker-serializer_8c.html#a8c5b2742d51400f171dceb3d3b6d397d">docker_synthetic_serializer</a> (const struct <a class="el" href="structsynthetic.html">synthetic</a> *_synthetic)</td></tr>
-<tr class="memdesc:a8c5b2742d51400f171dceb3d3b6d397d"><td class="mdescLeft">&#160;</td><td class="mdescRight">synthetic 구조체의 내용을 json_object로 만들어주도록 합니다.  <a href="#a8c5b2742d51400f171dceb3d3b6d397d">More...</a><br /></td></tr>
+<tr class="memdesc:a8c5b2742d51400f171dceb3d3b6d397d"><td class="mdescLeft">&#160;</td><td class="mdescRight">To make a <code>synthetic</code> structure to <code>json_object</code>.  <a href="#a8c5b2742d51400f171dceb3d3b6d397d">More...</a><br /></td></tr>
 <tr class="separator:a8c5b2742d51400f171dceb3d3b6d397d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f0e5f887d5cebf221dca37c1cc09bb6"><td class="memItemLeft" align="right" valign="top">static struct json_object *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="docker-serializer_8c.html#a5f0e5f887d5cebf221dca37c1cc09bb6">docker_stats_serializer</a> (const struct <a class="el" href="structtrace__stat.html">trace_stat</a> *_stats)</td></tr>
-<tr class="memdesc:a5f0e5f887d5cebf221dca37c1cc09bb6"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="structtrace__stat.html">trace_stat</a> 구조체의 내용을 json_object로 만들어주도록 합니다.  <a href="#a5f0e5f887d5cebf221dca37c1cc09bb6">More...</a><br /></td></tr>
+<tr class="memdesc:a5f0e5f887d5cebf221dca37c1cc09bb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">To make a <code><a class="el" href="structtrace__stat.html">trace_stat</a></code> structure to <code>json_object</code>.  <a href="#a5f0e5f887d5cebf221dca37c1cc09bb6">More...</a><br /></td></tr>
 <tr class="separator:a5f0e5f887d5cebf221dca37c1cc09bb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a01005ce8bca2c2d93d9ff4d81642234e"><td class="memItemLeft" align="right" valign="top">static struct json_object *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="docker-serializer_8c.html#a01005ce8bca2c2d93d9ff4d81642234e">docker_total_per_trace_serializer</a> (const struct <a class="el" href="structtotal__results.html">total_results</a> *total, struct <a class="el" href="structdocker__total__json__object.html">docker_total_json_object</a> *<a class="el" href="tr-driver-test_8c.html#a96752f2b7690069330136a4fdd956e6c">jobject</a>)</td></tr>
-<tr class="memdesc:a01005ce8bca2c2d93d9ff4d81642234e"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="structtotal__results.html">total_results</a> 구조체 per_trace 멤버의 내용을 json_object로 만들어주도록 합니다.  <a href="#a01005ce8bca2c2d93d9ff4d81642234e">More...</a><br /></td></tr>
+<tr class="memdesc:a01005ce8bca2c2d93d9ff4d81642234e"><td class="mdescLeft">&#160;</td><td class="mdescRight">To make a <code><a class="el" href="structtotal__results.html">total_results</a></code> structure's <code>per_trace</code> member to <code>json_object</code>.  <a href="#a01005ce8bca2c2d93d9ff4d81642234e">More...</a><br /></td></tr>
 <tr class="separator:a01005ce8bca2c2d93d9ff4d81642234e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab6218e1a2346447d6b9404f99f7536a4"><td class="memItemLeft" align="right" valign="top">static struct json_object *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="docker-serializer_8c.html#ab6218e1a2346447d6b9404f99f7536a4">docker_total_aggr_serializer</a> (const struct <a class="el" href="structtotal__results.html">total_results</a> *total)</td></tr>
-<tr class="memdesc:ab6218e1a2346447d6b9404f99f7536a4"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="structtotal__results.html">total_results</a> 구조체의 aggr_results 내용을 json_object로 만들어주도록 합니다.  <a href="#ab6218e1a2346447d6b9404f99f7536a4">More...</a><br /></td></tr>
+<tr class="memdesc:ab6218e1a2346447d6b9404f99f7536a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">To make a <code><a class="el" href="structaggr__result.html">aggr_result</a></code> structure's <code>per_trace</code> member to <code>json_object</code>.  <a href="#ab6218e1a2346447d6b9404f99f7536a4">More...</a><br /></td></tr>
 <tr class="separator:ab6218e1a2346447d6b9404f99f7536a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa7f1ff8d1218bb6262c38f23dafd1063"><td class="memItemLeft" align="right" valign="top">static struct json_object *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="docker-serializer_8c.html#aa7f1ff8d1218bb6262c38f23dafd1063">docker_total_result_serializer</a> (const struct <a class="el" href="structtotal__results.html">total_results</a> *total, struct <a class="el" href="structdocker__total__json__object.html">docker_total_json_object</a> *<a class="el" href="tr-driver-test_8c.html#a96752f2b7690069330136a4fdd956e6c">jobject</a>)</td></tr>
-<tr class="memdesc:aa7f1ff8d1218bb6262c38f23dafd1063"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="structtotal__results.html">total_results</a> 구조체 내용 중 per_trace랑 aggr_results를 json_object로 만들어주도록 합니다.  <a href="#aa7f1ff8d1218bb6262c38f23dafd1063">More...</a><br /></td></tr>
+<tr class="memdesc:aa7f1ff8d1218bb6262c38f23dafd1063"><td class="mdescLeft">&#160;</td><td class="mdescRight">to make a <code><a class="el" href="structtotal__results.html">total_results</a></code> structure's <code>per_trace</code> and <code><a class="el" href="structaggr__result.html">aggr_result</a></code> member to <code>json_object</code>.  <a href="#aa7f1ff8d1218bb6262c38f23dafd1063">More...</a><br /></td></tr>
 <tr class="separator:aa7f1ff8d1218bb6262c38f23dafd1063"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6498e99e07fad20ddc2d9d44f9b5ea7b"><td class="memItemLeft" align="right" valign="top">static struct json_object *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="docker-serializer_8c.html#a6498e99e07fad20ddc2d9d44f9b5ea7b">docker_total_results_serializer</a> (const struct <a class="el" href="structtotal__results.html">total_results</a> *total, struct <a class="el" href="structdocker__total__json__object.html">docker_total_json_object</a> *<a class="el" href="tr-driver-test_8c.html#a96752f2b7690069330136a4fdd956e6c">jobject</a>)</td></tr>
-<tr class="memdesc:a6498e99e07fad20ddc2d9d44f9b5ea7b"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="structtotal__results.html">total_results</a> 구조체 내용을 json_object로 만들어주도록 합니다.  <a href="#a6498e99e07fad20ddc2d9d44f9b5ea7b">More...</a><br /></td></tr>
+<tr class="memdesc:a6498e99e07fad20ddc2d9d44f9b5ea7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">to make a <code><a class="el" href="structtotal__results.html">total_results</a></code> structure's all member to <code>json_object</code>.  <a href="#a6498e99e07fad20ddc2d9d44f9b5ea7b">More...</a><br /></td></tr>
 <tr class="separator:a6498e99e07fad20ddc2d9d44f9b5ea7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa3d0ff3fac362a0e0b55ea8e15292df"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="docker-serializer_8c.html#afa3d0ff3fac362a0e0b55ea8e15292df">docker_realtime_serializer</a> (const struct <a class="el" href="structdocker__info.html">docker_info</a> *info, const struct <a class="el" href="structrealtime__log.html">realtime_log</a> *log, char *buffer)</td></tr>
-<tr class="memdesc:afa3d0ff3fac362a0e0b55ea8e15292df"><td class="mdescLeft">&#160;</td><td class="mdescRight">json으로 구조체에 있는 내용을 변환합니다.  <a href="#afa3d0ff3fac362a0e0b55ea8e15292df">More...</a><br /></td></tr>
+<tr class="memdesc:afa3d0ff3fac362a0e0b55ea8e15292df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts <code><a class="el" href="structrealtime__log.html">realtime_log</a></code> to JSON string.  <a href="#afa3d0ff3fac362a0e0b55ea8e15292df">More...</a><br /></td></tr>
 <tr class="separator:afa3d0ff3fac362a0e0b55ea8e15292df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a065df4ff7f9ad38f0a38fce33608a1a6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="docker-serializer_8c.html#a065df4ff7f9ad38f0a38fce33608a1a6">docker_total_serializer</a> (const struct <a class="el" href="structdocker__info.html">docker_info</a> *info, const struct <a class="el" href="structtotal__results.html">total_results</a> *total, char *buffer)</td></tr>
-<tr class="memdesc:a065df4ff7f9ad38f0a38fce33608a1a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">json으로 구조체에 있는 내용을 변환합니다.  <a href="#a065df4ff7f9ad38f0a38fce33608a1a6">More...</a><br /></td></tr>
+<tr class="memdesc:a065df4ff7f9ad38f0a38fce33608a1a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts <code><a class="el" href="structtotal__results.html">total_results</a></code> to JSON string.  <a href="#a065df4ff7f9ad38f0a38fce33608a1a6">More...</a><br /></td></tr>
 <tr class="separator:a065df4ff7f9ad38f0a38fce33608a1a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>임의의 구조체를 json화 시키는 방식이 구현된 소스입니다. </p>
+<div class="textblock"><p>To make structure to JSON format. </p>
 <dl class="section copyright"><dt>Copyright</dt><dd>"Container Tracer" which executes the container performance mesurements Copyright (C) 2020 SuhoSon</dd></dl>
 <p>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.</p>
 <p>This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.</p>
@@ -165,15 +165,15 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p><a class="el" href="structdocker__info.html" title="실제 각각의 프로세스에 대한 정보가 들어가는 구조체에 해당합니다. ">docker_info</a> 구조체의 내용을 json_object로 만들어주도록 합니다. </p>
+<p>To make a <code><a class="el" href="structdocker__info.html" title="This structure has the major information of the each process. ">docker_info</a></code> structure to <code>json_object</code>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">info</td><td>json으로 변환시킬 <a class="el" href="structdocker__info.html" title="실제 각각의 프로세스에 대한 정보가 들어가는 구조체에 해당합니다. ">docker_info</a> 형태의 구조체입니다.</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">info</td><td><code><a class="el" href="structdocker__info.html" title="This structure has the major information of the each process. ">docker_info</a></code> data structure which wants to convert <code>json_object</code>.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>구조체의 json 객체가 반환됩니다.</dd></dl>
-<dl class="section warning"><dt>Warning</dt><dd>만약에 반환 값을 다른 json_object에 붙이지 않는 경우에는 반드시 반환하는 절차를 거쳐줘야 합니다. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Structure's <code>json_object</code></dd></dl>
+<dl class="section note"><dt>Note</dt><dd>You must deallocate this returned <code>json_object</code> or attach this to the other <code>json_object</code>. </dd></dl>
 
 </div>
 </div>
@@ -201,15 +201,15 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p><a class="el" href="structrealtime__log.html">realtime_log</a> 구조체의 내용을 json_object로 만들어주도록 합니다. </p>
+<p>To make a <code><a class="el" href="structrealtime__log.html">realtime_log</a></code> structure to <code>json_object</code>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">log</td><td>json으로 변환시킬 <a class="el" href="structrealtime__log.html">realtime_log</a> 형태의 구조체입니다.</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">log</td><td><code><a class="el" href="structrealtime__log.html">realtime_log</a></code> data structure which wants to convert <code>json_object</code>.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="structrealtime__log.html">realtime_log</a> 구조체의 json 객체가 반환됩니다.</dd></dl>
-<dl class="section warning"><dt>Warning</dt><dd>만약에 반환 값을 다른 json_object에 붙이지 않는 경우에는 반드시 반환하는 절차를 거쳐줘야 합니다. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Structure's <code>json_object</code></dd></dl>
+<dl class="section note"><dt>Note</dt><dd>You must deallocate this returned <code>json_object</code> or attach this to the other <code>json_object</code>. </dd></dl>
 
 </div>
 </div>
@@ -245,23 +245,23 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>json으로 구조체에 있는 내용을 변환합니다. </p>
+<p>Converts <code><a class="el" href="structrealtime__log.html">realtime_log</a></code> to JSON string. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">info</td><td>현재 <a class="el" href="structdocker__info.html" title="실제 각각의 프로세스에 대한 정보가 들어가는 구조체에 해당합니다. ">docker_info</a> 구조체의 포인터입니다. </td></tr>
-    <tr><td class="paramname">log</td><td>현재 출력 로그에 해당합니다. </td></tr>
-    <tr><td class="paramname">buffer</td><td>수행 결과 만들어진 json 내용이 들어가는 부분에 해당합니다.</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">info</td><td><code><a class="el" href="structdocker__info.html" title="This structure has the major information of the each process. ">docker_info</a></code> structure's pointer. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">log</td><td><code><a class="el" href="structrealtime__log.html">realtime_log</a></code> structure's pointer. </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">buffer</td><td>Data contains the execution-time results which are converted to JSON.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section warning"><dt>Warning</dt><dd>buffer는 반드시 이 함수를 부르기 전에 할당되어야하며, 그 크기는 INTERVAL_RESULT_STRING_SIZE 보다 커야 합니다. </dd></dl>
+<dl class="section warning"><dt>Warning</dt><dd><code>buffer</code> must be allocated memory over and equal <code>INTERVAL_RESULT_STRING_SIZE</code> </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="docker-serializer_8c_afa3d0ff3fac362a0e0b55ea8e15292df_cgraph.png" border="0" usemap="#docker-serializer_8c_afa3d0ff3fac362a0e0b55ea8e15292df_cgraph" alt=""/></div>
 <map name="docker-serializer_8c_afa3d0ff3fac362a0e0b55ea8e15292df_cgraph" id="docker-serializer_8c_afa3d0ff3fac362a0e0b55ea8e15292df_cgraph">
-<area shape="rect" id="node2" href="docker-serializer_8c.html#a918c0bd6357448f29c9840981bca534d" title="docker_info 구조체의 내용을 json_object로 만들어주도록 합니다. " alt="" coords="248,5,413,32"/>
-<area shape="rect" id="node3" href="docker-serializer_8c.html#ace519b466cbe3a464dc5a9931b226b20" title="realtime_log 구조체의 내용을 json_object로 만들어주도록 합니다. " alt="" coords="253,57,408,98"/>
+<area shape="rect" id="node2" href="docker-serializer_8c.html#a918c0bd6357448f29c9840981bca534d" title="To make a docker_info structure to json_object. " alt="" coords="248,5,413,32"/>
+<area shape="rect" id="node3" href="docker-serializer_8c.html#ace519b466cbe3a464dc5a9931b226b20" title="To make a realtime_log structure to json_object. " alt="" coords="253,57,408,98"/>
 </map>
 </div>
 
@@ -291,15 +291,15 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p><a class="el" href="structtrace__stat.html">trace_stat</a> 구조체의 내용을 json_object로 만들어주도록 합니다. </p>
+<p>To make a <code><a class="el" href="structtrace__stat.html">trace_stat</a></code> structure to <code>json_object</code>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">_stats</td><td>json으로 변환시킬 <a class="el" href="structtrace__stat.html">trace_stat</a> 형태의 구조체입니다.</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">_stats</td><td><code><a class="el" href="structtrace__stat.html">trace_stat</a></code> data structure which wants to convert <code>json_object</code>.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="structtrace__stat.html">trace_stat</a> 구조체의 json 객체가 반환됩니다.</dd></dl>
-<dl class="section warning"><dt>Warning</dt><dd>만약에 반환 값을 다른 json_object에 붙이지 않는 경우에는 반드시 반환하는 절차를 거쳐줘야 합니다. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Structure's <code>json_object</code></dd></dl>
+<dl class="section note"><dt>Note</dt><dd>You must deallocate this returned <code>json_object</code> or attach this to the other <code>json_object</code>. </dd></dl>
 
 </div>
 </div>
@@ -327,15 +327,15 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>synthetic 구조체의 내용을 json_object로 만들어주도록 합니다. </p>
+<p>To make a <code>synthetic</code> structure to <code>json_object</code>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">_synthetic</td><td>json으로 변환시킬 synthetic 형태의 구조체입니다.</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">_synthetic</td><td><code>synthetic</code> data structure which wants to convert <code>json_object</code>.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>synthetic 구조체의 json 객체가 반환됩니다.</dd></dl>
-<dl class="section warning"><dt>Warning</dt><dd>만약에 반환 값을 다른 json_object에 붙이지 않는 경우에는 반드시 반환하는 절차를 거쳐줘야 합니다. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Structure's <code>json_object</code></dd></dl>
+<dl class="section note"><dt>Note</dt><dd>You must deallocate this returned <code>json_object</code> or attach this to the other <code>json_object</code>. </dd></dl>
 
 </div>
 </div>
@@ -363,21 +363,21 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p><a class="el" href="structtotal__results.html">total_results</a> 구조체의 aggr_results 내용을 json_object로 만들어주도록 합니다. </p>
+<p>To make a <code><a class="el" href="structaggr__result.html">aggr_result</a></code> structure's <code>per_trace</code> member to <code>json_object</code>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">total</td><td>json으로 변환시킬 <a class="el" href="structaggr__result.html">aggr_result</a> 멤버를 가진 <a class="el" href="structtotal__results.html">total_results</a> 형태의 구조체입니다.</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">total</td><td><code><a class="el" href="structtotal__results.html">total_results</a></code> data structure which wants to convert <code><a class="el" href="structaggr__result.html">aggr_result</a></code> member to <code>json_object</code>.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>aggr_result가 stats만 가지고 있으므로 stats를 json화 시키는 함수를 통과시켜주도록 합니다.</dd></dl>
-<dl class="section warning"><dt>Warning</dt><dd>만약에 반환 값을 다른 json_object에 붙이지 않는 경우에는 반드시 반환하는 절차를 거쳐줘야 합니다. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd><code><a class="el" href="structtotal__results.html">total_results</a></code> structure's <code><a class="el" href="structaggr__result.html">aggr_result</a></code> member's <code>json_object</code>. This is same form of <code>stats</code>.</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>You must deallocate this returned <code>json_object</code> or attach this to the other <code>json_object</code>. </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="docker-serializer_8c_ab6218e1a2346447d6b9404f99f7536a4_cgraph.png" border="0" usemap="#docker-serializer_8c_ab6218e1a2346447d6b9404f99f7536a4_cgraph" alt=""/></div>
 <map name="docker-serializer_8c_ab6218e1a2346447d6b9404f99f7536a4_cgraph" id="docker-serializer_8c_ab6218e1a2346447d6b9404f99f7536a4_cgraph">
-<area shape="rect" id="node2" href="docker-serializer_8c.html#a5f0e5f887d5cebf221dca37c1cc09bb6" title="trace_stat 구조체의 내용을 json_object로 만들어주도록 합니다. " alt="" coords="260,5,432,32"/>
+<area shape="rect" id="node2" href="docker-serializer_8c.html#a5f0e5f887d5cebf221dca37c1cc09bb6" title="To make a trace_stat structure to json_object. " alt="" coords="260,5,432,32"/>
 </map>
 </div>
 
@@ -417,22 +417,22 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p><a class="el" href="structtotal__results.html">total_results</a> 구조체 config 멤버의 내용을 json_object로 만들어주도록 합니다. </p>
+<p>To make a <code><a class="el" href="structtotal__results.html">total_results</a></code> structure's <code>config</code> member to <code>json_object</code>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">total</td><td>json으로 변환시킬 config를 멤버를 가진 <a class="el" href="structtotal__results.html">total_results</a> 형태의 구조체입니다. </td></tr>
-    <tr><td class="paramname">jobject</td><td>동적 할당된 내용이 들어간 <a class="el" href="structdocker__total__json__object.html" title="total_results(include/trace_replay.h 참조)의 경우 하위로 들어가는 내용이 많으므로 해당 내용을 받을 수...">docker_total_json_object</a> 형태 구조체입니다.</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">total</td><td><code><a class="el" href="structtotal__results.html">total_results</a></code> data structure which wants to convert <code>config</code> member to <code>json_object</code>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">jobject</td><td>Address of <code><a class="el" href="structdocker__total__json__object.html" title="Support structure of the total_results structures which located in include/trace_replay.h. ">docker_total_json_object</a></code> which already occupying the memory.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="structtotal__results.html">total_results</a> 구조체 config 멤버의 json 객체가 반환됩니다.</dd></dl>
-<dl class="section warning"><dt>Warning</dt><dd>만약에 반환 값을 다른 json_object에 붙이지 않는 경우에는 반드시 반환하는 절차를 거쳐줘야 합니다. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd><code><a class="el" href="structtotal__results.html">total_results</a></code> structure's <code>config</code> member's <code>json_object</code></dd></dl>
+<dl class="section note"><dt>Note</dt><dd>You must deallocate this returned <code>json_object</code> or attach this to the other <code>json_object</code>. </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="docker-serializer_8c_a74edd389f0149510f3ead2ab42c8030b_cgraph.png" border="0" usemap="#docker-serializer_8c_a74edd389f0149510f3ead2ab42c8030b_cgraph" alt=""/></div>
 <map name="docker-serializer_8c_a74edd389f0149510f3ead2ab42c8030b_cgraph" id="docker-serializer_8c_a74edd389f0149510f3ead2ab42c8030b_cgraph">
-<area shape="rect" id="node2" href="docker-serializer_8c.html#aa96092b79f670518ce65ae741a384a5a" title="trace 구조체의 내용을 json_object로 만들어주도록 합니다. " alt="" coords="203,5,345,47"/>
+<area shape="rect" id="node2" href="docker-serializer_8c.html#aa96092b79f670518ce65ae741a384a5a" title="To make a trace structure to json_object. " alt="" coords="203,5,345,47"/>
 </map>
 </div>
 
@@ -472,23 +472,23 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p><a class="el" href="structtotal__results.html">total_results</a> 구조체 per_trace 멤버의 내용을 json_object로 만들어주도록 합니다. </p>
+<p>To make a <code><a class="el" href="structtotal__results.html">total_results</a></code> structure's <code>per_trace</code> member to <code>json_object</code>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">total</td><td>json으로 변환시킬 per_trace를 멤버를 가진 <a class="el" href="structtotal__results.html">total_results</a> 형태의 구조체입니다. </td></tr>
-    <tr><td class="paramname">jobject</td><td>동적 할당된 내용이 들어간 <a class="el" href="structdocker__total__json__object.html" title="total_results(include/trace_replay.h 참조)의 경우 하위로 들어가는 내용이 많으므로 해당 내용을 받을 수...">docker_total_json_object</a> 형태 구조체입니다.</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">total</td><td><code><a class="el" href="structtotal__results.html">total_results</a></code> data structure which wants to convert <code>per_trace</code> member to <code>json_object</code>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">jobject</td><td>Address of <code><a class="el" href="structdocker__total__json__object.html" title="Support structure of the total_results structures which located in include/trace_replay.h. ">docker_total_json_object</a></code> which already occupying the memory.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="structtotal__results.html">total_results</a> 구조체 config 멤버의 json 객체가 반환됩니다.</dd></dl>
-<dl class="section warning"><dt>Warning</dt><dd>만약에 반환 값을 다른 json_object에 붙이지 않는 경우에는 반드시 반환하는 절차를 거쳐줘야 합니다. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd><code><a class="el" href="structtotal__results.html">total_results</a></code> structure's <code>per_trace</code> member's <code>json_object</code></dd></dl>
+<dl class="section note"><dt>Note</dt><dd>You must deallocate this returned <code>json_object</code> or attach this to the other <code>json_object</code>. </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="docker-serializer_8c_a01005ce8bca2c2d93d9ff4d81642234e_cgraph.png" border="0" usemap="#docker-serializer_8c_a01005ce8bca2c2d93d9ff4d81642234e_cgraph" alt=""/></div>
 <map name="docker-serializer_8c_a01005ce8bca2c2d93d9ff4d81642234e_cgraph" id="docker-serializer_8c_a01005ce8bca2c2d93d9ff4d81642234e_cgraph">
-<area shape="rect" id="node2" href="docker-serializer_8c.html#a8c5b2742d51400f171dceb3d3b6d397d" title="synthetic 구조체의 내용을 json_object로 만들어주도록 합니다. " alt="" coords="224,5,424,32"/>
-<area shape="rect" id="node3" href="docker-serializer_8c.html#a5f0e5f887d5cebf221dca37c1cc09bb6" title="trace_stat 구조체의 내용을 json_object로 만들어주도록 합니다. " alt="" coords="238,56,410,83"/>
+<area shape="rect" id="node2" href="docker-serializer_8c.html#a8c5b2742d51400f171dceb3d3b6d397d" title="To make a synthetic structure to json_object. " alt="" coords="224,5,424,32"/>
+<area shape="rect" id="node3" href="docker-serializer_8c.html#a5f0e5f887d5cebf221dca37c1cc09bb6" title="To make a trace_stat structure to json_object. " alt="" coords="238,56,410,83"/>
 </map>
 </div>
 
@@ -528,25 +528,25 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p><a class="el" href="structtotal__results.html">total_results</a> 구조체 내용 중 per_trace랑 aggr_results를 json_object로 만들어주도록 합니다. </p>
+<p>to make a <code><a class="el" href="structtotal__results.html">total_results</a></code> structure's <code>per_trace</code> and <code><a class="el" href="structaggr__result.html">aggr_result</a></code> member to <code>json_object</code>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">total</td><td>json으로 변환시킬 <a class="el" href="structtotal__results.html">total_results</a> 형태의 구조체입니다. </td></tr>
-    <tr><td class="paramname">jobject</td><td>동적 할당된 내용이 들어간 <a class="el" href="structdocker__total__json__object.html" title="total_results(include/trace_replay.h 참조)의 경우 하위로 들어가는 내용이 많으므로 해당 내용을 받을 수...">docker_total_json_object</a> 형태 구조체입니다.</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">total</td><td><code><a class="el" href="structtotal__results.html">total_results</a></code> data structure which wants to convert <code>per_trace</code> and <code><a class="el" href="structaggr__result.html">aggr_result</a></code> member to <code>json_object</code>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">jobject</td><td>address of <code><a class="el" href="structdocker__total__json__object.html" title="Support structure of the total_results structures which located in include/trace_replay.h. ">docker_total_json_object</a></code> which already occupying the memory.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="structtotal__results.html">total_results</a> 구조체의 per_trace랑 aggr_results를 가지고 만든 json 객체가 반환됩니다.</dd></dl>
-<dl class="section warning"><dt>Warning</dt><dd>만약에 반환 값을 다른 json_object에 붙이지 않는 경우에는 반드시 반환하는 절차를 거쳐줘야 합니다. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd><code><a class="el" href="structtotal__results.html">total_results</a></code> structure's <code>per_trace</code> and <code><a class="el" href="structaggr__result.html">aggr_result</a></code> member's <code>json_object</code></dd></dl>
+<dl class="section note"><dt>Note</dt><dd>you must deallocate this returned <code>json_object</code> or attach this to the other <code>json_object</code>. </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="docker-serializer_8c_aa7f1ff8d1218bb6262c38f23dafd1063_cgraph.png" border="0" usemap="#docker-serializer_8c_aa7f1ff8d1218bb6262c38f23dafd1063_cgraph" alt=""/></div>
 <map name="docker-serializer_8c_aa7f1ff8d1218bb6262c38f23dafd1063_cgraph" id="docker-serializer_8c_aa7f1ff8d1218bb6262c38f23dafd1063_cgraph">
-<area shape="rect" id="node2" href="docker-serializer_8c.html#a01005ce8bca2c2d93d9ff4d81642234e" title="total_results 구조체 per_trace 멤버의 내용을 json_object로 만들어주도록 합니다. " alt="" coords="218,5,389,47"/>
-<area shape="rect" id="node5" href="docker-serializer_8c.html#ab6218e1a2346447d6b9404f99f7536a4" title="total_results 구조체의 aggr_results 내용을 json_object로 만들어주도록 합니다. " alt="" coords="200,71,407,98"/>
-<area shape="rect" id="node3" href="docker-serializer_8c.html#a8c5b2742d51400f171dceb3d3b6d397d" title="synthetic 구조체의 내용을 json_object로 만들어주도록 합니다. " alt="" coords="455,13,655,39"/>
-<area shape="rect" id="node4" href="docker-serializer_8c.html#a5f0e5f887d5cebf221dca37c1cc09bb6" title="trace_stat 구조체의 내용을 json_object로 만들어주도록 합니다. " alt="" coords="469,67,641,94"/>
+<area shape="rect" id="node2" href="docker-serializer_8c.html#a01005ce8bca2c2d93d9ff4d81642234e" title="To make a total_results structure&#39;s per_trace member to json_object. " alt="" coords="218,5,389,47"/>
+<area shape="rect" id="node5" href="docker-serializer_8c.html#ab6218e1a2346447d6b9404f99f7536a4" title="To make a aggr_result structure&#39;s per_trace member to json_object. " alt="" coords="200,71,407,98"/>
+<area shape="rect" id="node3" href="docker-serializer_8c.html#a8c5b2742d51400f171dceb3d3b6d397d" title="To make a synthetic structure to json_object. " alt="" coords="455,13,655,39"/>
+<area shape="rect" id="node4" href="docker-serializer_8c.html#a5f0e5f887d5cebf221dca37c1cc09bb6" title="To make a trace_stat structure to json_object. " alt="" coords="469,67,641,94"/>
 </map>
 </div>
 
@@ -586,28 +586,28 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p><a class="el" href="structtotal__results.html">total_results</a> 구조체 내용을 json_object로 만들어주도록 합니다. </p>
+<p>to make a <code><a class="el" href="structtotal__results.html">total_results</a></code> structure's all member to <code>json_object</code>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">total</td><td>json으로 변환시킬 <a class="el" href="structtotal__results.html">total_results</a> 형태의 구조체입니다. </td></tr>
-    <tr><td class="paramname">jobject</td><td>동적 할당된 내용이 들어간 <a class="el" href="structdocker__total__json__object.html" title="total_results(include/trace_replay.h 참조)의 경우 하위로 들어가는 내용이 많으므로 해당 내용을 받을 수...">docker_total_json_object</a> 형태 구조체입니다.</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">total</td><td><code><a class="el" href="structtotal__results.html">total_results</a></code> data structure which wants to convert all member to <code>json_object</code>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">jobject</td><td>address of <code><a class="el" href="structdocker__total__json__object.html" title="Support structure of the total_results structures which located in include/trace_replay.h. ">docker_total_json_object</a></code> which already occupying the memory.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="structtotal__results.html">total_results</a> 구조체 json 객체가 반환됩니다.</dd></dl>
-<dl class="section warning"><dt>Warning</dt><dd>만약에 반환 값을 다른 json_object에 붙이지 않는 경우에는 반드시 반환하는 절차를 거쳐줘야 합니다. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd><code><a class="el" href="structtotal__results.html">total_results</a></code> structure's all member's <code>json_object</code></dd></dl>
+<dl class="section note"><dt>Note</dt><dd>you must deallocate this returned <code>json_object</code> or attach this to the other <code>json_object</code>. </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="docker-serializer_8c_a6498e99e07fad20ddc2d9d44f9b5ea7b_cgraph.png" border="0" usemap="#docker-serializer_8c_a6498e99e07fad20ddc2d9d44f9b5ea7b_cgraph" alt=""/></div>
 <map name="docker-serializer_8c_a6498e99e07fad20ddc2d9d44f9b5ea7b_cgraph" id="docker-serializer_8c_a6498e99e07fad20ddc2d9d44f9b5ea7b_cgraph">
-<area shape="rect" id="node2" href="docker-serializer_8c.html#a74edd389f0149510f3ead2ab42c8030b" title="total_results 구조체 config 멤버의 내용을 json_object로 만들어주도록 합니다. " alt="" coords="208,5,357,47"/>
-<area shape="rect" id="node4" href="docker-serializer_8c.html#aa7f1ff8d1218bb6262c38f23dafd1063" title="total_results 구조체 내용 중 per_trace랑 aggr_results를 json_object로 만들어주도록 합니다..." alt="" coords="209,71,356,112"/>
-<area shape="rect" id="node3" href="docker-serializer_8c.html#aa96092b79f670518ce65ae741a384a5a" title="trace 구조체의 내용을 json_object로 만들어주도록 합니다. " alt="" coords="437,5,580,47"/>
-<area shape="rect" id="node5" href="docker-serializer_8c.html#a01005ce8bca2c2d93d9ff4d81642234e" title="total_results 구조체 per_trace 멤버의 내용을 json_object로 만들어주도록 합니다. " alt="" coords="423,71,594,112"/>
-<area shape="rect" id="node8" href="docker-serializer_8c.html#ab6218e1a2346447d6b9404f99f7536a4" title="total_results 구조체의 aggr_results 내용을 json_object로 만들어주도록 합니다. " alt="" coords="405,137,612,163"/>
-<area shape="rect" id="node6" href="docker-serializer_8c.html#a8c5b2742d51400f171dceb3d3b6d397d" title="synthetic 구조체의 내용을 json_object로 만들어주도록 합니다. " alt="" coords="660,78,860,105"/>
-<area shape="rect" id="node7" href="docker-serializer_8c.html#a5f0e5f887d5cebf221dca37c1cc09bb6" title="trace_stat 구조체의 내용을 json_object로 만들어주도록 합니다. " alt="" coords="674,133,846,159"/>
+<area shape="rect" id="node2" href="docker-serializer_8c.html#a74edd389f0149510f3ead2ab42c8030b" title="To make a total_results structure&#39;s config member to json_object. " alt="" coords="208,5,357,47"/>
+<area shape="rect" id="node4" href="docker-serializer_8c.html#aa7f1ff8d1218bb6262c38f23dafd1063" title="to make a total_results structure&#39;s per_trace and aggr_result member to json_object. " alt="" coords="209,71,356,112"/>
+<area shape="rect" id="node3" href="docker-serializer_8c.html#aa96092b79f670518ce65ae741a384a5a" title="To make a trace structure to json_object. " alt="" coords="437,5,580,47"/>
+<area shape="rect" id="node5" href="docker-serializer_8c.html#a01005ce8bca2c2d93d9ff4d81642234e" title="To make a total_results structure&#39;s per_trace member to json_object. " alt="" coords="423,71,594,112"/>
+<area shape="rect" id="node8" href="docker-serializer_8c.html#ab6218e1a2346447d6b9404f99f7536a4" title="To make a aggr_result structure&#39;s per_trace member to json_object. " alt="" coords="405,137,612,163"/>
+<area shape="rect" id="node6" href="docker-serializer_8c.html#a8c5b2742d51400f171dceb3d3b6d397d" title="To make a synthetic structure to json_object. " alt="" coords="660,78,860,105"/>
+<area shape="rect" id="node7" href="docker-serializer_8c.html#a5f0e5f887d5cebf221dca37c1cc09bb6" title="To make a trace_stat structure to json_object. " alt="" coords="674,133,846,159"/>
 </map>
 </div>
 
@@ -645,30 +645,30 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>json으로 구조체에 있는 내용을 변환합니다. </p>
+<p>Converts <code><a class="el" href="structtotal__results.html">total_results</a></code> to JSON string. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">info</td><td>현재 <a class="el" href="structdocker__info.html" title="실제 각각의 프로세스에 대한 정보가 들어가는 구조체에 해당합니다. ">docker_info</a> 구조체의 포인터입니다. </td></tr>
-    <tr><td class="paramname">total</td><td>현재 직렬화를 원하는 <a class="el" href="structtotal__results.html">total_results</a> 구조체의 포인터입니다. </td></tr>
-    <tr><td class="paramname">buffer</td><td>수행 결과 만들어진 json 내용이 들어가는 부분에 해당합니다.</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">info</td><td><code><a class="el" href="structdocker__info.html" title="This structure has the major information of the each process. ">docker_info</a></code> structure's pointer. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">total</td><td><code><a class="el" href="structtotal__results.html">total_results</a></code> structure's pointer. </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">buffer</td><td>Data contains the end-time results which are converted to JSON.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section warning"><dt>Warning</dt><dd>buffer는 반드시 이 함수를 부르기 전에 할당되어야하며, 그 크기는 TOTAL_RESULT_STRING_SIZE 보다 커야 합니다. </dd></dl>
+<dl class="section warning"><dt>Warning</dt><dd><code>buffer</code> must be allocated memory over and equal <code>TOTAL_RESULT_STRING_SIZE</code> </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="docker-serializer_8c_a065df4ff7f9ad38f0a38fce33608a1a6_cgraph.png" border="0" usemap="#docker-serializer_8c_a065df4ff7f9ad38f0a38fce33608a1a6_cgraph" alt=""/></div>
 <map name="docker-serializer_8c_a065df4ff7f9ad38f0a38fce33608a1a6_cgraph" id="docker-serializer_8c_a065df4ff7f9ad38f0a38fce33608a1a6_cgraph">
-<area shape="rect" id="node2" href="docker-serializer_8c.html#a918c0bd6357448f29c9840981bca534d" title="docker_info 구조체의 내용을 json_object로 만들어주도록 합니다. " alt="" coords="224,5,389,32"/>
-<area shape="rect" id="node3" href="docker-serializer_8c.html#a6498e99e07fad20ddc2d9d44f9b5ea7b" title="total_results 구조체 내용을 json_object로 만들어주도록 합니다. " alt="" coords="229,57,384,98"/>
-<area shape="rect" id="node4" href="docker-serializer_8c.html#a74edd389f0149510f3ead2ab42c8030b" title="total_results 구조체 config 멤버의 내용을 json_object로 만들어주도록 합니다. " alt="" coords="437,23,587,65"/>
-<area shape="rect" id="node6" href="docker-serializer_8c.html#aa7f1ff8d1218bb6262c38f23dafd1063" title="total_results 구조체 내용 중 per_trace랑 aggr_results를 json_object로 만들어주도록 합니다..." alt="" coords="439,89,585,130"/>
-<area shape="rect" id="node5" href="docker-serializer_8c.html#aa96092b79f670518ce65ae741a384a5a" title="trace 구조체의 내용을 json_object로 만들어주도록 합니다. " alt="" coords="667,23,809,65"/>
-<area shape="rect" id="node7" href="docker-serializer_8c.html#a01005ce8bca2c2d93d9ff4d81642234e" title="total_results 구조체 per_trace 멤버의 내용을 json_object로 만들어주도록 합니다. " alt="" coords="653,89,823,130"/>
-<area shape="rect" id="node10" href="docker-serializer_8c.html#ab6218e1a2346447d6b9404f99f7536a4" title="total_results 구조체의 aggr_results 내용을 json_object로 만들어주도록 합니다. " alt="" coords="635,155,841,181"/>
-<area shape="rect" id="node8" href="docker-serializer_8c.html#a8c5b2742d51400f171dceb3d3b6d397d" title="synthetic 구조체의 내용을 json_object로 만들어주도록 합니다. " alt="" coords="889,96,1089,123"/>
-<area shape="rect" id="node9" href="docker-serializer_8c.html#a5f0e5f887d5cebf221dca37c1cc09bb6" title="trace_stat 구조체의 내용을 json_object로 만들어주도록 합니다. " alt="" coords="903,151,1075,177"/>
+<area shape="rect" id="node2" href="docker-serializer_8c.html#a918c0bd6357448f29c9840981bca534d" title="To make a docker_info structure to json_object. " alt="" coords="224,5,389,32"/>
+<area shape="rect" id="node3" href="docker-serializer_8c.html#a6498e99e07fad20ddc2d9d44f9b5ea7b" title="to make a total_results structure&#39;s all member to json_object. " alt="" coords="229,57,384,98"/>
+<area shape="rect" id="node4" href="docker-serializer_8c.html#a74edd389f0149510f3ead2ab42c8030b" title="To make a total_results structure&#39;s config member to json_object. " alt="" coords="437,23,587,65"/>
+<area shape="rect" id="node6" href="docker-serializer_8c.html#aa7f1ff8d1218bb6262c38f23dafd1063" title="to make a total_results structure&#39;s per_trace and aggr_result member to json_object. " alt="" coords="439,89,585,130"/>
+<area shape="rect" id="node5" href="docker-serializer_8c.html#aa96092b79f670518ce65ae741a384a5a" title="To make a trace structure to json_object. " alt="" coords="667,23,809,65"/>
+<area shape="rect" id="node7" href="docker-serializer_8c.html#a01005ce8bca2c2d93d9ff4d81642234e" title="To make a total_results structure&#39;s per_trace member to json_object. " alt="" coords="653,89,823,130"/>
+<area shape="rect" id="node10" href="docker-serializer_8c.html#ab6218e1a2346447d6b9404f99f7536a4" title="To make a aggr_result structure&#39;s per_trace member to json_object. " alt="" coords="635,155,841,181"/>
+<area shape="rect" id="node8" href="docker-serializer_8c.html#a8c5b2742d51400f171dceb3d3b6d397d" title="To make a synthetic structure to json_object. " alt="" coords="889,96,1089,123"/>
+<area shape="rect" id="node9" href="docker-serializer_8c.html#a5f0e5f887d5cebf221dca37c1cc09bb6" title="To make a trace_stat structure to json_object. " alt="" coords="903,151,1075,177"/>
 </map>
 </div>
 
@@ -698,15 +698,15 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>trace 구조체의 내용을 json_object로 만들어주도록 합니다. </p>
+<p>To make a <code>trace</code> structure to <code>json_object</code>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">traces</td><td>json으로 변환시킬 trace 형태의 구조체입니다.</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">traces</td><td><code>trace</code> data structure which wants to convert <code>json_object</code>.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>trace 구조체의 json 객체가 반환됩니다.</dd></dl>
-<dl class="section warning"><dt>Warning</dt><dd>만약에 반환 값을 다른 json_object에 붙이지 않는 경우에는 반드시 반환하는 절차를 거쳐줘야 합니다. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Structure's <code>json_object</code></dd></dl>
+<dl class="section note"><dt>Note</dt><dd>You must deallocate this returned <code>json_object</code> or attach this to the other <code>json_object</code>. </dd></dl>
 
 </div>
 </div>

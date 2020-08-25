@@ -72,7 +72,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>trace-replay를 동작시키는 driver 구현부에 해당합니다.  
+<p>Implementation of run the <code>trace-replay</code> benchmark.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;stdlib.h&gt;</code><br />
 <code>#include &lt;errno.h&gt;</code><br />
@@ -97,12 +97,12 @@ Include dependency graph for tr-driver.c:</div>
 <div class="dyncontent">
 <div class="center"><img src="tr-driver_8c__incl.png" border="0" usemap="#runner_2driver_2tr-driver_2tr-driver_8c" alt=""/></div>
 <map name="runner_2driver_2tr-driver_2tr-driver_8c" id="runner_2driver_2tr-driver_2tr-driver_8c">
-<area shape="rect" id="node14" href="generic_8h.html" title="driver의 매핑 정보 및 runner를 총괄하는 헤더입니다. 관련 정의 내용은 runner/generic.c에 존재합니다. " alt="" coords="583,169,666,196"/>
-<area shape="rect" id="node17" href="log_8h.html" title="로그 출력 양식에 해당합니다. " alt="" coords="464,244,519,271"/>
-<area shape="rect" id="node20" href="runner_8h.html" title="runner에 대한 선언적 내용이 들어가게 됩니다. " alt="" coords="885,95,959,121"/>
-<area shape="rect" id="node22" href="tr-driver_8h.html" title="trace&#45;replay를 동작시키는 driver의 선언부에 해당합니다. " alt="" coords="683,95,809,121"/>
+<area shape="rect" id="node14" href="generic_8h.html" title="This header maintain the driver&#39;s mapping information. It&#39;s definition in runner/generic.c. " alt="" coords="583,169,666,196"/>
+<area shape="rect" id="node17" href="log_8h.html" title="Format of log printing. " alt="" coords="464,244,519,271"/>
+<area shape="rect" id="node20" href="runner_8h.html" title="Declaration information of runnner " alt="" coords="885,95,959,121"/>
+<area shape="rect" id="node22" href="tr-driver_8h.html" title="driver declaration part of run trace&#45;replay " alt="" coords="683,95,809,121"/>
 <area shape="rect" id="node23" href="trace__replay_8h.html" title="trace_replay.h" alt="" coords="296,169,409,196"/>
-<area shape="rect" id="node26" href="sync_8h.html" title="파이프를 활용한 동기화 도구입니다. " alt="" coords="55,169,119,196"/>
+<area shape="rect" id="node26" href="sync_8h.html" title="Synchronization program based on pipe. " alt="" coords="55,169,119,196"/>
 <area shape="rect" id="node25" href="flist_8h.html" title="flist.h" alt="" coords="183,244,242,271"/>
 </map>
 </div>
@@ -118,46 +118,46 @@ Enumerations</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:acdb88ca94bb709b877202b31ca8cd049"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tr-driver_8c.html#acdb88ca94bb709b877202b31ca8cd049">tr_kill_handle</a> (int signum)</td></tr>
-<tr class="memdesc:acdb88ca94bb709b877202b31ca8cd049"><td class="mdescLeft">&#160;</td><td class="mdescRight">자식이 생성되자마자 부모가 자식을 죽이는 명령을 보낸 경우에 각종 자식이 가진 자원을 정리합니다.  <a href="#acdb88ca94bb709b877202b31ca8cd049">More...</a><br /></td></tr>
+<tr class="memdesc:acdb88ca94bb709b877202b31ca8cd049"><td class="mdescLeft">&#160;</td><td class="mdescRight">Capture the SIGTERM and deallocate all resources which this process has.  <a href="#acdb88ca94bb709b877202b31ca8cd049">More...</a><br /></td></tr>
 <tr class="separator:acdb88ca94bb709b877202b31ca8cd049"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab541e1c70daf52318efbc6269d15c2c7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tr-driver_8c.html#ab541e1c70daf52318efbc6269d15c2c7">__tr_free</a> (void)</td></tr>
-<tr class="memdesc:ab541e1c70daf52318efbc6269d15c2c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">실질적으로 trace-replay 관련 구조체의 동적 할당된 내용을 해제하는 부분에 해당합니다.  <a href="#ab541e1c70daf52318efbc6269d15c2c7">More...</a><br /></td></tr>
+<tr class="memdesc:ab541e1c70daf52318efbc6269d15c2c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deallocate this driver's resources.  <a href="#ab541e1c70daf52318efbc6269d15c2c7">More...</a><br /></td></tr>
 <tr class="separator:ab541e1c70daf52318efbc6269d15c2c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3444cfb7f56f88f8f16c2877632f03de"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tr-driver_8c.html#a3444cfb7f56f88f8f16c2877632f03de">tr_valid_scheduler_test</a> (const char *scheduler)</td></tr>
-<tr class="memdesc:a3444cfb7f56f88f8f16c2877632f03de"><td class="mdescLeft">&#160;</td><td class="mdescRight">현재 입력되는 scheduler가 driver가 지원하는 지를 확인하도록 합니다.  <a href="#a3444cfb7f56f88f8f16c2877632f03de">More...</a><br /></td></tr>
+<tr class="memdesc:a3444cfb7f56f88f8f16c2877632f03de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check the current inputted scheduler text can be supported by the driver.  <a href="#a3444cfb7f56f88f8f16c2877632f03de">More...</a><br /></td></tr>
 <tr class="separator:a3444cfb7f56f88f8f16c2877632f03de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a90e0e8ba02ba8f2d3e537edbc3c9abab"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tr-driver_8c.html#a90e0e8ba02ba8f2d3e537edbc3c9abab">tr_init</a> (void *object)</td></tr>
-<tr class="memdesc:a90e0e8ba02ba8f2d3e537edbc3c9abab"><td class="mdescLeft">&#160;</td><td class="mdescRight">전역 옵션을 설정한 후에 각각의 프로세스 별로 할당할 옵션을 설정하도록 합니다.  <a href="#a90e0e8ba02ba8f2d3e537edbc3c9abab">More...</a><br /></td></tr>
+<tr class="memdesc:a90e0e8ba02ba8f2d3e537edbc3c9abab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the global configuration and per processes configuration.  <a href="#a90e0e8ba02ba8f2d3e537edbc3c9abab">More...</a><br /></td></tr>
 <tr class="separator:a90e0e8ba02ba8f2d3e537edbc3c9abab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afbc68ea1bbf9dd34b32bfe11b91fc2ab"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tr-driver_8c.html#afbc68ea1bbf9dd34b32bfe11b91fc2ab">tr_set_cgroup_state</a> (struct <a class="el" href="structtr__info.html">tr_info</a> *current)</td></tr>
-<tr class="memdesc:afbc68ea1bbf9dd34b32bfe11b91fc2ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">control group에 자식 프로세스가 작동할 수 있도록 설정합니다.  <a href="#afbc68ea1bbf9dd34b32bfe11b91fc2ab">More...</a><br /></td></tr>
+<tr class="memdesc:afbc68ea1bbf9dd34b32bfe11b91fc2ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the child process to specific control group(cgroup)  <a href="#afbc68ea1bbf9dd34b32bfe11b91fc2ab">More...</a><br /></td></tr>
 <tr class="separator:afbc68ea1bbf9dd34b32bfe11b91fc2ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a04f8d23a9999a567eb9602a2c17e884b"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tr-driver_8c.html#a04f8d23a9999a567eb9602a2c17e884b">tr_do_exec</a> (struct <a class="el" href="structtr__info.html">tr_info</a> *current)</td></tr>
-<tr class="memdesc:a04f8d23a9999a567eb9602a2c17e884b"><td class="mdescLeft">&#160;</td><td class="mdescRight">자식 프로세스에 trace-replay를 올려서 동작시키는 함수입니다.  <a href="#a04f8d23a9999a567eb9602a2c17e884b">More...</a><br /></td></tr>
+<tr class="memdesc:a04f8d23a9999a567eb9602a2c17e884b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Each process <code>trace-replay</code> execute part.  <a href="#a04f8d23a9999a567eb9602a2c17e884b">More...</a><br /></td></tr>
 <tr class="separator:a04f8d23a9999a567eb9602a2c17e884b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a89c0c6704f2a30e49bc0b1886df21c6d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tr-driver_8c.html#a89c0c6704f2a30e49bc0b1886df21c6d">tr_runner</a> (void)</td></tr>
-<tr class="memdesc:a89c0c6704f2a30e49bc0b1886df21c6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">trace-replay를 실행시키도록 합니다.  <a href="#a89c0c6704f2a30e49bc0b1886df21c6d">More...</a><br /></td></tr>
+<tr class="memdesc:a89c0c6704f2a30e49bc0b1886df21c6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run all processes' <code>trace-replay</code> part.  <a href="#a89c0c6704f2a30e49bc0b1886df21c6d">More...</a><br /></td></tr>
 <tr class="separator:a89c0c6704f2a30e49bc0b1886df21c6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e33bdba9627ba5528ab8ab1116f8085"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tr-driver_8c.html#a1e33bdba9627ba5528ab8ab1116f8085">tr_get_interval</a> (const char *<a class="el" href="tr-driver-test_8c.html#a114a26ebd93f4397bf89734c1d991ea0">key</a>, char *buffer)</td></tr>
-<tr class="memdesc:a1e33bdba9627ba5528ab8ab1116f8085"><td class="mdescLeft">&#160;</td><td class="mdescRight">trace-replay가 실행 중일 때의 정보를 반환합니다.  <a href="#a1e33bdba9627ba5528ab8ab1116f8085">More...</a><br /></td></tr>
+<tr class="memdesc:a1e33bdba9627ba5528ab8ab1116f8085"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get execution-time results from <code>trace-replay</code>.  <a href="#a1e33bdba9627ba5528ab8ab1116f8085">More...</a><br /></td></tr>
 <tr class="separator:a1e33bdba9627ba5528ab8ab1116f8085"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5edcddbe52edcb96de7180f7910edc5b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tr-driver_8c.html#a5edcddbe52edcb96de7180f7910edc5b">tr_get_total</a> (const char *<a class="el" href="tr-driver-test_8c.html#a114a26ebd93f4397bf89734c1d991ea0">key</a>, char *buffer)</td></tr>
-<tr class="memdesc:a5edcddbe52edcb96de7180f7910edc5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">trace-replay가 동작 완료한 후의 정보를 반환합니다.  <a href="#a5edcddbe52edcb96de7180f7910edc5b">More...</a><br /></td></tr>
+<tr class="memdesc:a5edcddbe52edcb96de7180f7910edc5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get end-time results from <code>trace-replay</code>.  <a href="#a5edcddbe52edcb96de7180f7910edc5b">More...</a><br /></td></tr>
 <tr class="separator:a5edcddbe52edcb96de7180f7910edc5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab505821403f626b211a899fb05e6387a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tr-driver_8c.html#ab505821403f626b211a899fb05e6387a">tr_free</a> (void)</td></tr>
-<tr class="memdesc:ab505821403f626b211a899fb05e6387a"><td class="mdescLeft">&#160;</td><td class="mdescRight">trace-replay 관련 동적 할당 정보를 해제합니다.  <a href="#ab505821403f626b211a899fb05e6387a">More...</a><br /></td></tr>
+<tr class="memdesc:ab505821403f626b211a899fb05e6387a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deallocate resources of this driver.  <a href="#ab505821403f626b211a899fb05e6387a">More...</a><br /></td></tr>
 <tr class="separator:ab505821403f626b211a899fb05e6387a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:a847dda341726094e8724450767e5936d"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tr-driver_8c.html#a847dda341726094e8724450767e5936d">tr_valid_scheduler</a> []</td></tr>
-<tr class="memdesc:a847dda341726094e8724450767e5936d"><td class="mdescLeft">&#160;</td><td class="mdescRight">현재 tr-driver에서 지원하는 I/O 스케줄러가 들어가게 됩니다.  <a href="#a847dda341726094e8724450767e5936d">More...</a><br /></td></tr>
+<tr class="memdesc:a847dda341726094e8724450767e5936d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Associated table of I/O scheduler.  <a href="#a847dda341726094e8724450767e5936d">More...</a><br /></td></tr>
 <tr class="separator:a847dda341726094e8724450767e5936d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b957368fc56530019b48d6a4d35cd5a"><td class="memItemLeft" align="right" valign="top">static struct <a class="el" href="structtr__info.html">tr_info</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tr-driver_8c.html#a8b957368fc56530019b48d6a4d35cd5a">global_info_head</a></td></tr>
+<tr class="memitem:a8b957368fc56530019b48d6a4d35cd5a"><td class="memItemLeft" align="right" valign="top">static struct <a class="el" href="structtr__info.html">tr_info</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tr-driver_8c.html#a8b957368fc56530019b48d6a4d35cd5a">global_info_head</a> = NULL</td></tr>
 <tr class="separator:a8b957368fc56530019b48d6a4d35cd5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>trace-replay를 동작시키는 driver 구현부에 해당합니다. </p>
+<div class="textblock"><p>Implementation of run the <code>trace-replay</code> benchmark. </p>
 <dl class="section copyright"><dt>Copyright</dt><dd>"Container Tracer" which executes the container performance mesurements Copyright (C) 2020 BlaCkinkGJ</dd></dl>
 <p>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.</p>
 <p>This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.</p>
@@ -210,15 +210,15 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>실질적으로 trace-replay 관련 구조체의 동적 할당된 내용을 해제하는 부분에 해당합니다. </p>
+<p>Deallocate this driver's resources. </p>
 <dl class="section note"><dt>Note</dt><dd><a href="http://www.ascii-art.de/ascii/def/dr_who.txt">http://www.ascii-art.de/ascii/def/dr_who.txt</a> </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="tr-driver_8c_ab541e1c70daf52318efbc6269d15c2c7_cgraph.png" border="0" usemap="#tr-driver_8c_ab541e1c70daf52318efbc6269d15c2c7_cgraph" alt=""/></div>
 <map name="tr-driver_8c_ab541e1c70daf52318efbc6269d15c2c7_cgraph" id="tr-driver_8c_ab541e1c70daf52318efbc6269d15c2c7_cgraph">
-<area shape="rect" id="node2" href="tr-shm_8c.html#afba449ced385945907c37ebb15f660c4" title="Shared Memory의 할당된 내용을 해제하도록 합니다. " alt="" coords="132,5,232,32"/>
-<area shape="rect" id="node3" href="tr-mq_8c.html#a887329682aa74618a8e5e151ae55bab1" title="Message Queue의 할당된 내용을 해제하도록 합니다. " alt="" coords="135,56,229,83"/>
+<area shape="rect" id="node2" href="tr-shm_8c.html#afba449ced385945907c37ebb15f660c4" title="Deallocate the Shared Memory resources. " alt="" coords="132,5,232,32"/>
+<area shape="rect" id="node3" href="tr-mq_8c.html#a887329682aa74618a8e5e151ae55bab1" title="Deallocate the Message Queue resources. " alt="" coords="135,56,229,83"/>
 </map>
 </div>
 
@@ -248,21 +248,21 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>자식 프로세스에 trace-replay를 올려서 동작시키는 함수입니다. </p>
+<p>Each process <code>trace-replay</code> execute part. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">current</td><td>자식 프로세스에 돌릴 trace-replay 설정에 해당합니다.</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">current</td><td>The structure which has the current process information.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>성공한 경우에는 0, 그렇지 않은 경우 음수 값이 들어갑니다. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>0 for success to execute, negative value for fail to create. </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="tr-driver_8c_a04f8d23a9999a567eb9602a2c17e884b_cgraph.png" border="0" usemap="#tr-driver_8c_a04f8d23a9999a567eb9602a2c17e884b_cgraph" alt=""/></div>
 <map name="tr-driver_8c_a04f8d23a9999a567eb9602a2c17e884b_cgraph" id="tr-driver_8c_a04f8d23a9999a567eb9602a2c17e884b_cgraph">
-<area shape="rect" id="node2" href="runner_8c.html#a1e7af22661c6f245d852fb1c76d0adea" title="global_runner가 가진 멤버 중 동적할당이 되어 있는 데이터를 반환합니다. " alt="" coords="147,5,289,32"/>
-<area shape="rect" id="node3" href="sync_8h.html#a734bdafd21577451dd2bbce8c7871aa5" title="부모에게 완료되었다는 메시지를 수신합니다. " alt="" coords="161,56,275,83"/>
+<area shape="rect" id="node2" href="runner_8c.html#a1e7af22661c6f245d852fb1c76d0adea" title="Deallocate the global_runner&#39;s contents. " alt="" coords="147,5,289,32"/>
+<area shape="rect" id="node3" href="sync_8h.html#a734bdafd21577451dd2bbce8c7871aa5" title="Receive from parent&#39;s call. " alt="" coords="161,56,275,83"/>
 </map>
 </div>
 
@@ -284,15 +284,15 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>trace-replay 관련 동적 할당 정보를 해제합니다. </p>
+<p>Deallocate resources of this driver. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="tr-driver_8c_ab505821403f626b211a899fb05e6387a_cgraph.png" border="0" usemap="#tr-driver_8c_ab505821403f626b211a899fb05e6387a_cgraph" alt=""/></div>
 <map name="tr-driver_8c_ab505821403f626b211a899fb05e6387a_cgraph" id="tr-driver_8c_ab505821403f626b211a899fb05e6387a_cgraph">
-<area shape="rect" id="node2" href="tr-driver_8c.html#ab541e1c70daf52318efbc6269d15c2c7" title="실질적으로 trace&#45;replay 관련 구조체의 동적 할당된 내용을 해제하는 부분에 해당합니다. " alt="" coords="119,31,197,57"/>
-<area shape="rect" id="node3" href="tr-shm_8c.html#afba449ced385945907c37ebb15f660c4" title="Shared Memory의 할당된 내용을 해제하도록 합니다. " alt="" coords="245,5,345,32"/>
-<area shape="rect" id="node4" href="tr-mq_8c.html#a887329682aa74618a8e5e151ae55bab1" title="Message Queue의 할당된 내용을 해제하도록 합니다. " alt="" coords="249,56,342,83"/>
+<area shape="rect" id="node2" href="tr-driver_8c.html#ab541e1c70daf52318efbc6269d15c2c7" title="Deallocate this driver&#39;s resources. " alt="" coords="119,31,197,57"/>
+<area shape="rect" id="node3" href="tr-shm_8c.html#afba449ced385945907c37ebb15f660c4" title="Deallocate the Shared Memory resources. " alt="" coords="245,5,345,32"/>
+<area shape="rect" id="node4" href="tr-mq_8c.html#a887329682aa74618a8e5e151ae55bab1" title="Deallocate the Message Queue resources. " alt="" coords="249,56,342,83"/>
 </map>
 </div>
 
@@ -324,25 +324,25 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>trace-replay가 실행 중일 때의 정보를 반환합니다. </p>
+<p>Get execution-time results from <code>trace-replay</code>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">key</td><td>임의의 cgroup_id에 해당합니다. </td></tr>
-    <tr><td class="paramname">buffer</td><td>값이 반환되는 위치에 해당합니다.</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">key</td><td><code>cgroup_id</code> value which specifies the location of data I want to get. </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">buffer</td><td>Data contains the execution-time results based on <code>key</code>.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>정상적으로 종료되는 경우에는 log.type 정보가 반환되고, 그렇지 않은 경우 적절한 음수 값이 반환됩니다. </dd></dl>
-<dl class="section note"><dt>Note</dt><dd>buffer를 재활용을 많이 하기 때문에 buffer의 내용은 반드시 미리 runner에서 할당이 되어 있어야 합니다. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd><code>log.type</code> for success to get information, negative value for fail to get information. </dd></dl>
+<dl class="section warning"><dt>Warning</dt><dd><code>buffer</code> must be allocated memory over and equal <code>INTERVAL_RESULT_STRING_SIZE</code> </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="tr-driver_8c_a1e33bdba9627ba5528ab8ab1116f8085_cgraph.png" border="0" usemap="#tr-driver_8c_a1e33bdba9627ba5528ab8ab1116f8085_cgraph" alt=""/></div>
 <map name="tr-driver_8c_a1e33bdba9627ba5528ab8ab1116f8085_cgraph" id="tr-driver_8c_a1e33bdba9627ba5528ab8ab1116f8085_cgraph">
-<area shape="rect" id="node2" href="tr-mq_8c.html#a92cd5e06e8481bd5d9a9ed50caefb641" title="Message Queue로 부터 데이터를 가져오는 함수입니다. " alt="" coords="207,5,295,32"/>
-<area shape="rect" id="node3" href="tr-serializer_8c.html#a533a6ac0f88c75327a6901515385d867" title="json으로 구조체에 있는 내용을 변환합니다. " alt="" coords="171,56,332,83"/>
-<area shape="rect" id="node4" href="tr-serializer_8c.html#a8190fd0262f1917010d58ff73de5401e" title="tr_info 구조체의 내용을 json_object로 만들어주도록 합니다. " alt="" coords="409,31,539,57"/>
-<area shape="rect" id="node5" href="tr-serializer_8c.html#a71304b919ad5f904d11800a1d797a9a1" title="realtime_log 구조체의 내용을 json_object로 만들어주도록 합니다. " alt="" coords="380,81,568,108"/>
+<area shape="rect" id="node2" href="tr-mq_8c.html#a92cd5e06e8481bd5d9a9ed50caefb641" title="Retrieve the data from Message Queue. " alt="" coords="207,5,295,32"/>
+<area shape="rect" id="node3" href="tr-serializer_8c.html#a533a6ac0f88c75327a6901515385d867" title="Converts realtime_log to JSON string. " alt="" coords="171,56,332,83"/>
+<area shape="rect" id="node4" href="tr-serializer_8c.html#a8190fd0262f1917010d58ff73de5401e" title="To make a tr_info structure to json_object. " alt="" coords="409,31,539,57"/>
+<area shape="rect" id="node5" href="tr-serializer_8c.html#a71304b919ad5f904d11800a1d797a9a1" title="To make a realtime_log structure to json_object. " alt="" coords="380,81,568,108"/>
 </map>
 </div>
 
@@ -374,33 +374,34 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>trace-replay가 동작 완료한 후의 정보를 반환합니다. </p>
+<p>Get end-time results from <code>trace-replay</code>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">key</td><td>임의의 cgroup_id에 해당합니다. </td></tr>
-    <tr><td class="paramname">buffer</td><td>값이 반환되는 위치에 해당합니다.</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">key</td><td><code>cgroup_id</code> value which specifies the location of data I want to get. </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">buffer</td><td>Data contains the end-time results based on <code>key</code>.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>정상적으로 동작이 된 경우 0을 그렇지 않은 경우 적절한 오류 번호를 반환합니다. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>0 for success to get information, negative value for fail to get information. </dd></dl>
+<dl class="section warning"><dt>Warning</dt><dd><code>buffer</code> must be allocated memory over and equal <code>TOTAL_RESULT_STRING_SIZE</code> </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="tr-driver_8c_a5edcddbe52edcb96de7180f7910edc5b_cgraph.png" border="0" usemap="#tr-driver_8c_a5edcddbe52edcb96de7180f7910edc5b_cgraph" alt=""/></div>
 <map name="tr-driver_8c_a5edcddbe52edcb96de7180f7910edc5b_cgraph" id="tr-driver_8c_a5edcddbe52edcb96de7180f7910edc5b_cgraph">
-<area shape="rect" id="node2" href="tr-shm_8c.html#aee31225f5824722b43e4311722120aa6" title="Shared Memory로 부터 데이터를 가져오는 함수입니다. " alt="" coords="171,56,266,83"/>
-<area shape="rect" id="node5" href="tr-serializer_8c.html#a9feb038e6e56179ab656441c9d225be8" title="json으로 구조체에 있는 내용을 변환합니다. " alt="" coords="151,107,287,133"/>
-<area shape="rect" id="node3" href="tr-shm_8c.html#a85e03cb5c6fc2a5d952c14a09de8c150" title="세마포어 락을 획득합니다. " alt="" coords="377,5,479,32"/>
-<area shape="rect" id="node4" href="tr-shm_8c.html#a0ba910149a2a045a85a81a3c26fac940" title="세마포어 락을 반환합니다. " alt="" coords="377,56,479,83"/>
-<area shape="rect" id="node6" href="tr-serializer_8c.html#a8190fd0262f1917010d58ff73de5401e" title="tr_info 구조체의 내용을 json_object로 만들어주도록 합니다. " alt="" coords="363,107,493,133"/>
-<area shape="rect" id="node7" href="tr-serializer_8c.html#acd5a19461e1099316f46673eb9f848b8" title="total_results 구조체 내용을 json_object로 만들어주도록 합니다. " alt="" coords="335,157,521,184"/>
-<area shape="rect" id="node8" href="tr-serializer_8c.html#ad8cd64f75579cc43f66d87d902d3911f" title="total_results 구조체 config 멤버의 내용을 json_object로 만들어주도록 합니다. " alt="" coords="569,128,752,155"/>
-<area shape="rect" id="node10" href="tr-serializer_8c.html#a20dfc81b67a76d0e87cbf5d69ae9a354" title="total_results 구조체 내용 중 per_trace랑 aggr_results를 json_object로 만들어주도록 합니다..." alt="" coords="571,183,751,209"/>
-<area shape="rect" id="node9" href="tr-serializer_8c.html#a1b8b9431f9a1f52c2a6004599fa0804d" title="trace 구조체의 내용을 json_object로 만들어주도록 합니다. " alt="" coords="800,124,976,151"/>
-<area shape="rect" id="node11" href="tr-serializer_8c.html#a308b1f0104ca925941e1816299d782ce" title="total_results 구조체 per_trace 멤버의 내용을 json_object로 만들어주도록 합니다. " alt="" coords="819,175,957,217"/>
-<area shape="rect" id="node14" href="tr-serializer_8c.html#a7bd1cb3e891117e581a9ac380a5b1be8" title="total_results 구조체의 aggr_results 내용을 json_object로 만들어주도록 합니다. " alt="" coords="802,241,974,268"/>
-<area shape="rect" id="node12" href="tr-serializer_8c.html#a061203842d5b22a359ae07b54c1f0ebf" title="synthetic 구조체의 내용을 json_object로 만들어주도록 합니다. " alt="" coords="1024,183,1191,209"/>
-<area shape="rect" id="node13" href="tr-serializer_8c.html#a4bfc2c3f12bb0e875db56d33fa8b1935" title="trace_stat 구조체의 내용을 json_object로 만들어주도록 합니다. " alt="" coords="1038,237,1177,264"/>
+<area shape="rect" id="node2" href="tr-shm_8c.html#aee31225f5824722b43e4311722120aa6" title="Retrieve the data from Shared Memory. " alt="" coords="171,56,266,83"/>
+<area shape="rect" id="node5" href="tr-serializer_8c.html#a9feb038e6e56179ab656441c9d225be8" title="Converts total_results to JSON string. " alt="" coords="151,107,287,133"/>
+<area shape="rect" id="node3" href="tr-shm_8c.html#a85e03cb5c6fc2a5d952c14a09de8c150" title="Acquire the semaphore lock. " alt="" coords="377,5,479,32"/>
+<area shape="rect" id="node4" href="tr-shm_8c.html#a0ba910149a2a045a85a81a3c26fac940" title="Release the semaphore lock. " alt="" coords="377,56,479,83"/>
+<area shape="rect" id="node6" href="tr-serializer_8c.html#a8190fd0262f1917010d58ff73de5401e" title="To make a tr_info structure to json_object. " alt="" coords="363,107,493,133"/>
+<area shape="rect" id="node7" href="tr-serializer_8c.html#acd5a19461e1099316f46673eb9f848b8" title="to make a total_results structure&#39;s all member to json_object. " alt="" coords="335,157,521,184"/>
+<area shape="rect" id="node8" href="tr-serializer_8c.html#ad8cd64f75579cc43f66d87d902d3911f" title="To make a total_results structure&#39;s config member to json_object. " alt="" coords="569,128,752,155"/>
+<area shape="rect" id="node10" href="tr-serializer_8c.html#a20dfc81b67a76d0e87cbf5d69ae9a354" title="to make a total_results structure&#39;s per_trace and aggr_result member to json_object. " alt="" coords="571,183,751,209"/>
+<area shape="rect" id="node9" href="tr-serializer_8c.html#a1b8b9431f9a1f52c2a6004599fa0804d" title="To make a trace structure to json_object. " alt="" coords="800,124,976,151"/>
+<area shape="rect" id="node11" href="tr-serializer_8c.html#a308b1f0104ca925941e1816299d782ce" title="To make a total_results structure&#39;s per_trace member to json_object. " alt="" coords="819,175,957,217"/>
+<area shape="rect" id="node14" href="tr-serializer_8c.html#a7bd1cb3e891117e581a9ac380a5b1be8" title="To make a aggr_result structure&#39;s per_trace member to json_object. " alt="" coords="802,241,974,268"/>
+<area shape="rect" id="node12" href="tr-serializer_8c.html#a061203842d5b22a359ae07b54c1f0ebf" title="To make a synthetic structure to json_object. " alt="" coords="1024,183,1191,209"/>
+<area shape="rect" id="node13" href="tr-serializer_8c.html#a4bfc2c3f12bb0e875db56d33fa8b1935" title="To make a trace_stat structure to json_object. " alt="" coords="1038,237,1177,264"/>
 </map>
 </div>
 
@@ -422,62 +423,62 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>전역 옵션을 설정한 후에 각각의 프로세스 별로 할당할 옵션을 설정하도록 합니다. </p>
+<p>Initialize the global configuration and per processes configuration. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">object</td><td>전역 runner_config의 포인터가 들어가야 합니다.</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">object</td><td>global <code><a class="el" href="structrunner__config.html" title="This structure has user-inputted information. ">runner_config</a></code> pointer.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>정상적으로 초기화가 된 경우 0을 그렇지 않은 경우 적절한 오류 번호를 반환합니다. </dd></dl>
-<dl class="section warning"><dt>Warning</dt><dd>자식 프로세스에서 이 함수가 절대로 실행되서는 안됩니다. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>0 for success to init, error number for fail to init. </dd></dl>
+<dl class="section warning"><dt>Warning</dt><dd>Do not run this function in child process. </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="tr-driver_8c_a90e0e8ba02ba8f2d3e537edbc3c9abab_cgraph.png" border="0" usemap="#tr-driver_8c_a90e0e8ba02ba8f2d3e537edbc3c9abab_cgraph" alt=""/></div>
 <map name="tr-driver_8c_a90e0e8ba02ba8f2d3e537edbc3c9abab_cgraph" id="tr-driver_8c_a90e0e8ba02ba8f2d3e537edbc3c9abab_cgraph">
-<area shape="rect" id="node2" href="tr-driver_8c.html#a89c0c6704f2a30e49bc0b1886df21c6d" title="trace&#45;replay를 실행시키도록 합니다. " alt="" coords="131,183,213,209"/>
-<area shape="rect" id="node15" href="tr-driver_8c.html#a1e33bdba9627ba5528ab8ab1116f8085" title="trace&#45;replay가 실행 중일 때의 정보를 반환합니다. " alt="" coords="113,411,231,437"/>
-<area shape="rect" id="node20" href="tr-driver_8c.html#a5edcddbe52edcb96de7180f7910edc5b" title="trace&#45;replay가 동작 완료한 후의 정보를 반환합니다. " alt="" coords="123,512,221,539"/>
-<area shape="rect" id="node33" href="tr-driver_8c.html#ab505821403f626b211a899fb05e6387a" title="trace&#45;replay 관련 동적 할당 정보를 해제합니다. " alt="" coords="139,613,205,640"/>
-<area shape="rect" id="node34" href="tr-driver_8c.html#ab541e1c70daf52318efbc6269d15c2c7" title="실질적으로 trace&#45;replay 관련 구조체의 동적 할당된 내용을 해제하는 부분에 해당합니다. " alt="" coords="320,613,399,640"/>
-<area shape="rect" id="node37" href="tr-info_8c.html#acfd0ebbb0a1e7ba8823365333dc2a2ee" title="각 프로세스에 들어가는 info 객체를 __생성__하고 구축하여 반환합니다. " alt="" coords="126,765,218,792"/>
-<area shape="rect" id="node3" href="sync_8h.html#a270e909d7660277107b16ab0d7bcd547" title="파이프를 만들어주는 과정으로 부모가 자식을 부르기 전에 이를 반드시 호출해야 합니다. " alt="" coords="313,309,405,336"/>
-<area shape="rect" id="node4" href="tr-driver_8c.html#acdb88ca94bb709b877202b31ca8cd049" title="자식이 생성되자마자 부모가 자식을 죽이는 명령을 보낸 경우에 각종 자식이 가진 자원을 정리합니다..." alt="" coords="304,5,415,32"/>
-<area shape="rect" id="node6" href="tr-driver_8c.html#a04f8d23a9999a567eb9602a2c17e884b" title="자식 프로세스에 trace&#45;replay를 올려서 동작시키는 함수입니다. " alt="" coords="313,56,406,83"/>
-<area shape="rect" id="node8" href="tr-driver_8c.html#afbc68ea1bbf9dd34b32bfe11b91fc2ab" title="control group에 자식 프로세스가 작동할 수 있도록 설정합니다. " alt="" coords="284,107,435,133"/>
-<area shape="rect" id="node9" href="tr-shm_8c.html#aeabf9bfa126222af391db186d289db44" title="Shared Memory와 관련된 설정에 대해서 초기화를 진행하도록 합니다. " alt="" coords="312,157,407,184"/>
-<area shape="rect" id="node12" href="tr-mq_8c.html#ae58ca965390727368c08b85f0f65ef9e" title="Message Queue와 관련된 설정에 대해서 초기화를 진행하도록 합니다. " alt="" coords="315,208,403,235"/>
-<area shape="rect" id="node14" href="sync_8h.html#a0a9b16ae0f39583f0d1376c4f3a5f4f5" title="부모가 자식을 호출하는 역할을 합니다. " alt="" coords="310,259,409,285"/>
-<area shape="rect" id="node5" href="runner_8c.html#a1e7af22661c6f245d852fb1c76d0adea" title="global_runner가 가진 멤버 중 동적할당이 되어 있는 데이터를 반환합니다. " alt="" coords="511,5,653,32"/>
-<area shape="rect" id="node7" href="sync_8h.html#a734bdafd21577451dd2bbce8c7871aa5" title="부모에게 완료되었다는 메시지를 수신합니다. " alt="" coords="525,56,639,83"/>
-<area shape="rect" id="node10" href="tr-shm_8c.html#af14bffffa6087c3c3ec21f78f6680d1c" title="세마포어만을 초기화하는 함수입니다. " alt="" coords="527,157,637,184"/>
-<area shape="rect" id="node11" href="tr-shm_8c.html#af6139d06f530f523285806d3a32e5e9f" title="Shared Memory만을 초기화하는 함수입니다. " alt="" coords="527,107,637,133"/>
-<area shape="rect" id="node13" href="tr-mq_8c.html#a9305a8aefb9d327f3d82659f4e9d75ae" title="Message Queue를 초기화하는 함수입니다. " alt="" coords="531,208,633,235"/>
-<area shape="rect" id="node16" href="tr-mq_8c.html#a92cd5e06e8481bd5d9a9ed50caefb641" title="Message Queue로 부터 데이터를 가져오는 함수입니다. " alt="" coords="315,360,403,387"/>
-<area shape="rect" id="node17" href="tr-serializer_8c.html#a533a6ac0f88c75327a6901515385d867" title="json으로 구조체에 있는 내용을 변환합니다. " alt="" coords="279,411,440,437"/>
-<area shape="rect" id="node18" href="tr-serializer_8c.html#a8190fd0262f1917010d58ff73de5401e" title="tr_info 구조체의 내용을 json_object로 만들어주도록 합니다. " alt="" coords="517,411,647,437"/>
-<area shape="rect" id="node19" href="tr-serializer_8c.html#a71304b919ad5f904d11800a1d797a9a1" title="realtime_log 구조체의 내용을 json_object로 만들어주도록 합니다. " alt="" coords="488,360,676,387"/>
-<area shape="rect" id="node21" href="tr-shm_8c.html#aee31225f5824722b43e4311722120aa6" title="Shared Memory로 부터 데이터를 가져오는 함수입니다. " alt="" coords="312,512,407,539"/>
-<area shape="rect" id="node24" href="tr-serializer_8c.html#a9feb038e6e56179ab656441c9d225be8" title="json으로 구조체에 있는 내용을 변환합니다. " alt="" coords="291,461,427,488"/>
-<area shape="rect" id="node22" href="tr-shm_8c.html#a85e03cb5c6fc2a5d952c14a09de8c150" title="세마포어 락을 획득합니다. " alt="" coords="531,512,633,539"/>
-<area shape="rect" id="node23" href="tr-shm_8c.html#a0ba910149a2a045a85a81a3c26fac940" title="세마포어 락을 반환합니다. " alt="" coords="531,563,633,589"/>
-<area shape="rect" id="node25" href="tr-serializer_8c.html#acd5a19461e1099316f46673eb9f848b8" title="total_results 구조체 내용을 json_object로 만들어주도록 합니다. " alt="" coords="489,461,675,488"/>
-<area shape="rect" id="node26" href="tr-serializer_8c.html#ad8cd64f75579cc43f66d87d902d3911f" title="total_results 구조체 config 멤버의 내용을 json_object로 만들어주도록 합니다. " alt="" coords="724,487,907,513"/>
-<area shape="rect" id="node28" href="tr-serializer_8c.html#a20dfc81b67a76d0e87cbf5d69ae9a354" title="total_results 구조체 내용 중 per_trace랑 aggr_results를 json_object로 만들어주도록 합니다..." alt="" coords="725,436,905,463"/>
-<area shape="rect" id="node27" href="tr-serializer_8c.html#a1b8b9431f9a1f52c2a6004599fa0804d" title="trace 구조체의 내용을 json_object로 만들어주도록 합니다. " alt="" coords="955,487,1131,513"/>
-<area shape="rect" id="node29" href="tr-serializer_8c.html#a308b1f0104ca925941e1816299d782ce" title="total_results 구조체 per_trace 멤버의 내용을 json_object로 만들어주도록 합니다. " alt="" coords="974,370,1111,411"/>
-<area shape="rect" id="node32" href="tr-serializer_8c.html#a7bd1cb3e891117e581a9ac380a5b1be8" title="total_results 구조체의 aggr_results 내용을 json_object로 만들어주도록 합니다. " alt="" coords="957,436,1129,463"/>
-<area shape="rect" id="node30" href="tr-serializer_8c.html#a061203842d5b22a359ae07b54c1f0ebf" title="synthetic 구조체의 내용을 json_object로 만들어주도록 합니다. " alt="" coords="1179,377,1345,404"/>
-<area shape="rect" id="node31" href="tr-serializer_8c.html#a4bfc2c3f12bb0e875db56d33fa8b1935" title="trace_stat 구조체의 내용을 json_object로 만들어주도록 합니다. " alt="" coords="1193,432,1331,459"/>
-<area shape="rect" id="node35" href="tr-shm_8c.html#afba449ced385945907c37ebb15f660c4" title="Shared Memory의 할당된 내용을 해제하도록 합니다. " alt="" coords="532,613,632,640"/>
-<area shape="rect" id="node36" href="tr-mq_8c.html#a887329682aa74618a8e5e151ae55bab1" title="Message Queue의 할당된 내용을 해제하도록 합니다. " alt="" coords="535,664,629,691"/>
-<area shape="rect" id="node38" href="tr-info_8c.html#a9638561ce29f3cde86f54e09daa82e35" title="정수 형태의 info&#45;&gt;(member)에 json에서 값을 읽어서 값을 주도록 합니다. " alt="" coords="503,715,661,741"/>
-<area shape="rect" id="node39" href="tr-info_8c.html#af46af26d3ed99f18c48a7b191d469fee" title="문자열 형태의 info&#45;&gt;(member)에 json에서 값을 읽어서 값을 주도록 합니다. " alt="" coords="503,765,661,792"/>
-<area shape="rect" id="node41" href="tr-driver_8c.html#a3444cfb7f56f88f8f16c2877632f03de" title="현재 입력되는 scheduler가 driver가 지원하는 지를 확인하도록 합니다. " alt="" coords="495,867,669,893"/>
-<area shape="rect" id="node42" href="tr-info_8c.html#a31760321dca36e16e1e8f231084c0f5f" title="각각의 프로세스의 동작 옵션을 설정을 해주도록 합니다. " alt="" coords="306,816,413,843"/>
-<area shape="rect" id="node40" href="generic_8h.html#a5469117f34e2c2ef5e1597c3ac16a0ea" title="json의 문자열 값을 받는 경우에는 &quot; 값이 있을 수 있습니다. 따라서, 그 값을 전부 없애주는 데 사용합니다..." alt="" coords="740,765,891,792"/>
-<area shape="rect" id="node43" href="tr-info_8c.html#a30fe574e5a617c55adc78e778d417cc5" title="현재 trace_data_path 값이 synthetic 형태인지를 확인합니다. " alt="" coords="517,816,647,843"/>
+<area shape="rect" id="node2" href="tr-driver_8c.html#a89c0c6704f2a30e49bc0b1886df21c6d" title="Run all processes&#39; trace&#45;replay part. " alt="" coords="131,183,213,209"/>
+<area shape="rect" id="node15" href="tr-driver_8c.html#a1e33bdba9627ba5528ab8ab1116f8085" title="Get execution&#45;time results from trace&#45;replay. " alt="" coords="113,411,231,437"/>
+<area shape="rect" id="node20" href="tr-driver_8c.html#a5edcddbe52edcb96de7180f7910edc5b" title="Get end&#45;time results from trace&#45;replay. " alt="" coords="123,512,221,539"/>
+<area shape="rect" id="node33" href="tr-driver_8c.html#ab505821403f626b211a899fb05e6387a" title="Deallocate resources of this driver. " alt="" coords="139,613,205,640"/>
+<area shape="rect" id="node34" href="tr-driver_8c.html#ab541e1c70daf52318efbc6269d15c2c7" title="Deallocate this driver&#39;s resources. " alt="" coords="320,613,399,640"/>
+<area shape="rect" id="node37" href="tr-info_8c.html#acfd0ebbb0a1e7ba8823365333dc2a2ee" title="Generate and construct the per processes info object and return it. " alt="" coords="126,765,218,792"/>
+<area shape="rect" id="node3" href="sync_8h.html#a270e909d7660277107b16ab0d7bcd547" title="Pipe initialize sequence. You must call before use this source. " alt="" coords="313,309,405,336"/>
+<area shape="rect" id="node4" href="tr-driver_8c.html#acdb88ca94bb709b877202b31ca8cd049" title="Capture the SIGTERM and deallocate all resources which this process has. " alt="" coords="304,5,415,32"/>
+<area shape="rect" id="node6" href="tr-driver_8c.html#a04f8d23a9999a567eb9602a2c17e884b" title="Each process trace&#45;replay execute part. " alt="" coords="313,56,406,83"/>
+<area shape="rect" id="node8" href="tr-driver_8c.html#afbc68ea1bbf9dd34b32bfe11b91fc2ab" title="Set the child process to specific control group(cgroup) " alt="" coords="284,107,435,133"/>
+<area shape="rect" id="node9" href="tr-shm_8c.html#aeabf9bfa126222af391db186d289db44" title="Do the __tr_shm_init() and __tr_sem_init() " alt="" coords="312,157,407,184"/>
+<area shape="rect" id="node12" href="tr-mq_8c.html#ae58ca965390727368c08b85f0f65ef9e" title="Wrapping function of __tr_mq_init() " alt="" coords="315,208,403,235"/>
+<area shape="rect" id="node14" href="sync_8h.html#a0a9b16ae0f39583f0d1376c4f3a5f4f5" title="The parent calls children. " alt="" coords="310,259,409,285"/>
+<area shape="rect" id="node5" href="runner_8c.html#a1e7af22661c6f245d852fb1c76d0adea" title="Deallocate the global_runner&#39;s contents. " alt="" coords="511,5,653,32"/>
+<area shape="rect" id="node7" href="sync_8h.html#a734bdafd21577451dd2bbce8c7871aa5" title="Receive from parent&#39;s call. " alt="" coords="525,56,639,83"/>
+<area shape="rect" id="node10" href="tr-shm_8c.html#af14bffffa6087c3c3ec21f78f6680d1c" title="Initialize the Semaphore. " alt="" coords="527,157,637,184"/>
+<area shape="rect" id="node11" href="tr-shm_8c.html#af6139d06f530f523285806d3a32e5e9f" title="Initialize the Shared Memory. " alt="" coords="527,107,637,133"/>
+<area shape="rect" id="node13" href="tr-mq_8c.html#a9305a8aefb9d327f3d82659f4e9d75ae" title="Initialize the Message Queue. " alt="" coords="531,208,633,235"/>
+<area shape="rect" id="node16" href="tr-mq_8c.html#a92cd5e06e8481bd5d9a9ed50caefb641" title="Retrieve the data from Message Queue. " alt="" coords="315,360,403,387"/>
+<area shape="rect" id="node17" href="tr-serializer_8c.html#a533a6ac0f88c75327a6901515385d867" title="Converts realtime_log to JSON string. " alt="" coords="279,411,440,437"/>
+<area shape="rect" id="node18" href="tr-serializer_8c.html#a8190fd0262f1917010d58ff73de5401e" title="To make a tr_info structure to json_object. " alt="" coords="517,411,647,437"/>
+<area shape="rect" id="node19" href="tr-serializer_8c.html#a71304b919ad5f904d11800a1d797a9a1" title="To make a realtime_log structure to json_object. " alt="" coords="488,360,676,387"/>
+<area shape="rect" id="node21" href="tr-shm_8c.html#aee31225f5824722b43e4311722120aa6" title="Retrieve the data from Shared Memory. " alt="" coords="312,512,407,539"/>
+<area shape="rect" id="node24" href="tr-serializer_8c.html#a9feb038e6e56179ab656441c9d225be8" title="Converts total_results to JSON string. " alt="" coords="291,461,427,488"/>
+<area shape="rect" id="node22" href="tr-shm_8c.html#a85e03cb5c6fc2a5d952c14a09de8c150" title="Acquire the semaphore lock. " alt="" coords="531,512,633,539"/>
+<area shape="rect" id="node23" href="tr-shm_8c.html#a0ba910149a2a045a85a81a3c26fac940" title="Release the semaphore lock. " alt="" coords="531,563,633,589"/>
+<area shape="rect" id="node25" href="tr-serializer_8c.html#acd5a19461e1099316f46673eb9f848b8" title="to make a total_results structure&#39;s all member to json_object. " alt="" coords="489,461,675,488"/>
+<area shape="rect" id="node26" href="tr-serializer_8c.html#ad8cd64f75579cc43f66d87d902d3911f" title="To make a total_results structure&#39;s config member to json_object. " alt="" coords="724,487,907,513"/>
+<area shape="rect" id="node28" href="tr-serializer_8c.html#a20dfc81b67a76d0e87cbf5d69ae9a354" title="to make a total_results structure&#39;s per_trace and aggr_result member to json_object. " alt="" coords="725,436,905,463"/>
+<area shape="rect" id="node27" href="tr-serializer_8c.html#a1b8b9431f9a1f52c2a6004599fa0804d" title="To make a trace structure to json_object. " alt="" coords="955,487,1131,513"/>
+<area shape="rect" id="node29" href="tr-serializer_8c.html#a308b1f0104ca925941e1816299d782ce" title="To make a total_results structure&#39;s per_trace member to json_object. " alt="" coords="974,370,1111,411"/>
+<area shape="rect" id="node32" href="tr-serializer_8c.html#a7bd1cb3e891117e581a9ac380a5b1be8" title="To make a aggr_result structure&#39;s per_trace member to json_object. " alt="" coords="957,436,1129,463"/>
+<area shape="rect" id="node30" href="tr-serializer_8c.html#a061203842d5b22a359ae07b54c1f0ebf" title="To make a synthetic structure to json_object. " alt="" coords="1179,377,1345,404"/>
+<area shape="rect" id="node31" href="tr-serializer_8c.html#a4bfc2c3f12bb0e875db56d33fa8b1935" title="To make a trace_stat structure to json_object. " alt="" coords="1193,432,1331,459"/>
+<area shape="rect" id="node35" href="tr-shm_8c.html#afba449ced385945907c37ebb15f660c4" title="Deallocate the Shared Memory resources. " alt="" coords="532,613,632,640"/>
+<area shape="rect" id="node36" href="tr-mq_8c.html#a887329682aa74618a8e5e151ae55bab1" title="Deallocate the Message Queue resources. " alt="" coords="535,664,629,691"/>
+<area shape="rect" id="node38" href="tr-info_8c.html#a9638561ce29f3cde86f54e09daa82e35" title="Read the JSON string and convert the value to integer form and set that value to info&#45;&gt;(member) ..." alt="" coords="503,715,661,741"/>
+<area shape="rect" id="node39" href="tr-info_8c.html#af46af26d3ed99f18c48a7b191d469fee" title="Read the JSON string and convert the value to string form and set that value to info&#45;&gt;(member) ..." alt="" coords="503,765,661,792"/>
+<area shape="rect" id="node41" href="tr-driver_8c.html#a3444cfb7f56f88f8f16c2877632f03de" title="Check the current inputted scheduler text can be supported by the driver. " alt="" coords="495,867,669,893"/>
+<area shape="rect" id="node42" href="tr-info_8c.html#a31760321dca36e16e1e8f231084c0f5f" title="Set the configuration of each process&#39;s behavior. " alt="" coords="306,816,413,843"/>
+<area shape="rect" id="node40" href="generic_8h.html#a5469117f34e2c2ef5e1597c3ac16a0ea" title="Remove the word &lt;ch&gt; in string. " alt="" coords="740,765,891,792"/>
+<area shape="rect" id="node43" href="tr-info_8c.html#a30fe574e5a617c55adc78e778d417cc5" title="Check the trace_data_path value form is synthetic from. " alt="" coords="517,816,647,843"/>
 </map>
 </div>
 
@@ -507,20 +508,20 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>자식이 생성되자마자 부모가 자식을 죽이는 명령을 보낸 경우에 각종 자식이 가진 자원을 정리합니다. </p>
+<p>Capture the SIGTERM and deallocate all resources which this process has. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">signum</td><td>현재 받은 시그널에 해당합니다. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">signum</td><td>Current captured signal. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section note"><dt>Note</dt><dd>이 함수는 SIGTEM을 캡쳐합니다. (SIGKILL은 캡처되지 않으므로 사용해서는 안됩니다!) </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>SIGKILL isn't captured. </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="tr-driver_8c_acdb88ca94bb709b877202b31ca8cd049_cgraph.png" border="0" usemap="#tr-driver_8c_acdb88ca94bb709b877202b31ca8cd049_cgraph" alt=""/></div>
 <map name="tr-driver_8c_acdb88ca94bb709b877202b31ca8cd049_cgraph" id="tr-driver_8c_acdb88ca94bb709b877202b31ca8cd049_cgraph">
-<area shape="rect" id="node2" href="runner_8c.html#a1e7af22661c6f245d852fb1c76d0adea" title="global_runner가 가진 멤버 중 동적할당이 되어 있는 데이터를 반환합니다. " alt="" coords="164,5,307,32"/>
+<area shape="rect" id="node2" href="runner_8c.html#a1e7af22661c6f245d852fb1c76d0adea" title="Deallocate the global_runner&#39;s contents. " alt="" coords="164,5,307,32"/>
 </map>
 </div>
 
@@ -542,25 +543,25 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>trace-replay를 실행시키도록 합니다. </p>
-<dl class="section return"><dt>Returns</dt><dd>정상적으로 동작이 된 경우 0을 그렇지 않은 경우 적절한 오류 번호를 반환합니다. </dd></dl>
+<p>Run all processes' <code>trace-replay</code> part. </p>
+<dl class="section return"><dt>Returns</dt><dd>0 for success to run, error number for fail to run. </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="tr-driver_8c_a89c0c6704f2a30e49bc0b1886df21c6d_cgraph.png" border="0" usemap="#tr-driver_8c_a89c0c6704f2a30e49bc0b1886df21c6d_cgraph" alt=""/></div>
 <map name="tr-driver_8c_a89c0c6704f2a30e49bc0b1886df21c6d_cgraph" id="tr-driver_8c_a89c0c6704f2a30e49bc0b1886df21c6d_cgraph">
-<area shape="rect" id="node2" href="sync_8h.html#a270e909d7660277107b16ab0d7bcd547" title="파이프를 만들어주는 과정으로 부모가 자식을 부르기 전에 이를 반드시 호출해야 합니다. " alt="" coords="164,5,256,32"/>
-<area shape="rect" id="node3" href="tr-driver_8c.html#acdb88ca94bb709b877202b31ca8cd049" title="자식이 생성되자마자 부모가 자식을 죽이는 명령을 보낸 경우에 각종 자식이 가진 자원을 정리합니다..." alt="" coords="155,56,265,83"/>
-<area shape="rect" id="node5" href="tr-driver_8c.html#a04f8d23a9999a567eb9602a2c17e884b" title="자식 프로세스에 trace&#45;replay를 올려서 동작시키는 함수입니다. " alt="" coords="163,107,257,133"/>
-<area shape="rect" id="node7" href="tr-driver_8c.html#afbc68ea1bbf9dd34b32bfe11b91fc2ab" title="control group에 자식 프로세스가 작동할 수 있도록 설정합니다. " alt="" coords="135,157,285,184"/>
-<area shape="rect" id="node8" href="tr-shm_8c.html#aeabf9bfa126222af391db186d289db44" title="Shared Memory와 관련된 설정에 대해서 초기화를 진행하도록 합니다. " alt="" coords="163,208,257,235"/>
-<area shape="rect" id="node11" href="tr-mq_8c.html#ae58ca965390727368c08b85f0f65ef9e" title="Message Queue와 관련된 설정에 대해서 초기화를 진행하도록 합니다. " alt="" coords="166,259,254,285"/>
-<area shape="rect" id="node13" href="sync_8h.html#a0a9b16ae0f39583f0d1376c4f3a5f4f5" title="부모가 자식을 호출하는 역할을 합니다. " alt="" coords="161,309,259,336"/>
-<area shape="rect" id="node4" href="runner_8c.html#a1e7af22661c6f245d852fb1c76d0adea" title="global_runner가 가진 멤버 중 동적할당이 되어 있는 데이터를 반환합니다. " alt="" coords="333,56,476,83"/>
-<area shape="rect" id="node6" href="sync_8h.html#a734bdafd21577451dd2bbce8c7871aa5" title="부모에게 완료되었다는 메시지를 수신합니다. " alt="" coords="348,107,461,133"/>
-<area shape="rect" id="node9" href="tr-shm_8c.html#af14bffffa6087c3c3ec21f78f6680d1c" title="세마포어만을 초기화하는 함수입니다. " alt="" coords="350,157,459,184"/>
-<area shape="rect" id="node10" href="tr-shm_8c.html#af6139d06f530f523285806d3a32e5e9f" title="Shared Memory만을 초기화하는 함수입니다. " alt="" coords="350,208,459,235"/>
-<area shape="rect" id="node12" href="tr-mq_8c.html#a9305a8aefb9d327f3d82659f4e9d75ae" title="Message Queue를 초기화하는 함수입니다. " alt="" coords="353,259,456,285"/>
+<area shape="rect" id="node2" href="sync_8h.html#a270e909d7660277107b16ab0d7bcd547" title="Pipe initialize sequence. You must call before use this source. " alt="" coords="164,5,256,32"/>
+<area shape="rect" id="node3" href="tr-driver_8c.html#acdb88ca94bb709b877202b31ca8cd049" title="Capture the SIGTERM and deallocate all resources which this process has. " alt="" coords="155,56,265,83"/>
+<area shape="rect" id="node5" href="tr-driver_8c.html#a04f8d23a9999a567eb9602a2c17e884b" title="Each process trace&#45;replay execute part. " alt="" coords="163,107,257,133"/>
+<area shape="rect" id="node7" href="tr-driver_8c.html#afbc68ea1bbf9dd34b32bfe11b91fc2ab" title="Set the child process to specific control group(cgroup) " alt="" coords="135,157,285,184"/>
+<area shape="rect" id="node8" href="tr-shm_8c.html#aeabf9bfa126222af391db186d289db44" title="Do the __tr_shm_init() and __tr_sem_init() " alt="" coords="163,208,257,235"/>
+<area shape="rect" id="node11" href="tr-mq_8c.html#ae58ca965390727368c08b85f0f65ef9e" title="Wrapping function of __tr_mq_init() " alt="" coords="166,259,254,285"/>
+<area shape="rect" id="node13" href="sync_8h.html#a0a9b16ae0f39583f0d1376c4f3a5f4f5" title="The parent calls children. " alt="" coords="161,309,259,336"/>
+<area shape="rect" id="node4" href="runner_8c.html#a1e7af22661c6f245d852fb1c76d0adea" title="Deallocate the global_runner&#39;s contents. " alt="" coords="333,56,476,83"/>
+<area shape="rect" id="node6" href="sync_8h.html#a734bdafd21577451dd2bbce8c7871aa5" title="Receive from parent&#39;s call. " alt="" coords="348,107,461,133"/>
+<area shape="rect" id="node9" href="tr-shm_8c.html#af14bffffa6087c3c3ec21f78f6680d1c" title="Initialize the Semaphore. " alt="" coords="350,157,459,184"/>
+<area shape="rect" id="node10" href="tr-shm_8c.html#af6139d06f530f523285806d3a32e5e9f" title="Initialize the Shared Memory. " alt="" coords="350,208,459,235"/>
+<area shape="rect" id="node12" href="tr-mq_8c.html#a9305a8aefb9d327f3d82659f4e9d75ae" title="Initialize the Message Queue. " alt="" coords="353,259,456,285"/>
 </map>
 </div>
 
@@ -590,14 +591,14 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>control group에 자식 프로세스가 작동할 수 있도록 설정합니다. </p>
+<p>Set the child process to specific control group(cgroup) </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">current</td><td>현재 프로세스의 정보를 가진 구조체를 가리킵니다.</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">current</td><td>The structure which has the current process information.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>정상 종료한 경우에는 0 그 이외에는 적절한 errno이 반환됩니다. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>0 for success to set, errno for fail to set. </dd></dl>
 
 </div>
 </div>
@@ -617,14 +618,14 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>현재 입력되는 scheduler가 driver가 지원하는 지를 확인하도록 합니다. </p>
+<p>Check the current inputted scheduler text can be supported by the driver. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">scheduler</td><td>검사하고자 하는 스케쥴러 문자열을 가진 문자열 포인터입니다.</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">scheduler</td><td>Inputted scheduler string.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>가지고 있는 경우 0이 반환되고, 그렇지 않은 경우 -EINVAL이 반환됩니다. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>0 for mean support the scheduler, -EINVAL for mean don't support the scheduler. </dd></dl>
 
 </div>
 </div>
@@ -639,7 +640,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">struct <a class="el" href="structtr__info.html">tr_info</a>* global_info_head</td>
+          <td class="memname">struct <a class="el" href="structtr__info.html">tr_info</a>* global_info_head = NULL</td>
         </tr>
       </table>
   </td>
@@ -648,7 +649,7 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">=</div><div class="line">        NULL</div></div><!-- fragment --><p>trace-replay의 각각을 실행시킬 때 필요한 정보를 담고있는 구조체 리스트의 헤드입니다. </p>
+<p>global <code><a class="el" href="structtr__info.html" title="This structure has the major information of the each process. ">tr_info</a></code> list </p>
 
 </div>
 </div>
@@ -675,8 +676,8 @@ Here is the call graph for this function:</div>
 <div class="ttc" id="tr-driver_8c_html_adf764cbdea00d65edcd07bb9953ad2b7ab6248791674b601eaae8ebd280765ae9"><div class="ttname"><a href="tr-driver_8c.html#adf764cbdea00d65edcd07bb9953ad2b7ab6248791674b601eaae8ebd280765ae9">TR_NONE_SCHEDULER</a></div><div class="ttdef"><b>Definition:</b> tr-driver.c:47</div></div>
 <div class="ttc" id="tr-driver_8c_html_adf764cbdea00d65edcd07bb9953ad2b7a71ab75386c3235b1d519b89e7f78d82f"><div class="ttname"><a href="tr-driver_8c.html#adf764cbdea00d65edcd07bb9953ad2b7a71ab75386c3235b1d519b89e7f78d82f">TR_KYBER_SCHEDULER</a></div><div class="ttdef"><b>Definition:</b> tr-driver.c:48</div></div>
 </div><!-- fragment -->
-<p>현재 tr-driver에서 지원하는 I/O 스케줄러가 들어가게 됩니다. </p>
-<dl class="section warning"><dt>Warning</dt><dd>kyber는 SCSI를 지원하지 않음을 유의해주시길 바랍니다. </dd></dl>
+<p>Associated table of I/O scheduler. </p>
+<dl class="section warning"><dt>Warning</dt><dd>Kyber sceduler doesn't support in SCSI devices. </dd></dl>
 
 </div>
 </div>

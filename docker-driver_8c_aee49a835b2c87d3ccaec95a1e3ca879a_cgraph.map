@@ -1,5 +1,6 @@
 <map id="docker_free" name="docker_free">
-<area shape="rect" id="node2" href="$docker-driver_8c.html#aa5bd2c2b474a4ce8cd5ebb0e54290cdf" title="실질적으로 trace&#45;replay 관련 구조체의 동적 할당된 내용을 해제하는 부분에 해당합니다. " alt="" coords="152,31,265,57"/>
-<area shape="rect" id="node3" href="$docker-shm_8c.html#ade612a62cc26c30f18fc56630eeb168c" title="Shared Memory의 할당된 내용을 해제하도록 합니다. " alt="" coords="313,5,448,32"/>
-<area shape="rect" id="node4" href="$docker-mq_8c.html#a73b34b2055ff3f635601800f88f523d8" title="Message Queue의 할당된 내용을 해제하도록 합니다. " alt="" coords="317,56,444,83"/>
+<area shape="rect" id="node2" href="$docker-driver_8c.html#aa5bd2c2b474a4ce8cd5ebb0e54290cdf" title="Deallocate this driver&#39;s resources. " alt="" coords="152,56,265,83"/>
+<area shape="rect" id="node3" href="$docker-driver_8c.html#a5aecf0b5c42eaf21f535ccc4b3c8cef4" title="Remove the docker container. " alt="" coords="313,5,487,32"/>
+<area shape="rect" id="node4" href="$docker-shm_8c.html#ade612a62cc26c30f18fc56630eeb168c" title="Deallocate the Shared Memory resources. " alt="" coords="333,56,467,83"/>
+<area shape="rect" id="node5" href="$docker-mq_8c.html#a73b34b2055ff3f635601800f88f523d8" title="Deallocate the Message Queue resources. " alt="" coords="337,107,463,133"/>
 </map>

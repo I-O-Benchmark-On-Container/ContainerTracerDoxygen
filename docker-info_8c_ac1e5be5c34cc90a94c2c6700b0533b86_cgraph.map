@@ -1,7 +1,7 @@
 <map id="__docker_info_init" name="__docker_info_init">
-<area shape="rect" id="node2" href="$docker-info_8c.html#a0a21456996b3d9b2ca237a82f102f7bd" title="정수 형태의 info&#45;&gt;(member)에 json에서 값을 읽어서 값을 주도록 합니다. " alt="" coords="201,5,393,32"/>
-<area shape="rect" id="node3" href="$docker-info_8c.html#a2f3652fb35eaafb166dad57f5acf6544" title="문자열 형태의 info&#45;&gt;(member)에 json에서 값을 읽어서 값을 주도록 합니다. " alt="" coords="222,57,371,98"/>
-<area shape="rect" id="node5" href="$docker-driver_8c.html#aeb2054fb67e6cd2363af06c7dd4e1b67" title="현재 입력되는 scheduler가 driver가 지원하는 지를 확인하도록 합니다. " alt="" coords="193,123,400,149"/>
-<area shape="rect" id="node6" href="$docker-info_8c.html#a143cfdffa77c29944fc4278e202fb918" title="현재 trace_data_path 값이 synthetic 형태인지를 확인합니다. " alt="" coords="215,173,378,200"/>
-<area shape="rect" id="node4" href="$generic_8h.html#a5469117f34e2c2ef5e1597c3ac16a0ea" title="json의 문자열 값을 받는 경우에는 &quot; 값이 있을 수 있습니다. 따라서, 그 값을 전부 없애주는 데 사용합니다..." alt="" coords="448,64,599,91"/>
+<area shape="rect" id="node2" href="$docker-info_8c.html#a0a21456996b3d9b2ca237a82f102f7bd" title="Read the JSON string and convert the value to integer form and set that value to info&#45;&gt;(member) ..." alt="" coords="201,5,393,32"/>
+<area shape="rect" id="node3" href="$docker-info_8c.html#a647c1be5263df2194a6a032c84c2958b" title="Read the JSON string and convert the value to string form and set that value to info&#45;&gt;(member) ..." alt="" coords="201,56,393,83"/>
+<area shape="rect" id="node5" href="$docker-driver_8c.html#aeb2054fb67e6cd2363af06c7dd4e1b67" title="Check the current inputted scheduler text can be supported by the driver. " alt="" coords="193,107,400,133"/>
+<area shape="rect" id="node6" href="$docker-info_8c.html#a143cfdffa77c29944fc4278e202fb918" title="Check the trace_data_path value form is synthetic from. " alt="" coords="215,157,378,184"/>
+<area shape="rect" id="node4" href="$generic_8h.html#a5469117f34e2c2ef5e1597c3ac16a0ea" title="Remove the word &lt;ch&gt; in string. " alt="" coords="448,56,599,83"/>
 </map>

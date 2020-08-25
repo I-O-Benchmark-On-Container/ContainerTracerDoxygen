@@ -1,5 +1,5 @@
 <map id="runner/runner.c" name="runner/runner.c">
-<area shape="rect" id="node10" href="$generic_8h.html" title="driver의 매핑 정보 및 runner를 총괄하는 헤더입니다. 관련 정의 내용은 runner/generic.c에 존재합니다. " alt="" coords="187,155,270,181"/>
-<area shape="rect" id="node11" href="$log_8h.html" title="로그 출력 양식에 해당합니다. " alt="" coords="407,229,461,256"/>
-<area shape="rect" id="node14" href="$runner_8h.html" title="runner에 대한 선언적 내용이 들어가게 됩니다. " alt="" coords="351,80,426,107"/>
+<area shape="rect" id="node10" href="$generic_8h.html" title="This header maintain the driver&#39;s mapping information. It&#39;s definition in runner/generic.c. " alt="" coords="187,155,270,181"/>
+<area shape="rect" id="node11" href="$log_8h.html" title="Format of log printing. " alt="" coords="407,229,461,256"/>
+<area shape="rect" id="node14" href="$runner_8h.html" title="Declaration information of runnner " alt="" coords="351,80,426,107"/>
 </map>

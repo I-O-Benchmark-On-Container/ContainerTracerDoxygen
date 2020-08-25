@@ -1,4 +1,4 @@
 <map id="docker_shm_init" name="docker_shm_init">
-<area shape="rect" id="node2" href="$docker-shm_8c.html#a705e14be96e8a64c2356967d7e715091" title="세마포어만을 초기화하는 함수입니다. " alt="" coords="183,5,325,32"/>
-<area shape="rect" id="node3" href="$docker-shm_8c.html#a613890337ccde9a3b4463abf6dd3cc20" title="Shared Memory만을 초기화하는 함수입니다. " alt="" coords="183,56,325,83"/>
+<area shape="rect" id="node2" href="$docker-shm_8c.html#a705e14be96e8a64c2356967d7e715091" title="Initialize the Semaphore. " alt="" coords="183,5,325,32"/>
+<area shape="rect" id="node3" href="$docker-shm_8c.html#a613890337ccde9a3b4463abf6dd3cc20" title="Initialize the Shared Memory. " alt="" coords="183,56,325,83"/>
 </map>

@@ -71,7 +71,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>info 구조체를 초기화하는 역할을 합니다.  
+<p>Initialize the info structure.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;stdlib.h&gt;</code><br />
 <code>#include &lt;search.h&gt;</code><br />
@@ -85,10 +85,10 @@ Include dependency graph for docker-info.c:</div>
 <div class="dyncontent">
 <div class="center"><img src="docker-info_8c__incl.png" border="0" usemap="#runner_2driver_2docker-driver_2docker-info_8c" alt=""/></div>
 <map name="runner_2driver_2docker-driver_2docker-info_8c" id="runner_2driver_2docker-driver_2docker-info_8c">
-<area shape="rect" id="node8" href="docker-driver_8h.html" title="docker와 함께 trace&#45;replay를 동작시키는 driver의 선언부에 해당합니다. " alt="" coords="191,95,353,121"/>
-<area shape="rect" id="node12" href="generic_8h.html" title="driver의 매핑 정보 및 runner를 총괄하는 헤더입니다. 관련 정의 내용은 runner/generic.c에 존재합니다. " alt="" coords="239,169,321,196"/>
+<area shape="rect" id="node8" href="docker-driver_8h.html" title="driver declaration part of run docker with trace&#45;replay " alt="" coords="191,95,353,121"/>
+<area shape="rect" id="node12" href="generic_8h.html" title="This header maintain the driver&#39;s mapping information. It&#39;s definition in runner/generic.c. " alt="" coords="239,169,321,196"/>
 <area shape="rect" id="node18" href="trace__replay_8h.html" title="trace_replay.h" alt="" coords="738,169,851,196"/>
-<area shape="rect" id="node15" href="log_8h.html" title="로그 출력 양식에 해당합니다. " alt="" coords="81,244,135,271"/>
+<area shape="rect" id="node15" href="log_8h.html" title="Format of log printing. " alt="" coords="81,244,135,271"/>
 <area shape="rect" id="node20" href="flist_8h.html" title="flist.h" alt="" coords="720,244,779,271"/>
 </map>
 </div>
@@ -96,29 +96,29 @@ Include dependency graph for docker-info.c:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a0a21456996b3d9b2ca237a82f102f7bd"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="docker-info_8c.html#a0a21456996b3d9b2ca237a82f102f7bd">docker_info_int_value_set</a> (struct json_object *setting, const char *<a class="el" href="tr-driver-test_8c.html#a114a26ebd93f4397bf89734c1d991ea0">key</a>, unsigned int *member, int is_print)</td></tr>
-<tr class="memdesc:a0a21456996b3d9b2ca237a82f102f7bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">정수 형태의 <code>info-&gt;(member)</code>에 json에서 값을 읽어서 값을 주도록 합니다.  <a href="#a0a21456996b3d9b2ca237a82f102f7bd">More...</a><br /></td></tr>
+<tr class="memdesc:a0a21456996b3d9b2ca237a82f102f7bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read the JSON string and convert the value to integer form and set that value to <code>info-&gt;(member)</code>  <a href="#a0a21456996b3d9b2ca237a82f102f7bd">More...</a><br /></td></tr>
 <tr class="separator:a0a21456996b3d9b2ca237a82f102f7bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2f3652fb35eaafb166dad57f5acf6544"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="docker-info_8c.html#a2f3652fb35eaafb166dad57f5acf6544">docker_info_docker_value_set</a> (struct json_object *setting, const char *<a class="el" href="tr-driver-test_8c.html#a114a26ebd93f4397bf89734c1d991ea0">key</a>, char *member, size_t size, int is_print)</td></tr>
-<tr class="memdesc:a2f3652fb35eaafb166dad57f5acf6544"><td class="mdescLeft">&#160;</td><td class="mdescRight">문자열 형태의 <code>info-&gt;(member)</code>에 json에서 값을 읽어서 값을 주도록 합니다.  <a href="#a2f3652fb35eaafb166dad57f5acf6544">More...</a><br /></td></tr>
-<tr class="separator:a2f3652fb35eaafb166dad57f5acf6544"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a647c1be5263df2194a6a032c84c2958b"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="docker-info_8c.html#a647c1be5263df2194a6a032c84c2958b">docker_info_str_value_set</a> (struct json_object *setting, const char *<a class="el" href="tr-driver-test_8c.html#a114a26ebd93f4397bf89734c1d991ea0">key</a>, char *member, size_t size, int is_print)</td></tr>
+<tr class="memdesc:a647c1be5263df2194a6a032c84c2958b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read the JSON string and convert the value to string form and set that value to <code>info-&gt;(member)</code>  <a href="#a647c1be5263df2194a6a032c84c2958b">More...</a><br /></td></tr>
+<tr class="separator:a647c1be5263df2194a6a032c84c2958b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a143cfdffa77c29944fc4278e202fb918"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="docker-info_8c.html#a143cfdffa77c29944fc4278e202fb918">docker_is_synth_type</a> (const char *trace_data_path)</td></tr>
-<tr class="memdesc:a143cfdffa77c29944fc4278e202fb918"><td class="mdescLeft">&#160;</td><td class="mdescRight">현재 trace_data_path 값이 synthetic 형태인지를 확인합니다.  <a href="#a143cfdffa77c29944fc4278e202fb918">More...</a><br /></td></tr>
+<tr class="memdesc:a143cfdffa77c29944fc4278e202fb918"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check the <code>trace_data_path</code> value form is synthetic from.  <a href="#a143cfdffa77c29944fc4278e202fb918">More...</a><br /></td></tr>
 <tr class="separator:a143cfdffa77c29944fc4278e202fb918"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac1e5be5c34cc90a94c2c6700b0533b86"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="docker-info_8c.html#ac1e5be5c34cc90a94c2c6700b0533b86">__docker_info_init</a> (struct json_object *setting, int index, struct <a class="el" href="structdocker__info.html">docker_info</a> *info)</td></tr>
-<tr class="memdesc:ac1e5be5c34cc90a94c2c6700b0533b86"><td class="mdescLeft">&#160;</td><td class="mdescRight">각각의 프로세스의 동작 옵션을 설정을 해주도록 합니다.  <a href="#ac1e5be5c34cc90a94c2c6700b0533b86">More...</a><br /></td></tr>
+<tr class="memdesc:ac1e5be5c34cc90a94c2c6700b0533b86"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the configuration of each process's behavior.  <a href="#ac1e5be5c34cc90a94c2c6700b0533b86">More...</a><br /></td></tr>
 <tr class="separator:ac1e5be5c34cc90a94c2c6700b0533b86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a956964d808533f4440f644453deda376"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structdocker__info.html">docker_info</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="docker-info_8c.html#a956964d808533f4440f644453deda376">docker_info_init</a> (struct json_object *setting, int index)</td></tr>
-<tr class="memdesc:a956964d808533f4440f644453deda376"><td class="mdescLeft">&#160;</td><td class="mdescRight">각 프로세스에 들어가는 info 객체를 __생성__하고 구축하여 반환합니다.  <a href="#a956964d808533f4440f644453deda376">More...</a><br /></td></tr>
+<tr class="memdesc:a956964d808533f4440f644453deda376"><td class="mdescLeft">&#160;</td><td class="mdescRight"><b>Generate</b> and construct the per processes <code>info</code> object and return it.  <a href="#a956964d808533f4440f644453deda376">More...</a><br /></td></tr>
 <tr class="separator:a956964d808533f4440f644453deda376"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:aeee8e7b039a45614b0c44d441fcdf023"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="docker-info_8c.html#aeee8e7b039a45614b0c44d441fcdf023">global_synth_type</a> []</td></tr>
-<tr class="memdesc:aeee8e7b039a45614b0c44d441fcdf023"><td class="mdescLeft">&#160;</td><td class="mdescRight">알려진 synthetic 형태에 대한 정의입니다. 이 안에 있는 경우에는 파일로 확인을 하지 않습니다.  <a href="#aeee8e7b039a45614b0c44d441fcdf023">More...</a><br /></td></tr>
+<tr class="memdesc:aeee8e7b039a45614b0c44d441fcdf023"><td class="mdescLeft">&#160;</td><td class="mdescRight">Definition of a well-known synthetic form. This value depends on the <code>trace-replay</code> specification.  <a href="#aeee8e7b039a45614b0c44d441fcdf023">More...</a><br /></td></tr>
 <tr class="separator:aeee8e7b039a45614b0c44d441fcdf023"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>info 구조체를 초기화하는 역할을 합니다. </p>
+<div class="textblock"><p>Initialize the info structure. </p>
 <dl class="section copyright"><dt>Copyright</dt><dd>"Container Tracer" which executes the container performance mesurements Copyright (C) 2020 SuhoSon</dd></dl>
 <p>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.</p>
 <p>This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.</p>
@@ -167,103 +167,27 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>각각의 프로세스의 동작 옵션을 설정을 해주도록 합니다. </p>
+<p>Set the configuration of each process's behavior. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">setting</td><td>설정 값을 가지고 있는 json 객체의 포인터에 해당합니다. </td></tr>
-    <tr><td class="paramname">index</td><td>json의 task_option의 배열 순번에 대한 정보를 가집니다. </td></tr>
-    <tr><td class="paramname">info</td><td>실제 값이 들어가는 위치에 해당합니다.</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">setting</td><td>JSON object pointer which has the setting value. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">index</td><td><code>task_option</code> array's index. </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">info</td><td>The target structure of the member will be set by the JSON object.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>정상적으로 초기화가 된 경우 0을 그렇지 않은 경우 적절한 오류 번호를 반환합니다. </dd></dl>
-<p>&lt; hsearch를 위해서 사용되는 변수입니다. </p>
+<dl class="section return"><dt>Returns</dt><dd>0 for success to init, error number for fail to init </dd></dl>
+<p>&lt; Variable for <code>hsearch</code>. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="docker-info_8c_ac1e5be5c34cc90a94c2c6700b0533b86_cgraph.png" border="0" usemap="#docker-info_8c_ac1e5be5c34cc90a94c2c6700b0533b86_cgraph" alt=""/></div>
 <map name="docker-info_8c_ac1e5be5c34cc90a94c2c6700b0533b86_cgraph" id="docker-info_8c_ac1e5be5c34cc90a94c2c6700b0533b86_cgraph">
-<area shape="rect" id="node2" href="docker-info_8c.html#a0a21456996b3d9b2ca237a82f102f7bd" title="정수 형태의 info&#45;&gt;(member)에 json에서 값을 읽어서 값을 주도록 합니다. " alt="" coords="201,5,393,32"/>
-<area shape="rect" id="node3" href="docker-info_8c.html#a2f3652fb35eaafb166dad57f5acf6544" title="문자열 형태의 info&#45;&gt;(member)에 json에서 값을 읽어서 값을 주도록 합니다. " alt="" coords="222,57,371,98"/>
-<area shape="rect" id="node5" href="docker-driver_8c.html#aeb2054fb67e6cd2363af06c7dd4e1b67" title="현재 입력되는 scheduler가 driver가 지원하는 지를 확인하도록 합니다. " alt="" coords="193,123,400,149"/>
-<area shape="rect" id="node6" href="docker-info_8c.html#a143cfdffa77c29944fc4278e202fb918" title="현재 trace_data_path 값이 synthetic 형태인지를 확인합니다. " alt="" coords="215,173,378,200"/>
-<area shape="rect" id="node4" href="generic_8h.html#a5469117f34e2c2ef5e1597c3ac16a0ea" title="json의 문자열 값을 받는 경우에는 &quot; 값이 있을 수 있습니다. 따라서, 그 값을 전부 없애주는 데 사용합니다..." alt="" coords="448,64,599,91"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="a2f3652fb35eaafb166dad57f5acf6544"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2f3652fb35eaafb166dad57f5acf6544">&#9670;&nbsp;</a></span>docker_info_docker_value_set()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static int docker_info_docker_value_set </td>
-          <td>(</td>
-          <td class="paramtype">struct json_object *&#160;</td>
-          <td class="paramname"><em>setting</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>key</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">char *&#160;</td>
-          <td class="paramname"><em>member</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>size</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>is_print</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>문자열 형태의 <code>info-&gt;(member)</code>에 json에서 값을 읽어서 값을 주도록 합니다. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">setting</td><td>탐색을 할 특정 위치를 지칭합니다. </td></tr>
-    <tr><td class="paramname">key</td><td>json에서 가져오고자 하는 데이터의 key 또는 field에 해당합니다. </td></tr>
-    <tr><td class="paramname">member</td><td>실제 값이 삽입되는 위치에 해당합니다. </td></tr>
-    <tr><td class="paramname">size</td><td>메모리의 크기를 나타냅니다. </td></tr>
-    <tr><td class="paramname">is_print</td><td>에러를 사용자에게 출력을 할 지 말지를 선택합니다.</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>성공적으로 입력이 되었다면 0이 반환되고, 그렇지 않은 경우에는 -EINVAL이 반환됩니다. </dd></dl>
-<dl class="section warning"><dt>Warning</dt><dd>size의 값은 반드시 member의 크기보다 작거나 같아야 합니다. </dd></dl>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="docker-info_8c_a2f3652fb35eaafb166dad57f5acf6544_cgraph.png" border="0" usemap="#docker-info_8c_a2f3652fb35eaafb166dad57f5acf6544_cgraph" alt=""/></div>
-<map name="docker-info_8c_a2f3652fb35eaafb166dad57f5acf6544_cgraph" id="docker-info_8c_a2f3652fb35eaafb166dad57f5acf6544_cgraph">
-<area shape="rect" id="node2" href="generic_8h.html#a5469117f34e2c2ef5e1597c3ac16a0ea" title="json의 문자열 값을 받는 경우에는 &quot; 값이 있을 수 있습니다. 따라서, 그 값을 전부 없애주는 데 사용합니다..." alt="" coords="203,13,353,39"/>
+<area shape="rect" id="node2" href="docker-info_8c.html#a0a21456996b3d9b2ca237a82f102f7bd" title="Read the JSON string and convert the value to integer form and set that value to info&#45;&gt;(member) ..." alt="" coords="201,5,393,32"/>
+<area shape="rect" id="node3" href="docker-info_8c.html#a647c1be5263df2194a6a032c84c2958b" title="Read the JSON string and convert the value to string form and set that value to info&#45;&gt;(member) ..." alt="" coords="201,56,393,83"/>
+<area shape="rect" id="node5" href="docker-driver_8c.html#aeb2054fb67e6cd2363af06c7dd4e1b67" title="Check the current inputted scheduler text can be supported by the driver. " alt="" coords="193,107,400,133"/>
+<area shape="rect" id="node6" href="docker-info_8c.html#a143cfdffa77c29944fc4278e202fb918" title="Check the trace_data_path value form is synthetic from. " alt="" coords="215,157,378,184"/>
+<area shape="rect" id="node4" href="generic_8h.html#a5469117f34e2c2ef5e1597c3ac16a0ea" title="Remove the word &lt;ch&gt; in string. " alt="" coords="448,56,599,83"/>
 </map>
 </div>
 
@@ -295,26 +219,26 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>각 프로세스에 들어가는 info 객체를 __생성__하고 구축하여 반환합니다. </p>
+<p><b>Generate</b> and construct the per processes <code>info</code> object and return it. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">setting</td><td>설정 값을 가지고 있는 json 객체의 포인터에 해당합니다. </td></tr>
-    <tr><td class="paramname">index</td><td>json의 task_option의 배열 순번에 대한 정보를 가집니다.</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">setting</td><td>JSON object pointer which has the setting value. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">index</td><td><code>task_option</code> array's index.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>정상적으로 초기화가 된 경우 0을 그렇지 않은 경우 적절한 오류 번호를 반환합니다. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>0 for success to init, error number for fail to init </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="docker-info_8c_a956964d808533f4440f644453deda376_cgraph.png" border="0" usemap="#docker-info_8c_a956964d808533f4440f644453deda376_cgraph" alt=""/></div>
 <map name="docker-info_8c_a956964d808533f4440f644453deda376_cgraph" id="docker-info_8c_a956964d808533f4440f644453deda376_cgraph">
-<area shape="rect" id="node2" href="docker-info_8c.html#a0a21456996b3d9b2ca237a82f102f7bd" title="정수 형태의 info&#45;&gt;(member)에 json에서 값을 읽어서 값을 주도록 합니다. " alt="" coords="375,5,567,32"/>
-<area shape="rect" id="node3" href="docker-info_8c.html#a2f3652fb35eaafb166dad57f5acf6544" title="문자열 형태의 info&#45;&gt;(member)에 json에서 값을 읽어서 값을 주도록 합니다. " alt="" coords="397,57,546,98"/>
-<area shape="rect" id="node5" href="docker-driver_8c.html#aeb2054fb67e6cd2363af06c7dd4e1b67" title="현재 입력되는 scheduler가 driver가 지원하는 지를 확인하도록 합니다. " alt="" coords="368,173,575,200"/>
-<area shape="rect" id="node6" href="docker-info_8c.html#ac1e5be5c34cc90a94c2c6700b0533b86" title="각각의 프로세스의 동작 옵션을 설정을 해주도록 합니다. " alt="" coords="180,115,320,141"/>
-<area shape="rect" id="node4" href="generic_8h.html#a5469117f34e2c2ef5e1597c3ac16a0ea" title="json의 문자열 값을 받는 경우에는 &quot; 값이 있을 수 있습니다. 따라서, 그 값을 전부 없애주는 데 사용합니다..." alt="" coords="623,64,773,91"/>
-<area shape="rect" id="node7" href="docker-info_8c.html#a143cfdffa77c29944fc4278e202fb918" title="현재 trace_data_path 값이 synthetic 형태인지를 확인합니다. " alt="" coords="390,123,553,149"/>
+<area shape="rect" id="node2" href="docker-info_8c.html#a0a21456996b3d9b2ca237a82f102f7bd" title="Read the JSON string and convert the value to integer form and set that value to info&#45;&gt;(member) ..." alt="" coords="375,5,567,32"/>
+<area shape="rect" id="node3" href="docker-info_8c.html#a647c1be5263df2194a6a032c84c2958b" title="Read the JSON string and convert the value to string form and set that value to info&#45;&gt;(member) ..." alt="" coords="375,56,567,83"/>
+<area shape="rect" id="node5" href="docker-driver_8c.html#aeb2054fb67e6cd2363af06c7dd4e1b67" title="Check the current inputted scheduler text can be supported by the driver. " alt="" coords="368,157,575,184"/>
+<area shape="rect" id="node6" href="docker-info_8c.html#ac1e5be5c34cc90a94c2c6700b0533b86" title="Set the configuration of each process&#39;s behavior. " alt="" coords="180,107,320,133"/>
+<area shape="rect" id="node4" href="generic_8h.html#a5469117f34e2c2ef5e1597c3ac16a0ea" title="Remove the word &lt;ch&gt; in string. " alt="" coords="623,56,773,83"/>
+<area shape="rect" id="node7" href="docker-info_8c.html#a143cfdffa77c29944fc4278e202fb918" title="Check the trace_data_path value form is synthetic from. " alt="" coords="390,107,553,133"/>
 </map>
 </div>
 
@@ -366,17 +290,94 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>정수 형태의 <code>info-&gt;(member)</code>에 json에서 값을 읽어서 값을 주도록 합니다. </p>
+<p>Read the JSON string and convert the value to integer form and set that value to <code>info-&gt;(member)</code> </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">setting</td><td>탐색을 할 특정 위치를 지칭합니다. </td></tr>
-    <tr><td class="paramname">key</td><td>json에서 가져오고자 하는 데이터의 key 또는 field에 해당합니다. </td></tr>
-    <tr><td class="paramname">member</td><td>실제 값이 삽입되는 위치에 해당합니다. </td></tr>
-    <tr><td class="paramname">is_print</td><td>에러를 사용자에게 출력을 할 지 말지를 선택합니다.</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">setting</td><td>The traverse start location of JSON object. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">key</td><td>JSON object's key which points to the value I want to find. </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">member</td><td><code>info</code> structure member address. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">is_print</td><td>The flag that determines to print the error.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>성공적으로 입력이 되었다면 0이 반환되고, 그렇지 않은 경우에는 -EINVAL이 반환됩니다. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>0 for success to input, -EINVAL for fail to input. </dd></dl>
+<dl class="section warning"><dt>Warning</dt><dd>member must be an integer type. </dd></dl>
+
+</div>
+</div>
+<a id="a647c1be5263df2194a6a032c84c2958b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a647c1be5263df2194a6a032c84c2958b">&#9670;&nbsp;</a></span>docker_info_str_value_set()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int docker_info_str_value_set </td>
+          <td>(</td>
+          <td class="paramtype">struct json_object *&#160;</td>
+          <td class="paramname"><em>setting</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>member</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>is_print</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Read the JSON string and convert the value to string form and set that value to <code>info-&gt;(member)</code> </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">setting</td><td>The traverse start location of JSON object. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">key</td><td>JSON object's key which points to the value I want to find. </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">member</td><td><code>info</code> structure member address. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">size</td><td>This value must under <code>member</code> memory size </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">is_print</td><td>The flag that determines to print the error.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>0 for success to input, -EINVAL for fail to input. </dd></dl>
+<dl class="section warning"><dt>Warning</dt><dd>member must be an string type. </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="docker-info_8c_a647c1be5263df2194a6a032c84c2958b_cgraph.png" border="0" usemap="#docker-info_8c_a647c1be5263df2194a6a032c84c2958b_cgraph" alt=""/></div>
+<map name="docker-info_8c_a647c1be5263df2194a6a032c84c2958b_cgraph" id="docker-info_8c_a647c1be5263df2194a6a032c84c2958b_cgraph">
+<area shape="rect" id="node2" href="generic_8h.html#a5469117f34e2c2ef5e1597c3ac16a0ea" title="Remove the word &lt;ch&gt; in string. " alt="" coords="245,5,396,32"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -404,14 +405,14 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>현재 trace_data_path 값이 synthetic 형태인지를 확인합니다. </p>
+<p>Check the <code>trace_data_path</code> value form is synthetic from. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">trace_data_path</td><td>synthetic 여부를 확인하고자 하는 문자열입니다.</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">trace_data_path</td><td>The value which I want to know either synthetic or not.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>만약에 synthetic이면 DOCKER_SYNTH를 아니면 DOCKER_NOT_SYNTH를 반환합니다. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>DOCKER_SYNTH for <code>trace_data_path</code> is synthetic, DOCKER_NOT_SYNTH for <code>trace_data_path</code> isn't synthetic </dd></dl>
 
 </div>
 </div>
@@ -436,7 +437,7 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= { <span class="stringliteral">&quot;rand_read&quot;</span>,  <span class="stringliteral">&quot;rand_write&quot;</span>,</div><div class="line">                                           <span class="stringliteral">&quot;rand_mixed&quot;</span>, <span class="stringliteral">&quot;seq_read&quot;</span>,</div><div class="line">                                           <span class="stringliteral">&quot;seq_write&quot;</span>,  <span class="stringliteral">&quot;seq_mixed&quot;</span>,</div><div class="line">                                           NULL }</div></div><!-- fragment -->
-<p>알려진 synthetic 형태에 대한 정의입니다. 이 안에 있는 경우에는 파일로 확인을 하지 않습니다. </p>
+<p>Definition of a well-known synthetic form. This value depends on the <code>trace-replay</code> specification. </p>
 
 </div>
 </div>

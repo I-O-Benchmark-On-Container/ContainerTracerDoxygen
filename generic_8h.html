@@ -73,7 +73,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>driver의 매핑 정보 및 runner를 총괄하는 헤더입니다. 관련 정의 내용은 <code><a class="el" href="generic_8c.html" title="runtime에 driver를 특정할 수 있도록 만들어주는 generic 헤더의 구현부에 해당합니다. ">runner/generic.c</a></code>에 존재합니다.  
+<p>This header maintain the driver's mapping information. It's definition in <code><a class="el" href="generic_8c.html" title="This makes runner to determine the driver in runtime. ">runner/generic.c</a></code>.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;stdlib.h&gt;</code><br />
 <code>#include &lt;string.h&gt;</code><br />
@@ -86,7 +86,7 @@ Include dependency graph for generic.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="generic_8h__incl.png" border="0" usemap="#include_2generic_8h" alt=""/></div>
 <map name="include_2generic_8h" id="include_2generic_8h">
-<area shape="rect" id="node7" href="log_8h.html" title="로그 출력 양식에 해당합니다. " alt="" coords="504,80,559,107"/>
+<area shape="rect" id="node7" href="log_8h.html" title="Format of log printing. " alt="" coords="504,80,559,107"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -94,23 +94,23 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="generic_8h__dep__incl.png" border="0" usemap="#include_2generic_8hdep" alt=""/></div>
 <map name="include_2generic_8hdep" id="include_2generic_8hdep">
-<area shape="rect" id="node2" href="docker-driver_8c.html" title="trace&#45;replay를 동작시키는 driver 구현부에 해당합니다. " alt="" coords="861,169,1027,211"/>
-<area shape="rect" id="node3" href="tr-driver_8c.html" title="trace&#45;replay를 동작시키는 driver 구현부에 해당합니다. " alt="" coords="488,169,651,211"/>
-<area shape="rect" id="node4" href="generic_8c.html" title="runtime에 driver를 특정할 수 있도록 만들어주는 generic 헤더의 구현부에 해당합니다. " alt="" coords="1822,177,1949,203"/>
-<area shape="rect" id="node5" href="runner_8c.html" title="runner.h에서 선언된 내용들에 대한 정의가 들어갑니다. " alt="" coords="5,177,125,203"/>
-<area shape="rect" id="node6" href="docker-driver-test_8c.html" title="runner/test/docker\l&#45;driver&#45;test.c" alt="" coords="149,169,291,211"/>
-<area shape="rect" id="node7" href="tr-driver-test_8c.html" title="tr&#45;driver의 올바른 동작 여부를 확인하는 테스터입니다. " alt="" coords="315,169,464,211"/>
-<area shape="rect" id="node8" href="docker-driver_8h.html" title="docker와 함께 trace&#45;replay를 동작시키는 driver의 선언부에 해당합니다. " alt="" coords="1806,80,1965,121"/>
-<area shape="rect" id="node13" href="tr-driver_8h.html" title="trace&#45;replay를 동작시키는 driver의 선언부에 해당합니다. " alt="" coords="1043,87,1221,114"/>
-<area shape="rect" id="node18" href="runner_8h.html" title="runner에 대한 선언적 내용이 들어가게 됩니다. " alt="" coords="506,87,633,114"/>
-<area shape="rect" id="node9" href="docker-info_8c.html" title="info 구조체를 초기화하는 역할을 합니다. " alt="" coords="1973,169,2128,211"/>
-<area shape="rect" id="node10" href="docker-mq_8c.html" title="Message Queue를 생성 및 사용하는 방식이 구현되어 있습니다. " alt="" coords="2152,169,2307,211"/>
-<area shape="rect" id="node11" href="docker-serializer_8c.html" title="임의의 구조체를 json화 시키는 방식이 구현된 소스입니다. " alt="" coords="1611,169,1797,211"/>
-<area shape="rect" id="node12" href="docker-shm_8c.html" title="Shared Memory를 생성 및 사용하는 방식이 구현되어 있습니다. " alt="" coords="2331,169,2487,211"/>
-<area shape="rect" id="node14" href="tr-info_8c.html" title="info 구조체를 초기화하는 역할을 합니다. " alt="" coords="1424,169,1587,211"/>
-<area shape="rect" id="node15" href="tr-mq_8c.html" title="Message Queue를 생성 및 사용하는 방식이 구현되어 있습니다. " alt="" coords="1051,169,1213,211"/>
-<area shape="rect" id="node16" href="tr-serializer_8c.html" title="임의의 구조체를 json화 시키는 방식이 구현된 소스입니다. " alt="" coords="675,169,837,211"/>
-<area shape="rect" id="node17" href="tr-shm_8c.html" title="Shared Memory를 생성 및 사용하는 방식이 구현되어 있습니다. " alt="" coords="1237,169,1400,211"/>
+<area shape="rect" id="node2" href="docker-driver_8c.html" title="Implementation of run the trace&#45;replay benchmark with Docker. " alt="" coords="861,169,1027,211"/>
+<area shape="rect" id="node3" href="tr-driver_8c.html" title="Implementation of run the trace&#45;replay benchmark. " alt="" coords="488,169,651,211"/>
+<area shape="rect" id="node4" href="generic_8c.html" title="This makes runner to determine the driver in runtime. " alt="" coords="1822,177,1949,203"/>
+<area shape="rect" id="node5" href="runner_8c.html" title="Definition of runner.h declaration contents. " alt="" coords="5,177,125,203"/>
+<area shape="rect" id="node6" href="docker-driver-test_8c.html" title="Check the correctness of docker&#45;driver. " alt="" coords="149,169,291,211"/>
+<area shape="rect" id="node7" href="tr-driver-test_8c.html" title="Check the correctness of tr&#45;driver. " alt="" coords="315,169,464,211"/>
+<area shape="rect" id="node8" href="docker-driver_8h.html" title="driver declaration part of run docker with trace&#45;replay " alt="" coords="1806,80,1965,121"/>
+<area shape="rect" id="node13" href="tr-driver_8h.html" title="driver declaration part of run trace&#45;replay " alt="" coords="1043,87,1221,114"/>
+<area shape="rect" id="node18" href="runner_8h.html" title="Declaration information of runnner " alt="" coords="506,87,633,114"/>
+<area shape="rect" id="node9" href="docker-info_8c.html" title="Initialize the info structure. " alt="" coords="1973,169,2128,211"/>
+<area shape="rect" id="node10" href="docker-mq_8c.html" title="This has the contents of creating and using Message Queue. " alt="" coords="2152,169,2307,211"/>
+<area shape="rect" id="node11" href="docker-serializer_8c.html" title="To make structure to JSON format. " alt="" coords="1611,169,1797,211"/>
+<area shape="rect" id="node12" href="docker-shm_8c.html" title="This has the contents of creating and using Shared Memory. " alt="" coords="2331,169,2487,211"/>
+<area shape="rect" id="node14" href="tr-info_8c.html" title="Initialize the info structure. " alt="" coords="1424,169,1587,211"/>
+<area shape="rect" id="node15" href="tr-mq_8c.html" title="This has the contents of creating and using Message Queue. " alt="" coords="1051,169,1213,211"/>
+<area shape="rect" id="node16" href="tr-serializer_8c.html" title="To make structure to JSON format. " alt="" coords="675,169,837,211"/>
+<area shape="rect" id="node17" href="tr-shm_8c.html" title="This has the contents of creating and using Shared Memory. " alt="" coords="1237,169,1400,211"/>
 </map>
 </div>
 </div>
@@ -119,7 +119,7 @@ This graph shows which files directly or indirectly include this file:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgeneric__driver__op.html">generic_driver_op</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">driver의 명령어 집합을 가지는 구조체입니다.  <a href="structgeneric__driver__op.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This structure contains the driver's command set.  <a href="structgeneric__driver__op.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
@@ -137,17 +137,17 @@ Enumerations</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:abbe9539d5de3ad11f3ad3bc088b27d10"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="generic_8h.html#abbe9539d5de3ad11f3ad3bc088b27d10">get_generic_driver_index</a> (const char *name)</td></tr>
-<tr class="memdesc:abbe9539d5de3ad11f3ad3bc088b27d10"><td class="mdescLeft">&#160;</td><td class="mdescRight">임의의 이름에 적합한 driver의 index를 반환해주도록 합니다.  <a href="#abbe9539d5de3ad11f3ad3bc088b27d10">More...</a><br /></td></tr>
+<tr class="memdesc:abbe9539d5de3ad11f3ad3bc088b27d10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the index of the name based on an associated table.  <a href="#abbe9539d5de3ad11f3ad3bc088b27d10">More...</a><br /></td></tr>
 <tr class="separator:abbe9539d5de3ad11f3ad3bc088b27d10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f7c2be1a7f75ab1093b82ee1f464164"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="generic_8h.html#a3f7c2be1a7f75ab1093b82ee1f464164">generic_driver_init</a> (const char *name, void *object)</td></tr>
-<tr class="memdesc:a3f7c2be1a7f75ab1093b82ee1f464164"><td class="mdescLeft">&#160;</td><td class="mdescRight">name에 해당하는 driver에 대해서 초기화를 실시해주도록 합니다.  <a href="#a3f7c2be1a7f75ab1093b82ee1f464164">More...</a><br /></td></tr>
+<tr class="memdesc:a3f7c2be1a7f75ab1093b82ee1f464164"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is a generic initialization function that performs initialization of driver corresponding to the driver name.  <a href="#a3f7c2be1a7f75ab1093b82ee1f464164">More...</a><br /></td></tr>
 <tr class="separator:a3f7c2be1a7f75ab1093b82ee1f464164"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5469117f34e2c2ef5e1597c3ac16a0ea"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="generic_8h.html#a5469117f34e2c2ef5e1597c3ac16a0ea">generic_strip_string</a> (char *str, char ch)</td></tr>
-<tr class="memdesc:a5469117f34e2c2ef5e1597c3ac16a0ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">json의 문자열 값을 받는 경우에는 " 값이 있을 수 있습니다. 따라서, 그 값을 전부 없애주는 데 사용합니다.  <a href="#a5469117f34e2c2ef5e1597c3ac16a0ea">More...</a><br /></td></tr>
+<tr class="memdesc:a5469117f34e2c2ef5e1597c3ac16a0ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove the word &lt;ch&gt; in string.  <a href="#a5469117f34e2c2ef5e1597c3ac16a0ea">More...</a><br /></td></tr>
 <tr class="separator:a5469117f34e2c2ef5e1597c3ac16a0ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>driver의 매핑 정보 및 runner를 총괄하는 헤더입니다. 관련 정의 내용은 <code><a class="el" href="generic_8c.html" title="runtime에 driver를 특정할 수 있도록 만들어주는 generic 헤더의 구현부에 해당합니다. ">runner/generic.c</a></code>에 존재합니다. </p>
+<div class="textblock"><p>This header maintain the driver's mapping information. It's definition in <code><a class="el" href="generic_8c.html" title="This makes runner to determine the driver in runtime. ">runner/generic.c</a></code>. </p>
 <dl class="section copyright"><dt>Copyright</dt><dd>"Container Tracer" which executes the container performance mesurements Copyright (C) 2020 BlaCkinkGJ</dd></dl>
 <p>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.</p>
 <p>This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.</p>
@@ -183,8 +183,10 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ab04a0655cd1e3bcac5e8f48c18df1a57a4dfb252de24e41ea37f87abad3e67dc5"></a>TRACE_REPLAY_DRIVER&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ab04a0655cd1e3bcac5e8f48c18df1a57aa0d71324750220d70e2f1e6e91cc5b12"></a>DOCKER_DRIVER&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ab04a0655cd1e3bcac5e8f48c18df1a57a4dfb252de24e41ea37f87abad3e67dc5"></a>TRACE_REPLAY_DRIVER&#160;</td><td class="fielddoc"><p>tr-driver index </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ab04a0655cd1e3bcac5e8f48c18df1a57aa0d71324750220d70e2f1e6e91cc5b12"></a>DOCKER_DRIVER&#160;</td><td class="fielddoc"><p>docker-driver index </p>
+</td></tr>
 </table>
 
 </div>
@@ -216,18 +218,18 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>name에 해당하는 driver에 대해서 초기화를 실시해주도록 합니다. </p>
+<p>This is a generic initialization function that performs initialization of driver corresponding to the driver name. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">name</td><td>driver의 이름에 해당합니다. </td></tr>
-    <tr><td class="paramname">object</td><td>초기화하는 driver의 init에 들어가는 object의 주소를 가집니다.</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">name</td><td>driver's name. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">object</td><td>The object which wants to initialize. Usually, global_config in this place.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>성공적으로 초기화를 한 경우에 0을 반환하고, 그렇지 않은 경우에 0 이하의 값을 반홥니다. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>0 for success to init, other value for fail to init. </dd></dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname">-EINVAL</td><td>존재하지 않는 name을 조회한 경우에 반환을 하는 역할을 합니다. </td></tr>
+    <tr><td class="paramname">-EINVAL</td><td>if doesn't exist the name in associated table. </td></tr>
   </table>
   </dd>
 </dl>
@@ -236,7 +238,7 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="generic_8h_a3f7c2be1a7f75ab1093b82ee1f464164_cgraph.png" border="0" usemap="#generic_8h_a3f7c2be1a7f75ab1093b82ee1f464164_cgraph" alt=""/></div>
 <map name="generic_8h_a3f7c2be1a7f75ab1093b82ee1f464164_cgraph" id="generic_8h_a3f7c2be1a7f75ab1093b82ee1f464164_cgraph">
-<area shape="rect" id="node2" href="generic_8c.html#abbe9539d5de3ad11f3ad3bc088b27d10" title="임의의 이름에 적합한 driver의 index를 반환해주도록 합니다. " alt="" coords="196,5,339,47"/>
+<area shape="rect" id="node2" href="generic_8c.html#abbe9539d5de3ad11f3ad3bc088b27d10" title="Get the index of the name based on an associated table. " alt="" coords="196,5,339,47"/>
 </map>
 </div>
 
@@ -276,15 +278,15 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>json의 문자열 값을 받는 경우에는 " 값이 있을 수 있습니다. 따라서, 그 값을 전부 없애주는 데 사용합니다. </p>
+<p>Remove the word &lt;ch&gt; in string. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">str</td><td>입력되는 문자열에 해당합니다. </td></tr>
-    <tr><td class="paramname">ch</td><td>지우고자 하는 단어에 해당합니다.</td></tr>
+    <tr><td class="paramname">str</td><td>Inputted string. </td></tr>
+    <tr><td class="paramname">ch</td><td>The word which I want to remove.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section note"><dt>Note</dt><dd>이 함수는 입력된 문자열을 선형적으로 읽기에 성능에 부정적인 영향을 끼칠 수 있습니다. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>This function can degrade the total performance of the program due to linear searching. </dd></dl>
 
 </div>
 </div>
@@ -304,17 +306,17 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>임의의 이름에 적합한 driver의 index를 반환해주도록 합니다. </p>
+<p>Get the index of the name based on an associated table. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">name</td><td>찾고자 하는 driver의 이름에 해당합니다.</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">name</td><td>The name of driver.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>name에 해당하는 driver의 index가 반환됩니다. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>index number which related to name </dd></dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname">-EINVAL</td><td>테이블에서 찾을 수 없는 유효하지 않은 name이 부여되었음을 의미합니다. </td></tr>
+    <tr><td class="paramname">-EINVAL</td><td>if doesn't exist the name in associated table. </td></tr>
   </table>
   </dd>
 </dl>

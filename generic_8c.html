@@ -71,7 +71,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>runtime에 driver를 특정할 수 있도록 만들어주는 generic 헤더의 구현부에 해당합니다.  
+<p>This makes runner to determine the driver in runtime.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;<a class="el" href="generic_8h_source.html">generic.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="tr-driver_8h_source.html">driver/tr-driver.h</a>&gt;</code><br />
@@ -81,10 +81,10 @@ Include dependency graph for generic.c:</div>
 <div class="dyncontent">
 <div class="center"><img src="generic_8c__incl.png" border="0" usemap="#runner_2generic_8c" alt=""/></div>
 <map name="runner_2generic_8c" id="runner_2generic_8c">
-<area shape="rect" id="node2" href="generic_8h.html" title="driver의 매핑 정보 및 runner를 총괄하는 헤더입니다. 관련 정의 내용은 runner/generic.c에 존재합니다. " alt="" coords="147,155,229,181"/>
-<area shape="rect" id="node12" href="tr-driver_8h.html" title="trace&#45;replay를 동작시키는 driver의 선언부에 해당합니다. " alt="" coords="241,80,367,107"/>
-<area shape="rect" id="node17" href="docker-driver_8h.html" title="docker와 함께 trace&#45;replay를 동작시키는 driver의 선언부에 해당합니다. " alt="" coords="407,80,569,107"/>
-<area shape="rect" id="node8" href="log_8h.html" title="로그 출력 양식에 해당합니다. " alt="" coords="43,229,98,256"/>
+<area shape="rect" id="node2" href="generic_8h.html" title="This header maintain the driver&#39;s mapping information. It&#39;s definition in runner/generic.c. " alt="" coords="147,155,229,181"/>
+<area shape="rect" id="node12" href="tr-driver_8h.html" title="driver declaration part of run trace&#45;replay " alt="" coords="241,80,367,107"/>
+<area shape="rect" id="node17" href="docker-driver_8h.html" title="driver declaration part of run docker with trace&#45;replay " alt="" coords="407,80,569,107"/>
+<area shape="rect" id="node8" href="log_8h.html" title="Format of log printing. " alt="" coords="43,229,98,256"/>
 <area shape="rect" id="node14" href="trace__replay_8h.html" title="trace_replay.h" alt="" coords="627,155,741,181"/>
 <area shape="rect" id="node16" href="flist_8h.html" title="flist.h" alt="" coords="773,229,832,256"/>
 </map>
@@ -93,10 +93,10 @@ Include dependency graph for generic.c:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:abbe9539d5de3ad11f3ad3bc088b27d10"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="generic_8c.html#abbe9539d5de3ad11f3ad3bc088b27d10">get_generic_driver_index</a> (const char *name)</td></tr>
-<tr class="memdesc:abbe9539d5de3ad11f3ad3bc088b27d10"><td class="mdescLeft">&#160;</td><td class="mdescRight">임의의 이름에 적합한 driver의 index를 반환해주도록 합니다.  <a href="#abbe9539d5de3ad11f3ad3bc088b27d10">More...</a><br /></td></tr>
+<tr class="memdesc:abbe9539d5de3ad11f3ad3bc088b27d10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the index of the name based on an associated table.  <a href="#abbe9539d5de3ad11f3ad3bc088b27d10">More...</a><br /></td></tr>
 <tr class="separator:abbe9539d5de3ad11f3ad3bc088b27d10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f7c2be1a7f75ab1093b82ee1f464164"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="generic_8c.html#a3f7c2be1a7f75ab1093b82ee1f464164">generic_driver_init</a> (const char *name, void *object)</td></tr>
-<tr class="memdesc:a3f7c2be1a7f75ab1093b82ee1f464164"><td class="mdescLeft">&#160;</td><td class="mdescRight">name에 해당하는 driver에 대해서 초기화를 실시해주도록 합니다.  <a href="#a3f7c2be1a7f75ab1093b82ee1f464164">More...</a><br /></td></tr>
+<tr class="memdesc:a3f7c2be1a7f75ab1093b82ee1f464164"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is a generic initialization function that performs initialization of driver corresponding to the driver name.  <a href="#a3f7c2be1a7f75ab1093b82ee1f464164">More...</a><br /></td></tr>
 <tr class="separator:a3f7c2be1a7f75ab1093b82ee1f464164"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
@@ -107,7 +107,7 @@ Variables</h2></td></tr>
 <tr class="separator:ae0183d79fe0c84a9a37c5595def5ba1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>runtime에 driver를 특정할 수 있도록 만들어주는 generic 헤더의 구현부에 해당합니다. </p>
+<div class="textblock"><p>This makes runner to determine the driver in runtime. </p>
 <dl class="section copyright"><dt>Copyright</dt><dd>"Container Tracer" which executes the container performance mesurements Copyright (C) 2020 BlaCkinkGJ</dd></dl>
 <p>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.</p>
 <p>This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.</p>
@@ -115,7 +115,7 @@ Variables</h2></td></tr>
 <dl class="section author"><dt>Author</dt><dd>BlaCkinkGJ (<a href="#" onclick="location.href='mai'+'lto:'+'ss5'+'ki'+'jun'+'@g'+'mai'+'l.'+'com'; return false;">ss5ki<span style="display: none;">.nosp@m.</span>jun@<span style="display: none;">.nosp@m.</span>gmail<span style="display: none;">.nosp@m.</span>.com</a>) </dd></dl>
 <dl class="section version"><dt>Version</dt><dd>0.1 </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>2020-08-05 </dd></dl>
-<dl class="section note"><dt>Note</dt><dd>참고 자료: <a href="https://github.com/mit-pdos/xv6-public/blob/master/syscall.c">https://github.com/mit-pdos/xv6-public/blob/master/syscall.c</a> </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>reference link: <a href="https://github.com/mit-pdos/xv6-public/blob/master/syscall.c">https://github.com/mit-pdos/xv6-public/blob/master/syscall.c</a> </dd></dl>
 </div><h2 class="groupheader">Function Documentation</h2>
 <a id="a3f7c2be1a7f75ab1093b82ee1f464164"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3f7c2be1a7f75ab1093b82ee1f464164">&#9670;&nbsp;</a></span>generic_driver_init()</h2>
@@ -143,18 +143,18 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>name에 해당하는 driver에 대해서 초기화를 실시해주도록 합니다. </p>
+<p>This is a generic initialization function that performs initialization of driver corresponding to the driver name. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">name</td><td>driver의 이름에 해당합니다. </td></tr>
-    <tr><td class="paramname">object</td><td>초기화하는 driver의 init에 들어가는 object의 주소를 가집니다.</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">name</td><td>driver's name. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">object</td><td>The object which wants to initialize. Usually, global_config in this place.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>성공적으로 초기화를 한 경우에 0을 반환하고, 그렇지 않은 경우에 0 이하의 값을 반홥니다. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>0 for success to init, other value for fail to init. </dd></dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname">-EINVAL</td><td>존재하지 않는 name을 조회한 경우에 반환을 하는 역할을 합니다. </td></tr>
+    <tr><td class="paramname">-EINVAL</td><td>if doesn't exist the name in associated table. </td></tr>
   </table>
   </dd>
 </dl>
@@ -163,7 +163,7 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="generic_8c_a3f7c2be1a7f75ab1093b82ee1f464164_cgraph.png" border="0" usemap="#generic_8c_a3f7c2be1a7f75ab1093b82ee1f464164_cgraph" alt=""/></div>
 <map name="generic_8c_a3f7c2be1a7f75ab1093b82ee1f464164_cgraph" id="generic_8c_a3f7c2be1a7f75ab1093b82ee1f464164_cgraph">
-<area shape="rect" id="node2" href="generic_8c.html#abbe9539d5de3ad11f3ad3bc088b27d10" title="임의의 이름에 적합한 driver의 index를 반환해주도록 합니다. " alt="" coords="196,5,339,47"/>
+<area shape="rect" id="node2" href="generic_8c.html#abbe9539d5de3ad11f3ad3bc088b27d10" title="Get the index of the name based on an associated table. " alt="" coords="196,5,339,47"/>
 </map>
 </div>
 
@@ -185,17 +185,17 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>임의의 이름에 적합한 driver의 index를 반환해주도록 합니다. </p>
+<p>Get the index of the name based on an associated table. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">name</td><td>찾고자 하는 driver의 이름에 해당합니다.</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">name</td><td>The name of driver.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>name에 해당하는 driver의 index가 반환됩니다. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>index number which related to name </dd></dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname">-EINVAL</td><td>테이블에서 찾을 수 없는 유효하지 않은 name이 부여되었음을 의미합니다. </td></tr>
+    <tr><td class="paramname">-EINVAL</td><td>if doesn't exist the name in associated table. </td></tr>
   </table>
   </dd>
 </dl>
@@ -223,10 +223,11 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div><div class="line">        [<a class="code" href="generic_8h.html#ab04a0655cd1e3bcac5e8f48c18df1a57a4dfb252de24e41ea37f87abad3e67dc5">TRACE_REPLAY_DRIVER</a>] = <a class="code" href="tr-driver_8c.html#a90e0e8ba02ba8f2d3e537edbc3c9abab">tr_init</a>,</div><div class="line">        [<a class="code" href="generic_8h.html#ab04a0655cd1e3bcac5e8f48c18df1a57aa0d71324750220d70e2f1e6e91cc5b12">DOCKER_DRIVER</a>] = <a class="code" href="docker-driver_8c.html#a283c899d04c6babb63516a64440f6ba0">docker_init</a>,</div><div class="line">}</div><div class="ttc" id="generic_8h_html_ab04a0655cd1e3bcac5e8f48c18df1a57aa0d71324750220d70e2f1e6e91cc5b12"><div class="ttname"><a href="generic_8h.html#ab04a0655cd1e3bcac5e8f48c18df1a57aa0d71324750220d70e2f1e6e91cc5b12">DOCKER_DRIVER</a></div><div class="ttdef"><b>Definition:</b> generic.h:40</div></div>
-<div class="ttc" id="docker-driver_8c_html_a283c899d04c6babb63516a64440f6ba0"><div class="ttname"><a href="docker-driver_8c.html#a283c899d04c6babb63516a64440f6ba0">docker_init</a></div><div class="ttdeci">int docker_init(void *object)</div><div class="ttdoc">전역 옵션을 설정한 후에 각각의 프로세스 별로 할당할 옵션을 설정하도록 합니다. </div><div class="ttdef"><b>Definition:</b> docker-driver.c:169</div></div>
+<div class="ttc" id="docker-driver_8c_html_a283c899d04c6babb63516a64440f6ba0"><div class="ttname"><a href="docker-driver_8c.html#a283c899d04c6babb63516a64440f6ba0">docker_init</a></div><div class="ttdeci">int docker_init(void *object)</div><div class="ttdoc">Initialize the global configuration and per processes configuration. </div><div class="ttdef"><b>Definition:</b> docker-driver.c:156</div></div>
 <div class="ttc" id="generic_8h_html_ab04a0655cd1e3bcac5e8f48c18df1a57a4dfb252de24e41ea37f87abad3e67dc5"><div class="ttname"><a href="generic_8h.html#ab04a0655cd1e3bcac5e8f48c18df1a57a4dfb252de24e41ea37f87abad3e67dc5">TRACE_REPLAY_DRIVER</a></div><div class="ttdef"><b>Definition:</b> generic.h:39</div></div>
-<div class="ttc" id="tr-driver_8c_html_a90e0e8ba02ba8f2d3e537edbc3c9abab"><div class="ttname"><a href="tr-driver_8c.html#a90e0e8ba02ba8f2d3e537edbc3c9abab">tr_init</a></div><div class="ttdeci">int tr_init(void *object)</div><div class="ttdoc">전역 옵션을 설정한 후에 각각의 프로세스 별로 할당할 옵션을 설정하도록 합니다. </div><div class="ttdef"><b>Definition:</b> tr-driver.c:162</div></div>
-</div><!-- fragment -->
+<div class="ttc" id="tr-driver_8c_html_a90e0e8ba02ba8f2d3e537edbc3c9abab"><div class="ttname"><a href="tr-driver_8c.html#a90e0e8ba02ba8f2d3e537edbc3c9abab">tr_init</a></div><div class="ttdeci">int tr_init(void *object)</div><div class="ttdoc">Initialize the global configuration and per processes configuration. </div><div class="ttdef"><b>Definition:</b> tr-driver.c:161</div></div>
+</div><!-- fragment --><p>Associated initialization table of each driver. This uses in <code><a class="el" href="generic_8c.html#a3f7c2be1a7f75ab1093b82ee1f464164" title="This is a generic initialization function that performs initialization of driver corresponding to the...">generic_driver_init()</a></code> </p>
+
 </div>
 </div>
 <a id="ac5cd8297b7f2758823747d7a55306354"></a>
@@ -240,9 +241,10 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= { [<a class="code" href="generic_8h.html#ab04a0655cd1e3bcac5e8f48c18df1a57a4dfb252de24e41ea37f87abad3e67dc5">TRACE_REPLAY_DRIVER</a>] = <span class="stringliteral">&quot;trace-replay&quot;</span>,</div><div class="line">                                  [<a class="code" href="generic_8h.html#ab04a0655cd1e3bcac5e8f48c18df1a57aa0d71324750220d70e2f1e6e91cc5b12">DOCKER_DRIVER</a>] = <span class="stringliteral">&quot;docker&quot;</span>,</div><div class="line">                                  NULL }</div><div class="ttc" id="generic_8h_html_ab04a0655cd1e3bcac5e8f48c18df1a57aa0d71324750220d70e2f1e6e91cc5b12"><div class="ttname"><a href="generic_8h.html#ab04a0655cd1e3bcac5e8f48c18df1a57aa0d71324750220d70e2f1e6e91cc5b12">DOCKER_DRIVER</a></div><div class="ttdef"><b>Definition:</b> generic.h:40</div></div>
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div><div class="line">        [<a class="code" href="generic_8h.html#ab04a0655cd1e3bcac5e8f48c18df1a57a4dfb252de24e41ea37f87abad3e67dc5">TRACE_REPLAY_DRIVER</a>] = <span class="stringliteral">&quot;trace-replay&quot;</span>,</div><div class="line">        [<a class="code" href="generic_8h.html#ab04a0655cd1e3bcac5e8f48c18df1a57aa0d71324750220d70e2f1e6e91cc5b12">DOCKER_DRIVER</a>] = <span class="stringliteral">&quot;docker&quot;</span>,</div><div class="line">        NULL,</div><div class="line">}</div><div class="ttc" id="generic_8h_html_ab04a0655cd1e3bcac5e8f48c18df1a57aa0d71324750220d70e2f1e6e91cc5b12"><div class="ttname"><a href="generic_8h.html#ab04a0655cd1e3bcac5e8f48c18df1a57aa0d71324750220d70e2f1e6e91cc5b12">DOCKER_DRIVER</a></div><div class="ttdef"><b>Definition:</b> generic.h:40</div></div>
 <div class="ttc" id="generic_8h_html_ab04a0655cd1e3bcac5e8f48c18df1a57a4dfb252de24e41ea37f87abad3e67dc5"><div class="ttname"><a href="generic_8h.html#ab04a0655cd1e3bcac5e8f48c18df1a57a4dfb252de24e41ea37f87abad3e67dc5">TRACE_REPLAY_DRIVER</a></div><div class="ttdef"><b>Definition:</b> generic.h:39</div></div>
-</div><!-- fragment -->
+</div><!-- fragment --><p>Associated table of each driver. </p>
+
 </div>
 </div>
 </div><!-- contents -->

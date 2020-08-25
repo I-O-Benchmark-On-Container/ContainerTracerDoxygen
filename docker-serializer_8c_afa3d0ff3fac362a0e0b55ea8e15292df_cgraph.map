@@ -1,4 +1,4 @@
 <map id="docker_realtime_serializer" name="docker_realtime_serializer">
-<area shape="rect" id="node2" href="$docker-serializer_8c.html#a918c0bd6357448f29c9840981bca534d" title="docker_info 구조체의 내용을 json_object로 만들어주도록 합니다. " alt="" coords="248,5,413,32"/>
-<area shape="rect" id="node3" href="$docker-serializer_8c.html#ace519b466cbe3a464dc5a9931b226b20" title="realtime_log 구조체의 내용을 json_object로 만들어주도록 합니다. " alt="" coords="253,57,408,98"/>
+<area shape="rect" id="node2" href="$docker-serializer_8c.html#a918c0bd6357448f29c9840981bca534d" title="To make a docker_info structure to json_object. " alt="" coords="248,5,413,32"/>
+<area shape="rect" id="node3" href="$docker-serializer_8c.html#ace519b466cbe3a464dc5a9931b226b20" title="To make a realtime_log structure to json_object. " alt="" coords="253,57,408,98"/>
 </map>
