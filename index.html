@@ -67,7 +67,7 @@ $(function() {
 <img src="https://user-images.githubusercontent.com/16631264/90947085-177fac00-e46e-11ea-8ccc-3f14e214d39a.png"/>
 </div>
 <p><a href="https://www.codacy.com/gh/I-O-Benchmark-On-Container/ContainerTracer?utm_source=github.com&amp;amp;utm_medium=referral&amp;amp;utm_content=I-O-Benchmark-On-Container/ContainerTracer&amp;amp;utm_campaign=Badge_Grade"></a> <a href="https://travis-ci.org/I-O-Benchmark-On-Container/ContainerTracer"></a> </p>
-<p><a href="./documentation/README-KOR.md">한국어 링크</a> </p>
+<p><a href="https://github.com/I-O-Benchmark-On-Container/ContainerTracer/blob/master/documentation/README-KOR.md">한국어 링크</a> </p>
 <h1>Introduction</h1>
 <p>Container Tracer is a tool that measures I/O performance per container. This program complements lacks of cgroup and container building sequence the existing I/O performance measurement program like fio and filebench.</p>
 <p>Currently, Container Tracer uses <a href="https://github.com/yongseokoh/trace-replay">trace-replay</a> to measure the I/O performance of each container.</p>
@@ -93,7 +93,7 @@ $(function() {
 <div class="fragment"><div class="line">sudo apt install llvm-6.0 clang-6.0 libclang-6.0-dev</div><div class="line">sudo ln -s /usr/bin/clang-6.0 /usr/bin/clang</div></div><!-- fragment --><p>Based on the following commands you do the build and unit testing. This execution results are stored in <code>./build/debug</code>.</p>
 <div class="fragment"><div class="line">sudo scons -c</div><div class="line">sudo scons test DEBUG=True</div></div><!-- fragment --><p>If you want to build the release mode then you do the following. This execution results are stored in <code>./build/release</code></p>
 <div class="fragment"><div class="line">sudo scons -c</div><div class="line">scons</div></div><!-- fragment --><p>Moreover, you can install the release mode of runner libraries by following commands. If you want to install the debug mode then just change the <code>sudo scons install</code> to <code>sudo scons DEBUG=True install</code></p>
-<div class="fragment"><div class="line">sudo scons install</div><div class="line">sudo ldconfig</div></div><!-- fragment --><p>Additionally, you can get information about how to make the driver program of the runner from <a href="https://github.com/I-O-Benchmark-On-Container/ContainerTracer/wiki/Runner%EC%97%90-driver%EB%A5%BC-%EC%B6%94%EA%B0%80%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95">this link</a></p>
+<div class="fragment"><div class="line">sudo scons install</div><div class="line">sudo ldconfig</div></div><!-- fragment --><p>Additionally, you can get information about how to make the driver program of the runner from <a href="https://github.com/I-O-Benchmark-On-Container/ContainerTracer/wiki/4.-How-to-add-the-driver-to-Runner">this link</a></p>
 <h3>Notes</h3>
 <ul>
 <li><code>DEBUG=True</code> enables us to print all information about debugging. This expects to be made you to easily debug our program.</li>
