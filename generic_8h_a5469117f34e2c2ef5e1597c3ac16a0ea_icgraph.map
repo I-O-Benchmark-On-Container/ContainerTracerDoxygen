@@ -1,9 +1,0 @@
-<map id="generic_strip_string" name="generic_strip_string">
-<area shape="rect" id="node2" href="$tr-info_8c.html#a6336d6418319dcfca28973530b9304e5" title="문자열 형태의 info&#45;&gt;(member)에 json에서 값을 읽어서 값을 주도록 합니다. " alt="" coords="204,56,363,83"/>
-<area shape="rect" id="node6" href="$runner_8h.html#a14a44ff55d3f292956a8a4c4101dd9cd" title="json 문자열을 읽어서 runner에 대한 설정을 진행하도록 합니다. " alt="" coords="237,107,329,133"/>
-<area shape="rect" id="node3" href="$tr-info_8c.html#a31760321dca36e16e1e8f231084c0f5f" title="각각의 프로세스의 동작 옵션을 설정을 해주도록 합니다. " alt="" coords="411,5,517,32"/>
-<area shape="rect" id="node4" href="$tr-driver_8h.html#acfd0ebbb0a1e7ba8823365333dc2a2ee" title="각 프로세스에 들어가는 info 객체를 __생성__하고 구축하여 반환합니다. " alt="" coords="597,31,689,57"/>
-<area shape="rect" id="node5" href="$tr-driver_8h.html#a90e0e8ba02ba8f2d3e537edbc3c9abab" title="전역 옵션을 설정한 후에 각각의 프로세스 별로 할당할 옵션을 설정하도록 합니다. " alt="" coords="768,31,828,57"/>
-<area shape="rect" id="node7" href="$unity_8h.html#a95c834d6178047ce9e1bce7cbfea2836" title="setUp" alt="" coords="434,107,494,133"/>
-<area shape="rect" id="node8" href="$unity_8c.html#ae3c8272eef0f0b6228ca47b9dd1aa2af" title="UnityDefaultTestRun" alt="" coords="565,107,720,133"/>
-</map>

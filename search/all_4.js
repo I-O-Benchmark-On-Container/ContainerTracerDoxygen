@@ -37,7 +37,7 @@ var searchData=
   ['docker_5finit',['docker_init',['../docker-driver_8c.html#a283c899d04c6babb63516a64440f6ba0',1,'docker_init(void *object):&#160;docker-driver.c'],['../docker-driver_8h.html#a283c899d04c6babb63516a64440f6ba0',1,'docker_init(void *object):&#160;docker-driver.c']]],
   ['docker_5fipc_5ffree',['DOCKER_IPC_FREE',['../docker-driver_8h.html#abc6126af1d45847bc59afa0aa3216b04a6927fbe1cade570007f68af333c0fe9a',1,'docker-driver.h']]],
   ['docker_5fipc_5fnot_5ffree',['DOCKER_IPC_NOT_FREE',['../docker-driver_8h.html#abc6126af1d45847bc59afa0aa3216b04a2deaea2d74c5946f62c1ca03ad2d2cfb',1,'docker-driver.h']]],
-  ['docker_5fis_5fsynth_5ftype',['docker_is_synth_type',['../docker-info_8c.html#a143cfdffa77c29944fc4278e202fb918',1,'docker-info.c']]],
+  ['docker_5fis_5fsynth_5ftype',['docker_is_synth_type',['../docker-info_8c.html#ae395717fe71cb4bab780d12c9baa9b61',1,'docker_is_synth_type(const char *trace_data_path):&#160;docker-info.c'],['../docker-driver_8h.html#ae395717fe71cb4bab780d12c9baa9b61',1,'docker_is_synth_type(const char *trace_data_path):&#160;docker-info.c']]],
   ['docker_5fjson_5ffield',['docker_json_field',['../structdocker__json__field.html',1,'']]],
   ['docker_5fjson_5ffield_5ftraverse',['docker_json_field_traverse',['../docker-driver_8h.html#a19a8301a85849e1e950a23598448e19f',1,'docker-driver.h']]],
   ['docker_5fkyber_5fscheduler',['DOCKER_KYBER_SCHEDULER',['../docker-driver_8c.html#a06fc87d81c62e9abb8790b6e5713c55ba428c953eedf1eb42e26d8883c56779fe',1,'docker-driver.c']]],

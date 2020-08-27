@@ -1,7 +1,0 @@
-<map id="print_result" name="print_result">
-<area shape="rect" id="node2" href="$trace__replay_8c.html#a32d626626eee0bc4ade146973f6abb1c" title="finalize" alt="" coords="149,56,219,83"/>
-<area shape="rect" id="node6" href="$trace__replay_8c.html#a152c72bb1bcbe338e59d35544c2d3a8e" title="main_worker" alt="" coords="267,107,373,133"/>
-<area shape="rect" id="node3" href="$trace__replay_8c.html#a2451f983507a409c5993437ea434ba31" title="destroy" alt="" coords="285,56,355,83"/>
-<area shape="rect" id="node4" href="$trace__replay_8c.html#a83e1379f5adf4452f72fcc0be266a7b5" title="sig_handler" alt="" coords="421,5,519,32"/>
-<area shape="rect" id="node5" href="$hdparm_8h.html#aaa8f905c73abc53e716f24043be9e8bf" title="main" alt="" coords="567,56,621,83"/>
-</map>

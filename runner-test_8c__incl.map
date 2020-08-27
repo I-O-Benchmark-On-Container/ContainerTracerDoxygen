@@ -1,9 +1,0 @@
-<map id="runner/test/runner&#45;test.c" name="runner/test/runner&#45;test.c">
-<area shape="rect" id="node3" href="$unity_8h.html" title="unity.h" alt="" coords="779,95,845,121"/>
-<area shape="rect" id="node16" href="$generic_8h.html" title="driver의 매핑 정보 및 runner를 총괄하는 헤더입니다. 관련 정의 내용은 runner/generic.c에 존재합니다. " alt="" coords="301,169,384,196"/>
-<area shape="rect" id="node21" href="$runner_8h.html" title="runner에 대한 선언적 내용이 들어가게 됩니다. " alt="" coords="225,95,300,121"/>
-<area shape="rect" id="node23" href="$trace__replay_8h.html" title="trace_replay.h" alt="" coords="539,95,653,121"/>
-<area shape="rect" id="node4" href="$unity__internals_8h.html" title="unity_internals.h" alt="" coords="763,169,893,196"/>
-<area shape="rect" id="node20" href="$log_8h.html" title="log.h" alt="" coords="461,244,515,271"/>
-<area shape="rect" id="node25" href="$flist_8h.html" title="flist.h" alt="" coords="533,169,592,196"/>
-</map>

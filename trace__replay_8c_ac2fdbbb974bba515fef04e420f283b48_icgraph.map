@@ -1,8 +1,0 @@
-<map id="synthetic_mix" name="synthetic_mix">
-<area shape="rect" id="node2" href="$trace__replay_8c.html#adbdaad5c1c8438a096723626b98b6675" title="try_trace_reset" alt="" coords="168,56,288,83"/>
-<area shape="rect" id="node7" href="$trace__replay_8c.html#a0760b63c7dc9a9b905fc874c8a2db13c" title="synthetic_gen" alt="" coords="336,107,449,133"/>
-<area shape="rect" id="node3" href="$trace__replay_8c.html#a721daa920241b8e04d097e9950f858d9" title="trace_io_get" alt="" coords="341,5,444,32"/>
-<area shape="rect" id="node5" href="$trace__replay_8c.html#acf928dd6a7d5db451c8dbccf9c711575" title="sub_worker" alt="" coords="639,56,736,83"/>
-<area shape="rect" id="node4" href="$trace__replay_8c.html#a4d7824c3cafbb7bda3da73e52f8b34e1" title="make_jobs" alt="" coords="497,5,591,32"/>
-<area shape="rect" id="node6" href="$hdparm_8h.html#aaa8f905c73abc53e716f24043be9e8bf" title="main" alt="" coords="784,81,839,108"/>
-</map>

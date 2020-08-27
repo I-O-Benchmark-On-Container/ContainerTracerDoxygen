@@ -1,5 +1,0 @@
-<map id="generic_driver_init" name="generic_driver_init">
-<area shape="rect" id="node2" href="$runner_8h.html#a14a44ff55d3f292956a8a4c4101dd9cd" title="json 문자열을 읽어서 runner에 대한 설정을 진행하도록 합니다. " alt="" coords="196,5,288,32"/>
-<area shape="rect" id="node3" href="$unity_8h.html#a95c834d6178047ce9e1bce7cbfea2836" title="setUp" alt="" coords="336,5,396,32"/>
-<area shape="rect" id="node4" href="$unity_8c.html#ae3c8272eef0f0b6228ca47b9dd1aa2af" title="UnityDefaultTestRun" alt="" coords="444,5,599,32"/>
-</map>

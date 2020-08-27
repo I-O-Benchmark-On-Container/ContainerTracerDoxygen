@@ -1,5 +1,0 @@
-<map id="tr_shm_free" name="tr_shm_free">
-<area shape="rect" id="node2" href="$tr-driver_8c.html#ab541e1c70daf52318efbc6269d15c2c7" title="실질적으로 trace&#45;replay 관련 구조체의 동적 할당된 내용을 해제하는 부분에 해당합니다. " alt="" coords="153,5,232,32"/>
-<area shape="rect" id="node3" href="$tr-driver_8h.html#a90e0e8ba02ba8f2d3e537edbc3c9abab" title="전역 옵션을 설정한 후에 각각의 프로세스 별로 할당할 옵션을 설정하도록 합니다. " alt="" coords="393,5,453,32"/>
-<area shape="rect" id="node4" href="$tr-driver_8h.html#ab505821403f626b211a899fb05e6387a" title="trace&#45;replay 관련 동적 할당 정보를 해제합니다. " alt="" coords="280,31,345,57"/>
-</map>

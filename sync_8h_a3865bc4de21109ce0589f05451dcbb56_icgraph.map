@@ -1,5 +1,0 @@
-<map id="WAIT_PARENT" name="WAIT_PARENT">
-<area shape="rect" id="node2" href="$tr-driver_8c.html#a04f8d23a9999a567eb9602a2c17e884b" title="자식 프로세스에 trace&#45;replay를 올려서 동작시키는 함수입니다. " alt="" coords="167,5,260,32"/>
-<area shape="rect" id="node3" href="$tr-driver_8h.html#a89c0c6704f2a30e49bc0b1886df21c6d" title="trace&#45;replay를 실행시키도록 합니다. " alt="" coords="308,5,389,32"/>
-<area shape="rect" id="node4" href="$tr-driver_8h.html#a90e0e8ba02ba8f2d3e537edbc3c9abab" title="전역 옵션을 설정한 후에 각각의 프로세스 별로 할당할 옵션을 설정하도록 합니다. " alt="" coords="437,5,497,32"/>
-</map>

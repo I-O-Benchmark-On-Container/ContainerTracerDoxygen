@@ -1,7 +1,0 @@
-<map id="tr_total_trace_serializer" name="tr_total_trace_serializer">
-<area shape="rect" id="node2" href="$tr-serializer_8c.html#ad8cd64f75579cc43f66d87d902d3911f" title="total_results 구조체 config 멤버의 내용을 json_object로 만들어주도록 합니다. " alt="" coords="229,5,412,32"/>
-<area shape="rect" id="node3" href="$tr-serializer_8c.html#acd5a19461e1099316f46673eb9f848b8" title="total_results 구조체 내용을 json_object로 만들어주도록 합니다. " alt="" coords="460,5,647,32"/>
-<area shape="rect" id="node4" href="$tr-driver_8h.html#a9feb038e6e56179ab656441c9d225be8" title="json으로 구조체에 있는 내용을 변환합니다. " alt="" coords="695,5,831,32"/>
-<area shape="rect" id="node5" href="$tr-driver_8h.html#a5edcddbe52edcb96de7180f7910edc5b" title="trace&#45;replay가 동작 완료한 후의 정보를 반환합니다. " alt="" coords="879,5,976,32"/>
-<area shape="rect" id="node6" href="$tr-driver_8h.html#a90e0e8ba02ba8f2d3e537edbc3c9abab" title="전역 옵션을 설정한 후에 각각의 프로세스 별로 할당할 옵션을 설정하도록 합니다. " alt="" coords="1024,5,1084,32"/>
-</map>
