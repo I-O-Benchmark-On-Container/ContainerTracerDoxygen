@@ -44,7 +44,6 @@ var searchData=
   ['unitysettestfile',['UnitySetTestFile',['../unity__internals_8h.html#afefd1b90b9854b428fef009e12489282',1,'UnitySetTestFile(const char *filename):&#160;unity.c'],['../unity_8c.html#afefd1b90b9854b428fef009e12489282',1,'UnitySetTestFile(const char *filename):&#160;unity.c']]],
   ['unitytestresultsbegin',['UnityTestResultsBegin',['../unity_8c.html#af87f4beffdad7f78fb592861e61b1bae',1,'unity.c']]],
   ['unitytestresultsfailbegin',['UnityTestResultsFailBegin',['../unity_8c.html#a2961260574158cc9df09ded14bbc2085',1,'unity.c']]],
-  ['update_5finterval_5fresults',['update_interval_results',['../classweb_1_1package_1_1tracereplay_1_1TraceReplayTest.html#aedc1075f368dd2150f61164cebd88cf1',1,'web.package.tracereplay.TraceReplayTest.update_interval_results()'],['../classweb_1_1package_1_1tracereplay_1_1TraceReplay.html#a1875976c2345321c8fcb6cd5085b75ea',1,'web.package.tracereplay.TraceReplay.update_interval_results()']]],
   ['update_5fiostat',['update_iostat',['../trace__replay_8c.html#a70e092e8d96846d8329a145a61082f22',1,'trace_replay.c']]],
   ['usage_5ferror',['usage_error',['../hdparm_8h.html#aa49d4c90c334c7d91edec92e110d53f8',1,'hdparm.h']]],
   ['usage_5fhelp',['usage_help',['../trace__replay_8c.html#af1a5368922439cb186899b545fd1965e',1,'trace_replay.c']]]

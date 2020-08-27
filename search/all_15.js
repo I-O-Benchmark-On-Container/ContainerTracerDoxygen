@@ -2,8 +2,9 @@ var searchData=
 [
   ['unit_2dtest',['unit-test',['../namespaceunit-test.html',1,'']]],
   ['unit_2dtest_2epy',['unit-test.py',['../unit-test_8py.html',1,'']]],
+  ['unit_5ftest_5fmode',['unit_test_mode',['../classweb_1_1package_1_1Config.html#ad6a10ff13a11b6597a73d11dfc173d95',1,'web::package::Config']]],
   ['unittest',['UnitTest',['../classunit-test_1_1UnitTest.html',1,'unit-test.UnitTest'],['../classbackend-module-test_1_1UnitTest.html',1,'backend-module-test.UnitTest']]],
-  ['unity',['UNITY',['../unity_8h.html#ae8e6dc0c42ccacb112eb4b836357f991',1,'UNITY():&#160;unity.h'],['../unity__internals_8h.html#aad738f665f16eb2336b8bc33f432d0da',1,'Unity():&#160;unity.c'],['../unity_8c.html#aad738f665f16eb2336b8bc33f432d0da',1,'Unity():&#160;unity.c']]],
+  ['unity',['Unity',['../unity__internals_8h.html#aad738f665f16eb2336b8bc33f432d0da',1,'Unity():&#160;unity.c'],['../unity_8c.html#aad738f665f16eb2336b8bc33f432d0da',1,'Unity():&#160;unity.c'],['../unity_8h.html#ae8e6dc0c42ccacb112eb4b836357f991',1,'UNITY():&#160;unity.h']]],
   ['unity_2ec',['unity.c',['../unity_8c.html',1,'']]],
   ['unity_2eh',['unity.h',['../unity_8h.html',1,'']]],
   ['unity_5farray_5fto_5farray',['UNITY_ARRAY_TO_ARRAY',['../unity__internals_8h.html#a229eb7ffd452e7c158f1fe19005a817ca6e1eb5eefbb4a2bfed70942a3dc274eb',1,'unity_internals.h']]],
@@ -371,7 +372,6 @@ var searchData=
   ['unitytestfunction',['UnityTestFunction',['../unity__internals_8h.html#a750c0436a18789b916e55d70aae12985',1,'unity_internals.h']]],
   ['unitytestresultsbegin',['UnityTestResultsBegin',['../unity_8c.html#af87f4beffdad7f78fb592861e61b1bae',1,'unity.c']]],
   ['unitytestresultsfailbegin',['UnityTestResultsFailBegin',['../unity_8c.html#a2961260574158cc9df09ded14bbc2085',1,'unity.c']]],
-  ['update_5finterval_5fresults',['update_interval_results',['../classweb_1_1package_1_1tracereplay_1_1TraceReplayTest.html#aedc1075f368dd2150f61164cebd88cf1',1,'web.package.tracereplay.TraceReplayTest.update_interval_results()'],['../classweb_1_1package_1_1tracereplay_1_1TraceReplay.html#a1875976c2345321c8fcb6cd5085b75ea',1,'web.package.tracereplay.TraceReplay.update_interval_results()']]],
   ['update_5fiostat',['update_iostat',['../trace__replay_8c.html#a70e092e8d96846d8329a145a61082f22',1,'trace_replay.c']]],
   ['upper_5fmask',['UPPER_MASK',['../trace__replay_8c.html#a39bc458849360f8f371b54c4365d397f',1,'trace_replay.c']]],
   ['usage_5ferror',['usage_error',['../hdparm_8h.html#aa49d4c90c334c7d91edec92e110d53f8',1,'hdparm.h']]],

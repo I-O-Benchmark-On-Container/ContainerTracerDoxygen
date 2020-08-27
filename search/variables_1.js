@@ -1,8 +1,13 @@
 var searchData=
 [
-  ['bcount',['bcount',['../structsimple__bio.html#a4874f361b6491fc16e4b5dbc9f3887ef',1,'simple_bio::bcount()'],['../structtrace__io__req.html#a84b03c977747e119d44bcd79f2eaf98b',1,'trace_io_req::bcount()']]],
-  ['blkno',['blkno',['../structsimple__bio.html#afebb1f7604c4f5d3feb9c8827a299f4d',1,'simple_bio::blkno()'],['../structtrace__io__req.html#a6820bfb2a79cd5de45841778ad70720c',1,'trace_io_req::blkno()']]],
-  ['buf',['buf',['../structio__job.html#aae352ee5acd54cff2b404482030f991e',1,'io_job']]],
-  ['buf_5fcur',['buf_cur',['../structthread__info__t.html#aa5cb30f1f80b30ff9df22df283e89ca3',1,'thread_info_t']]],
-  ['bytes',['bytes',['../structio__job.html#a15234ed067f2cd550e721f08d6b87325',1,'io_job']]]
+  ['abortframe',['AbortFrame',['../structUNITY__STORAGE__T.html#a4456e2d39fb2858a0406594a1606d21c',1,'UNITY_STORAGE_T']]],
+  ['active_5fcount',['active_count',['../structthread__info__t.html#ad8328ebcc6f6be3d74bb4b43adfd1ce0',1,'thread_info_t']]],
+  ['aggr_5fresult',['aggr_result',['../structresult.html#a5464584240f4fc5a1d5f4ec615d29490',1,'result']]],
+  ['app',['app',['../namespaceweb_1_1run.html#af0f85f5ad0f252fd4ea594fef08ec4be',1,'web.run.app()'],['../namespaceunit-test.html#a161d2cd04a0b10481f8d65768aa0c2db',1,'unit-test.app()']]],
+  ['arrival_5ftime',['arrival_time',['../structtrace__io__req.html#ac3dbacaf11d1cb452bebb47892654e77',1,'trace_io_req']]],
+  ['author',['author',['../namespaceweb_1_1setup.html#aab25b7f578cc313eddc032dd505bbad4',1,'web::setup']]],
+  ['author_5femail',['author_email',['../namespaceweb_1_1setup.html#a43cc099686dbbfeb0e0c38154096129c',1,'web::setup']]],
+  ['avg_5fbw',['avg_bw',['../structrealtime__log.html#afd588b7df138b83a74cf7ac6aca48b2e',1,'realtime_log']]],
+  ['avg_5flat',['avg_lat',['../structtrace__stat.html#a75a1e84a95fcba381c8e1438f26a9ad8',1,'trace_stat']]],
+  ['avg_5flat_5fvar',['avg_lat_var',['../structtrace__stat.html#a35861770189abb7ce9dbfe80d6312272',1,'trace_stat']]]
 ];

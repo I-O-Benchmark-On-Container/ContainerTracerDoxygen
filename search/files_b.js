@@ -10,5 +10,5 @@ var searchData=
   ['trace_2dreplay_2dtest_2ec',['trace-replay-test.c',['../trace-replay-test_8c.html',1,'']]],
   ['trace_5freplay_2ec',['trace_replay.c',['../trace__replay_8c.html',1,'']]],
   ['trace_5freplay_2eh',['trace_replay.h',['../trace__replay_8h.html',1,'']]],
-  ['tracereplay_2epy',['tracereplay.py',['../tracereplay_8py.html',1,'']]]
+  ['trace_5freplay_2epy',['trace_replay.py',['../trace__replay_8py.html',1,'']]]
 ];

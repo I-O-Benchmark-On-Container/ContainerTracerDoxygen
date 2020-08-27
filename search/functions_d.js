@@ -54,9 +54,7 @@ var searchData=
   ['trace_5fio_5fget',['trace_io_get',['../trace__replay_8c.html#a721daa920241b8e04d097e9950f858d9',1,'trace_replay.c']]],
   ['trace_5fio_5fput',['trace_io_put',['../trace__replay_8c.html#a7a20e90ac9004ee8d3bda93416659e35',1,'trace_replay.c']]],
   ['trace_5floader',['trace_loader',['../trace__replay_8c.html#a6559a5c341b2814abf94d8c29219b92d',1,'trace_replay.c']]],
-  ['trace_5freplay_5fdriver',['trace_replay_driver',['../classweb_1_1package_1_1tracereplay_1_1TraceReplayTest.html#ac0a2092303b86842083c329735882f4f',1,'web.package.tracereplay.TraceReplayTest.trace_replay_driver()'],['../classweb_1_1package_1_1tracereplay_1_1TraceReplay.html#a9414903bf0dfe3e5917391953ed984a6',1,'web.package.tracereplay.TraceReplay.trace_replay_driver()']]],
-  ['trace_5freplay_5ffree',['trace_replay_free',['../classweb_1_1package_1_1tracereplay_1_1TraceReplayTest.html#a504ce0c69e7e195bedffbb34ac0786b0',1,'web.package.tracereplay.TraceReplayTest.trace_replay_free()'],['../classweb_1_1package_1_1tracereplay_1_1TraceReplay.html#a8b4c404e1492f8723daf6536badf4bdc',1,'web.package.tracereplay.TraceReplay.trace_replay_free()']]],
-  ['trace_5freplay_5frun',['trace_replay_run',['../classweb_1_1package_1_1tracereplay_1_1TraceReplayTest.html#acae6e197eff4a87a606fda9844c322ed',1,'web.package.tracereplay.TraceReplayTest.trace_replay_run()'],['../classweb_1_1package_1_1tracereplay_1_1TraceReplay.html#afef4e68d6c8d04b48d28e0a2c191c49b',1,'web.package.tracereplay.TraceReplay.trace_replay_run()']]],
+  ['trace_5freplay_5ffree',['trace_replay_free',['../classweb_1_1package_1_1trace__replay_1_1TraceReplayTest.html#af4dd37f3f56802765cfa36463af85db6',1,'web::package::trace_replay::TraceReplayTest']]],
   ['trace_5freset',['trace_reset',['../trace__replay_8c.html#a5de0f300249dd32eeaf85cc32f318a00',1,'trace_replay.c']]],
   ['trace_5fset_5feof',['trace_set_eof',['../trace__replay_8c.html#a5412dea785e0f90791432433cb368f60',1,'trace_replay.c']]],
   ['try_5ftrace_5freset',['try_trace_reset',['../trace__replay_8c.html#adbdaad5c1c8438a096723626b98b6675',1,'trace_replay.c']]]

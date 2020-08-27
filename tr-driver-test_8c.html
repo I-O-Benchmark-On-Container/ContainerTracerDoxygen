@@ -122,7 +122,7 @@ Macros</h2></td></tr>
 <tr class="separator:a88a8e8596ba6eca6449e368319c9c73d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ede93b54023b02acc0afffb36dcee9a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tr-driver-test_8c.html#a4ede93b54023b02acc0afffb36dcee9a">NR_THREAD</a>&#160;&#160;&#160;((int)(<a class="el" href="tr-driver-test_8c.html#a2a4a47d494abe4c4493b788e1c9f2252">Q_DEPTH</a> / <a class="el" href="tr-driver-test_8c.html#a88a8e8596ba6eca6449e368319c9c73d">NR_TASKS</a>))</td></tr>
 <tr class="separator:a4ede93b54023b02acc0afffb36dcee9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8172c63e94269016779f0dbb60b8a2bc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tr-driver-test_8c.html#a8172c63e94269016779f0dbb60b8a2bc">FLAGS_MASK</a>&#160;&#160;&#160;(0x3F)</td></tr>
+<tr class="memitem:a8172c63e94269016779f0dbb60b8a2bc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tr-driver-test_8c.html#a8172c63e94269016779f0dbb60b8a2bc">FLAGS_MASK</a>&#160;&#160;&#160;((0x1 &lt;&lt; NR_TASKS) - 1)</td></tr>
 <tr class="separator:a8172c63e94269016779f0dbb60b8a2bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -186,11 +186,10 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FLAGS_MASK&#160;&#160;&#160;(0x3F)</td>
+          <td class="memname">#define FLAGS_MASK&#160;&#160;&#160;((0x1 &lt;&lt; NR_TASKS) - 1)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>0b0011 1111 </p>
 
 </div>
 </div>
