@@ -1,0 +1,19 @@
+<map id="web.package.tracereplay.TraceReplay.trace_replay_driver" name="web.package.tracereplay.TraceReplay.trace_replay_driver">
+<area shape="rect" id="node2" href="$classweb_1_1package_1_1tracereplay_1_1TraceReplayTest.html#acae6e197eff4a87a606fda9844c322ed" title="web.package.tracereplay.\lTraceReplayTest.trace\l_replay_run" alt="" coords="253,19,441,75"/>
+<area shape="rect" id="node3" href="$classweb_1_1package_1_1tracereplay_1_1TraceReplay.html#afef4e68d6c8d04b48d28e0a2c191c49b" title="set_config()에서 설정한 config 옵션으로 libc로 작성된 runner module을 호출. " alt="" coords="241,99,452,141"/>
+<area shape="rect" id="node10" href="$classweb_1_1package_1_1tracereplay_1_1TraceReplayTest.html#a3accb1e6e896e6381d62c81c73a18f2d" title="web.package.tracereplay.\lTraceReplayTest.refresh" alt="" coords="253,165,441,206"/>
+<area shape="rect" id="node11" href="$classweb_1_1package_1_1tracereplay_1_1TraceReplay.html#a7d8d4aded83edffba3fb711d2f2c2f33" title="trace&#45;replay가 동작하면서 매 interval마다 Frontend의 차트를 갱신. " alt="" coords="253,245,441,286"/>
+<area shape="rect" id="node4" href="$runner_8c.html#a14a44ff55d3f292956a8a4c4101dd9cd" title="Read the JSON string and config the runner. " alt="" coords="558,56,650,83"/>
+<area shape="rect" id="node9" href="$runner_8c.html#a93a6de48adb199c44bbcff7350f523ec" title="Execute the benchmark program. " alt="" coords="558,107,650,133"/>
+<area shape="rect" id="node5" href="$generic_8h.html#a5469117f34e2c2ef5e1597c3ac16a0ea" title="Remove the word &lt;ch&gt; in string. " alt="" coords="756,5,907,32"/>
+<area shape="rect" id="node6" href="$generic_8c.html#a3f7c2be1a7f75ab1093b82ee1f464164" title="This is a generic initialization function that performs initialization of driver corresponding to the..." alt="" coords="760,56,903,83"/>
+<area shape="rect" id="node8" href="$runner_8c.html#a1e7af22661c6f245d852fb1c76d0adea" title="Deallocate the global_runner&#39;s contents. " alt="" coords="760,107,903,133"/>
+<area shape="rect" id="node7" href="$generic_8c.html#abbe9539d5de3ad11f3ad3bc088b27d10" title="Get the index of the name based on an associated table. " alt="" coords="973,49,1116,90"/>
+<area shape="rect" id="node12" href="$classweb_1_1package_1_1tracereplay_1_1TraceReplayTest.html#a3f9bf2f7d9c52c884963701d50065389" title="web.package.tracereplay.\lTraceReplayTest.get_interval\l_result" alt="" coords="500,157,708,213"/>
+<area shape="rect" id="node13" href="$classweb_1_1package_1_1tracereplay_1_1TraceReplay.html#af698e310a14bda81a3be28707b4359c5" title="trace&#45;replay 결과를 받아온다. " alt="" coords="510,237,698,293"/>
+<area shape="rect" id="node17" href="$classweb_1_1package_1_1tracereplay_1_1TraceReplayTest.html#aedc1075f368dd2150f61164cebd88cf1" title="web.package.tracereplay.\lTraceReplayTest.update\l_interval_results" alt="" coords="510,317,698,373"/>
+<area shape="rect" id="node18" href="$classweb_1_1package_1_1tracereplay_1_1TraceReplay.html#a1875976c2345321c8fcb6cd5085b75ea" title="전달받은 trace&#45;replay의 interval result들을 Frontend 차트로 전달. " alt="" coords="502,397,706,453"/>
+<area shape="rect" id="node14" href="$runner_8c.html#a8f1b25564fbd3ae171438679d247c96d" title="Get a specific driver&#39;s execution&#45;time results. " alt="" coords="757,215,906,257"/>
+<area shape="rect" id="node16" href="$runner_8c.html#aad5e4b05cd67f6e081cc70bd0f792615" title="Deallocate the buffer which is allocated by runner_get_result_string() function. " alt="" coords="955,277,1135,304"/>
+<area shape="rect" id="node15" href="$runner_8c.html#a1af30e00c3fc1c81ed5a35f04acc42de" title="Generate the buffer which contains the result. " alt="" coords="955,223,1135,249"/>
+</map>

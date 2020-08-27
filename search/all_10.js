@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['packages',['packages',['../namespaceweb_1_1setup.html#a592f1c02c99a757f85d26cbee0a5dd91',1,'web::setup']]],
   ['page_5fsize',['PAGE_SIZE',['../trace__replay_8h.html#a7d467c1d283fdfa1f2081ba1e0d01b6e',1,'trace_replay.h']]],
   ['page_5fto_5fmb',['PAGE_TO_MB',['../trace__replay_8h.html#a0f407a43eb32b9e0773fd21742ff2e30',1,'trace_replay.h']]],
   ['per_5fthread',['per_thread',['../structconfig.html#a58081541c970f36a7cc40ebb5828e4ae',1,'config']]],

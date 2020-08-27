@@ -5,6 +5,7 @@ var searchData=
   ['aggr_5fresult',['aggr_result',['../structaggr__result.html',1,'aggr_result'],['../structresult.html#a5464584240f4fc5a1d5f4ec615d29490',1,'result::aggr_result()']]],
   ['align_5fsector',['align_sector',['../trace__replay_8c.html#a3618a0bccfa765f1aafab3a9efc94e13',1,'trace_replay.c']]],
   ['allocate_5faligned_5fbuffer',['allocate_aligned_buffer',['../trace__replay_8c.html#a141c36033ca1795608384cef9295bd80',1,'trace_replay.c']]],
+  ['app',['app',['../namespaceweb_1_1run.html#af0f85f5ad0f252fd4ea594fef08ec4be',1,'web.run.app()'],['../namespaceunit-test.html#a161d2cd04a0b10481f8d65768aa0c2db',1,'unit-test.app()']]],
   ['arg_5fdev',['ARG_DEV',['../trace__replay_8c.html#a46765cd09cc859ead257ad47d4fe8357',1,'trace_replay.c']]],
   ['arg_5foutput',['ARG_OUTPUT',['../trace__replay_8c.html#a09dd04f99254af69216d5b99bebf8921',1,'trace_replay.c']]],
   ['arg_5fqdepth',['ARG_QDEPTH',['../trace__replay_8c.html#a33103e780c63983e492b70050fd959cb',1,'trace_replay.c']]],
@@ -37,6 +38,8 @@ var searchData=
   ['ata_5fop_5fstandbynow2',['ATA_OP_STANDBYNOW2',['../hdparm_8h.html#a385c44f6fb256e5716a2302a5b940388ad99f346424c3373311258e7f604d947d',1,'hdparm.h']]],
   ['ata_5ftf',['ata_tf',['../structata__tf.html',1,'']]],
   ['ata_5fusing_5flba',['ATA_USING_LBA',['../sgio_8c.html#a61dd3d1b65cb4a2e2d082bfe1b3d8041',1,'sgio.c']]],
+  ['author',['author',['../namespaceweb_1_1setup.html#aab25b7f578cc313eddc032dd505bbad4',1,'web::setup']]],
+  ['author_5femail',['author_email',['../namespaceweb_1_1setup.html#a43cc099686dbbfeb0e0c38154096129c',1,'web::setup']]],
   ['avg_5fbw',['avg_bw',['../structrealtime__log.html#afd588b7df138b83a74cf7ac6aca48b2e',1,'realtime_log']]],
   ['avg_5flat',['avg_lat',['../structtrace__stat.html#a75a1e84a95fcba381c8e1438f26a9ad8',1,'trace_stat']]],
   ['avg_5flat_5fvar',['avg_lat_var',['../structtrace__stat.html#a35861770189abb7ce9dbfe80d6312272',1,'trace_stat']]]

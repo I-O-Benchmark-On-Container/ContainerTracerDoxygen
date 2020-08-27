@@ -1,13 +1,17 @@
 var searchData=
 [
-  ['seek_5fto_5fzero',['seek_to_zero',['../hdparm_8h.html#a1a08274b800f3a3405830bf9c006c592',1,'hdparm.h']]],
-  ['setup',['setUp',['../docker-driver-test_8c.html#a95c834d6178047ce9e1bce7cbfea2836',1,'setUp(void):&#160;docker-driver-test.c'],['../sample-test_8c.html#a95c834d6178047ce9e1bce7cbfea2836',1,'setUp(void):&#160;sample-test.c'],['../tr-driver-test_8c.html#a95c834d6178047ce9e1bce7cbfea2836',1,'setUp(void):&#160;tr-driver-test.c'],['../trace-replay-test_8c.html#a95c834d6178047ce9e1bce7cbfea2836',1,'setUp(void):&#160;trace-replay-test.c'],['../unity_8h.html#a95c834d6178047ce9e1bce7cbfea2836',1,'setUp(void):&#160;docker-driver-test.c']]],
-  ['sg16',['sg16',['../sgio_8c.html#a76080c33d7caa93c50908a400d6a2256',1,'sg16(int fd, int rw, struct ata_tf *tf, void *data, unsigned int data_bytes, unsigned int timeout_secs):&#160;sgio.c'],['../hdparm_8h.html#a76080c33d7caa93c50908a400d6a2256',1,'sg16(int fd, int rw, struct ata_tf *tf, void *data, unsigned int data_bytes, unsigned int timeout_secs):&#160;sgio.c']]],
-  ['sgenrand',['sgenrand',['../trace__replay_8c.html#a7562e84310393a10fd640917ddecf2e6',1,'trace_replay.c']]],
-  ['sig_5fhandler',['sig_handler',['../trace__replay_8c.html#a83e1379f5adf4452f72fcc0be266a7b5',1,'trace_replay.c']]],
-  ['sub_5fworker',['sub_worker',['../trace__replay_8c.html#acf928dd6a7d5db451c8dbccf9c711575',1,'trace_replay.c']]],
-  ['suitesetup',['suiteSetUp',['../unity_8h.html#a0f08bc53b5978d3892a36f98df005b37',1,'unity.h']]],
-  ['suiteteardown',['suiteTearDown',['../unity_8h.html#a3eac1f0f22f9093d82efeed457a1b1d3',1,'unity.h']]],
-  ['synthetic_5fgen',['synthetic_gen',['../trace__replay_8c.html#a0760b63c7dc9a9b905fc874c8a2db13c',1,'trace_replay.c']]],
-  ['synthetic_5fmix',['synthetic_mix',['../trace__replay_8c.html#ac2fdbbb974bba515fef04e420f283b48',1,'synthetic_mix(struct trace_info_t *trace):&#160;trace_replay.c'],['../trace__replay_8h.html#ac2fdbbb974bba515fef04e420f283b48',1,'synthetic_mix(struct trace_info_t *trace):&#160;trace_replay.c']]]
+  ['read_5fbig_5fblock',['read_big_block',['../hdparm_8h.html#ae09cd9dcf5800daed79a918121492f87',1,'hdparm.h']]],
+  ['refresh',['refresh',['../classweb_1_1package_1_1tracereplay_1_1TraceReplayTest.html#a3accb1e6e896e6381d62c81c73a18f2d',1,'web.package.tracereplay.TraceReplayTest.refresh()'],['../classweb_1_1package_1_1tracereplay_1_1TraceReplay.html#a7d8d4aded83edffba3fb711d2f2c2f33',1,'web.package.tracereplay.TraceReplay.refresh()']]],
+  ['remove_5flastchars',['remove_lastchars',['../trace__replay_8c.html#a064b1a40b1e3c3e30858b59acde4abc9',1,'trace_replay.c']]],
+  ['resettest',['resetTest',['../unity_8h.html#afb3a9b98e779c4f69e72aca5aa9fa1d7',1,'unity.h']]],
+  ['run_5fall_5ftrace_5freplay',['run_all_trace_replay',['../classweb_1_1package_1_1tracereplay_1_1TraceReplayTest.html#a085fd0b3a44799910461a251c04650c7',1,'web.package.tracereplay.TraceReplayTest.run_all_trace_replay()'],['../classweb_1_1package_1_1tracereplay_1_1TraceReplay.html#a5430267df3f9c22b322cbf1298451b42',1,'web.package.tracereplay.TraceReplay.run_all_trace_replay()']]],
+  ['runner_5fconfig_5ffree',['runner_config_free',['../runner_8c.html#a1e7af22661c6f245d852fb1c76d0adea',1,'runner_config_free(struct runner_config *config, const int flags):&#160;runner.c'],['../runner_8h.html#a1e7af22661c6f245d852fb1c76d0adea',1,'runner_config_free(struct runner_config *config, const int flags):&#160;runner.c']]],
+  ['runner_5ffree',['runner_free',['../runner_8c.html#af2b647c28996ea74a7fafbef99e96fee',1,'runner_free(void):&#160;runner.c'],['../runner_8h.html#af2b647c28996ea74a7fafbef99e96fee',1,'runner_free(void):&#160;runner.c']]],
+  ['runner_5fget_5fglobal_5fconfig',['runner_get_global_config',['../runner_8c.html#a42713966891a1c5f3a44961dc95828c8',1,'runner_get_global_config(void):&#160;runner.c'],['../runner_8h.html#a42713966891a1c5f3a44961dc95828c8',1,'runner_get_global_config(void):&#160;runner.c']]],
+  ['runner_5fget_5finterval_5fresult',['runner_get_interval_result',['../runner_8c.html#a8f1b25564fbd3ae171438679d247c96d',1,'runner_get_interval_result(const char *key):&#160;runner.c'],['../runner_8h.html#a8f1b25564fbd3ae171438679d247c96d',1,'runner_get_interval_result(const char *key):&#160;runner.c']]],
+  ['runner_5fget_5fresult_5fstring',['runner_get_result_string',['../runner_8c.html#a1af30e00c3fc1c81ed5a35f04acc42de',1,'runner.c']]],
+  ['runner_5fget_5ftotal_5fresult',['runner_get_total_result',['../runner_8c.html#a653e848a7e610f01a5e718a314945dd1',1,'runner_get_total_result(const char *key):&#160;runner.c'],['../runner_8h.html#a653e848a7e610f01a5e718a314945dd1',1,'runner_get_total_result(const char *key):&#160;runner.c']]],
+  ['runner_5finit',['runner_init',['../runner_8c.html#a14a44ff55d3f292956a8a4c4101dd9cd',1,'runner_init(const char *json_str):&#160;runner.c'],['../runner_8h.html#a14a44ff55d3f292956a8a4c4101dd9cd',1,'runner_init(const char *json_str):&#160;runner.c']]],
+  ['runner_5fput_5fresult_5fstring',['runner_put_result_string',['../runner_8c.html#aad5e4b05cd67f6e081cc70bd0f792615',1,'runner_put_result_string(char *buffer):&#160;runner.c'],['../runner_8h.html#aad5e4b05cd67f6e081cc70bd0f792615',1,'runner_put_result_string(char *buffer):&#160;runner.c']]],
+  ['runner_5frun',['runner_run',['../runner_8c.html#a93a6de48adb199c44bbcff7350f523ec',1,'runner_run(void):&#160;runner.c'],['../runner_8h.html#a93a6de48adb199c44bbcff7350f523ec',1,'runner_run(void):&#160;runner.c']]]
 ];

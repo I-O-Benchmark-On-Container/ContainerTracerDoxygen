@@ -1,5 +1,5 @@
 <map id="hdio_taskfile" name="hdio_taskfile">
-<area shape="rect" id="node2" href="$structtaskfile__regs.html" title="{taskfile_regs\n|+ data\l+ feat\l+ nsect\l+ lbal\l+ lbam\l+ lbah\l+ dev\l+ command\l|}" alt="" coords="5,263,111,443"/>
-<area shape="rect" id="node3" href="$structtaskfile__flags.html" title="{taskfile_flags\n||}" alt="" coords="135,314,243,391"/>
-<area shape="rect" id="node4" href="$structreg__flags.html" title="{reg_flags\n|+ data\l+ feat\l+ lbal\l+ nsect\l+ lbam\l+ lbah\l+ dev\l+ command\l|}" alt="" coords="137,5,240,185"/>
+<area shape="rect" id="node2" href="$structtaskfile__regs.html" title="taskfile_regs" alt="" coords="5,109,111,136"/>
+<area shape="rect" id="node3" href="$structtaskfile__flags.html" title="taskfile_flags" alt="" coords="135,109,243,136"/>
+<area shape="rect" id="node4" href="$structreg__flags.html" title="reg_flags" alt="" coords="148,5,229,32"/>
 </map>

@@ -1,15 +1,16 @@
 <map id="docker_get_total" name="docker_get_total">
-<area shape="rect" id="node2" href="$docker-shm_8c.html#a412333d84556fd67c24afad763680f06" title="Retrieve the data from Shared Memory. " alt="" coords="205,56,334,83"/>
-<area shape="rect" id="node5" href="$docker-serializer_8c.html#a065df4ff7f9ad38f0a38fce33608a1a6" title="Converts total_results to JSON string. " alt="" coords="184,107,355,133"/>
-<area shape="rect" id="node3" href="$docker-shm_8c.html#ac6e6eabd553df0d7d82594878354b941" title="Acquire the semaphore lock. " alt="" coords="417,5,553,32"/>
-<area shape="rect" id="node4" href="$docker-shm_8c.html#a5e4ee3784b30711da0d92fc6d438250c" title="Release the semaphore lock. " alt="" coords="417,56,553,83"/>
-<area shape="rect" id="node6" href="$docker-serializer_8c.html#a918c0bd6357448f29c9840981bca534d" title="To make a docker_info structure to json_object. " alt="" coords="403,107,568,133"/>
-<area shape="rect" id="node7" href="$docker-serializer_8c.html#a6498e99e07fad20ddc2d9d44f9b5ea7b" title="to make a total_results structure&#39;s all member to json_object. " alt="" coords="408,158,563,199"/>
-<area shape="rect" id="node8" href="$docker-serializer_8c.html#a74edd389f0149510f3ead2ab42c8030b" title="To make a total_results structure&#39;s config member to json_object. " alt="" coords="616,125,765,166"/>
-<area shape="rect" id="node10" href="$docker-serializer_8c.html#aa7f1ff8d1218bb6262c38f23dafd1063" title="to make a total_results structure&#39;s per_trace and aggr_result member to json_object. " alt="" coords="617,190,764,231"/>
-<area shape="rect" id="node9" href="$docker-serializer_8c.html#aa96092b79f670518ce65ae741a384a5a" title="To make a trace structure to json_object. " alt="" coords="845,125,988,166"/>
-<area shape="rect" id="node11" href="$docker-serializer_8c.html#a01005ce8bca2c2d93d9ff4d81642234e" title="To make a total_results structure&#39;s per_trace member to json_object. " alt="" coords="831,190,1002,231"/>
-<area shape="rect" id="node14" href="$docker-serializer_8c.html#ab6218e1a2346447d6b9404f99f7536a4" title="To make a aggr_result structure&#39;s per_trace member to json_object. " alt="" coords="813,256,1020,283"/>
-<area shape="rect" id="node12" href="$docker-serializer_8c.html#a8c5b2742d51400f171dceb3d3b6d397d" title="To make a synthetic structure to json_object. " alt="" coords="1068,197,1268,224"/>
-<area shape="rect" id="node13" href="$docker-serializer_8c.html#a5f0e5f887d5cebf221dca37c1cc09bb6" title="To make a trace_stat structure to json_object. " alt="" coords="1082,252,1254,279"/>
+<area shape="rect" id="node2" href="$namespaceweb_1_1package_1_1main_1_1routes.html#a2b55a968d580f76cbb7d588416913a49" title="web.package.main.routes.info" alt="" coords="184,5,403,32"/>
+<area shape="rect" id="node3" href="$docker-shm_8c.html#a412333d84556fd67c24afad763680f06" title="Retrieve the data from Shared Memory. " alt="" coords="229,56,358,83"/>
+<area shape="rect" id="node6" href="$docker-serializer_8c.html#a065df4ff7f9ad38f0a38fce33608a1a6" title="Converts total_results to JSON string. " alt="" coords="208,107,379,133"/>
+<area shape="rect" id="node4" href="$docker-shm_8c.html#ac6e6eabd553df0d7d82594878354b941" title="Acquire the semaphore lock. " alt="" coords="465,5,601,32"/>
+<area shape="rect" id="node5" href="$docker-shm_8c.html#a5e4ee3784b30711da0d92fc6d438250c" title="Release the semaphore lock. " alt="" coords="465,56,601,83"/>
+<area shape="rect" id="node7" href="$docker-serializer_8c.html#a918c0bd6357448f29c9840981bca534d" title="To make a docker_info structure to json_object. " alt="" coords="451,107,616,133"/>
+<area shape="rect" id="node8" href="$docker-serializer_8c.html#a6498e99e07fad20ddc2d9d44f9b5ea7b" title="to make a total_results structure&#39;s all member to json_object. " alt="" coords="456,158,611,199"/>
+<area shape="rect" id="node9" href="$docker-serializer_8c.html#a74edd389f0149510f3ead2ab42c8030b" title="To make a total_results structure&#39;s config member to json_object. " alt="" coords="664,125,813,166"/>
+<area shape="rect" id="node11" href="$docker-serializer_8c.html#aa7f1ff8d1218bb6262c38f23dafd1063" title="to make a total_results structure&#39;s per_trace and aggr_result member to json_object. " alt="" coords="665,190,812,231"/>
+<area shape="rect" id="node10" href="$docker-serializer_8c.html#aa96092b79f670518ce65ae741a384a5a" title="To make a trace structure to json_object. " alt="" coords="893,125,1036,166"/>
+<area shape="rect" id="node12" href="$docker-serializer_8c.html#a01005ce8bca2c2d93d9ff4d81642234e" title="To make a total_results structure&#39;s per_trace member to json_object. " alt="" coords="879,190,1050,231"/>
+<area shape="rect" id="node15" href="$docker-serializer_8c.html#ab6218e1a2346447d6b9404f99f7536a4" title="To make a aggr_result structure&#39;s per_trace member to json_object. " alt="" coords="861,256,1068,283"/>
+<area shape="rect" id="node13" href="$docker-serializer_8c.html#a8c5b2742d51400f171dceb3d3b6d397d" title="To make a synthetic structure to json_object. " alt="" coords="1116,197,1316,224"/>
+<area shape="rect" id="node14" href="$docker-serializer_8c.html#a5f0e5f887d5cebf221dca37c1cc09bb6" title="To make a trace_stat structure to json_object. " alt="" coords="1130,252,1302,279"/>
 </map>

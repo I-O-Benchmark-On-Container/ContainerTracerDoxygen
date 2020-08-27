@@ -1,6 +1,7 @@
 <map id="tr_get_interval" name="tr_get_interval">
-<area shape="rect" id="node2" href="$tr-mq_8c.html#a92cd5e06e8481bd5d9a9ed50caefb641" title="Retrieve the data from Message Queue. " alt="" coords="207,5,295,32"/>
-<area shape="rect" id="node3" href="$tr-serializer_8c.html#a533a6ac0f88c75327a6901515385d867" title="Converts realtime_log to JSON string. " alt="" coords="171,56,332,83"/>
-<area shape="rect" id="node4" href="$tr-serializer_8c.html#a8190fd0262f1917010d58ff73de5401e" title="To make a tr_info structure to json_object. " alt="" coords="409,31,539,57"/>
-<area shape="rect" id="node5" href="$tr-serializer_8c.html#a71304b919ad5f904d11800a1d797a9a1" title="To make a realtime_log structure to json_object. " alt="" coords="380,81,568,108"/>
+<area shape="rect" id="node2" href="$namespaceweb_1_1package_1_1main_1_1routes.html#a2b55a968d580f76cbb7d588416913a49" title="web.package.main.routes.info" alt="" coords="171,5,389,32"/>
+<area shape="rect" id="node3" href="$tr-mq_8c.html#a92cd5e06e8481bd5d9a9ed50caefb641" title="Retrieve the data from Message Queue. " alt="" coords="236,56,324,83"/>
+<area shape="rect" id="node4" href="$tr-serializer_8c.html#a533a6ac0f88c75327a6901515385d867" title="Converts realtime_log to JSON string. " alt="" coords="199,107,361,133"/>
+<area shape="rect" id="node5" href="$tr-serializer_8c.html#a8190fd0262f1917010d58ff73de5401e" title="To make a tr_info structure to json_object. " alt="" coords="466,81,597,108"/>
+<area shape="rect" id="node6" href="$tr-serializer_8c.html#a71304b919ad5f904d11800a1d797a9a1" title="To make a realtime_log structure to json_object. " alt="" coords="437,132,625,159"/>
 </map>

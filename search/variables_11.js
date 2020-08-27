@@ -8,6 +8,7 @@ var searchData=
   ['remaining_5fpercentage',['remaining_percentage',['../structrealtime__log.html#a1ac7f613ef087212cd4c48240bd079a1',1,'realtime_log']]],
   ['result_5ffile',['result_file',['../structconfig.html#afff86ca6f15f8fdea0a398950e0c882c',1,'config']]],
   ['results',['results',['../structtotal__results.html#aeba59b3b4cccff14b2dabb3ca064e21c',1,'total_results']]],
+  ['right_5fset_5fconfig',['right_set_config',['../classunit-test_1_1UnitTest.html#aa790434c33b8eb184672acb9e78eafc5',1,'unit-test::UnitTest']]],
   ['runner',['runner',['../structgeneric__driver__op.html#a9b393737ee232eb489a0e90eb846b82b',1,'generic_driver_op']]],
   ['rw',['rw',['../structio__job.html#a0a296e7c16c48e55f1c41c99fa61799a',1,'io_job']]]
 ];

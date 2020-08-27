@@ -1,7 +1,7 @@
 <map id="thread_info_t" name="thread_info_t">
-<area shape="rect" id="node2" href="$structtrace__info__t.html" title="{trace_info_t\n|+ trace_lock\l+ trace_fp\l+ trace_buf_size\l+ trace_io_cnt\l+ trace_io_cur\l+ trace_io_issue_count\l+ tracename\l+ filename\l+ fd\l+ synthetic\land 19 more...\l|}" alt="" coords="5,204,179,428"/>
-<area shape="rect" id="node3" href="$structtrace__io__req.html" title="{trace_io_req\n|+ arrival_time\l+ devno\l+ blkno\l+ bcount\l+ flags\l|}" alt="" coords="34,5,150,141"/>
-<area shape="rect" id="node4" href="$structio__stat__t.html" title="{io_stat_t\n|+ stat_lock\l+ latency_sum\l+ latency_sum_sqr\l+ latency_min\l+ latency_max\l+ latency_count\l+ total_operations\l+ total_bytes\l+ total_rbytes\l+ total_wbytes\land 9 more...\l|}" alt="" coords="203,204,349,428"/>
-<area shape="rect" id="node5" href="$structio__job.html" title="{io_job\n|+ iocb\l+ stop_time\l+ offset\l+ bytes\l+ rw\l+ buf\l|}" alt="" coords="374,241,477,391"/>
-<area shape="rect" id="node6" href="$structflist__head.html" title="{flist_head\n||}" alt="" coords="383,35,468,112"/>
+<area shape="rect" id="node2" href="$structtrace__info__t.html" title="trace_info_t" alt="" coords="7,97,106,124"/>
+<area shape="rect" id="node3" href="$structtrace__io__req.html" title="trace_io_req" alt="" coords="5,7,108,33"/>
+<area shape="rect" id="node4" href="$structio__stat__t.html" title="io_stat_t" alt="" coords="131,97,209,124"/>
+<area shape="rect" id="node5" href="$structio__job.html" title="io_job" alt="" coords="234,97,295,124"/>
+<area shape="rect" id="node6" href="$structflist__head.html" title="flist_head" alt="" coords="222,7,307,33"/>
 </map>

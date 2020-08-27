@@ -11,5 +11,7 @@ var searchData=
   ['trace_5finfo_5ft',['trace_info_t',['../structtrace__info__t.html',1,'']]],
   ['trace_5fio_5freq',['trace_io_req',['../structtrace__io__req.html',1,'']]],
   ['trace_5fresult',['trace_result',['../structtrace__result.html',1,'']]],
-  ['trace_5fstat',['trace_stat',['../structtrace__stat.html',1,'']]]
+  ['trace_5fstat',['trace_stat',['../structtrace__stat.html',1,'']]],
+  ['tracereplay',['TraceReplay',['../classweb_1_1package_1_1tracereplay_1_1TraceReplay.html',1,'web::package::tracereplay']]],
+  ['tracereplaytest',['TraceReplayTest',['../classweb_1_1package_1_1tracereplay_1_1TraceReplayTest.html',1,'web::package::tracereplay']]]
 ];

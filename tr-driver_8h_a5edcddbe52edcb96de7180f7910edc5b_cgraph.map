@@ -1,15 +1,16 @@
 <map id="tr_get_total" name="tr_get_total">
-<area shape="rect" id="node2" href="$tr-shm_8c.html#aee31225f5824722b43e4311722120aa6" title="Retrieve the data from Shared Memory. " alt="" coords="171,56,266,83"/>
-<area shape="rect" id="node5" href="$tr-serializer_8c.html#a9feb038e6e56179ab656441c9d225be8" title="Converts total_results to JSON string. " alt="" coords="151,107,287,133"/>
-<area shape="rect" id="node3" href="$tr-shm_8c.html#a85e03cb5c6fc2a5d952c14a09de8c150" title="Acquire the semaphore lock. " alt="" coords="377,5,479,32"/>
-<area shape="rect" id="node4" href="$tr-shm_8c.html#a0ba910149a2a045a85a81a3c26fac940" title="Release the semaphore lock. " alt="" coords="377,56,479,83"/>
-<area shape="rect" id="node6" href="$tr-serializer_8c.html#a8190fd0262f1917010d58ff73de5401e" title="To make a tr_info structure to json_object. " alt="" coords="363,107,493,133"/>
-<area shape="rect" id="node7" href="$tr-serializer_8c.html#acd5a19461e1099316f46673eb9f848b8" title="to make a total_results structure&#39;s all member to json_object. " alt="" coords="335,157,521,184"/>
-<area shape="rect" id="node8" href="$tr-serializer_8c.html#ad8cd64f75579cc43f66d87d902d3911f" title="To make a total_results structure&#39;s config member to json_object. " alt="" coords="569,128,752,155"/>
-<area shape="rect" id="node10" href="$tr-serializer_8c.html#a20dfc81b67a76d0e87cbf5d69ae9a354" title="to make a total_results structure&#39;s per_trace and aggr_result member to json_object. " alt="" coords="571,183,751,209"/>
-<area shape="rect" id="node9" href="$tr-serializer_8c.html#a1b8b9431f9a1f52c2a6004599fa0804d" title="To make a trace structure to json_object. " alt="" coords="800,124,976,151"/>
-<area shape="rect" id="node11" href="$tr-serializer_8c.html#a308b1f0104ca925941e1816299d782ce" title="To make a total_results structure&#39;s per_trace member to json_object. " alt="" coords="819,175,957,217"/>
-<area shape="rect" id="node14" href="$tr-serializer_8c.html#a7bd1cb3e891117e581a9ac380a5b1be8" title="To make a aggr_result structure&#39;s per_trace member to json_object. " alt="" coords="802,241,974,268"/>
-<area shape="rect" id="node12" href="$tr-serializer_8c.html#a061203842d5b22a359ae07b54c1f0ebf" title="To make a synthetic structure to json_object. " alt="" coords="1024,183,1191,209"/>
-<area shape="rect" id="node13" href="$tr-serializer_8c.html#a4bfc2c3f12bb0e875db56d33fa8b1935" title="To make a trace_stat structure to json_object. " alt="" coords="1038,237,1177,264"/>
+<area shape="rect" id="node2" href="$namespaceweb_1_1package_1_1main_1_1routes.html#a2b55a968d580f76cbb7d588416913a49" title="web.package.main.routes.info" alt="" coords="151,5,369,32"/>
+<area shape="rect" id="node3" href="$tr-shm_8c.html#aee31225f5824722b43e4311722120aa6" title="Retrieve the data from Shared Memory. " alt="" coords="213,56,307,83"/>
+<area shape="rect" id="node6" href="$tr-serializer_8c.html#a9feb038e6e56179ab656441c9d225be8" title="Converts total_results to JSON string. " alt="" coords="192,107,328,133"/>
+<area shape="rect" id="node4" href="$tr-shm_8c.html#a85e03cb5c6fc2a5d952c14a09de8c150" title="Acquire the semaphore lock. " alt="" coords="459,5,562,32"/>
+<area shape="rect" id="node5" href="$tr-shm_8c.html#a0ba910149a2a045a85a81a3c26fac940" title="Release the semaphore lock. " alt="" coords="459,56,562,83"/>
+<area shape="rect" id="node7" href="$tr-serializer_8c.html#a8190fd0262f1917010d58ff73de5401e" title="To make a tr_info structure to json_object. " alt="" coords="445,107,576,133"/>
+<area shape="rect" id="node8" href="$tr-serializer_8c.html#acd5a19461e1099316f46673eb9f848b8" title="to make a total_results structure&#39;s all member to json_object. " alt="" coords="417,157,604,184"/>
+<area shape="rect" id="node9" href="$tr-serializer_8c.html#ad8cd64f75579cc43f66d87d902d3911f" title="To make a total_results structure&#39;s config member to json_object. " alt="" coords="652,128,835,155"/>
+<area shape="rect" id="node11" href="$tr-serializer_8c.html#a20dfc81b67a76d0e87cbf5d69ae9a354" title="to make a total_results structure&#39;s per_trace and aggr_result member to json_object. " alt="" coords="653,183,833,209"/>
+<area shape="rect" id="node10" href="$tr-serializer_8c.html#a1b8b9431f9a1f52c2a6004599fa0804d" title="To make a trace structure to json_object. " alt="" coords="883,124,1059,151"/>
+<area shape="rect" id="node12" href="$tr-serializer_8c.html#a308b1f0104ca925941e1816299d782ce" title="To make a total_results structure&#39;s per_trace member to json_object. " alt="" coords="902,175,1039,217"/>
+<area shape="rect" id="node15" href="$tr-serializer_8c.html#a7bd1cb3e891117e581a9ac380a5b1be8" title="To make a aggr_result structure&#39;s per_trace member to json_object. " alt="" coords="885,241,1057,268"/>
+<area shape="rect" id="node13" href="$tr-serializer_8c.html#a061203842d5b22a359ae07b54c1f0ebf" title="To make a synthetic structure to json_object. " alt="" coords="1107,183,1273,209"/>
+<area shape="rect" id="node14" href="$tr-serializer_8c.html#a4bfc2c3f12bb0e875db56d33fa8b1935" title="To make a trace_stat structure to json_object. " alt="" coords="1121,237,1259,264"/>
 </map>
