@@ -14,6 +14,7 @@ var searchData=
   ['remaining',['remaining',['../structrealtime__log.html#a787aaf13bab47d590c42e965bb4d93ff',1,'realtime_log']]],
   ['remaining_5fpercentage',['remaining_percentage',['../structrealtime__log.html#a1ac7f613ef087212cd4c48240bd079a1',1,'realtime_log']]],
   ['remove_5flastchars',['remove_lastchars',['../trace__replay_8c.html#a064b1a40b1e3c3e30858b59acde4abc9',1,'trace_replay.c']]],
+  ['reset_5ftrace_5frepaly',['reset_trace_repaly',['../namespaceweb_1_1package_1_1main_1_1events.html#a2adb7d6569e3bc1c44cb591784132216',1,'web::package::main::events']]],
   ['resettest',['resetTest',['../unity_8h.html#afb3a9b98e779c4f69e72aca5aa9fa1d7',1,'unity.h']]],
   ['result',['result',['../structresult.html',1,'']]],
   ['result_5ffile',['result_file',['../structconfig.html#afff86ca6f15f8fdea0a398950e0c882c',1,'config']]],
