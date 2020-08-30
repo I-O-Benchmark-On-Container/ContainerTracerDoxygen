@@ -2,7 +2,6 @@ var searchData=
 [
   ['read_5fbig_5fblock',['read_big_block',['../hdparm_8h.html#ae09cd9dcf5800daed79a918121492f87',1,'hdparm.h']]],
   ['remove_5flastchars',['remove_lastchars',['../trace__replay_8c.html#a064b1a40b1e3c3e30858b59acde4abc9',1,'trace_replay.c']]],
-  ['reset_5ftrace_5frepaly',['reset_trace_repaly',['../namespaceweb_1_1package_1_1main_1_1events.html#a2adb7d6569e3bc1c44cb591784132216',1,'web::package::main::events']]],
   ['resettest',['resetTest',['../unity_8h.html#afb3a9b98e779c4f69e72aca5aa9fa1d7',1,'unity.h']]],
   ['run_5fall_5fcontainer_5ftracer',['run_all_container_tracer',['../classweb_1_1package_1_1container__tracer_1_1ContainerTracer.html#a79acf5e76a8aa7f1eb2564a4b292df7b',1,'web::package::container_tracer::ContainerTracer']]],
   ['run_5fall_5ftrace_5freplay',['run_all_trace_replay',['../classweb_1_1package_1_1trace__replay_1_1TraceReplayTest.html#a2d39b8325e3f2c3109f541c6dd4752a3',1,'web::package::trace_replay::TraceReplayTest']]],

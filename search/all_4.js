@@ -25,6 +25,7 @@ var searchData=
   ['docker_2dshm_2ec',['docker-shm.c',['../docker-shm_8c.html',1,'']]],
   ['docker_5fbfq_5fscheduler',['DOCKER_BFQ_SCHEDULER',['../docker-driver_8c.html#a06fc87d81c62e9abb8790b6e5713c55baceeb2e4f1605a25b02232e8cd83a919f',1,'docker-driver.c']]],
   ['docker_5fcreate_5fcontainer',['docker_create_container',['../docker-driver_8c.html#ac865481557b67c3c92e51e3f23607f9a',1,'docker-driver.c']]],
+  ['docker_5fcreate_5flocal_5fimages',['docker_create_local_images',['../docker-driver_8c.html#af16f64f26297d567fa519832e705e9a1',1,'docker-driver.c']]],
   ['docker_5fdriver',['DOCKER_DRIVER',['../generic_8h.html#ab04a0655cd1e3bcac5e8f48c18df1a57aa0d71324750220d70e2f1e6e91cc5b12',1,'generic.h']]],
   ['docker_5ferror_5fprint',['DOCKER_ERROR_PRINT',['../docker-driver_8h.html#a61dadd085c1777f559549e05962b2c9ead35b07fb239dcbfecbcc0f46b2841dd9',1,'docker-driver.h']]],
   ['docker_5ffree',['docker_free',['../docker-driver_8c.html#aee49a835b2c87d3ccaec95a1e3ca879a',1,'docker_free(void):&#160;docker-driver.c'],['../docker-driver_8h.html#aee49a835b2c87d3ccaec95a1e3ca879a',1,'docker_free(void):&#160;docker-driver.c']]],
