@@ -1,9 +1,10 @@
 <map id="tr_info_init" name="tr_info_init">
 <area shape="rect" id="node2" href="$namespaceweb_1_1package_1_1main_1_1routes.html#a2b55a968d580f76cbb7d588416913a49" title="web.package.main.routes.info" alt="" coords="300,5,519,32"/>
 <area shape="rect" id="node3" href="$tr-info_8c.html#a9638561ce29f3cde86f54e09daa82e35" title="Read the JSON string and convert the value to integer form and set that value to info&#45;&gt;(member) ..." alt="" coords="330,56,489,83"/>
-<area shape="rect" id="node4" href="$tr-info_8c.html#af46af26d3ed99f18c48a7b191d469fee" title="Read the JSON string and convert the value to string form and set that value to info&#45;&gt;(member) ..." alt="" coords="330,157,489,184"/>
-<area shape="rect" id="node6" href="$tr-driver_8c.html#a3444cfb7f56f88f8f16c2877632f03de" title="Check the current inputted scheduler text can be supported by the driver. " alt="" coords="323,208,496,235"/>
-<area shape="rect" id="node7" href="$tr-info_8c.html#a31760321dca36e16e1e8f231084c0f5f" title="Set the configuration of each process&#39;s behavior. " alt="" coords="145,107,252,133"/>
-<area shape="rect" id="node5" href="$generic_8h.html#a5469117f34e2c2ef5e1597c3ac16a0ea" title="Remove the word &lt;ch&gt; in string. " alt="" coords="567,157,717,184"/>
-<area shape="rect" id="node8" href="$tr-info_8c.html#a30fe574e5a617c55adc78e778d417cc5" title="Check the trace_data_path value form is synthetic from. " alt="" coords="345,107,474,133"/>
+<area shape="rect" id="node4" href="$tr-info_8c.html#af46af26d3ed99f18c48a7b191d469fee" title="Read the JSON string and convert the value to string form and set that value to info&#45;&gt;(member) ..." alt="" coords="330,208,489,235"/>
+<area shape="rect" id="node6" href="$tr-driver_8c.html#a3444cfb7f56f88f8f16c2877632f03de" title="Check the current inputted scheduler text can be supported by the driver. " alt="" coords="323,259,496,285"/>
+<area shape="rect" id="node7" href="$tr-info_8c.html#a31760321dca36e16e1e8f231084c0f5f" title="Set the configuration of each process&#39;s behavior. " alt="" coords="145,132,252,159"/>
+<area shape="rect" id="node5" href="$generic_8h.html#a5469117f34e2c2ef5e1597c3ac16a0ea" title="Remove the word &lt;ch&gt; in string. " alt="" coords="567,208,717,235"/>
+<area shape="rect" id="node8" href="$tr-driver_8c.html#a57639501bc06efabea9bb8f583c598b2" title="Check the parameter&#39;s scheduler_index supports weight. " alt="" coords="318,107,501,133"/>
+<area shape="rect" id="node9" href="$tr-info_8c.html#a30fe574e5a617c55adc78e778d417cc5" title="Check the trace_data_path value form is synthetic from. " alt="" coords="345,157,474,184"/>
 </map>

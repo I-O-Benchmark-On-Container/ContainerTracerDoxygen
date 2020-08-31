@@ -32,6 +32,7 @@ var searchData=
   ['total_5fwbytes',['total_wbytes',['../structio__stat__t.html#a23cd0bf676ca65f838ce5f3a9845025a',1,'io_stat_t']]],
   ['touched_5fworking_5fset_5fsize',['touched_working_set_size',['../structsynthetic.html#a442bbb2388ee8c0d1be3872481af87e7',1,'synthetic']]],
   ['tr_5fvalid_5fscheduler',['tr_valid_scheduler',['../tr-driver_8c.html#a847dda341726094e8724450767e5936d',1,'tr-driver.c']]],
+  ['tr_5fweight_5fsupport_5fscheduler',['tr_weight_support_scheduler',['../tr-driver_8c.html#a50e0d2fbbb1a726198b4955c8ff0335d',1,'tr-driver.c']]],
   ['trace',['trace',['../structdocker__total__json__object.html#a3b45ca2dc60767b0eb8c9c342bb5860e',1,'docker_total_json_object::trace()'],['../structtr__total__json__object.html#ae8f3ce9364dfc3243a4b49fe8e297826',1,'tr_total_json_object::trace()'],['../structthread__info__t.html#a28b69cf5faef1151a4ab84598b22ef69',1,'thread_info_t::trace()']]],
   ['trace_5fbuf',['trace_buf',['../structtrace__info__t.html#a38394449cf9d8022c364d09b50a600c5',1,'trace_info_t']]],
   ['trace_5fbuf_5fsize',['trace_buf_size',['../structtrace__info__t.html#adb4227871263eed72447dd24988dec4b',1,'trace_info_t']]],

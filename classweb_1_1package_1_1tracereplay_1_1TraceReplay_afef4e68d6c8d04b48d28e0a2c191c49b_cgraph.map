@@ -1,8 +1,0 @@
-<map id="web.package.tracereplay.TraceReplay.trace_replay_run" name="web.package.tracereplay.TraceReplay.trace_replay_run">
-<area shape="rect" id="node2" href="$runner_8c.html#a14a44ff55d3f292956a8a4c4101dd9cd" title="Read the JSON string and config the runner. " alt="" coords="264,56,356,83"/>
-<area shape="rect" id="node7" href="$runner_8c.html#a93a6de48adb199c44bbcff7350f523ec" title="Execute the benchmark program. " alt="" coords="264,107,356,133"/>
-<area shape="rect" id="node3" href="$generic_8h.html#a5469117f34e2c2ef5e1597c3ac16a0ea" title="Remove the word &lt;ch&gt; in string. " alt="" coords="404,5,555,32"/>
-<area shape="rect" id="node4" href="$generic_8c.html#a3f7c2be1a7f75ab1093b82ee1f464164" title="This is a generic initialization function that performs initialization of driver corresponding to the..." alt="" coords="408,56,551,83"/>
-<area shape="rect" id="node6" href="$runner_8c.html#a1e7af22661c6f245d852fb1c76d0adea" title="Deallocate the global_runner&#39;s contents. " alt="" coords="408,107,551,133"/>
-<area shape="rect" id="node5" href="$generic_8c.html#abbe9539d5de3ad11f3ad3bc088b27d10" title="Get the index of the name based on an associated table. " alt="" coords="603,49,745,90"/>
-</map>

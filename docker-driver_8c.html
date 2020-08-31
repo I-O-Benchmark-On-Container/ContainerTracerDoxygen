@@ -123,6 +123,9 @@ Functions</h2></td></tr>
 <tr class="memitem:aeb2054fb67e6cd2363af06c7dd4e1b67"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="docker-driver_8c.html#aeb2054fb67e6cd2363af06c7dd4e1b67">docker_valid_scheduler_test</a> (const char *scheduler)</td></tr>
 <tr class="memdesc:aeb2054fb67e6cd2363af06c7dd4e1b67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check the current inputted scheduler text can be supported by the driver.  <a href="#aeb2054fb67e6cd2363af06c7dd4e1b67">More...</a><br /></td></tr>
 <tr class="separator:aeb2054fb67e6cd2363af06c7dd4e1b67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52ebd3ddb697faf733325d59fdf2d61c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="docker-driver_8c.html#a52ebd3ddb697faf733325d59fdf2d61c">docker_has_weight_scheduler</a> (const int scheduler_index)</td></tr>
+<tr class="memdesc:a52ebd3ddb697faf733325d59fdf2d61c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check the parameter's <code>scheduler_index</code> supports weight.  <a href="#a52ebd3ddb697faf733325d59fdf2d61c">More...</a><br /></td></tr>
+<tr class="separator:a52ebd3ddb697faf733325d59fdf2d61c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af16f64f26297d567fa519832e705e9a1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="docker-driver_8c.html#af16f64f26297d567fa519832e705e9a1">docker_create_local_images</a> (void)</td></tr>
 <tr class="memdesc:af16f64f26297d567fa519832e705e9a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create the docker local image.  <a href="#af16f64f26297d567fa519832e705e9a1">More...</a><br /></td></tr>
 <tr class="separator:af16f64f26297d567fa519832e705e9a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -153,6 +156,8 @@ Variables</h2></td></tr>
 <tr class="memitem:a50b6d882b0e53124941c40f64f16385a"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="docker-driver_8c.html#a50b6d882b0e53124941c40f64f16385a">docker_valid_scheduler</a> []</td></tr>
 <tr class="memdesc:a50b6d882b0e53124941c40f64f16385a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Associated table of I/O scheduler.  <a href="#a50b6d882b0e53124941c40f64f16385a">More...</a><br /></td></tr>
 <tr class="separator:a50b6d882b0e53124941c40f64f16385a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a632047ed9fbafa59353b5c8461cf9e1a"><td class="memItemLeft" align="right" valign="top">static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="docker-driver_8c.html#a632047ed9fbafa59353b5c8461cf9e1a">docker_weight_support_scheduler</a> [] = { <a class="el" href="docker-driver_8c.html#a06fc87d81c62e9abb8790b6e5713c55baceeb2e4f1605a25b02232e8cd83a919f">DOCKER_BFQ_SCHEDULER</a> }</td></tr>
+<tr class="separator:a632047ed9fbafa59353b5c8461cf9e1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d9b96f1c18344fa034f09e247f82f4a"><td class="memItemLeft" align="right" valign="top">static struct <a class="el" href="structdocker__info.html">docker_info</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="docker-driver_8c.html#a8d9b96f1c18344fa034f09e247f82f4a">global_info_head</a></td></tr>
 <tr class="separator:a8d9b96f1c18344fa034f09e247f82f4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -163,7 +168,7 @@ Variables</h2></td></tr>
 <p>This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.</p>
 <p>You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.</p>
 <dl class="section author"><dt>Author</dt><dd>SuhoSon (<a href="#" onclick="location.href='mai'+'lto:'+'nge'+'ol'+'564'+'@g'+'mai'+'l.'+'com'; return false;">ngeol<span style="display: none;">.nosp@m.</span>564@<span style="display: none;">.nosp@m.</span>gmail<span style="display: none;">.nosp@m.</span>.com</a>) </dd></dl>
-<dl class="section version"><dt>Version</dt><dd>0.1 </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>0.1.1 </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>2020-08-19 </dd></dl>
 </div><h2 class="groupheader">Enumeration Type Documentation</h2>
 <a id="a06fc87d81c62e9abb8790b6e5713c55b"></a>
@@ -465,6 +470,33 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="a52ebd3ddb697faf733325d59fdf2d61c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52ebd3ddb697faf733325d59fdf2d61c">&#9670;&nbsp;</a></span>docker_has_weight_scheduler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int docker_has_weight_scheduler </td>
+          <td>(</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>scheduler_index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Check the parameter's <code>scheduler_index</code> supports weight. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">scheduler_index</td><td>The scheduler's index which is based on <code>docker_valid_scheduler</code> and wants to check.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>0 for doesn't support the weight, 1 for supporting the weight. </dd></dl>
+
+</div>
+</div>
 <a id="a283c899d04c6babb63516a64440f6ba0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a283c899d04c6babb63516a64440f6ba0">&#9670;&nbsp;</a></span>docker_init()</h2>
 
@@ -495,47 +527,48 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="docker-driver_8c_a283c899d04c6babb63516a64440f6ba0_cgraph.png" border="0" usemap="#docker-driver_8c_a283c899d04c6babb63516a64440f6ba0_cgraph" alt=""/></div>
 <map name="docker-driver_8c_a283c899d04c6babb63516a64440f6ba0_cgraph" id="docker-driver_8c_a283c899d04c6babb63516a64440f6ba0_cgraph">
-<area shape="rect" id="node2" href="docker-driver_8c.html#a7442a800fb0077850f2620c2c1b6d2e7" title="Run all processes&#39; trace&#45;replay part. " alt="" coords="388,183,503,209"/>
-<area shape="rect" id="node15" href="docker-driver_8c.html#a37a34d433b541331d4d83efebad759da" title="Get execution&#45;time results from trace&#45;replay. " alt="" coords="149,405,299,432"/>
-<area shape="rect" id="node21" href="docker-driver_8c.html#aa1e0c47efc45e3f82642dab8151af65d" title="Get end&#45;time results from trace&#45;replay. " alt="" coords="159,481,289,508"/>
-<area shape="rect" id="node34" href="docker-driver_8c.html#aee49a835b2c87d3ccaec95a1e3ca879a" title="Deallocate resources of this driver. " alt="" coords="175,125,273,152"/>
-<area shape="rect" id="node35" href="docker-driver_8c.html#aa5bd2c2b474a4ce8cd5ebb0e54290cdf" title="Deallocate this driver&#39;s resources. " alt="" coords="389,107,502,133"/>
-<area shape="rect" id="node36" href="docker-info_8c.html#a956964d808533f4440f644453deda376" title="Generate and construct the per processes info object and return it. " alt="" coords="161,709,287,736"/>
-<area shape="rect" id="node42" href="docker-driver_8c.html#af16f64f26297d567fa519832e705e9a1" title="Create the docker local image. " alt="" coords="148,761,300,802"/>
-<area shape="rect" id="node3" href="docker-driver_8c.html#a5aecf0b5c42eaf21f535ccc4b3c8cef4" title="Remove the docker container. " alt="" coords="613,56,787,83"/>
-<area shape="rect" id="node4" href="docker-driver_8c.html#ac865481557b67c3c92e51e3f23607f9a" title="Each process trace&#45;replay execute part. " alt="" coords="609,309,791,336"/>
-<area shape="rect" id="node6" href="docker-shm_8c.html#a96e9f90867712ca9447d1c4f103a41be" title="Do the __docker_shm_init() and __docker_sem_init() " alt="" coords="635,208,765,235"/>
-<area shape="rect" id="node9" href="docker-shm_8c.html#ade612a62cc26c30f18fc56630eeb168c" title="Deallocate the Shared Memory resources. " alt="" coords="633,107,767,133"/>
-<area shape="rect" id="node10" href="docker-mq_8c.html#ab5442682d17bf7c6fc3adb7fc17c5d1d" title="Wrapping function of __docker_mq_init() " alt="" coords="639,259,761,285"/>
-<area shape="rect" id="node12" href="docker-mq_8c.html#a73b34b2055ff3f635601800f88f523d8" title="Deallocate the Message Queue resources. " alt="" coords="637,5,763,32"/>
-<area shape="rect" id="node13" href="docker-driver_8c.html#a75da57726e2862cde410e39a7b9a62d5" title="Set the child process to specific control group(cgroup) " alt="" coords="608,157,792,184"/>
-<area shape="rect" id="node5" href="docker-info_8c.html#ae395717fe71cb4bab780d12c9baa9b61" title="Check the trace_data_path value form is synthetic from. " alt="" coords="857,685,1020,712"/>
-<area shape="rect" id="node7" href="docker-shm_8c.html#a705e14be96e8a64c2356967d7e715091" title="Initialize the Semaphore. " alt="" coords="867,233,1010,260"/>
-<area shape="rect" id="node8" href="docker-shm_8c.html#a613890337ccde9a3b4463abf6dd3cc20" title="Initialize the Shared Memory. " alt="" coords="867,183,1010,209"/>
-<area shape="rect" id="node11" href="docker-mq_8c.html#afab65ab1c27ba57f300ff6b3329f97b8" title="Initialize the Message Queue. " alt="" coords="871,284,1007,311"/>
-<area shape="rect" id="node14" href="runner_8h.html#a472fd12a528fb89715fda5d64b64b12b" title="Check the validation of BFQ scheduler&#39;s weight. " alt="" coords="864,117,1013,158"/>
-<area shape="rect" id="node16" href="namespaceweb_1_1package_1_1main_1_1routes.html#a2b55a968d580f76cbb7d588416913a49" title="web.package.main.routes.info" alt="" coords="591,659,809,685"/>
-<area shape="rect" id="node17" href="docker-mq_8c.html#ab3f271ee890e18d5d50250c0201dffed" title="Retrieve the data from Message Queue. " alt="" coords="384,405,507,432"/>
-<area shape="rect" id="node18" href="docker-serializer_8c.html#afa3d0ff3fac362a0e0b55ea8e15292df" title="Converts realtime_log to JSON string. " alt="" coords="348,355,543,381"/>
-<area shape="rect" id="node19" href="docker-serializer_8c.html#a918c0bd6357448f29c9840981bca534d" title="To make a docker_info structure to json_object. " alt="" coords="617,427,783,453"/>
-<area shape="rect" id="node20" href="docker-serializer_8c.html#ace519b466cbe3a464dc5a9931b226b20" title="To make a realtime_log structure to json_object. " alt="" coords="623,361,777,402"/>
-<area shape="rect" id="node22" href="docker-shm_8c.html#a412333d84556fd67c24afad763680f06" title="Retrieve the data from Shared Memory. " alt="" coords="381,507,510,533"/>
-<area shape="rect" id="node25" href="docker-serializer_8c.html#a065df4ff7f9ad38f0a38fce33608a1a6" title="Converts total_results to JSON string. " alt="" coords="360,456,531,483"/>
-<area shape="rect" id="node23" href="docker-shm_8c.html#ac6e6eabd553df0d7d82594878354b941" title="Acquire the semaphore lock. " alt="" coords="632,544,768,571"/>
-<area shape="rect" id="node24" href="docker-shm_8c.html#a5e4ee3784b30711da0d92fc6d438250c" title="Release the semaphore lock. " alt="" coords="632,595,768,621"/>
-<area shape="rect" id="node26" href="docker-serializer_8c.html#a6498e99e07fad20ddc2d9d44f9b5ea7b" title="to make a total_results structure&#39;s all member to json_object. " alt="" coords="623,478,777,519"/>
-<area shape="rect" id="node27" href="docker-serializer_8c.html#a74edd389f0149510f3ead2ab42c8030b" title="To make a total_results structure&#39;s config member to json_object. " alt="" coords="864,446,1013,487"/>
-<area shape="rect" id="node29" href="docker-serializer_8c.html#aa7f1ff8d1218bb6262c38f23dafd1063" title="to make a total_results structure&#39;s per_trace and aggr_result member to json_object. " alt="" coords="865,511,1012,553"/>
-<area shape="rect" id="node28" href="docker-serializer_8c.html#aa96092b79f670518ce65ae741a384a5a" title="To make a trace structure to json_object. " alt="" coords="1100,446,1243,487"/>
-<area shape="rect" id="node30" href="docker-serializer_8c.html#a01005ce8bca2c2d93d9ff4d81642234e" title="To make a total_results structure&#39;s per_trace member to json_object. " alt="" coords="1086,567,1257,609"/>
-<area shape="rect" id="node33" href="docker-serializer_8c.html#ab6218e1a2346447d6b9404f99f7536a4" title="To make a aggr_result structure&#39;s per_trace member to json_object. " alt="" coords="1068,516,1275,543"/>
-<area shape="rect" id="node31" href="docker-serializer_8c.html#a8c5b2742d51400f171dceb3d3b6d397d" title="To make a synthetic structure to json_object. " alt="" coords="1323,575,1523,601"/>
-<area shape="rect" id="node32" href="docker-serializer_8c.html#a5f0e5f887d5cebf221dca37c1cc09bb6" title="To make a trace_stat structure to json_object. " alt="" coords="1337,520,1509,547"/>
-<area shape="rect" id="node37" href="docker-info_8c.html#a0a21456996b3d9b2ca237a82f102f7bd" title="Read the JSON string and convert the value to integer form and set that value to info&#45;&gt;(member) ..." alt="" coords="604,709,796,736"/>
-<area shape="rect" id="node38" href="docker-info_8c.html#a647c1be5263df2194a6a032c84c2958b" title="Read the JSON string and convert the value to string form and set that value to info&#45;&gt;(member) ..." alt="" coords="604,811,796,837"/>
-<area shape="rect" id="node40" href="docker-driver_8c.html#aeb2054fb67e6cd2363af06c7dd4e1b67" title="Check the current inputted scheduler text can be supported by the driver. " alt="" coords="597,861,803,888"/>
-<area shape="rect" id="node41" href="docker-info_8c.html#ac1e5be5c34cc90a94c2c6700b0533b86" title="Set the configuration of each process&#39;s behavior. " alt="" coords="375,760,515,787"/>
-<area shape="rect" id="node39" href="generic_8h.html#a5469117f34e2c2ef5e1597c3ac16a0ea" title="Remove the word &lt;ch&gt; in string. " alt="" coords="863,811,1014,837"/>
+<area shape="rect" id="node2" href="docker-driver_8c.html#a7442a800fb0077850f2620c2c1b6d2e7" title="Run all processes&#39; trace&#45;replay part. " alt="" coords="167,241,281,268"/>
+<area shape="rect" id="node17" href="docker-driver_8c.html#a37a34d433b541331d4d83efebad759da" title="Get execution&#45;time results from trace&#45;replay. " alt="" coords="149,705,299,732"/>
+<area shape="rect" id="node23" href="docker-driver_8c.html#aa1e0c47efc45e3f82642dab8151af65d" title="Get end&#45;time results from trace&#45;replay. " alt="" coords="159,781,289,808"/>
+<area shape="rect" id="node36" href="docker-driver_8c.html#aee49a835b2c87d3ccaec95a1e3ca879a" title="Deallocate resources of this driver. " alt="" coords="175,27,273,53"/>
+<area shape="rect" id="node37" href="docker-driver_8c.html#aa5bd2c2b474a4ce8cd5ebb0e54290cdf" title="Deallocate this driver&#39;s resources. " alt="" coords="389,7,502,33"/>
+<area shape="rect" id="node38" href="docker-info_8c.html#a956964d808533f4440f644453deda376" title="Generate and construct the per processes info object and return it. " alt="" coords="161,528,287,555"/>
+<area shape="rect" id="node43" href="docker-driver_8c.html#af16f64f26297d567fa519832e705e9a1" title="Create the docker local image. " alt="" coords="148,833,300,874"/>
+<area shape="rect" id="node3" href="docker-driver_8c.html#a5aecf0b5c42eaf21f535ccc4b3c8cef4" title="Remove the docker container. " alt="" coords="613,5,787,32"/>
+<area shape="rect" id="node4" href="docker-driver_8c.html#ac865481557b67c3c92e51e3f23607f9a" title="Each process trace&#45;replay execute part. " alt="" coords="354,315,537,341"/>
+<area shape="rect" id="node6" href="docker-shm_8c.html#a96e9f90867712ca9447d1c4f103a41be" title="Do the __docker_shm_init() and __docker_sem_init() " alt="" coords="381,209,510,236"/>
+<area shape="rect" id="node9" href="docker-shm_8c.html#ade612a62cc26c30f18fc56630eeb168c" title="Deallocate the Shared Memory resources. " alt="" coords="633,56,767,83"/>
+<area shape="rect" id="node10" href="docker-mq_8c.html#ab5442682d17bf7c6fc3adb7fc17c5d1d" title="Wrapping function of __docker_mq_init() " alt="" coords="384,260,507,287"/>
+<area shape="rect" id="node12" href="docker-mq_8c.html#a73b34b2055ff3f635601800f88f523d8" title="Deallocate the Message Queue resources. " alt="" coords="637,107,763,133"/>
+<area shape="rect" id="node13" href="docker-driver_8c.html#a75da57726e2862cde410e39a7b9a62d5" title="Set the child process to specific control group(cgroup) " alt="" coords="353,373,537,400"/>
+<area shape="rect" id="node5" href="docker-info_8c.html#ae395717fe71cb4bab780d12c9baa9b61" title="Check the trace_data_path value form is synthetic from. " alt="" coords="619,376,781,403"/>
+<area shape="rect" id="node7" href="docker-shm_8c.html#a705e14be96e8a64c2356967d7e715091" title="Initialize the Semaphore. " alt="" coords="629,157,771,184"/>
+<area shape="rect" id="node8" href="docker-shm_8c.html#a613890337ccde9a3b4463abf6dd3cc20" title="Initialize the Shared Memory. " alt="" coords="629,208,771,235"/>
+<area shape="rect" id="node11" href="docker-mq_8c.html#afab65ab1c27ba57f300ff6b3329f97b8" title="Initialize the Message Queue. " alt="" coords="632,259,768,285"/>
+<area shape="rect" id="node14" href="docker-driver_8c.html#aeb2054fb67e6cd2363af06c7dd4e1b67" title="Check the current inputted scheduler text can be supported by the driver. " alt="" coords="597,477,803,504"/>
+<area shape="rect" id="node15" href="docker-driver_8c.html#a52ebd3ddb697faf733325d59fdf2d61c" title="Check the parameter&#39;s scheduler_index supports weight. " alt="" coords="591,427,809,453"/>
+<area shape="rect" id="node16" href="runner_8h.html#a472fd12a528fb89715fda5d64b64b12b" title="Check the validation of BFQ scheduler&#39;s weight. " alt="" coords="625,310,775,351"/>
+<area shape="rect" id="node18" href="namespaceweb_1_1package_1_1main_1_1routes.html#a2b55a968d580f76cbb7d588416913a49" title="web.package.main.routes.info" alt="" coords="591,655,809,681"/>
+<area shape="rect" id="node19" href="docker-mq_8c.html#ab3f271ee890e18d5d50250c0201dffed" title="Retrieve the data from Message Queue. " alt="" coords="384,731,507,757"/>
+<area shape="rect" id="node20" href="docker-serializer_8c.html#afa3d0ff3fac362a0e0b55ea8e15292df" title="Converts realtime_log to JSON string. " alt="" coords="348,832,543,859"/>
+<area shape="rect" id="node21" href="docker-serializer_8c.html#a918c0bd6357448f29c9840981bca534d" title="To make a docker_info structure to json_object. " alt="" coords="617,832,783,859"/>
+<area shape="rect" id="node22" href="docker-serializer_8c.html#ace519b466cbe3a464dc5a9931b226b20" title="To make a realtime_log structure to json_object. " alt="" coords="623,766,777,807"/>
+<area shape="rect" id="node24" href="docker-shm_8c.html#a412333d84556fd67c24afad763680f06" title="Retrieve the data from Shared Memory. " alt="" coords="381,949,510,976"/>
+<area shape="rect" id="node27" href="docker-serializer_8c.html#a065df4ff7f9ad38f0a38fce33608a1a6" title="Converts total_results to JSON string. " alt="" coords="360,883,531,909"/>
+<area shape="rect" id="node25" href="docker-shm_8c.html#ac6e6eabd553df0d7d82594878354b941" title="Acquire the semaphore lock. " alt="" coords="632,1000,768,1027"/>
+<area shape="rect" id="node26" href="docker-shm_8c.html#a5e4ee3784b30711da0d92fc6d438250c" title="Release the semaphore lock. " alt="" coords="632,949,768,976"/>
+<area shape="rect" id="node28" href="docker-serializer_8c.html#a6498e99e07fad20ddc2d9d44f9b5ea7b" title="to make a total_results structure&#39;s all member to json_object. " alt="" coords="623,883,777,925"/>
+<area shape="rect" id="node29" href="docker-serializer_8c.html#a74edd389f0149510f3ead2ab42c8030b" title="To make a total_results structure&#39;s config member to json_object. " alt="" coords="858,851,1007,893"/>
+<area shape="rect" id="node31" href="docker-serializer_8c.html#aa7f1ff8d1218bb6262c38f23dafd1063" title="to make a total_results structure&#39;s per_trace and aggr_result member to json_object. " alt="" coords="859,917,1006,958"/>
+<area shape="rect" id="node30" href="docker-serializer_8c.html#aa96092b79f670518ce65ae741a384a5a" title="To make a trace structure to json_object. " alt="" coords="1088,851,1231,893"/>
+<area shape="rect" id="node32" href="docker-serializer_8c.html#a01005ce8bca2c2d93d9ff4d81642234e" title="To make a total_results structure&#39;s per_trace member to json_object. " alt="" coords="1074,917,1245,958"/>
+<area shape="rect" id="node35" href="docker-serializer_8c.html#ab6218e1a2346447d6b9404f99f7536a4" title="To make a aggr_result structure&#39;s per_trace member to json_object. " alt="" coords="1056,983,1263,1009"/>
+<area shape="rect" id="node33" href="docker-serializer_8c.html#a8c5b2742d51400f171dceb3d3b6d397d" title="To make a synthetic structure to json_object. " alt="" coords="1311,924,1511,951"/>
+<area shape="rect" id="node34" href="docker-serializer_8c.html#a5f0e5f887d5cebf221dca37c1cc09bb6" title="To make a trace_stat structure to json_object. " alt="" coords="1325,979,1497,1005"/>
+<area shape="rect" id="node39" href="docker-info_8c.html#a0a21456996b3d9b2ca237a82f102f7bd" title="Read the JSON string and convert the value to integer form and set that value to info&#45;&gt;(member) ..." alt="" coords="604,528,796,555"/>
+<area shape="rect" id="node40" href="docker-info_8c.html#a647c1be5263df2194a6a032c84c2958b" title="Read the JSON string and convert the value to string form and set that value to info&#45;&gt;(member) ..." alt="" coords="604,579,796,605"/>
+<area shape="rect" id="node42" href="docker-info_8c.html#ac1e5be5c34cc90a94c2c6700b0533b86" title="Set the configuration of each process&#39;s behavior. " alt="" coords="375,477,515,504"/>
+<area shape="rect" id="node41" href="generic_8h.html#a5469117f34e2c2ef5e1597c3ac16a0ea" title="Remove the word &lt;ch&gt; in string. " alt="" coords="857,579,1008,605"/>
 </map>
 </div>
 
@@ -571,11 +604,13 @@ Here is the call graph for this function:</div>
 <area shape="rect" id="node9" href="docker-mq_8c.html#ab5442682d17bf7c6fc3adb7fc17c5d1d" title="Wrapping function of __docker_mq_init() " alt="" coords="199,208,321,235"/>
 <area shape="rect" id="node11" href="docker-mq_8c.html#a73b34b2055ff3f635601800f88f523d8" title="Deallocate the Message Queue resources. " alt="" coords="197,259,323,285"/>
 <area shape="rect" id="node12" href="docker-driver_8c.html#a75da57726e2862cde410e39a7b9a62d5" title="Set the child process to specific control group(cgroup) " alt="" coords="168,309,352,336"/>
-<area shape="rect" id="node4" href="docker-info_8c.html#ae395717fe71cb4bab780d12c9baa9b61" title="Check the trace_data_path value form is synthetic from. " alt="" coords="400,56,563,83"/>
-<area shape="rect" id="node6" href="docker-shm_8c.html#a705e14be96e8a64c2356967d7e715091" title="Initialize the Semaphore. " alt="" coords="410,107,553,133"/>
-<area shape="rect" id="node7" href="docker-shm_8c.html#a613890337ccde9a3b4463abf6dd3cc20" title="Initialize the Shared Memory. " alt="" coords="410,157,553,184"/>
-<area shape="rect" id="node10" href="docker-mq_8c.html#afab65ab1c27ba57f300ff6b3329f97b8" title="Initialize the Message Queue. " alt="" coords="413,208,549,235"/>
-<area shape="rect" id="node13" href="runner_8h.html#a472fd12a528fb89715fda5d64b64b12b" title="Check the validation of BFQ scheduler&#39;s weight. " alt="" coords="407,302,556,343"/>
+<area shape="rect" id="node4" href="docker-info_8c.html#ae395717fe71cb4bab780d12c9baa9b61" title="Check the trace_data_path value form is synthetic from. " alt="" coords="427,56,590,83"/>
+<area shape="rect" id="node6" href="docker-shm_8c.html#a705e14be96e8a64c2356967d7e715091" title="Initialize the Semaphore. " alt="" coords="437,107,580,133"/>
+<area shape="rect" id="node7" href="docker-shm_8c.html#a613890337ccde9a3b4463abf6dd3cc20" title="Initialize the Shared Memory. " alt="" coords="437,157,580,184"/>
+<area shape="rect" id="node10" href="docker-mq_8c.html#afab65ab1c27ba57f300ff6b3329f97b8" title="Initialize the Message Queue. " alt="" coords="441,208,577,235"/>
+<area shape="rect" id="node13" href="docker-driver_8c.html#aeb2054fb67e6cd2363af06c7dd4e1b67" title="Check the current inputted scheduler text can be supported by the driver. " alt="" coords="405,259,612,285"/>
+<area shape="rect" id="node14" href="docker-driver_8c.html#a52ebd3ddb697faf733325d59fdf2d61c" title="Check the parameter&#39;s scheduler_index supports weight. " alt="" coords="400,309,617,336"/>
+<area shape="rect" id="node15" href="runner_8h.html#a472fd12a528fb89715fda5d64b64b12b" title="Check the validation of BFQ scheduler&#39;s weight. " alt="" coords="434,361,583,402"/>
 </map>
 </div>
 
@@ -618,7 +653,9 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="docker-driver_8c_a75da57726e2862cde410e39a7b9a62d5_cgraph.png" border="0" usemap="#docker-driver_8c_a75da57726e2862cde410e39a7b9a62d5_cgraph" alt=""/></div>
 <map name="docker-driver_8c_a75da57726e2862cde410e39a7b9a62d5_cgraph" id="docker-driver_8c_a75da57726e2862cde410e39a7b9a62d5_cgraph">
-<area shape="rect" id="node2" href="runner_8h.html#a472fd12a528fb89715fda5d64b64b12b" title="Check the validation of BFQ scheduler&#39;s weight. " alt="" coords="237,5,387,47"/>
+<area shape="rect" id="node2" href="docker-driver_8c.html#aeb2054fb67e6cd2363af06c7dd4e1b67" title="Check the current inputted scheduler text can be supported by the driver. " alt="" coords="243,5,449,32"/>
+<area shape="rect" id="node3" href="docker-driver_8c.html#a52ebd3ddb697faf733325d59fdf2d61c" title="Check the parameter&#39;s scheduler_index supports weight. " alt="" coords="237,56,455,83"/>
+<area shape="rect" id="node4" href="runner_8h.html#a472fd12a528fb89715fda5d64b64b12b" title="Check the validation of BFQ scheduler&#39;s weight. " alt="" coords="271,107,421,149"/>
 </map>
 </div>
 
@@ -677,6 +714,28 @@ Here is the call graph for this function:</div>
 </div><!-- fragment -->
 <p>Associated table of I/O scheduler. </p>
 <dl class="section warning"><dt>Warning</dt><dd>Kyber sceduler doesn't support in SCSI devices. </dd></dl>
+
+</div>
+</div>
+<a id="a632047ed9fbafa59353b5c8461cf9e1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a632047ed9fbafa59353b5c8461cf9e1a">&#9670;&nbsp;</a></span>docker_weight_support_scheduler</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int docker_weight_support_scheduler[] = { <a class="el" href="docker-driver_8c.html#a06fc87d81c62e9abb8790b6e5713c55baceeb2e4f1605a25b02232e8cd83a919f">DOCKER_BFQ_SCHEDULER</a> }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

@@ -8,6 +8,7 @@ var searchData=
   ['device',['device',['../structdocker__info.html#ae6abd77c4c0184d0b0dc9730ca045a2b',1,'docker_info::device()'],['../structtr__info.html#ab967cf7647e5a66771bc16c0d6522280',1,'tr_info::device()']]],
   ['devno',['devno',['../structsimple__bio.html#a79107d8c6870f1eaefeb879712cea1e0',1,'simple_bio::devno()'],['../structtrace__io__req.html#a8517fed1b1fada91a695a33830d7a10a',1,'trace_io_req::devno()']]],
   ['docker_5fvalid_5fscheduler',['docker_valid_scheduler',['../docker-driver_8c.html#a50b6d882b0e53124941c40f64f16385a',1,'docker-driver.c']]],
+  ['docker_5fweight_5fsupport_5fscheduler',['docker_weight_support_scheduler',['../docker-driver_8c.html#a632047ed9fbafa59353b5c8461cf9e1a',1,'docker-driver.c']]],
   ['done',['done',['../structthread__info__t.html#ad1986048f6b4a063509a559d863ca9a0',1,'thread_info_t']]],
   ['driver',['driver',['../structrunner__config.html#a7a084308d225996e1cb94b9d3599782e',1,'runner_config::driver()'],['../classweb_1_1package_1_1container__tracer_1_1ContainerTracer.html#a1e6bccb185913812d909f8ab40a2a8cf',1,'web.package.container_tracer.ContainerTracer.driver()']]],
   ['driver_5finit_5ftbl',['driver_init_tbl',['../generic_8c.html#ae0183d79fe0c84a9a37c5595def5ba1e',1,'generic.c']]],

@@ -1,3 +1,5 @@
 <map id="tr_set_cgroup_state" name="tr_set_cgroup_state">
-<area shape="rect" id="node2" href="$runner_8h.html#a472fd12a528fb89715fda5d64b64b12b" title="Check the validation of BFQ scheduler&#39;s weight. " alt="" coords="204,5,353,47"/>
+<area shape="rect" id="node2" href="$tr-driver_8c.html#a3444cfb7f56f88f8f16c2877632f03de" title="Check the current inputted scheduler text can be supported by the driver. " alt="" coords="209,5,382,32"/>
+<area shape="rect" id="node3" href="$tr-driver_8c.html#a57639501bc06efabea9bb8f583c598b2" title="Check the parameter&#39;s scheduler_index supports weight. " alt="" coords="204,56,387,83"/>
+<area shape="rect" id="node4" href="$runner_8h.html#a472fd12a528fb89715fda5d64b64b12b" title="Check the validation of BFQ scheduler&#39;s weight. " alt="" coords="221,107,370,149"/>
 </map>
