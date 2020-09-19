@@ -1,8 +1,11 @@
 <map id="web.package.trace_replay.TraceReplay._refresh" name="web.package.trace_replay.TraceReplay._refresh">
-<area shape="rect" id="node2" href="$classweb_1_1package_1_1container__tracer_1_1ContainerTracer.html#ad3c04a0c5f70de1e161b9562f387f367" title="Receive container&#45;tracer interval result. " alt="" coords="232,5,395,61"/>
-<area shape="rect" id="node3" href="$classweb_1_1package_1_1container__tracer_1_1ContainerTracer.html#af2ea98adbb735e27c437bc0fed9d6ba0" title="Send container&#45;tracer interval result to frontend chart. " alt="" coords="232,85,395,141"/>
-<area shape="rect" id="node4" href="$classweb_1_1package_1_1container__tracer_1_1ContainerTracer.html#acddfd547fe95535ab18690a55635ff86" title="web.package.container\l_tracer.ContainerTracer.\l_get_total_result" alt="" coords="232,165,395,221"/>
-<area shape="rect" id="node5" href="$runner_8c.html#a653e848a7e610f01a5e718a314945dd1" title="Get a specific driver&#39;s end&#45;time results. " alt="" coords="443,155,597,181"/>
-<area shape="rect" id="node7" href="$runner_8c.html#aad5e4b05cd67f6e081cc70bd0f792615" title="Deallocate the buffer which is allocated by runner_get_result_string() function. " alt="" coords="645,205,807,232"/>
-<area shape="rect" id="node6" href="$runner_8c.html#a1af30e00c3fc1c81ed5a35f04acc42de" title="Generate the buffer which contains the result. " alt="" coords="645,155,807,181"/>
+<area shape="rect" id="node2" href="$classweb_1_1package_1_1trace__replay_1_1TraceReplay.html#a4de29a223d64249d5cde162c8713d21e" title="Create a data dictionary which will contain the interval results. " alt="" coords="232,5,435,47"/>
+<area shape="rect" id="node3" href="$classweb_1_1package_1_1container__tracer_1_1ContainerTracer.html#ad3c04a0c5f70de1e161b9562f387f367" title="Receive container&#45;tracer interval result. " alt="" coords="252,71,415,127"/>
+<area shape="rect" id="node4" href="$classweb_1_1package_1_1container__tracer_1_1ContainerTracer.html#af2ea98adbb735e27c437bc0fed9d6ba0" title="Send container&#45;tracer interval result to frontend chart. " alt="" coords="252,151,415,207"/>
+<area shape="rect" id="node5" href="$classweb_1_1package_1_1container__tracer_1_1ContainerTracer.html#acddfd547fe95535ab18690a55635ff86" title="Get total result from runner library. " alt="" coords="252,231,415,287"/>
+<area shape="rect" id="node10" href="$classweb_1_1package_1_1trace__replay_1_1TraceReplay.html#ac89c5b4d88cf4768dffdd34da4d9b9b8" title="save interval results to json file. " alt="" coords="244,311,423,367"/>
+<area shape="rect" id="node6" href="$runner_8c.html#a653e848a7e610f01a5e718a314945dd1" title="Get a specific driver&#39;s end&#45;time results. " alt="" coords="496,195,651,222"/>
+<area shape="rect" id="node8" href="$runner_8c.html#aad5e4b05cd67f6e081cc70bd0f792615" title="Deallocate the buffer which is allocated by runner_get_result_string() function. " alt="" coords="712,246,873,273"/>
+<area shape="rect" id="node9" href="$classweb_1_1package_1_1container__tracer_1_1ContainerTracer.html#a41978069ba84305409365bf771f55ba8" title="Check the validation of the filename. " alt="" coords="483,297,664,353"/>
+<area shape="rect" id="node7" href="$runner_8c.html#a1af30e00c3fc1c81ed5a35f04acc42de" title="Generate the buffer which contains the result. " alt="" coords="712,195,873,222"/>
 </map>

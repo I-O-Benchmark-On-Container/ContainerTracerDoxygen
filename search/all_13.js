@@ -1,6 +1,7 @@
 var searchData=
 [
   ['sample_2dtest_2ec',['sample-test.c',['../sample-test_8c.html',1,'']]],
+  ['save_5finterval_5fto_5ffiles',['save_interval_to_files',['../classweb_1_1package_1_1trace__replay_1_1TraceReplay.html#ac89c5b4d88cf4768dffdd34da4d9b9b8',1,'web::package::trace_replay::TraceReplay']]],
   ['scheduler',['scheduler',['../structdocker__info.html#a59c67d2fecce88f3cc738daeee436ec3',1,'docker_info::scheduler()'],['../structtr__info.html#a029a0cb8f69406fa1409ed9110753265',1,'tr_info::scheduler()'],['../docker-driver-test_8c.html#a1b3f65587b48bff0583fb85181991b01',1,'SCHEDULER():&#160;docker-driver-test.c'],['../tr-driver-test_8c.html#a1b3f65587b48bff0583fb85181991b01',1,'SCHEDULER():&#160;tr-driver-test.c']]],
   ['sector_5fsize',['SECTOR_SIZE',['../trace__replay_8h.html#aa35bad1e92008da628f27b2f6bb270aa',1,'trace_replay.h']]],
   ['sectors',['sectors',['../structlocal__hd__big__geometry.html#a219a8b334c99125580480d038c69f3d2',1,'local_hd_big_geometry::sectors()'],['../structhd__geometry.html#a989abe1cafcce5ebaf504dd0fe0b3929',1,'hd_geometry::sectors()']]],
@@ -13,6 +14,7 @@ var searchData=
   ['set_5fcontainer_5ftracer',['set_container_tracer',['../classweb_1_1package_1_1Config.html#aa81e514ccc83030f2cb6559a2e99caf9',1,'web::package::Config']]],
   ['set_5fcur_5fbw',['set_cur_bw',['../classweb_1_1package_1_1chart_1_1Chart.html#a35adceba2a837caf20424047f1c300ed',1,'web::package::chart::Chart']]],
   ['set_5fdriver',['set_driver',['../namespaceweb_1_1package_1_1main_1_1events.html#a15a14bf85018692450001b26efd024b4',1,'web::package::main::events']]],
+  ['set_5fglobal_5fconfig',['set_global_config',['../classweb_1_1package_1_1container__tracer_1_1ContainerTracer.html#a2c1f0f3a38c836f4619486b6a4a03cc0',1,'web::package::container_tracer::ContainerTracer']]],
   ['set_5flatency',['set_latency',['../classweb_1_1package_1_1chart_1_1Chart.html#a26d04ec4bf21e4ae5cbec3d66ae5155d',1,'web::package::chart::Chart']]],
   ['set_5foptions',['set_options',['../namespaceweb_1_1package_1_1main_1_1events.html#af28d29e8a207415a992c524b7baaf9d4',1,'web::package::main::events']]],
   ['setting',['setting',['../structrunner__config.html#af730692a1e40da88eba0cb38792278bb',1,'runner_config']]],
