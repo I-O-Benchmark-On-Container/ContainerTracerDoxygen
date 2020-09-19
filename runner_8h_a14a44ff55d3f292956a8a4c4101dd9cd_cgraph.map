@@ -1,6 +1,6 @@
 <map id="runner_init" name="runner_init">
-<area shape="rect" id="node2" href="$generic_8h.html#a5469117f34e2c2ef5e1597c3ac16a0ea" title="Remove the word &lt;ch&gt; in string. " alt="" coords="145,5,296,32"/>
-<area shape="rect" id="node3" href="$generic_8c.html#a3f7c2be1a7f75ab1093b82ee1f464164" title="This is a generic initialization function that performs initialization of driver corresponding to the..." alt="" coords="149,56,292,83"/>
-<area shape="rect" id="node5" href="$runner_8c.html#a1e7af22661c6f245d852fb1c76d0adea" title="Deallocate the global_runner&#39;s contents. " alt="" coords="149,107,292,133"/>
-<area shape="rect" id="node4" href="$generic_8c.html#abbe9539d5de3ad11f3ad3bc088b27d10" title="Get the index of the name based on an associated table. " alt="" coords="344,49,487,90"/>
+<area shape="rect" id="node2" href="$generic_8h.html#a5469117f34e2c2ef5e1597c3ac16a0ea" title="Remove the word &lt;ch&gt; in string. " alt="" coords="136,5,271,32"/>
+<area shape="rect" id="node3" href="$generic_8c.html#a3f7c2be1a7f75ab1093b82ee1f464164" title="This is a generic initialization function that performs initialization of driver corresponding to the..." alt="" coords="140,56,267,83"/>
+<area shape="rect" id="node5" href="$runner_8c.html#a1e7af22661c6f245d852fb1c76d0adea" title="Deallocate the global_runner&#39;s contents. " alt="" coords="139,107,268,133"/>
+<area shape="rect" id="node4" href="$generic_8c.html#abbe9539d5de3ad11f3ad3bc088b27d10" title="Get the index of the name based on an associated table. " alt="" coords="319,49,447,90"/>
 </map>

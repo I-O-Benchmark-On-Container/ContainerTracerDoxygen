@@ -1,11 +1,11 @@
 <map id="make_jobs" name="make_jobs">
-<area shape="rect" id="node2" href="$trace__replay_8c.html#a30708f4e639de36f897dab8c38fdd889" title="time_since_ms" alt="" coords="174,5,294,32"/>
-<area shape="rect" id="node3" href="$trace__replay_8c.html#a721daa920241b8e04d097e9950f858d9" title="trace_io_get" alt="" coords="183,56,285,83"/>
-<area shape="rect" id="node8" href="$trace__replay_8c.html#a3618a0bccfa765f1aafab3a9efc94e13" title="align_sector" alt="" coords="183,107,285,133"/>
-<area shape="rect" id="node9" href="$trace__replay_8c.html#a141c36033ca1795608384cef9295bd80" title="allocate_aligned_buffer" alt="" coords="147,157,321,184"/>
-<area shape="rect" id="node10" href="$trace__replay_8c.html#a7699bb7786b7be880c9eeabb313244d1" title="io_done" alt="" coords="197,208,271,235"/>
-<area shape="rect" id="node4" href="$trace__replay_8c.html#adbdaad5c1c8438a096723626b98b6675" title="try_trace_reset" alt="" coords="369,56,489,83"/>
-<area shape="rect" id="node5" href="$trace__replay_8c.html#a5de0f300249dd32eeaf85cc32f318a00" title="trace_reset" alt="" coords="547,31,642,57"/>
-<area shape="rect" id="node6" href="$trace__replay_8c.html#ac2fdbbb974bba515fef04e420f283b48" title="synthetic_mix" alt="" coords="537,81,652,108"/>
-<area shape="rect" id="node7" href="$trace__replay_8c.html#a7562e84310393a10fd640917ddecf2e6" title="sgenrand" alt="" coords="700,81,783,108"/>
+<area shape="rect" id="node2" href="$trace__replay_8c.html#a30708f4e639de36f897dab8c38fdd889" title="time_since_ms" alt="" coords="161,5,271,32"/>
+<area shape="rect" id="node3" href="$trace__replay_8c.html#a721daa920241b8e04d097e9950f858d9" title="trace_io_get" alt="" coords="169,56,263,83"/>
+<area shape="rect" id="node8" href="$trace__replay_8c.html#a3618a0bccfa765f1aafab3a9efc94e13" title="align_sector" alt="" coords="170,107,262,133"/>
+<area shape="rect" id="node9" href="$trace__replay_8c.html#a141c36033ca1795608384cef9295bd80" title="allocate_aligned_buffer" alt="" coords="139,157,293,184"/>
+<area shape="rect" id="node10" href="$trace__replay_8c.html#a7699bb7786b7be880c9eeabb313244d1" title="io_done" alt="" coords="183,208,249,235"/>
+<area shape="rect" id="node4" href="$trace__replay_8c.html#adbdaad5c1c8438a096723626b98b6675" title="try_trace_reset" alt="" coords="341,56,451,83"/>
+<area shape="rect" id="node5" href="$trace__replay_8c.html#a5de0f300249dd32eeaf85cc32f318a00" title="trace_reset" alt="" coords="507,31,593,57"/>
+<area shape="rect" id="node6" href="$trace__replay_8c.html#ac2fdbbb974bba515fef04e420f283b48" title="synthetic_mix" alt="" coords="499,81,601,108"/>
+<area shape="rect" id="node7" href="$trace__replay_8c.html#a7562e84310393a10fd640917ddecf2e6" title="sgenrand" alt="" coords="649,81,724,108"/>
 </map>

@@ -1,5 +1,5 @@
 <map id="__docker_free" name="__docker_free">
-<area shape="rect" id="node2" href="$docker-driver_8c.html#a5aecf0b5c42eaf21f535ccc4b3c8cef4" title="Remove the docker container. " alt="" coords="167,5,340,32"/>
-<area shape="rect" id="node3" href="$docker-shm_8c.html#ade612a62cc26c30f18fc56630eeb168c" title="Deallocate the Shared Memory resources. " alt="" coords="186,56,321,83"/>
-<area shape="rect" id="node4" href="$docker-mq_8c.html#a73b34b2055ff3f635601800f88f523d8" title="Deallocate the Message Queue resources. " alt="" coords="190,107,317,133"/>
+<area shape="rect" id="node2" href="$docker-driver_8c.html#a5aecf0b5c42eaf21f535ccc4b3c8cef4" title="Remove the docker container. " alt="" coords="157,5,315,32"/>
+<area shape="rect" id="node3" href="$docker-shm_8c.html#ade612a62cc26c30f18fc56630eeb168c" title="Deallocate the Shared Memory resources. " alt="" coords="175,56,297,83"/>
+<area shape="rect" id="node4" href="$docker-mq_8c.html#a73b34b2055ff3f635601800f88f523d8" title="Deallocate the Message Queue resources. " alt="" coords="179,107,293,133"/>
 </map>

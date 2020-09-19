@@ -1,4 +1,4 @@
 <map id="docker_shm_get" name="docker_shm_get">
-<area shape="rect" id="node2" href="$docker-shm_8c.html#ac6e6eabd553df0d7d82594878354b941" title="Acquire the semaphore lock. " alt="" coords="183,5,319,32"/>
-<area shape="rect" id="node3" href="$docker-shm_8c.html#a5e4ee3784b30711da0d92fc6d438250c" title="Release the semaphore lock. " alt="" coords="183,56,319,83"/>
+<area shape="rect" id="node2" href="$docker-shm_8c.html#ac6e6eabd553df0d7d82594878354b941" title="Acquire the semaphore lock. " alt="" coords="173,5,297,32"/>
+<area shape="rect" id="node3" href="$docker-shm_8c.html#a5e4ee3784b30711da0d92fc6d438250c" title="Release the semaphore lock. " alt="" coords="172,56,297,83"/>
 </map>

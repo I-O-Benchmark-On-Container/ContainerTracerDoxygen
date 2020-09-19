@@ -1,6 +1,6 @@
 <map id="docker_total_result_serializer" name="docker_total_result_serializer">
-<area shape="rect" id="node2" href="$docker-serializer_8c.html#a01005ce8bca2c2d93d9ff4d81642234e" title="To make a total_results structure&#39;s per_trace member to json_object. " alt="" coords="218,5,389,47"/>
-<area shape="rect" id="node5" href="$docker-serializer_8c.html#ab6218e1a2346447d6b9404f99f7536a4" title="To make a aggr_result structure&#39;s per_trace member to json_object. " alt="" coords="200,71,407,98"/>
-<area shape="rect" id="node3" href="$docker-serializer_8c.html#a8c5b2742d51400f171dceb3d3b6d397d" title="To make a synthetic structure to json_object. " alt="" coords="455,13,655,39"/>
-<area shape="rect" id="node4" href="$docker-serializer_8c.html#a5f0e5f887d5cebf221dca37c1cc09bb6" title="To make a trace_stat structure to json_object. " alt="" coords="469,67,641,94"/>
+<area shape="rect" id="node2" href="$docker-serializer_8c.html#a01005ce8bca2c2d93d9ff4d81642234e" title="To make a total_results structure&#39;s per_trace member to json_object. " alt="" coords="200,5,355,47"/>
+<area shape="rect" id="node5" href="$docker-serializer_8c.html#ab6218e1a2346447d6b9404f99f7536a4" title="To make a aggr_result structure&#39;s per_trace member to json_object. " alt="" coords="185,71,369,98"/>
+<area shape="rect" id="node3" href="$docker-serializer_8c.html#a8c5b2742d51400f171dceb3d3b6d397d" title="To make a synthetic structure to json_object. " alt="" coords="417,13,597,39"/>
+<area shape="rect" id="node4" href="$docker-serializer_8c.html#a5f0e5f887d5cebf221dca37c1cc09bb6" title="To make a trace_stat structure to json_object. " alt="" coords="429,67,585,94"/>
 </map>

@@ -1,4 +1,4 @@
 <map id="__tr_free" name="__tr_free">
-<area shape="rect" id="node2" href="$tr-shm_8c.html#afba449ced385945907c37ebb15f660c4" title="Deallocate the Shared Memory resources. " alt="" coords="132,5,232,32"/>
-<area shape="rect" id="node3" href="$tr-mq_8c.html#a887329682aa74618a8e5e151ae55bab1" title="Deallocate the Message Queue resources. " alt="" coords="135,56,229,83"/>
+<area shape="rect" id="node2" href="$tr-shm_8c.html#afba449ced385945907c37ebb15f660c4" title="Deallocate the Shared Memory resources. " alt="" coords="127,5,217,32"/>
+<area shape="rect" id="node3" href="$tr-mq_8c.html#a887329682aa74618a8e5e151ae55bab1" title="Deallocate the Message Queue resources. " alt="" coords="130,56,214,83"/>
 </map>

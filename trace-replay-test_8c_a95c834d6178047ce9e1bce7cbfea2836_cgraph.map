@@ -1,10 +1,10 @@
 <map id="setUp" name="setUp">
-<area shape="rect" id="node2" href="$docker-driver-test_8c.html#ad1b1bb4318c918e3feaa1c1cb479261e" title="print_json_string" alt="" coords="141,56,271,83"/>
-<area shape="rect" id="node3" href="$runner_8c.html#a14a44ff55d3f292956a8a4c4101dd9cd" title="Read the JSON string and config the runner. " alt="" coords="160,107,252,133"/>
-<area shape="rect" id="node6" href="$generic_8c.html#abbe9539d5de3ad11f3ad3bc088b27d10" title="Get the index of the name based on an associated table. " alt="" coords="545,99,688,141"/>
-<area shape="rect" id="node8" href="$runner_8c.html#a42713966891a1c5f3a44961dc95828c8" title="Get a global configuration pointer. " alt="" coords="113,208,299,235"/>
-<area shape="rect" id="node9" href="$runner_8c.html#a93a6de48adb199c44bbcff7350f523ec" title="Execute the benchmark program. " alt="" coords="160,259,252,285"/>
-<area shape="rect" id="node4" href="$generic_8h.html#a5469117f34e2c2ef5e1597c3ac16a0ea" title="Remove the word &lt;ch&gt; in string. " alt="" coords="347,5,497,32"/>
-<area shape="rect" id="node5" href="$generic_8c.html#a3f7c2be1a7f75ab1093b82ee1f464164" title="This is a generic initialization function that performs initialization of driver corresponding to the..." alt="" coords="351,56,493,83"/>
-<area shape="rect" id="node7" href="$runner_8c.html#a1e7af22661c6f245d852fb1c76d0adea" title="Deallocate the global_runner&#39;s contents. " alt="" coords="351,107,493,133"/>
+<area shape="rect" id="node2" href="$docker-driver-test_8c.html#ad1b1bb4318c918e3feaa1c1cb479261e" title="print_json_string" alt="" coords="135,56,253,83"/>
+<area shape="rect" id="node3" href="$runner_8c.html#a14a44ff55d3f292956a8a4c4101dd9cd" title="Read the JSON string and config the runner. " alt="" coords="153,107,235,133"/>
+<area shape="rect" id="node6" href="$generic_8c.html#abbe9539d5de3ad11f3ad3bc088b27d10" title="Get the index of the name based on an associated table. " alt="" coords="508,99,636,141"/>
+<area shape="rect" id="node8" href="$runner_8c.html#a42713966891a1c5f3a44961dc95828c8" title="Get a global configuration pointer. " alt="" coords="111,208,277,235"/>
+<area shape="rect" id="node9" href="$runner_8c.html#a93a6de48adb199c44bbcff7350f523ec" title="Execute the benchmark program. " alt="" coords="153,259,235,285"/>
+<area shape="rect" id="node4" href="$generic_8h.html#a5469117f34e2c2ef5e1597c3ac16a0ea" title="Remove the word &lt;ch&gt; in string. " alt="" coords="325,5,460,32"/>
+<area shape="rect" id="node5" href="$generic_8c.html#a3f7c2be1a7f75ab1093b82ee1f464164" title="This is a generic initialization function that performs initialization of driver corresponding to the..." alt="" coords="329,56,456,83"/>
+<area shape="rect" id="node7" href="$runner_8c.html#a1e7af22661c6f245d852fb1c76d0adea" title="Deallocate the global_runner&#39;s contents. " alt="" coords="328,107,457,133"/>
 </map>

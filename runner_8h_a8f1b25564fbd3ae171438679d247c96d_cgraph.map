@@ -1,4 +1,4 @@
 <map id="runner_get_interval_result" name="runner_get_interval_result">
-<area shape="rect" id="node2" href="$runner_8c.html#a1af30e00c3fc1c81ed5a35f04acc42de" title="Generate the buffer which contains the result. " alt="" coords="203,5,383,32"/>
-<area shape="rect" id="node3" href="$runner_8c.html#aad5e4b05cd67f6e081cc70bd0f792615" title="Deallocate the buffer which is allocated by runner_get_result_string() function. " alt="" coords="203,56,383,83"/>
+<area shape="rect" id="node2" href="$runner_8c.html#a1af30e00c3fc1c81ed5a35f04acc42de" title="Generate the buffer which contains the result. " alt="" coords="185,5,347,32"/>
+<area shape="rect" id="node3" href="$runner_8c.html#aad5e4b05cd67f6e081cc70bd0f792615" title="Deallocate the buffer which is allocated by runner_get_result_string() function. " alt="" coords="185,56,347,83"/>
 </map>

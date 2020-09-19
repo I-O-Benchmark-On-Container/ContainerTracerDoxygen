@@ -1,9 +1,9 @@
 <map id="disk_close" name="disk_close">
-<area shape="rect" id="node2" href="$disk__io_8c.html#a03767e6f21bd51c8e89f08f63392d082" title="flush_buffer_cache" alt="" coords="144,31,287,57"/>
-<area shape="rect" id="node3" href="$sgio_8c.html#aca5de5ae36d121c5205689dea9e08d9c" title="do_drive_cmd" alt="" coords="335,31,448,57"/>
-<area shape="rect" id="node4" href="$sgio_8c.html#ab565bd4c1444084f1d01fb8d8d6fa29f" title="tf_init" alt="" coords="496,5,556,32"/>
-<area shape="rect" id="node5" href="$sgio_8c.html#a76080c33d7caa93c50908a400d6a2256" title="sg16" alt="" coords="499,56,553,83"/>
-<area shape="rect" id="node6" href="$sgio_8c.html#a9fac2b08a35521076b78c39765f716eb" title="tf_to_lba" alt="" coords="610,5,689,32"/>
-<area shape="rect" id="node7" href="$sgio_8c.html#abf85d2d35aba6ff3471de954f8ad90f9" title="dump_bytes" alt="" coords="743,81,845,108"/>
-<area shape="rect" id="node8" href="$sgio_8c.html#a910057c9de2d3e1d0b8152c9faf4b4a0" title="bad_sense" alt="" coords="604,107,695,133"/>
+<area shape="rect" id="node2" href="$disk__io_8c.html#a03767e6f21bd51c8e89f08f63392d082" title="flush_buffer_cache" alt="" coords="137,31,269,57"/>
+<area shape="rect" id="node3" href="$sgio_8c.html#aca5de5ae36d121c5205689dea9e08d9c" title="do_drive_cmd" alt="" coords="317,31,420,57"/>
+<area shape="rect" id="node4" href="$sgio_8c.html#ab565bd4c1444084f1d01fb8d8d6fa29f" title="tf_init" alt="" coords="468,5,523,32"/>
+<area shape="rect" id="node5" href="$sgio_8c.html#a76080c33d7caa93c50908a400d6a2256" title="sg16" alt="" coords="470,56,521,83"/>
+<area shape="rect" id="node6" href="$sgio_8c.html#a9fac2b08a35521076b78c39765f716eb" title="tf_to_lba" alt="" coords="577,5,649,32"/>
+<area shape="rect" id="node7" href="$sgio_8c.html#abf85d2d35aba6ff3471de954f8ad90f9" title="dump_bytes" alt="" coords="704,81,797,108"/>
+<area shape="rect" id="node8" href="$sgio_8c.html#a910057c9de2d3e1d0b8152c9faf4b4a0" title="bad_sense" alt="" coords="571,107,656,133"/>
 </map>

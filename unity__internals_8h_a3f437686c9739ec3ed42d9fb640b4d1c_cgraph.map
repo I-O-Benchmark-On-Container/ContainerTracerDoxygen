@@ -1,11 +1,11 @@
 <map id="UnityAssertEqualNumber" name="UnityAssertEqualNumber">
-<area shape="rect" id="node2" href="$unity_8c.html#a2961260574158cc9df09ded14bbc2085" title="UnityTestResultsFailBegin" alt="" coords="240,123,429,150"/>
-<area shape="rect" id="node4" href="$unity_8c.html#accff2eb4cfd0273e8ad62c37639d3e3c" title="UnityPrint" alt="" coords="741,123,827,150"/>
-<area shape="rect" id="node9" href="$unity_8c.html#a83c7c7072b2f0e3cce93e56960da46e7" title="UnityPrintNumberByStyle" alt="" coords="477,22,667,49"/>
-<area shape="rect" id="node10" href="$unity_8c.html#af0db89aa4947c98a55a44bae2a7035d7" title="UnityAddMsgIfSpecified" alt="" coords="247,174,423,201"/>
-<area shape="rect" id="node3" href="$unity_8c.html#af87f4beffdad7f78fb592861e61b1bae" title="UnityTestResultsBegin" alt="" coords="489,73,655,99"/>
-<area shape="rect" id="node7" href="$unity_8c.html#a644211a214ab000dcabd5582c52e0313" title="UnityPrintNumber" alt="" coords="715,73,853,99"/>
-<area shape="rect" id="node5" href="$unity_8c.html#aa3373f770c748cc1600d55cd8c7839c3" title="UnityPrintChar" alt="" coords="943,110,1060,137"/>
-<area shape="rect" id="node6" href="$unity_8c.html#ab5636c2c3e2d5ff0d89461e2323aa469" title="UnityPrintNumberHex" alt="" coords="1149,59,1315,86"/>
-<area shape="rect" id="node8" href="$unity_8c.html#a3ef388786e9a8e769d13af2601b592dc" title="UnityPrintNumberUnsigned" alt="" coords="901,34,1101,61"/>
+<area shape="rect" id="node2" href="$unity_8c.html#a2961260574158cc9df09ded14bbc2085" title="UnityTestResultsFailBegin" alt="" coords="224,123,403,150"/>
+<area shape="rect" id="node4" href="$unity_8c.html#accff2eb4cfd0273e8ad62c37639d3e3c" title="UnityPrint" alt="" coords="694,123,774,150"/>
+<area shape="rect" id="node9" href="$unity_8c.html#a83c7c7072b2f0e3cce93e56960da46e7" title="UnityPrintNumberByStyle" alt="" coords="451,22,623,48"/>
+<area shape="rect" id="node10" href="$unity_8c.html#af0db89aa4947c98a55a44bae2a7035d7" title="UnityAddMsgIfSpecified" alt="" coords="232,174,395,200"/>
+<area shape="rect" id="node3" href="$unity_8c.html#af87f4beffdad7f78fb592861e61b1bae" title="UnityTestResultsBegin" alt="" coords="458,72,615,99"/>
+<area shape="rect" id="node7" href="$unity_8c.html#a644211a214ab000dcabd5582c52e0313" title="UnityPrintNumber" alt="" coords="671,72,797,99"/>
+<area shape="rect" id="node5" href="$unity_8c.html#aa3373f770c748cc1600d55cd8c7839c3" title="UnityPrintChar" alt="" coords="882,110,990,136"/>
+<area shape="rect" id="node6" href="$unity_8c.html#ab5636c2c3e2d5ff0d89461e2323aa469" title="UnityPrintNumberHex" alt="" coords="1075,59,1225,86"/>
+<area shape="rect" id="node8" href="$unity_8c.html#a3ef388786e9a8e769d13af2601b592dc" title="UnityPrintNumberUnsigned" alt="" coords="845,34,1027,60"/>
 </map>

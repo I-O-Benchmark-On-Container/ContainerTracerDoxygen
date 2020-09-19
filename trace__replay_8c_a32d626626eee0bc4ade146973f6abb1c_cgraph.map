@@ -1,5 +1,5 @@
 <map id="finalize" name="finalize">
-<area shape="rect" id="node2" href="$trace__replay_8c.html#a1dec6ba085ce91733e9c4c7e6088a598" title="timeval_subtract" alt="" coords="123,5,255,32"/>
-<area shape="rect" id="node3" href="$trace__replay_8c.html#a6dd47c8db93a93e6140315667f6b3654" title="time_since" alt="" coords="303,81,396,108"/>
-<area shape="rect" id="node4" href="$trace__replay_8c.html#ac93d59e72fa058e1377d23771aa64322" title="print_result" alt="" coords="141,107,237,133"/>
+<area shape="rect" id="node2" href="$trace__replay_8c.html#a1dec6ba085ce91733e9c4c7e6088a598" title="timeval_subtract" alt="" coords="116,5,235,32"/>
+<area shape="rect" id="node3" href="$trace__replay_8c.html#a6dd47c8db93a93e6140315667f6b3654" title="time_since" alt="" coords="283,81,368,108"/>
+<area shape="rect" id="node4" href="$trace__replay_8c.html#ac93d59e72fa058e1377d23771aa64322" title="print_result" alt="" coords="132,107,219,133"/>
 </map>

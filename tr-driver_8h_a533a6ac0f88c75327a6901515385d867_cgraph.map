@@ -1,4 +1,4 @@
 <map id="tr_realtime_serializer" name="tr_realtime_serializer">
-<area shape="rect" id="node2" href="$tr-serializer_8c.html#a8190fd0262f1917010d58ff73de5401e" title="To make a tr_info structure to json_object. " alt="" coords="243,5,374,32"/>
-<area shape="rect" id="node3" href="$tr-serializer_8c.html#a71304b919ad5f904d11800a1d797a9a1" title="To make a realtime_log structure to json_object. " alt="" coords="215,56,403,83"/>
+<area shape="rect" id="node2" href="$tr-serializer_8c.html#a8190fd0262f1917010d58ff73de5401e" title="To make a tr_info structure to json_object. " alt="" coords="221,5,338,32"/>
+<area shape="rect" id="node3" href="$tr-serializer_8c.html#a71304b919ad5f904d11800a1d797a9a1" title="To make a realtime_log structure to json_object. " alt="" coords="196,56,363,83"/>
 </map>

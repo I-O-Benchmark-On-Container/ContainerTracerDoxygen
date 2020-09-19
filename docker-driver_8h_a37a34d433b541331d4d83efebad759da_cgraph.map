@@ -1,7 +1,7 @@
 <map id="docker_get_interval" name="docker_get_interval">
-<area shape="rect" id="node2" href="$namespaceweb_1_1package_1_1main_1_1routes.html#a2b55a968d580f76cbb7d588416913a49" title="web.package.main.routes.info" alt="" coords="204,5,423,32"/>
-<area shape="rect" id="node3" href="$docker-mq_8c.html#ab3f271ee890e18d5d50250c0201dffed" title="Retrieve the data from Message Queue. " alt="" coords="252,56,375,83"/>
-<area shape="rect" id="node4" href="$docker-serializer_8c.html#afa3d0ff3fac362a0e0b55ea8e15292df" title="Converts realtime_log to JSON string. " alt="" coords="216,107,411,133"/>
-<area shape="rect" id="node5" href="$docker-serializer_8c.html#a918c0bd6357448f29c9840981bca534d" title="To make a docker_info structure to json_object. " alt="" coords="471,77,636,104"/>
-<area shape="rect" id="node6" href="$docker-serializer_8c.html#ace519b466cbe3a464dc5a9931b226b20" title="To make a realtime_log structure to json_object. " alt="" coords="476,129,631,170"/>
+<area shape="rect" id="node2" href="$namespaceweb_1_1package_1_1main_1_1routes.html#a2b55a968d580f76cbb7d588416913a49" title="web.package.main.routes.info" alt="" coords="188,5,384,32"/>
+<area shape="rect" id="node3" href="$docker-mq_8c.html#ab3f271ee890e18d5d50250c0201dffed" title="Retrieve the data from Message Queue. " alt="" coords="231,56,341,83"/>
+<area shape="rect" id="node4" href="$docker-serializer_8c.html#afa3d0ff3fac362a0e0b55ea8e15292df" title="Converts realtime_log to JSON string. " alt="" coords="199,107,373,133"/>
+<area shape="rect" id="node5" href="$docker-serializer_8c.html#a918c0bd6357448f29c9840981bca534d" title="To make a docker_info structure to json_object. " alt="" coords="432,77,580,104"/>
+<area shape="rect" id="node6" href="$docker-serializer_8c.html#ace519b466cbe3a464dc5a9931b226b20" title="To make a realtime_log structure to json_object. " alt="" coords="437,129,575,170"/>
 </map>
