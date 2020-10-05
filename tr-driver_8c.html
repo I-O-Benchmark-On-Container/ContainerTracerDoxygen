@@ -156,7 +156,7 @@ Variables</h2></td></tr>
 <tr class="memitem:a847dda341726094e8724450767e5936d"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tr-driver_8c.html#a847dda341726094e8724450767e5936d">tr_valid_scheduler</a> []</td></tr>
 <tr class="memdesc:a847dda341726094e8724450767e5936d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Associated table of I/O scheduler.  <a href="#a847dda341726094e8724450767e5936d">More...</a><br /></td></tr>
 <tr class="separator:a847dda341726094e8724450767e5936d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50e0d2fbbb1a726198b4955c8ff0335d"><td class="memItemLeft" align="right" valign="top">static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tr-driver_8c.html#a50e0d2fbbb1a726198b4955c8ff0335d">tr_weight_support_scheduler</a> []</td></tr>
+<tr class="memitem:a50e0d2fbbb1a726198b4955c8ff0335d"><td class="memItemLeft" align="right" valign="top">static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tr-driver_8c.html#a50e0d2fbbb1a726198b4955c8ff0335d">tr_weight_support_scheduler</a> [] = { <a class="el" href="tr-driver_8c.html#adf764cbdea00d65edcd07bb9953ad2b7ab1c9cedef26940171a0e6b8ed198c336">TR_BFQ_SCHEDULER</a> }</td></tr>
 <tr class="separator:a50e0d2fbbb1a726198b4955c8ff0335d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b957368fc56530019b48d6a4d35cd5a"><td class="memItemLeft" align="right" valign="top">static struct <a class="el" href="structtr__info.html">tr_info</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tr-driver_8c.html#a8b957368fc56530019b48d6a4d35cd5a">global_info_head</a> = NULL</td></tr>
 <tr class="separator:a8b957368fc56530019b48d6a4d35cd5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -741,7 +741,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const int tr_weight_support_scheduler[]</td>
+          <td class="memname">const int tr_weight_support_scheduler[] = { <a class="el" href="tr-driver_8c.html#adf764cbdea00d65edcd07bb9953ad2b7ab1c9cedef26940171a0e6b8ed198c336">TR_BFQ_SCHEDULER</a> }</td>
         </tr>
       </table>
   </td>
@@ -750,9 +750,7 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= { <a class="code" href="tr-driver_8c.html#adf764cbdea00d65edcd07bb9953ad2b7ab1c9cedef26940171a0e6b8ed198c336">TR_BFQ_SCHEDULER</a>,</div><div class="line">                                                   <a class="code" href="tr-driver_8c.html#adf764cbdea00d65edcd07bb9953ad2b7a71ab75386c3235b1d519b89e7f78d82f">TR_KYBER_SCHEDULER</a> }</div><div class="ttc" id="tr-driver_8c_html_adf764cbdea00d65edcd07bb9953ad2b7ab1c9cedef26940171a0e6b8ed198c336"><div class="ttname"><a href="tr-driver_8c.html#adf764cbdea00d65edcd07bb9953ad2b7ab1c9cedef26940171a0e6b8ed198c336">TR_BFQ_SCHEDULER</a></div><div class="ttdef"><b>Definition:</b> tr-driver.c:49</div></div>
-<div class="ttc" id="tr-driver_8c_html_adf764cbdea00d65edcd07bb9953ad2b7a71ab75386c3235b1d519b89e7f78d82f"><div class="ttname"><a href="tr-driver_8c.html#adf764cbdea00d65edcd07bb9953ad2b7a71ab75386c3235b1d519b89e7f78d82f">TR_KYBER_SCHEDULER</a></div><div class="ttdef"><b>Definition:</b> tr-driver.c:48</div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 </div><!-- contents -->

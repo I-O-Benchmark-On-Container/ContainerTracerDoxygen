@@ -106,11 +106,20 @@ $(function() {
 <div class="fragment"><div class="line">sudo python web/run.py</div></div><!-- fragment --><p>You can get more information from this <a href="https://github.com/I-O-Benchmark-On-Container/ContainerTracer/wiki/8.-How-to-run-the-%60web%60-program">link</a>.</p>
 <h2>trace-replay and runner</h2>
 <p>You download the source code and install necessary programs and libraries following.</p>
-<div class="fragment"><div class="line">sudo pip3 install scons scons-compiledb</div><div class="line">sudo pip3 install clang-format</div><div class="line">sudo apt install cppcheck libaio-dev libjson-c-dev libjemalloc-dev</div></div><!-- fragment --><p>If you want to build by <code>clang</code> compiler then you must change the <code>SConstruct</code> file's <code>CC</code> section' <code>gcc</code> to <code>clang</code> and follow like below.</p>
-<div class="fragment"><div class="line">sudo apt install llvm-6.0 clang-6.0 libclang-6.0-dev</div><div class="line">sudo ln -s /usr/bin/clang-6.0 /usr/bin/clang</div></div><!-- fragment --><p>Based on the following commands you do the build and unit testing. This execution results are stored in <code>./build/debug</code>.</p>
+<h3>Debian</h3>
+<div class="fragment"><div class="line">sudo pip3 install scons scons-compiledb</div><div class="line">sudo pip3 install clang-format</div><div class="line">sudo apt install cppcheck libaio-dev libjson-c-dev libjemalloc-dev</div></div><!-- fragment --><h3>Redhat</h3>
+<div class="fragment"><div class="line">sudo yum install cppcheck libaio-devel json-c-devel jemalloc-devel</div></div><!-- fragment --><p>If you want to build by <code>clang</code> compiler then you must change the <code>SConstruct</code> file's <code>CC</code> section' <code>gcc</code> to <code>clang</code> and follow like below.</p>
+<h3>Debian</h3>
+<div class="fragment"><div class="line">sudo apt install llvm-6.0 clang-6.0 libclang-6.0-dev</div><div class="line">sudo ln -s /usr/bin/clang-6.0 /usr/bin/clang</div></div><!-- fragment --><h3>Redhat</h3>
+<div class="fragment"><div class="line">sudo yum install llvm6.0 clang7.0-devel clang7.0-libs</div></div><!-- fragment --><p>Based on the following commands you do the build and unit testing. This execution results are stored in <code>./build/debug</code>.</p>
 <div class="fragment"><div class="line">sudo scons -c</div><div class="line">sudo scons test DEBUG=True</div></div><!-- fragment --><p>If you want to build the release mode then you do the following. This execution results are stored in <code>./build/release</code></p>
 <div class="fragment"><div class="line">sudo scons -c</div><div class="line">scons</div></div><!-- fragment --><p>Moreover, you can install the release mode of runner libraries by following commands. If you want to install the debug mode then just change the <code>sudo scons install</code> to <code>sudo scons DEBUG=True install</code></p>
-<div class="fragment"><div class="line">sudo scons install</div><div class="line">sudo ldconfig</div></div><!-- fragment --><p>Additionally, you can get information about how to make the driver program of the runner from <a href="https://github.com/I-O-Benchmark-On-Container/ContainerTracer/wiki/4.-How-to-add-the-driver-to-Runner">this link</a></p>
+<div class="fragment"><div class="line">sudo scons install</div><div class="line">sudo ldconfig</div></div><!-- fragment --><blockquote class="doxtable">
+<p>Under the redhat distribution, you must care about two things.</p>
+<p>First, you have to check <code>/etc/ld.so.conf</code> file has the line <code>/usr/local/lib</code>. If not you add that line.</p>
+<p>Second, if you encounter an error that related to the <code>jemalloc</code> you must build the <code>jemalloc</code> library based on this <a href="https://stackoverflow.com/questions/50839284/how-to-dlopen-jemalloc-dynamic-library">link</a>. </p>
+</blockquote>
+<p>Additionally, you can get information about how to make the driver program of the runner from <a href="https://github.com/I-O-Benchmark-On-Container/ContainerTracer/wiki/4.-How-to-add-the-driver-to-Runner">this link</a></p>
 <h3>Notes</h3>
 <ul>
 <li><code>DEBUG=True</code> enables us to print all information about debugging. This expects to be made you to easily debug our program.</li>

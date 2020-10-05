@@ -6,7 +6,7 @@ var searchData=
   ['identify',['identify',['../hdparm_8h.html#a4ee1b45ee6376788367f4e0842f44f2e',1,'hdparm.h']]],
   ['in_5fbytes',['in_bytes',['../structhdio__taskfile.html#a58162b3a6644c0eeda45e4a293bef8e0',1,'hdio_taskfile']]],
   ['in_5fflags',['in_flags',['../structhdio__taskfile.html#acfee355931ddb64a8f3720a3ce31d9a5',1,'hdio_taskfile']]],
-  ['info',['info',['../namespaceweb_1_1package_1_1main_1_1routes.html#a2b55a968d580f76cbb7d588416913a49',1,'web.package.main.routes.info()'],['../log_8h.html#ae1103fea1e1b3c41ca3322d5389f7162',1,'INFO():&#160;log.h']]],
+  ['info',['INFO',['../log_8h.html#ae1103fea1e1b3c41ca3322d5389f7162',1,'INFO():&#160;log.h'],['../namespaceweb_1_1package_1_1main_1_1routes.html#a2b55a968d580f76cbb7d588416913a49',1,'web.package.main.routes.info()']]],
   ['init_5fflist_5fhead',['INIT_FLIST_HEAD',['../flist_8h.html#a1c8155a2a0f8296e515d61be901a37b1',1,'flist.h']]],
   ['install_5frequires',['install_requires',['../namespaceweb_1_1setup.html#aff38dba54b374f68c1c7d06e279e9d6c',1,'web::setup']]],
   ['interval_5fresult_5fstring_5fsize',['INTERVAL_RESULT_STRING_SIZE',['../runner_8h.html#afc41144fdda21fc97fbf5fba79c9bac6',1,'runner.h']]],
